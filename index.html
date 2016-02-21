@@ -1,1 +1,12 @@
-<h1>Hello world!</h1>
+---
+title: Inglorious Coderz
+---
+<h1>{{ page.title }}</h1>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+{% include footer.html %}
