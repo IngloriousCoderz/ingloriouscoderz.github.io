@@ -1,1 +1,7 @@
-_site
+.DS_Store
+node_modules/*
+bower_components/*
+release/*
+release.zip
+.idea/
+dev/*
