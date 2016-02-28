@@ -148,7 +148,7 @@ var CMS = {
 
       var title = '<a href="#">' + post.title + '</a>',
         date = (post.date.getMonth() + 1) + '/' + post.date.getDate() + '/' +  post.date.getFullYear(),
-        snippet = post.contentData.split('.')[0] + '.';
+        snippet = post.contentData.split('</p>')[0] + '</p>'; //post.contentData.split('.')[0] + '.';
 
       var postLink = $tpl.find('.post-title'),
         postDate = $tpl.find('.post-date'),
