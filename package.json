@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Inglorious Coderz Portal.",
   "keywords": "website, portal, inglorious, coderz",
-  "homepage": "https://github.com/IngloriousCoderz/ingloriouscoderz.github.io",
+  "homepage": "http://www.ingloriouscoderz.it",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +14,7 @@
   "author": "IceOnFire <antony.mistretta@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cdmedia/cms.js/issues"
+    "url": "https://github.com/IngloriousCoderz/ingloriouscoderz.github.io/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.4",

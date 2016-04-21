@@ -16,6 +16,8 @@ E vediamo tanti ragazzi in gamba, che vengono ignorati o sfruttati per un tozzo 
 
 Quindi se con "perché?" si intende "perché gratis?" la risposta è semplice e complessa allo stesso tempo:
 
+Per prima cosa `gratis != inNero`. Non stiamo evadendo il Fisco, in quanto questo sarebbe contrario ai nostri saldi principi di trasparenza e onestà.
+
 Lavoriamo gratis perché ognuno di noi ha già un lavoro, non abbiamo bisogno di altri soldi. Insegniamo gratis per combattere un sistema sbagliato, per raddrizzare un torto, per dare un'opportunità a chi se la merita e non solo a chi se la può permettere. Segnaliamo ragazzi gratis perché non siamo una società di consulenza e non ci guadagniamo niente, per cui le aziende sanno che i nostri ragazzi sono bravi sul serio.
 
 L'unico guadagno è la gloria, una moneta che spendiamo per farci conoscere e raggiungere altri appassionati, in modo da reclutarli nelle nostre fila. E tu, ti senti degno di far parte degli Inglorious Coderz?
