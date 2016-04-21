@@ -4,7 +4,7 @@ $(function() {
     siteName: 'Inglorious Coderz',
 
     // Tagline for your site
-    siteTagline: 'Cheap, quick, good? Simple.',
+    siteTagline: 'Salvare il mondo una riga di codice alla volta.',
 
     // Email address
     siteEmail: 'info@ingloriouscoderz.com',
@@ -14,10 +14,6 @@ $(function() {
 
     // Navigation items
     siteNavItems: [{
-      name: 'Github',
-      href: 'https://github.com/IngloriousCoderz',
-      newWindow: true
-    }, {
       name: 'Chi siamo'
     }, {
       name: 'Perché lo facciamo'
@@ -25,6 +21,10 @@ $(function() {
       name: 'Contattaci'
     }, {
       name: 'Il sito fa schifo'
+    }, {
+      name: 'Github',
+      href: 'https://github.com/IngloriousCoderz',
+      newWindow: true
     }],
 
     // Posts folder name
