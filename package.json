@@ -1,17 +1,17 @@
 {
-  "name": "CMS.js",
+  "name": "ingloriouscoderz",
   "version": "1.0.0",
-  "description": "The Javascript Site Generator.",
-  "keywords": "client-side, javascript, site-generator",
-  "homepage": "https://github.com/cdmedia/cms.js",
+  "description": "Inglorious Coderz Portal.",
+  "keywords": "website, portal, inglorious, coderz",
+  "homepage": "https://github.com/IngloriousCoderz/ingloriouscoderz.github.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git://github.com/cdmedia/cms.js.git"
+    "type": "https",
+    "url": "https://github.com/IngloriousCoderz/ingloriouscoderz.github.io.git"
   },
-  "author": "Chris Diana",
+  "author": "IceOnFire <antony.mistretta@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cdmedia/cms.js/issues"

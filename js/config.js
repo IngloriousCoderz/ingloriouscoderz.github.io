@@ -1,7 +1,5 @@
 $(function() {
-
   CMS.init({
-
     // Name of your site or location of logo file, relative to root directory (img/logo.png)
     siteName: 'Inglorious Coderz',
 
@@ -12,13 +10,20 @@ $(function() {
     siteEmail: 'info@ingloriouscoderz.com',
 
     // Name
-    siteAuthor: 'IC',
+    siteAuthor: 'IceOnFire',
 
     // Navigation items
-    siteNavItems: [
-      { name: 'Github', href: 'https://github.com/IngloriousCoderz', newWindow: true},
-      { name: 'About'}
-    ],
+    siteNavItems: [{
+      name: 'Github',
+      href: 'https://github.com/IngloriousCoderz',
+      newWindow: true
+    }, {
+      name: 'Chi siamo'
+    }, {
+      name: 'Perché lo facciamo'
+    }, {
+      name: 'Contattaci'
+    }],
 
     // Posts folder name
     postsFolder: 'posts',
@@ -45,13 +50,13 @@ $(function() {
     fadeSpeed: 300,
 
     // Site footer text
-    footerText: 'Made with <3 in ' + new Date().getFullYear() + ' by Inglorious Coderz',
+    footerText: 'Since 2016 with <3 by Inglorious Coderz',
 
     // Mode 'Github' for Github Pages, 'Server' for Self Hosted. Defaults
     // to Github
     mode: 'Github',
 
-     // If Github mode is set, your Github username and repo name.
+    // If Github mode is set, your Github username and repo name.
     githubUserSettings: {
       username: 'IngloriousCoderz',
       repo: 'ingloriouscoderz.github.io'
@@ -63,7 +68,6 @@ $(function() {
       branch: 'master',
       host: 'https://api.github.com'
     }
-
   });
 
   // Markdown settings
@@ -76,9 +80,8 @@ $(function() {
     sanitize: true,
     smartLists: true,
     smartypants: false,
-    highlight: function (code) {
+    highlight: function(code) {
       return hljs.highlightAuto(code).value;
     }
   });
-
 });
