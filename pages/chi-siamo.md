@@ -4,9 +4,9 @@ title: Chi siamo
 ---
 > Un manipolo di eroi che tenta di creare un mondo migliore attraverso software migliore.
 
-Gli Inglorious Coderz nascono da [Matteo Antony Mistretta](https://www.linkedin.com/in/antonymistretta), aka [IceOnFire](https://github.com/IceOnFire), come un gruppo di appassionati di codice che si riunisce tutte le domeniche per sperimentare le ultime tecnologie, applicarle a progetti interessanti e condividere il know-how.
+Gli Inglorious Coderz nascono da [Matteo Antony Mistretta](https://www.linkedin.com/in/antonymistretta), aka [IceOnFire](https://github.com/IceOnFire), come un gruppo di appassionati di codice che si riunisce tutte le domeniche per sperimentare le ultime tecnologie, applicarle a progetti interessanti e condividere il know-how, internamente o verso il mondo, contribuendo a progetti open source o tenendo talk ad alto contenuto tecnologico negli eventi dedicati.
 
-Gli Inglorious Coderz sono anche una rete di sicurezza: i membri vengono formati su Java, C, JavaScript, Python, design patterns e quant'altro, e chi ha bisogno viene aiutato a trovare un lavoro soddisfacente grazie a una rete di contatti con aziende in tutto il territorio italiano.
+Gli Inglorious Coderz sono anche una rete di sicurezza: i membri vengono formati su Java, C, JavaScript, Python, design patterns e quant'altro, e chi ha bisogno viene aiutato a trovare un lavoro soddisfacente grazie al rapporto di fiducia instaurato con una rete di aziende in tutto il territorio italiano.
 
 Nonostante il nome pseudo-inglese, gli Inglorious Coderz sono italiani e fieri di esserlo. Il portale è in italiano, il dominio principale è http://www.ingloriouscoderz.it, la comunicazione e il mercato sono squisitamente italiani.
 
