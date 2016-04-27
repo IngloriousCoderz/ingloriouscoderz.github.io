@@ -7,16 +7,27 @@ $(function() {
     siteTagline: 'Salvare il mondo una riga di codice alla volta.',
 
     // Email address
-    siteEmail: 'info@ingloriouscoderz.com',
+    siteEmail: 'info@ingloriouscoderz.it',
 
     // Name
     siteAuthor: 'IceOnFire',
 
     // Navigation items
     siteNavItems: [{
-      name: 'Chi siamo'
+      name: 'Chi',
+      href: '#page/Chi siamo'
     }, {
-      name: 'Perché lo facciamo'
+      name: 'Come',
+      href: '#page/Come siamo'
+    }, {
+      name: 'Cosa',
+      href: '#page/Cosa facciamo'
+    }, {
+      name: 'Perché',
+      href: '#page/Perché lo facciamo'
+    }, {
+      name: 'Gli IC',
+      href: '#page/Gli Inglorious Coderz'
     }, {
       name: 'Contattaci'
     }, {
@@ -52,7 +63,7 @@ $(function() {
     fadeSpeed: 300,
 
     // Site footer text
-    footerText: 'Since 2016 with <3 by Inglorious Coderz',
+    footerText: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="Licenza Creative Commons" style="border-width:0;border-radius:0;display:inline-block;vertical-align:middle;margin:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a> Il sito degli <a href="https://github.com/IngloriousCoderz" target="_blank">Inglorious Coderz</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale</a>.',
 
     // Mode 'Github' for Github Pages, 'Server' for Self Hosted. Defaults
     // to Github
