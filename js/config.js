@@ -14,6 +14,9 @@ $(function() {
 
     // Navigation items
     siteNavItems: [{
+      name: 'Eh?',
+      href: '#page/Di che stiamo parlando'
+    }, {
       name: 'Chi',
       href: '#page/Chi siamo'
     }, {
@@ -25,9 +28,6 @@ $(function() {
     }, {
       name: 'Perché',
       href: '#page/Perché lo facciamo'
-    }, {
-      name: 'Gli IC',
-      href: '#page/Gli Inglorious Coderz'
     }, {
       name: 'Contattaci'
     }, {
@@ -67,7 +67,7 @@ $(function() {
 
     // Mode 'Github' for Github Pages, 'Server' for Self Hosted. Defaults
     // to Github
-    mode: 'Server',//'Github',
+    mode: 'Github',
 
     // If Github mode is set, your Github username and repo name.
     githubUserSettings: {
