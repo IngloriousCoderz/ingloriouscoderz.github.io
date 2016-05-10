@@ -21,11 +21,11 @@ Nonostante provi in tutti i modi a sembrare un burbero devops, Roby ha il Sacro 
 
 Seconda lingua: C
 
-**palmeranderan** - *Neo Coder*
+**palmer** - *Neo Coder*
 
 ![palmer](images/avatars/palmer.png)
 
-Gli chiedi di impararsi una tecnologia. Ti giri. Un attimo dopo senti le parole "conosco il kung-fu" e lo vedi schizzare via a razzo ad aprire la mente ad altri. Andersen impara maledettamente in fretta, a fondo, e riesce a restituire tutto quello che apprende in modo efficace e coinvolgente. La sua passione per il making, per i giochi e per l'aeronautica lo rendono un vulcano di idee pronto a eruttare The Next Big Thing.
+Gli chiedi di impararsi una tecnologia. Ti giri. Un attimo dopo senti le parole "conosco il kung-fu" e lo vedi schizzare via a razzo ad aprire la mente ad altri. Palmer impara maledettamente in fretta, a fondo, e riesce a restituire tutto quello che apprende in modo efficace e coinvolgente. La sua passione per il making, per i giochi e per l'aeronautica lo rendono un vulcano di idee pronto a eruttare The Next Big Thing.
 
 Seconda lingua: Java
 
