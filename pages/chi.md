@@ -3,7 +3,7 @@ layout: default
 title: Chi siamo
 ---
 
-Gli Inglorious Coderz non sono un'azienda, non sono numeri, non sono servizi telematici all'avanguardia nell'era dell'informazione digitale o fuffa simile. Sono persone che vogliono fare la differenza.
+Gli Inglorious Coderz non sono un'azienda, non sono numeri, non sono servizi "telematici all'avanguardia nell'era dell'informazione digitale" o fuffa simile. Sono persone che vogliono fare la differenza.
 
 **IceOnFire** - *Overlord Coder*
 
@@ -17,7 +17,7 @@ Seconda lingua: JavaScript
 
 ![atrox3d](images/avatars/atrox3d.png)
 
-Nonostante provi in tutti i modi a sembrare un burbero, Roby ha il Sacro Dono dell'Empatia. Con lui qualsiasi cosa si riduce a una questione di Adapter: comunicare con il registro di un processore è semplice quanto andare d'accordo con i membri della sua rock band, team building e system integration cambiano solo la natura dei componenti. Buono con gli amici e implacabile con i nemici, è un punto di riferimento per chiunque lo conosca.
+Nonostante provi in tutti i modi a sembrare un burbero devops, Roby ha il Sacro Dono dell'Empatia. Con lui qualsiasi cosa si riduce a una questione di Adapter: comunicare con il registro di un processore è semplice quanto andare d'accordo con i membri della sua rock band, team building e system integration cambiano solo la natura dei componenti. Buono con gli amici e implacabile con i nemici, è un punto di riferimento per chiunque lo conosca.
 
 Seconda lingua: C
 
