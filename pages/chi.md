@@ -9,7 +9,7 @@ Gli Inglorious Coderz non sono un'azienda, non sono numeri, non sono servizi tel
 
 ![IceOnFire](images/avatars/iceonfire.png)
 
-La mente che coordina le mosse dei propri guerrieri, Antony conosce tutto e prevede tutto. Esperto sviluppatore fullstack, architetto software e project manager, contagia le menti altrui con la propria passione e inietta dosi massicce di know-how, infettando la rete memetica con concetti di eccellenza, innovazione e aiuto disinteressato. Tratta la vita come una partita a scacchi: per questo ogni sua mossa, benché sembri casuale, alla fine si rivela sempre quella giusta.
+La mente che coordina le mosse dei propri guerrieri, Antony conosce tutto e prevede tutto. Esperto sviluppatore fullstack, architetto software e project manager, contagia le menti altrui con la propria passione e inietta dosi massicce di know-how, infettando la rete memetica con concetti di eccellenza, innovazione e aiuto disinteressato. Tratta la vita come una partita a scacchi: per questo ogni sua mossa, benché sembri casuale, alla fine si rivela sempre vincente.
 
 Seconda lingua: JavaScript
 
