@@ -14,24 +14,40 @@ $(function() {
 
     // Navigation items
     siteNavItems: [{
+      id: 'eh',
       name: 'Eh?',
-      href: '#page/Di che stiamo parlando'
+      title: 'Di che stiamo parlando'
+      // href: '#page/Di che stiamo parlando'
     }, {
+      id: 'chi',
       name: 'Chi',
-      href: '#page/Chi siamo'
+      title: 'Chi siamo'
+      // href: '#page/Chi siamo'
     }, {
+      id: 'come',
       name: 'Come',
-      href: '#page/Come siamo'
+      title: 'Come siamo'
+      // href: '#page/Come siamo'
     }, {
+      id: 'cosa',
       name: 'Cosa',
-      href: '#page/Cosa facciamo'
+      title: 'Cosa facciamo'
+      // href: '#page/Cosa facciamo'
     }, {
+      id: 'perche',
       name: 'Perché',
-      href: '#page/Perché lo facciamo'
+      title: 'Perché lo facciamo'
+      // href: '#page/Perché lo facciamo'
     }, {
-      name: 'Contattaci'
+      id: 'contattaci',
+      name: 'Contattaci',
+      title: 'Contattaci'
+      // href: '#page/Contattaci'
     }, {
-      name: 'Il sito fa schifo'
+      id: 'il-sito-fa-schifo',
+      name: 'Il sito fa schifo',
+      title: 'Il sito fa schifo'
+      // href: '#page/Il sito fa schifo'
     }, {
       name: 'Github',
       href: 'https://github.com/IngloriousCoderz',

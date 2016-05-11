@@ -101,8 +101,11 @@ var CMS = {
 
       // Page view
       '#page': function() {
-        var title = url.split('#page/')[1].trim();
-        CMS.renderPage(title);
+        var id = url.split('#page/')[1].trim();
+        var navItems  = CMS.settings.siteNavItems.filter(function(page) {return page.id === id})
+        if (navItems.length > 0) {
+          CMS.renderPage(navItems[0].title);
+        }
       }
 
     };
@@ -395,11 +398,15 @@ var CMS = {
         }
         navBuilder.push('>', navItem.name, '</a></li>');
       } else {
-        CMS.pages.forEach(function(page) {
-          if (navItem.name == page.title) {
-            navBuilder.push('<li><a href="#" class="cms_nav_link" id="', navItem.name, '">', navItem.name, '</a></li>');
-          }
-        });
+        if (navItem.id) {
+          navBuilder.push('<li><a href="#" class="cms_nav_link" id="', navItem.id, '">', navItem.name, '</a></li>');
+        } else {
+          CMS.pages.forEach(function(page) {
+            if (navItem.name == page.title) {
+              navBuilder.push('<li><a href="#" class="cms_nav_link" id="', navItem.id || navItem.name, '">', navItem.name, '</a></li>');
+            }
+          });
+        }
       }
     });
     navBuilder.push('</ul>');
