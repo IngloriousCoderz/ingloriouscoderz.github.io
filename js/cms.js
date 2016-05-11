@@ -37,6 +37,9 @@ var CMS = {
     loader: '<div class="loader">Loading...</div>',
     get siteAttributes() {
       return [{
+      //   attr: 'logo',
+      //   value: CMS.settings.logo
+      // }, {
         attr: 'title',
         value: CMS.settings.siteName
       }, {
@@ -102,7 +105,9 @@ var CMS = {
       // Page view
       '#page': function() {
         var id = url.split('#page/')[1].trim();
-        var navItems  = CMS.settings.siteNavItems.filter(function(page) {return page.id === id})
+        var navItems = CMS.settings.siteNavItems.filter(function(page) {
+          return page.id === id
+        })
         if (navItems.length > 0) {
           CMS.renderPage(navItems[0].title);
         }
