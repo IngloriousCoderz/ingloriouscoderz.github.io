@@ -3,7 +3,7 @@ layout: default
 title: Chi siamo
 ---
 
-Gli Inglorious Coderz non sono un'azienda, non sono numeri, non sono servizi "telematici all'avanguardia nell'era dell'informazione digitale" o fuffa simile. Sono persone che vogliono fare la differenza.
+Gli Inglorious Coderz non sono un'azienda, non sono numeri, non sono "servizi telematici all'avanguardia nell'era dell'informazione digitale" o fuffa simile. Sono persone che vogliono fare la differenza.
 
 **IceOnFire** - *Overlord Coder*
 
