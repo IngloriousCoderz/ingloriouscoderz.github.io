@@ -1,5 +1,7 @@
-# Resistere alla tentazione del procedurale in Redux
-
+---
+layout: post
+title: Resistere alla tentazione del procedurale in Redux
+---
 Proveniendo da un contesto procedurale e orientato agli oggetti, un approccio
 funzionale e dichiarativo come quello di [redux](http://redux.js.org/) richiede un salto mentale non indifferente. Realizzare applicazioni è molto semplice, almeno finché non si devono gestire un'infinità di effetti collaterali e chiamate asincrone che si innescano a catena. È lì che l'approccio più intrigante risulta quello procedurale. Tuttavia dobbiamo essere coraggiosi e cercare l'approccio più semplice ed elegante, non quello più comodo.
 
