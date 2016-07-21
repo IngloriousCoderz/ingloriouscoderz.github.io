@@ -41,13 +41,13 @@ La nuova query viene calcolata al volo (ho omesso i dettagli per chiarezza) e vi
 ```js
 function* selectRow(action) {
   const { payload: { id, selectedRow } } = action
-  const updatedVariables = computeNewVariables(id, selectedRow)
+  const newVars = computeNewVariables(id, selectedRow)
 
   yield put(updateSelectedRow(id, selectedRow))
   yield grids.map(grid => {
     if (grid.dependsOn(updatedVariables)) {
       return fork(initGrid, {
-        payload: { id, variables: updatedVariables }
+        payload: { id, variables: newVars }
       })
     }
   })
@@ -125,18 +125,30 @@ const rootReducer = (state, action) => {
     case '@@INIT':
       return {
         ...state,
-        viewers: viewers(state.grids, computeNewQuery(state.variables))
+        viewers: viewers(
+          state.grids,
+          computeNewQuery(state.variables)
+        )
       }
     case SELECT_ROW:
       const newVars = computeNewVariables(payload.id, payload.row)
       let newState = {
         ...state,
-        grids: grids(state.grids, action),
-        variables: variables(state.variables, updateVariables(newVars))
+        grids: grids(
+          state.grids,
+          action
+        ),
+        variables: variables(
+          state.variables,
+          updateVariables(newVars)
+        )
       }
       return {
         ...newState,
-        grids: grids(newState.grids, updateQuery(newState.variables))
+        grids: grids(
+          newState.grids,
+          updateQuery(newState.variables)
+        )
       }
     default:
       return state
