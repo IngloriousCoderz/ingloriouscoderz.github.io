@@ -13,7 +13,7 @@ La chiamo Badoo.
 Le regole sono:
 1. Voglio garantire l'anonimato per dare agli utenti piena libertà di esprimersi.
 2. Voglio che gli utenti interagiscano mettendo like alle foto, chattando e esprimendo in modo anonimo il proprio apprezzamento su di una persona, non si sa mai che qualcuno si trovi corrisposto.
-3. La voglio mantenere grautita, ma con contenuti premium sfruttando il senso di urgenza dell'utente nel momento in cui gli serve una funzionalità e non ce l'ha (in fondo non faccio beneficienza).
+3. La voglio mantenere gratuita, ma con contenuti premium sfruttando il senso di urgenza dell'utente nel momento in cui gli serve una funzionalità e non ce l'ha (in fondo non faccio beneficienza).
 
 Risultato: riporto qui i primi due commenti che ho trovato sul [Play Store](https://play.google.com/store/apps/details?id=com.badoo.mobile):
 
@@ -28,7 +28,7 @@ Che è successo?
 
 Assumendo che l'intento iniziale di Badoo fosse il nobile fine di mettere in comunicazione la gente, un buon progetto si è trasformato in un cattivo prodotto per via dell'uso che ne fanno gli utenti. Questo io lo chiamo Effetto Collaterale.
 
-Come non citare Facebook. Facebook è riuscito a limitare di molto questi effetti collaterali, aggiungendo fin da subito meccanismi che limitano drasticamente l'anonimato: se pe rprivacy non hai voluto indicare il tuo vero nome e cognome, quantomeno hai una lista di amici che ti fanno da referenza. Chiunque è libero di rifiutare la tua richiesta di contatto se pensa di non conoscerti nella vita reale o se il tuo profilo non promette nulla di buono.
+Come non citare Facebook. Facebook è riuscito a limitare di molto questi effetti collaterali, aggiungendo fin da subito meccanismi che limitano drasticamente l'anonimato: se per privacy non hai voluto indicare il tuo vero nome e cognome, quantomeno hai una lista di amici che ti fanno da referenza. Chiunque è libero di rifiutare la tua richiesta di contatto se pensa di non conoscerti nella vita reale o se il tuo profilo non promette nulla di buono.
 
 Una situazione analoga l'abbiamo avuta nel mondo della realtà virtuale. Chi si ricorda di Second Life? Quel meraviglioso mondo virtuale nel quale puoi interagire con gli altri utenti tramite il tuo avatar super-personalizzabile e puoi costruire quello che vuoi o comprarlo con una moneta virtuale (che si può cambiare in denaro vero). L'avevo provato qualche anno fa. Beh, dopo un po' che giravo fra le varie isole ho notato che si stava instaurando una gerarchia basata sull'apparenza (il mio avatar poco personalizzato era chiaramente appartenente a un "niubbo"); c'era un notevole mercato di vestiti e accessori virtuali, e persino falli da aggiungere al proprio avatar e script di sesso simulato da comprare. NEXT.
 
