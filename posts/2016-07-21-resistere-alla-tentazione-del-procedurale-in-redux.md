@@ -24,7 +24,7 @@ La saga che accoglierà la action di inizializzazione sarà pressappoco questa:
 ```js
 function* initGrid(action) {
   const { payload: { id, variables } } = action
-  const query = computeNewQuery(variables)
+  const query = computeNewQuery(id, variables)
 
   try {
     const data = yield call(fetchData, id, query)
@@ -41,12 +41,14 @@ La nuova query viene calcolata al volo (ho omesso i dettagli per chiarezza) e vi
 ```js
 function* selectRow(action) {
   const { payload: { id, selectedRow } } = action
-  const updatedVariables = computeNewVariables(selectedRow)
+  const updatedVariables = computeNewVariables(id, selectedRow)
 
   yield put(updateSelectedRow(id, selectedRow))
   yield grids.map(grid => {
     if (grid.dependsOn(updatedVariables)) {
-      return fork(initGrid, { payload: { id, variables: updatedVariables } })
+      return fork(initGrid, {
+        payload: { id, variables: updatedVariables }
+      })
     }
   })
 }
@@ -107,14 +109,14 @@ class GridContainer extends Component {
   }
 }
 
-export default connect(mapStateToProps, {requestData, selectRow})(GridContainer)
+connect(mapStateToProps, {requestData, selectRow})(GridContainer)
 ```
 
 Come si può notare, nel metodo `componentDidUpdate` la chiamata a `fetchData` deve essere fatta solo se la query è cambiata rispetto a prima. Questo significa che bisogna prestare particolare attenzione nel riduttore a non fornire una copia della query ma la query stessa se il dispatch di una action non l'ha cambiata. A questo scopo potrebbe essere molto utile una libreria come [Immutable](https://facebook.github.io/immutable-js/).
 
 Inoltre nel metodo `fetchData` viene passata una proprietà chiamata `canFetchData`: questa non è altro che un selettore che verifica che la query corrente abbia tutte le informazioni necessarie per essere eseguita (cioè non dipenda da alcuna variabile o le variabili da cui dipende ci siano tutte). Questo approccio, che mi piace chiamare *ragionare a compartimenti stagni*, è semplicemente la base di una programmazione modulare.
 
-Il pezzo difficile è nel rootReducer: quando viene selezionata una riga, questo deve calcolare le nuove variabili, aggiornarle nella porzione di stato dedicata, e poi usare le variabili per aggiornare la query alle griglie (*TUTTE* le variabili e *TUTTE* le griglie, è questo che lo rende più dichiarativo e fail-safe):
+Il pezzo difficile è nel `rootReducer`: quando viene selezionata una riga, questo deve calcolare le nuove variabili, aggiornarle nella porzione di stato dedicata, e poi usare le variabili per aggiornare la query alle griglie (*TUTTE* le variabili e *TUTTE* le griglie, è questo che lo rende più dichiarativo e fail-safe). Perché implementare questa logica proprio nella root? Perché è l'[Information Expert](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)#Information_expert) della situazione:
 
 ```js
 const rootReducer = (state, action) => {
@@ -126,17 +128,15 @@ const rootReducer = (state, action) => {
         viewers: viewers(state.grids, computeNewQuery(state.variables))
       }
     case SELECT_ROW:
-      {
-        const newVariables = computeNewVariables(state, payload.id, payload.row)
-        let newState = {
-          ...state,
-          grids: grids(state.grids, action),
-          variables: variables(state.variables, updateVariables(newVariables))
-        }
-        return {
-          ...newState,
-          grids: grids(newState.grids, updateQuery(newState.variables))
-        }
+      const newVars = computeNewVariables(payload.id, payload.row)
+      let newState = {
+        ...state,
+        grids: grids(state.grids, action),
+        variables: variables(state.variables, updateVariables(newVars))
+      }
+      return {
+        ...newState,
+        grids: grids(newState.grids, updateQuery(newState.variables))
       }
     default:
       return state
@@ -147,7 +147,7 @@ const rootReducer = (state, action) => {
 Alcune cose da notare qui:
 1. Stiamo usando la action di inizializzazione di Redux per cominciare a "svegliare" le griglie; forse non è molto ortodosso, avremmo potuto dispatchare una nostra action come fatto per le saghe
 2. La selezione della riga consiste nella chiamata consecutiva ai reducer sottostanti. Questo è l'unico aspetto un po' procedurale, perché non possiamo fare tutto in un colpo solo ma dobbiamo aspettare prima che lo stato abbia tutte le variabili in posizione per poterle usare sulle griglie
-3. I riduttori vengono chiamati con delle sotto-action dedicate, che non compariranno mai nel log di [Redux-DevTools](https://github.com/gaearon/redux-devtools). Quello che prima mi sembrava una bestemmia ora mi sembra la cosa più naturale del mondo dato che in fondo è la stessa cosa che scriverei se dovessi chiamare una [façade](https://it.wikipedia.org/wiki/Fa%C3%A7ade_pattern) che chiama a sua volta dei sotto-componenti.
+3. I riduttori vengono chiamati con delle sotto-action dedicate, `updateVariables` e `updateQuery`, che non compariranno mai nel log di [Redux-DevTools](https://github.com/gaearon/redux-devtools). Quello che prima mi sembrava una bestemmia ora mi sembra la cosa più naturale del mondo dato che in fondo è la stessa cosa che scriverei se dovessi chiamare una [façade](https://it.wikipedia.org/wiki/Fa%C3%A7ade_pattern) che chiama a sua volta dei sotto-componenti. L'unica cosa da non fare assolutamente è rendere due reducer interdipendenti, ma un reducer padre può e deve manipolare lo stato dei reducer figli.
 
 A questo punto possiamo completamente fare a meno della saga `initGrid`: l'inizializzazione parte dalle stesse griglie, che si aggiorneranno automaticamente nel momento in cui la query dovesse cambiare. Abbiamo spostato la logica degli effetti collaterali dentro un componente React e la logica applicativa dentro ai riduttori. Il middleware delle saghe deve solo rimanere in ascolto di richieste di `fetchData` e di `selectRow`.
 
