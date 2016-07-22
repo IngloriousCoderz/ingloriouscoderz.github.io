@@ -50,6 +50,10 @@ $(function() {
       title: 'Il sito fa schifo'
       // href: '#page/Il sito fa schifo'
     }, {
+      id: 'informativa-privacy',
+      title: 'Informativa privacy'
+      // href: '#page/Il sito fa schifo'
+    }, {
       name: 'Github',
       href: 'https://github.com/IngloriousCoderz',
       newWindow: true
