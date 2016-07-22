@@ -8,7 +8,7 @@ Le attività degli Inglorious Coderz come gruppo sono le seguenti:
 2. *Laboratorio:* I progetti sviluppati internamente costituiscono una forma di training on the job, in cui si applicano concretamente i design pattern, il pair programming e altre pratiche/metodologie di sviluppo Agile.
 3. *Helpdesk interno:* gli IC si aiutano a vicenda nel risolvere problemi più o meno complessi o nel trovare materiale da studiare. Non mancano inoltre di scambiarsi opinioni e best practices su qualsiasi argomento tecnologico.
 4. *Cazzeggio:* parte fondamentale per la coesione del gruppo, gli IC si divertono insieme facendo battute nerd sui social network o uscendo insieme da buoni amici.
-5. *Progetti open source:* gli IC contribuiscono a progetti open source e rilasciano su Github prototipi di vario genere, frutto del loro studio congiunto.
+5. *Progetti open source:* gli IC contribuiscono a progetti open source e rilasciano su [Github](https://github.com/IngloriousCoderz) prototipi di vario genere, frutto del loro studio congiunto.
 6. *Consulenza e progetti commerciali:* liberissimo di sfruttare la rete di conoscenze del gruppo, ogni IC può fare attività di consulenza o sviluppare software commerciali per aziende e privati, fatturando in modo indipendente e sfruttando l'aiuto gratuito degli altri membri.
 7. *Know-how pubblico:* gli IC pubblicano guide, presentazioni e blog post tecnologici, diffondendo pubblicamente su vari canali l'esperienza che acquisiscono quotidianamente.
 8. *Hackathon ed eventi:* gli IC partecipano agli hackathon più interessanti e parlano di tecnologia negli eventi dedicati.
