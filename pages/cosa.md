@@ -12,7 +12,7 @@ Le attività degli Inglorious Coderz come gruppo sono le seguenti:
 6. *Consulenza e progetti commerciali:* liberissimo di sfruttare la rete di conoscenze del gruppo, ogni IC può fare attività di consulenza o sviluppare software commerciali per aziende e privati, fatturando in modo indipendente e sfruttando l'aiuto gratuito degli altri membri.
 7. *Know-how pubblico:* gli IC pubblicano guide, presentazioni e blog post tecnologici, diffondendo pubblicamente su vari canali l'esperienza che acquisiscono quotidianamente.
 8. *Hackathon ed eventi:* gli IC partecipano agli hackathon più interessanti e parlano di tecnologia negli eventi dedicati.
-9. *Segnalazione:* gli IC mettono in contatto i membri interessati con aziende che richiedono determinati profili, garantendo ogni volta il migliore match possibile [senza condizionamenti economici](#page/Perché).
+9. *Segnalazione:* gli IC mettono in contatto i membri interessati con aziende che richiedono determinati profili, garantendo ogni volta il migliore match possibile [senza condizionamenti economici](#page/perche).
 10. *Reclutamento:* gli IC sfruttano i contatti che hanno o che acquisiscono attraverso eventi, consulenze e hackathon per diffondere il nome e reclutare nuovi membri.
 
-Essere un Inglorious Coder comporta numerosi benefici e nessuno svantaggio; tuttavia si tratta di una sorta di club esclusivo, e [non tutti possono farne parte](#page/Come siamo). Se pensi di avere le carte in regola per entrare nella banda, [contattaci](#page/Contattaci)!
+Essere un Inglorious Coder comporta numerosi benefici e nessuno svantaggio; tuttavia si tratta di una sorta di club esclusivo, e [non tutti possono farne parte](#page/come). Se pensi di avere le carte in regola per entrare nella banda, [contattaci](#page/contattaci)!
