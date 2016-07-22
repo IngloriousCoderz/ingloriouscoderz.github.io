@@ -5,7 +5,7 @@ title: Come siamo
 Gli Inglorious Coderz per definirsi tali devono essere conformi a una serie di parametri. Fortunatamente questi criteri risultano del tutto sensati ai più, ma per poter entrare e rimanere negli Inglorious Coderz, o semplicemente per esserne affiliati, bisogna dimostrare di applicarli nella vita di tutti i giorni e non solo esserne d'accordo.
 
 1. *Lupo solitario:* Un IC è autonomo, lavora senza dipendere da nessuno e non aspetta ordini o disposizioni. È una persona affidabile: lasciata da sola con un problema restituisce sempre una soluzione.
-2. *Animale da branco:* La bravura di un IC non è compensata dalla sua sociopatia: l'Inglorious Coder è comunicativo: sa parlare italiano oltre che in linguaggio macchina, sa far valere le sue opinioni, sa trasmettere conoscenza.
+2. *Animale da branco:* La bravura di un IC non è compensata dalla sua sociopatia. L'Inglorious Coder è comunicativo: sa parlare italiano oltre che in linguaggio macchina, sa far valere le sue opinioni, sa trasmettere conoscenza.
 3. *Aggressivo:* In un mercato frenetico come quello dell'informatica bisogna sempre anticipare la domanda di qualche mossa. L'IC è lungimirante, progetta la soluzione attuale per difendere e anzi aggredire il futuro.
 4. *Cane pazzo:* Ormai è stato ripetuto in tutte le salse: se non si è affamati e folli non si fa la differenza. L'IC è appassionato del suo lavoro, ne fa un'arte e ci mette dentro tutta la propria creatività.
 5. *Ambizioso:* La modestia la lasciamo ai mediocri. Un Inglorious Coder conosce i suoi punti di forza e non li nasconde, anzi li usa come parte integrante del suo arsenale.
