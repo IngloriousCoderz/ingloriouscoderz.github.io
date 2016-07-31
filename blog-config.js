@@ -2,29 +2,29 @@ module.exports = {
   postPreviewsUrl: 'https://api.github.com/repos/IngloriousCoderz/ingloriouscoderz.github.io/contents/',
   markdownUrl: 'https://raw.githubusercontent.com/IngloriousCoderz/ingloriouscoderz.github.io/master/',
   navLinks: [{
-    id: 'eh',
     title: 'Eh?',
+    url: 'eh'
   }, {
-    id: 'chi',
     title: 'Chi',
+    url: 'chi'
   }, {
-    id: 'come',
     title: 'Come',
+    url: 'come'
   }, {
-    id: 'cosa',
     title: 'Cosa',
+    url: 'cosa'
   }, {
-    id: 'perche',
     title: 'Perché',
+    url: 'perche'
   }, {
-    id: 'contattaci',
     title: 'Contattaci',
+    url: 'contattaci'
   }, {
-    id: 'il-sito-fa-schifo',
     title: 'Il sito fa schifo',
+    url: 'il-sito-fa-schifo'
   }, {
-    id: 'github',
     title: 'Github',
+    url: 'https://github.com/IngloriousCoderz',
     target: '_blank'
   }]
 }

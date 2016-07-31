@@ -1,0 +1,5 @@
+export const REQUEST_LIST = 'REQUEST_LIST'
+export const RECEIVE_LIST = 'RECEIVE_LIST'
+export const REQUEST_DATA = 'REQUEST_DATA'
+export const RECEIVE_DATA = 'RECEIVE_DATA'
+export const RECEIVE_ERROR = 'RECEIVE_ERROR'
