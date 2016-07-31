@@ -15,5 +15,3 @@ Siamo aperti a farci quattro chiacchiere informali con chiunque:
 - chiunque voglia farsi una chiacchierata sulla tecnologia
 
 Se hai una mentalità ingloriosa andremo molto d'accordo, diventa uno di noi!
-
-[comment]: <> (- aziende e privati che vogliono proporci un contratto di consulenza o di fornitura (qualcuno di noi ha la partita IVA e può accettare lavori extra))
