@@ -1,4 +1,11 @@
-# Chi sono
+---
+layout: default
+title: IceOnFire
+---
+
+![IceOnFire](/images/avatars/iceonfire.png)
+
+## Chi sono
 
 Sono un ingegnere del software da una decina d'anni. Sono partito con le
 applicazioni desktop Java, passando per il mobile fino a diventare un tech lead,
@@ -6,7 +13,7 @@ e ora sono un esperto di tecnologie web. Sono uno smanettone con competenze da
 project manager, estremamente preciso nel codice ma con ottime doti relazionali.
 Il mio lavoro mi appassiona, e questo traspare sia nelle parole che nei fatti.
 
-# Perché assumermi
+## Perché assumermi
 
 Perché sono bravo. Molto bravo. Maledettamente bravo.
 
@@ -21,7 +28,7 @@ Se non dispongo di una certa competenza, dichiaro apertamente la mia ignoranza
 in merito e valuto se riesco a recuperare rapidamente oppure aiuto a trovare un
 altro elemento più valido di me per soddisfare la domanda.
 
-# Che cosa faccio
+## Che cosa faccio
 
 Sviluppo applicazioni web, desktop e mobile utilizzando le ultimissime
 tecnologie web. Non faccio siti in quanto li reputo troppo semplici e non sento
@@ -38,7 +45,7 @@ legacy (come Struts, Hibernate e Spring). Insegno metodologie Agile e design
 pattern. Realizzo esercitazioni mirate che diventano un vero e proprio training
 on the job.
 
-# Quanto costo
+## Quanto costo
 
 Risposta scontata: dipende.
 
