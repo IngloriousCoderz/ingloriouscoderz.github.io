@@ -7,7 +7,7 @@ import Footer from './Footer'
 
 const Page = ({title, content}) => (
   <div>
-    <Header />
+    <Header/>
     <article className='page'>
       <h1 className='page-title'>{title}</h1>
       <Markdown source={content} options={{highlight: code => hljs.highlightAuto(code).value}}/>

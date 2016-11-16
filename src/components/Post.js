@@ -5,7 +5,7 @@ import 'highlight.js/styles/github.css'
 import Header from './Header'
 import Footer from './Footer'
 
-const Post = ({id, title, date, content}) => (
+const Post = ({title, date, content}) => (
   <div>
     <Header/>
     <article className='post'>

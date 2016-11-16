@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getPage} from '../reducers'
-import {requestData} from '../actions'
+import {isPageLoading, getPage, getPageError} from '../reducers'
+import {requestPage} from '../actions'
 import Page from '../components/Page'
 
 class FetchedPage extends Component {
   fetchData() {
-    const {title, requestData, params} = this.props
-    if (title == null) {
-      requestData('page', params.id)
+    const {loading, error, title, requestPage, params} = this.props
+    if (!loading && !error && title == null) {
+      requestPage(params.id)
     }
   }
 
@@ -21,16 +21,28 @@ class FetchedPage extends Component {
   }
 
   render() {
-    return <Page {...this.props}/>
+    const {loading, error, title, content} = this.props
+    if (loading) {
+      return <p>Loading...</p>
+    }
+
+    if (error) {
+      return (
+        <div>
+          <h2>Something went wrong :'(</h2>
+          <p>{error}</p>
+        </div>
+      )
+    }
+
+    return <Page title={title} content={content}/>
   }
 }
 
-const mapStateToProps = (state, {params}) => {
-  const page = getPage(state, params.id)
-  return page ? {
-    title: page.meta.title,
-    content: page.content
-  } : {}
-}
+const mapStateToProps = (state, {params}) => ({
+  loading: isPageLoading(state, params.id),
+  ...getPage(state, params.id),
+  error: getPageError(state, params.id)
+})
 
-export default connect(mapStateToProps, {requestData})(FetchedPage)
+export default connect(mapStateToProps, {requestPage})(FetchedPage)

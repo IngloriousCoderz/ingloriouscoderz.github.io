@@ -1,6 +1,4 @@
 module.exports = {
-  postPreviewsUrl: 'https://api.github.com/repos/IngloriousCoderz/ingloriouscoderz.github.io/contents/',
-  markdownUrl: 'https://raw.githubusercontent.com/IngloriousCoderz/ingloriouscoderz.github.io/master/',
   navLinks: [{
     title: 'Eh?',
     url: 'eh'
@@ -26,5 +24,16 @@ module.exports = {
     title: 'Github',
     url: 'https://github.com/IngloriousCoderz',
     target: '_blank'
-  }]
+  }],
+  markdownUrl: 'https://raw.githubusercontent.com/IngloriousCoderz/ingloriouscoderz.github.io/master/',
+  featuredPosts: {
+    url: 'https://api.github.com/repos/IngloriousCoderz/ingloriouscoderz.github.io/contents/',
+    list: [
+      { id: '2016-11-16-componenti-react-redux-come-librerie', date: new Date('2016-11-16') },
+      { id: '2016-07-22-pokemon-go-e-la-teoria-degli-effetti-collaterali', date: new Date('2016-07-22') },
+      { id: '2016-07-21-resistere-alla-tentazione-del-procedurale-in-redux', date: new Date('2016-07-21') },
+      { id: '2016-05-11-il-vaso-di-piva', date: new Date('2016-05-11') },
+      { id: '2016-02-21-hello-world', date: new Date('2016-02-21') }
+    ]
+  }
 }

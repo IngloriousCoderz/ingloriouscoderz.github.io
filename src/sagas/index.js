@@ -1,11 +1,13 @@
 import {takeEvery} from 'redux-saga'
-import {REQUEST_LIST, REQUEST_DATA} from '../constants/actionTypes'
-import fetchList from './fetchList'
-import fetchData from './fetchData'
+import {REQUEST_FEATURED_POSTS_LIST, REQUEST_PAGE, REQUEST_POST} from '../constants/actionTypes'
+import fetchFeaturedPosts from './fetchFeaturedPosts'
+import fetchPage from './fetchPage'
+import fetchPost from './fetchPost'
 
 export default function* rootSaga() {
   yield [
-    takeEvery(REQUEST_LIST, fetchList),
-    takeEvery(REQUEST_DATA, fetchData)
+    takeEvery(REQUEST_FEATURED_POSTS_LIST, fetchFeaturedPosts),
+    takeEvery(REQUEST_PAGE, fetchPage),
+    takeEvery(REQUEST_POST, fetchPost)
   ]
 }

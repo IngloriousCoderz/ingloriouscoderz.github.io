@@ -9,7 +9,8 @@ export default url => {
       } else {
         reject({
           status: xhr.status,
-          statusText: xhr.statusText
+          statusText: xhr.statusText,
+          message: JSON.parse(xhr.response).message
         })
       }
     }
@@ -17,7 +18,8 @@ export default url => {
     xhr.onerror = function() {
       reject({
         status: xhr.status,
-        statusText: xhr.statusText
+        statusText: xhr.statusText,
+        message: JSON.parse(xhr.response).message
       })
     }
 

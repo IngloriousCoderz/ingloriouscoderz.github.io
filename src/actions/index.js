@@ -1,27 +1,65 @@
 import * as types from '../constants/actionTypes'
 
-export const requestList = type => ({
-  type: types.REQUEST_LIST,
-  payload: { type }
+export const requestFeaturedPostsList = () => ({
+  type: types.REQUEST_FEATURED_POSTS_LIST
 })
 
-export const receiveList = (type, list) => ({
-  type: types.RECEIVE_LIST,
-  payload: { type, list }
+export const receiveFeaturedPostsList = (list, posts) => ({
+  type: types.RECEIVE_FEATURED_POSTS_LIST,
+  payload: { list, posts }
 })
 
-export const requestData = (type, id) => ({
-  type: types.REQUEST_DATA,
+export const receiveFeaturedPostsError = message => ({
+  type: types.RECEIVE_FEATURED_POSTS_ERROR,
+  payload: message,
+  error: true
+})
+
+export const requestResource = (type, id) => ({
+  type: types.REQUEST_RESOURCE,
   payload: { type, id }
 })
 
-export const receiveData = (type, id, meta, content) => ({
-  type: types.RECEIVE_DATA,
-  payload: { type, id, meta, content }
+export const receiveResource = (type, id, resource) => ({
+  type: types.RECEIVE_RESOURCE,
+  payload: { type, id, resource }
 })
 
-export const receiveError = (message) => ({
+export const receiveError = (type, id, message) => ({
   type: types.RECEIVE_ERROR,
-  payload: { message },
+  payload: { type, id, message },
+  error: true
+})
+
+
+export const requestPage = (id) => ({
+  type: types.REQUEST_PAGE,
+  payload: { id }
+})
+
+export const receivePage = (id, page) => ({
+  type: types.RECEIVE_PAGE,
+  payload: { id, page }
+})
+
+export const receivePageError = (id, message) => ({
+  type: types.RECEIVE_PAGE_ERROR,
+  payload: { id, message },
+  error: true
+})
+
+export const requestPost = (id) => ({
+  type: types.REQUEST_POST,
+  payload: { id }
+})
+
+export const receivePost = (id, post) => ({
+  type: types.RECEIVE_POST,
+  payload: { id, post }
+})
+
+export const receivePostError = (id, message) => ({
+  type: types.RECEIVE_POST_ERROR,
+  payload: { id, message },
   error: true
 })

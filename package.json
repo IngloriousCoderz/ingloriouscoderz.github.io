@@ -1,6 +1,6 @@
 {
-  "name": "inglorious-blog",
-  "version": "0.0.1",
+  "name": "ingloriouscoderz.github.io",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "babel-eslint": "^6.1.2",

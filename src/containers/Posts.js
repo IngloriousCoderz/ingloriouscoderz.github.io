@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getPostPreviews} from '../reducers'
-import {requestList} from '../actions'
+import {isFeaturedPostsLoading, getFeaturedPosts, getFeaturedPostsError} from '../reducers'
+import {requestFeaturedPostsList} from '../actions'
 import Posts from '../components/Posts'
 
 class FetchedPosts extends Component {
   fetchList() {
-    const {posts, requestList} = this.props
-    if (posts.length === 0) {
-      requestList('post')
+    const {loading, error, posts, requestFeaturedPostsList} = this.props
+    if (!loading && !error && posts.length === 0) {
+      requestFeaturedPostsList()
     }
   }
 
@@ -21,12 +21,28 @@ class FetchedPosts extends Component {
   }
 
   render() {
-    return <Posts {...this.props}/>
+    const {loading, error, posts} = this.props
+    if (loading) {
+      return <p>Loading...</p>
+    }
+
+    if (error) {
+      return (
+        <div>
+          <h2>Something went wrong :'(</h2>
+          <p>{error}</p>
+        </div>
+      )
+    }
+
+    return <Posts posts={posts}/>
   }
 }
 
 const mapStateToProps = (state, ownProps) => ({
-  posts: getPostPreviews(state)
+  loading: isFeaturedPostsLoading(state),
+  posts: getFeaturedPosts(state),
+  error: getFeaturedPostsError(state)
 })
 
-export default connect(mapStateToProps, {requestList})(FetchedPosts)
+export default connect(mapStateToProps, {requestFeaturedPostsList})(FetchedPosts)
