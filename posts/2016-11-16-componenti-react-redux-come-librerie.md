@@ -122,7 +122,7 @@ class SubApp extends Component {
 
 Come si può notare lo stato viene inizializzato nel costruttore grazie a un apposito actionCreator e viene aggiornato a ogni nuova proprietà (ovviamente si possono limitare gli aggiornamenti con il solito metodo `shouldComponentUpdate(nextProps)`). Per comunicare con l'esterno si può aggiungere allo store un listener che chiama una funzione onChange definita altrove.
 
-Infine un'altra cosa che non viene citata nell'articolo è il caso in cui la parent app abbia anceh'essa uno store: in questo caso per evitare conflitti suggerisco di aggiungere [`react-redux-custom-store`](https://github.com/emmenko/react-redux-custom-store), che permette di associare un nome univoco a ogni store del sistema.
+Infine un'altra cosa che non viene citata nell'articolo è il caso in cui la parent app abbia anch'essa uno store: in questo caso per evitare conflitti suggerisco di aggiungere [`react-redux-custom-store`](https://github.com/emmenko/react-redux-custom-store), che permette di associare un nome univoco a ogni store del sistema.
 
 Se si usa [`redux-devtools-extension`](https://github.com/zalmoxisus/redux-devtools-extension) bisogna tenere presente che ora gli store sono due, e si possono selezionare dal menù a tendina in alto a destra con la dicitura "Autoselect instances", che purtroppo al momento mostra due istanze con lo stesso nome anziché usare il nome custom che abbiamo definito:
 
