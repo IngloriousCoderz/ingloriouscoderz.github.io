@@ -2,9 +2,7 @@
 layout: post
 title: Componenti react/redux come librerie
 ---
-L'ecosistema creato da Facebook sta tirando fuori un gioiellino dopo l'altro: dopo [react](https://facebook.github.io/react/) e [redux](http://redux.js.org/) di recente è anche uscito [create-react-app](https://github.com/facebookincubator/create-react-app), che permette di arrivare da zero ad app funzionante in un unico comando.
-
-Ma che succede se vogliamo pubblicare un componente React da usare come libreria per altri progetti? E se lo stato del componente fosse così complesso da richiedere un contenitore di stati come Redux? Queste sono le domande che mi sono dovuto porre quando ho creato [`react-property-grid`](https://github.com/IngloriousCoderz/react-property-grid).
+L'ecosistema creato da Facebook sta tirando fuori un gioiellino dopo l'altro: dopo [react](https://facebook.github.io/react/) e [redux](http://redux.js.org/) di recente è anche uscito [create-react-app](https://github.com/facebookincubator/create-react-app), che permette di arrivare da zero ad app funzionante in un unico comando. Ma che succede se vogliamo pubblicare un componente React da usare come libreria per altri progetti? E se lo stato del componente fosse così complesso da richiedere un contenitore di stati come Redux? Queste sono le domande che mi sono dovuto porre quando ho creato [`react-property-grid`](https://github.com/IngloriousCoderz/react-property-grid).
 
 Affrontiamo le domande una per volta.
 
