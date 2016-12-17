@@ -15,7 +15,10 @@ const Post = ({title, date, content}) => (
         className='post-date'>
         {date ? date.toLocaleDateString() : ''}
       </time>
-      <Markdown source={content} options={{highlight: code => hljs.highlightAuto(code).value}}/>
+      <Markdown source={content} options={{
+        langPrefix: 'hljs language-',
+        highlight: code => hljs.highlightAuto(code).value
+      }}/>
     </article>
     <Footer/>
   </div>
