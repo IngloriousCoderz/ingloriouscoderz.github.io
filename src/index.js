@@ -9,8 +9,6 @@ import App from './components/App'
 
 import './styles/poole.css'
 import './styles/lanyon.css'
-// import './styles/syntax.css'
-// import './styles/atelier-cave-dark.css'
 import './styles/app.css'
 import 'highlight.js/styles/atom-one-dark.css'
 

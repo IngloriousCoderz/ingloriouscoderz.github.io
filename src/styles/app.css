@@ -10,11 +10,11 @@ body {
   color: #555;
 }
 
-p, time, small {
+* {
   font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h1 > a, h2 > a, h3 > a {
   font-family: 'Ethnocentric';
 }
 
