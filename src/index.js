@@ -7,9 +7,9 @@ import rootReducer from './reducers'
 import rootSaga from './sagas'
 import App from './components/App'
 
-import './styles/poole.css'
-import './styles/lanyon.css'
-import './styles/app.css'
+// import './styles/poole.css'
+// import './styles/lanyon.css'
+// import './styles/app.css'
 import 'highlight.js/styles/atom-one-dark.css'
 
 const sagaMiddleware = createSagaMiddleware()

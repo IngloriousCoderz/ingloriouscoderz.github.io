@@ -1,24 +1,24 @@
-import * as types from '../constants/actionTypes'
+import * as types from '../constants/actionTypes';
 
-export const isLoading = state => state.loading
-export const getError = state => state.error
+export const isLoading = state => state.loading;
+export const getError = state => state.error;
 
 const resource = (state = {}, action) => {
-  const { type, payload } = action
+  const {type, payload} = action;
   switch (type) {
     case types.REQUEST_PAGE:
     case types.REQUEST_POST:
-      return { loading: true }
+      return {loading: true};
     case types.RECEIVE_PAGE:
-      return payload.page
+      return payload.page;
     case types.RECEIVE_POST:
-      return payload.post
+      return payload.post;
     case types.RECEIVE_PAGE_ERROR:
     case types.RECEIVE_POST_ERROR:
-      return { error: payload.message }
+      return {error: payload.message};
     default:
-      return state
+      return state;
   }
-}
+};
 
-export default resource
+export default resource;

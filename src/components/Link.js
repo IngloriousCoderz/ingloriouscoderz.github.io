@@ -1,5 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Link = ({url, title, target}) => <a href={url} target={target}>{title}</a>
+const Link = ({url, title, target}) => (
+  <a href={url} target={target}>{title}</a>
+);
 
-export default Link
+export default Link;

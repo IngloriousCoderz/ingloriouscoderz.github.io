@@ -3,18 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.12.2",
-    "eslint-plugin-flowtype": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^5.2.2",
-    "react-scripts": "0.2.0"
+    "react-scripts": "^0.9.5",
+    "sw-precache": "^5.1.0"
   },
   "dependencies": {
-    "highlight.js": "^9.9.0",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "react-redux": "^4.4.6",
+    "highlight.js": "^9.11.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^4.4.8",
     "react-remarkable": "^1.1.1",
     "react-router": "^2.8.1",
     "redux": "^3.6.0",
@@ -22,10 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && sw-precache --config=sw-precache-config.js",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "./node_modules/react-scripts/config/eslint.js"
   }
 }

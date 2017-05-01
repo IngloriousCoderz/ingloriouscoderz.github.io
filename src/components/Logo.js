@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const styles = {
   background: {
@@ -7,26 +7,26 @@ const styles = {
   },
   i: {
     fill: '#00ffff',
-    fillOpacity: .5,
+    fillOpacity: 0.5,
     stroke: '#00bfc0',
-    strokeOpacity: 0.5
+    strokeOpacity: 0.5,
   },
   c: {
     fill: '#8080ff',
-    fillOpacity: .5,
+    fillOpacity: 0.5,
     stroke: '#8080c0',
-    strokeOpacity: .5
-  }
-}
+    strokeOpacity: 0.5,
+  },
+};
 
 const Logo = ({size}) => (
-  <svg height={size} width={size} alt='logo'>
-    <g transform='scale(2)'>
+  <svg height={size} width={size} alt="logo">
+    <g transform="scale(2)">
       <g style={styles.i}>
-        <polygon points="6,1 8,0 10,1 10,15 8,16 6,15"/>
+        <polygon points="6,1 8,0 10,1 10,15 8,16 6,15" />
       </g>
       <g style={styles.c}>
-        <polygon points="0,4 8,0 16,4 12,6 8,4 4,6 4,10 8,12 12,10 16,12 8,16 0,12"/>
+        <polygon points="0,4 8,0 16,4 12,6 8,4 4,6 4,10 8,12 12,10 16,12 8,16 0,12" />
       </g>
     </g>
     {/* <g transform='skewX(-12)'>
@@ -45,6 +45,6 @@ const Logo = ({size}) => (
       </g>
     </g> */}
   </svg>
-)
+);
 
-export default Logo
+export default Logo;
