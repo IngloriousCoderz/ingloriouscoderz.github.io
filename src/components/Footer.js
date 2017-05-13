@@ -4,16 +4,16 @@ const licenseStyle = {
   display: 'inline-block',
   margin: 0,
   borderRadius: 0,
-  verticalAlign: 'middle',
+  verticalAlign: 'middle'
 };
 
 const Footer = () => (
   <footer className="footer">
     <small>
       <a
-        rel="license"
-        href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
         target="_blank"
+        rel="noopener"
       >
         <img
           alt="Licenza Creative Commons"
@@ -31,9 +31,9 @@ const Footer = () => (
       </a>
       {' '}è distribuito con Licenza{' '}
       <a
-        rel="license"
-        href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
         target="_blank"
+        rel="noopener"
       >
         Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale
       </a>.
