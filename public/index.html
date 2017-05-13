@@ -17,6 +17,29 @@
     -->
   <title>Inglorious Coderz</title>
 
+  <!-- Google Analytics -->
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+  var GA_LOCAL_STORAGE_KEY = 'ga:clientId';
+
+  if (window.localStorage) {
+    ga('create', 'UA-61816704-1', {
+      storage: 'none',
+      clientId: localStorage.getItem(GA_LOCAL_STORAGE_KEY)
+    });
+    ga(function(tracker) {
+      localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'));
+    });
+  } else {
+    ga('create', 'UA-61816704-1', 'auto');
+  }
+
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  <!-- End Google Analytics -->
+
   <!-- Start Single Page Apps for GitHub Pages -->
   <script type="text/javascript">
     // Single Page Apps for GitHub Pages
@@ -73,23 +96,6 @@
       });
     }
   </script>
-
-  <script>
-    !(function(e, t, a, n, c, o) {
-      (e.GoogleAnalyticsObject = n), e[n] ||
-        (e[n] = function() {
-          (e[n].q = e[n].q || []).push(arguments);
-        }), (e[n].l = +new Date()), (c = t.createElement(
-          a
-        )), (o = t.getElementsByTagName(a)[0]), (c.src =
-          '//www.google-analytics.com/analytics.js'), o.parentNode.insertBefore(c, o);
-    })(window, document, 'script', 'ga'), ga('create', 'UA-61816704-1'), ga(
-      'send',
-      'pageview'
-    );
-  </script>
-
-  <script src="http://chs03.cookie-script.com/s/a142744172b6b3230f7df85be4221733.js"></script>
 </body>
 
 </html>
