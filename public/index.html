@@ -7,7 +7,6 @@
   <meta name="theme-color" content="#111">
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-  <link rel="canonical" href="https://www.ingloriouscoderz.it" />
   <!--
       Notice the use of %PUBLIC_URL% in the tag above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -16,6 +15,15 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+  <!-- Enforce HTTPS browsing -->
+  <link rel="canonical" href="https://www.ingloriouscoderz.it" />
+  <script>
+  if (window.location.protocol !== 'https:') {
+    window.href = 'https://www.ingloriouscoderz.it';
+  }
+  </script>
+
   <title>Inglorious Coderz</title>
 
   <!-- Google Analytics -->
