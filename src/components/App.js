@@ -1,22 +1,24 @@
-import React from 'react';
-import {Router, Route, browserHistory} from 'react-router';
+import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import Home from './Home';
-import Page from '../containers/Page';
-import Post from '../containers/Post';
+import Home from './Home'
+import Page from '../containers/Page'
+import Post from '../containers/Post'
 
 const customStyle = {
-  fontFamily: 'sans-serif',
-};
+  fontFamily: 'sans-serif'
+}
 
 const App = () => (
   <div className="container content" style={customStyle}>
-    <Router history={browserHistory}>
-      <Route path="/" component={Home} />
-      <Route path="/page/:id" component={Page} />
-      <Route path="/post/:id" component={Post} />
+    <Router>
+      <div>
+        <Route path="/" exact component={Home} />
+        <Route path="/page/:id" component={Page} />
+        <Route path="/post/:id" component={Post} />
+      </div>
     </Router>
   </div>
-);
+)
 
-export default App;
+export default App

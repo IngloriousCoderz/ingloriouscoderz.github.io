@@ -1,5 +1,5 @@
-import React from 'react';
+import React from 'react'
 
-const Pagination = () => <ul className="pagination" />;
+const Pagination = () => <ul className="pagination" />
 
-export default Pagination;
+export default Pagination

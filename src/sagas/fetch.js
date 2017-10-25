@@ -1,28 +1,28 @@
 export default url => {
   return new Promise((resolve, reject) => {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url);
+    var xhr = new XMLHttpRequest()
+    xhr.open('GET', url)
 
     xhr.onload = () => {
       if (xhr.status >= 200 && xhr.status < 300) {
-        resolve(xhr.response);
+        resolve(xhr.response)
       } else {
         reject({
           status: xhr.status,
           statusText: xhr.statusText,
-          message: JSON.parse(xhr.response).message,
-        });
+          message: JSON.parse(xhr.response).message
+        })
       }
-    };
+    }
 
     xhr.onerror = function() {
       reject({
         status: xhr.status,
         statusText: xhr.statusText,
-        message: JSON.parse(xhr.response).message,
-      });
-    };
+        message: JSON.parse(xhr.response).message
+      })
+    }
 
-    xhr.send();
-  });
-};
+    xhr.send()
+  })
+}

@@ -1,11 +1,11 @@
-import React from 'react';
-import Markdown from 'react-remarkable';
-import hljs from 'highlight.js';
-import 'highlight.js/styles/github.css';
-import Header from './Header';
-import Footer from './Footer';
+import React from 'react'
+import Markdown from 'react-remarkable'
+import hljs from 'highlight.js'
+import 'highlight.js/styles/github.css'
+import Header from './Header'
+import Footer from './Footer'
 
-const Post = ({title, date, content}) => (
+const Post = ({ title, date, content }) => (
   <div>
     <Header />
     <article className="post">
@@ -17,12 +17,12 @@ const Post = ({title, date, content}) => (
         source={content}
         options={{
           langPrefix: 'hljs language-',
-          highlight: code => hljs.highlightAuto(code).value,
+          highlight: code => hljs.highlightAuto(code).value
         }}
       />
     </article>
     <Footer />
   </div>
-);
+)
 
-export default Post;
+export default Post

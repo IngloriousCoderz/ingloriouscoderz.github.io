@@ -1,19 +1,19 @@
-import React from 'react';
-import {Link} from 'react-router';
-import {navLinks} from '../config';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { navLinks } from '../config'
 
 const navStyle = {
-  textAlign: 'center',
-};
+  textAlign: 'center'
+}
 
 const navLinkStyle = {
   paddingLeft: '.25em',
-  paddingRight: '.25em',
-};
+  paddingRight: '.25em'
+}
 
 const Nav = () => (
   <nav style={navStyle}>
-    {navLinks.map(({url, title, target, rel}) => (
+    {navLinks.map(({ url, title, target, rel }) => (
       <Link
         key={url}
         to={target ? url : `/page/${url}`}
@@ -25,6 +25,6 @@ const Nav = () => (
       </Link>
     ))}
   </nav>
-);
+)
 
-export default Nav;
+export default Nav

@@ -1,48 +1,53 @@
-import React, {Component} from 'react';
-import {connect} from 'react-redux';
-import {isPageLoading, getPage, getPageError} from '../reducers';
-import {requestPage} from '../actions';
-import Page from '../components/Page';
+import React from 'react'
+import { withRouter } from 'react-router-dom'
+import { connect } from 'react-redux'
+import { compose, withProps, withHandlers, lifecycle } from 'recompose'
+import { isPageLoading, getPage, getPageError } from '../reducers'
+import { requestPage } from '../actions'
+import Page from '../components/Page'
 
-class FetchedPage extends Component {
-  fetchData() {
-    const {loading, error, title, requestPage, params} = this.props;
-    if (!loading && !error && title == null) {
-      requestPage(params.id);
+const mapStateToProps = (state, { id }) => ({
+  loading: isPageLoading(state, id),
+  ...getPage(state, id),
+  error: getPageError(state, id)
+})
+
+const enhance = compose(
+  withRouter,
+  withProps(({ match }) => ({ id: match.params.id })),
+  connect(mapStateToProps, { requestPage }),
+  withHandlers({
+    fetchData: ({ loading, error, title, requestPage, id }) => () => {
+      if (!loading && !error && title == null) {
+        requestPage(id)
+      }
     }
-  }
+  }),
+  lifecycle({
+    componentDidMount() {
+      this.props.fetchData()
+    },
 
-  componentDidMount() {
-    this.fetchData();
-  }
-
-  componentDidUpdate(prevProps) {
-    this.fetchData();
-  }
-
-  render() {
-    const {loading, error, title, content} = this.props;
-    if (loading) {
-      return <p>Loading...</p>;
+    componentDidUpdate(prevProps) {
+      this.props.fetchData()
     }
-
-    if (error) {
-      return (
-        <div>
-          <h2>Something went wrong :'(</h2>
-          <p>{error}</p>
-        </div>
-      );
-    }
-
-    return <Page title={title} content={content} />;
+  })
+)
+const FetchedPage = ({ loading, error, title, content }) => {
+  if (loading) {
+    return <p>Loading...</p>
   }
+
+  if (error) {
+    return (
+      <div>
+        <h2>Something went wrong :'(</h2>
+        <p>{error}</p>
+      </div>
+    )
+  }
+
+  return <Page title={title} content={content} />
 }
 
-const mapStateToProps = (state, {params}) => ({
-  loading: isPageLoading(state, params.id),
-  ...getPage(state, params.id),
-  error: getPageError(state, params.id),
-});
-
-export default connect(mapStateToProps, {requestPage})(FetchedPage);
+export default enhance(FetchedPage)

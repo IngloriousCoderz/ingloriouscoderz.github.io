@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #111;
+  background-color: black;
   color: #666;
 }
 
@@ -14,12 +14,31 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3, h1 > a, h2 > a, h3 > a, .post-title, .post-title a {
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h1 > a,
+h2 > a,
+h3 > a,
+.page-title,
+.post-title,
+.masthead-title a,
+.post-title a {
   font-family: 'Ethnocentric';
   color: #555;
 }
 
-h1:hover, h2:hover, h3:hover, h1:hover > a, h2:hover > a, h3:hover > a {
+h1:hover > a,
+h2:hover > a,
+h3:hover > a,
+.masthead-title:hover a {
   color: #666;
 }
 

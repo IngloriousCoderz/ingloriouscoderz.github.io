@@ -1,48 +1,54 @@
-import React, {Component} from 'react';
-import {connect} from 'react-redux';
-import {isPostLoading, getPost, getPostError} from '../reducers';
-import {requestPost} from '../actions';
-import Post from '../components/Post';
+import React from 'react'
+import { withRouter } from 'react-router-dom'
+import { connect } from 'react-redux'
+import { compose, withProps, withHandlers, lifecycle } from 'recompose'
+import { isPostLoading, getPost, getPostError } from '../reducers'
+import { requestPost } from '../actions'
+import Post from '../components/Post'
 
-class FetchedPost extends Component {
-  fetchData() {
-    const {loading, error, title, requestPost, params} = this.props;
-    if (!loading && !error && title == null) {
-      requestPost(params.id);
+const mapStateToProps = (state, { id }) => ({
+  loading: isPostLoading(state, id),
+  ...getPost(state, id),
+  error: getPostError(state, id)
+})
+
+const enhance = compose(
+  withRouter,
+  withProps(({ match }) => ({ id: match.params.id })),
+  connect(mapStateToProps, { requestPost }),
+  withHandlers({
+    fetchData: ({ loading, error, title, requestPost, id }) => () => {
+      if (!loading && !error && title == null) {
+        requestPost(id)
+      }
     }
-  }
+  }),
+  lifecycle({
+    componentDidMount() {
+      this.props.fetchData()
+    },
 
-  componentDidMount() {
-    this.fetchData();
-  }
-
-  componentDidUpdate(prevProps) {
-    this.fetchData();
-  }
-
-  render() {
-    const {loading, error, title, date, content} = this.props;
-    if (loading) {
-      return <p>Loading...</p>;
+    componentDidUpdate(prevProps) {
+      this.props.fetchData()
     }
+  })
+)
 
-    if (error) {
-      return (
-        <div>
-          <h2>Something went wrong :'(</h2>
-          <p>{error}</p>
-        </div>
-      );
-    }
-
-    return <Post title={title} date={date} content={content} />;
+const FetchedPost = ({ loading, error, title, date, content }) => {
+  if (loading) {
+    return <p>Loading...</p>
   }
+
+  if (error) {
+    return (
+      <div>
+        <h2>Something went wrong :'(</h2>
+        <p>{error}</p>
+      </div>
+    )
+  }
+
+  return <Post title={title} date={date} content={content} />
 }
 
-const mapStateToProps = (state, {params}) => ({
-  loading: isPostLoading(state, params.id),
-  ...getPost(state, params.id),
-  error: getPostError(state, params.id),
-});
-
-export default connect(mapStateToProps, {requestPost})(FetchedPost);
+export default enhance(FetchedPost)
