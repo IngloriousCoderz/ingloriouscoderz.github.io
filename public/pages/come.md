@@ -2,6 +2,9 @@
 layout: default
 title: Come siamo
 ---
+> Chi lavora con le mani è un operaio, chi lavora con le mani e la testa è un artigiano, chi lavora con le mani, la testa e il cuore è un artista.
+> _Francesco d'Assisi_
+
 Gli Inglorious Coderz per definirsi tali devono essere conformi a una serie di parametri. Fortunatamente questi criteri risultano del tutto sensati ai più, ma per poter entrare e rimanere negli Inglorious Coderz, o semplicemente per esserne affiliati, bisogna dimostrare di applicarli nella vita di tutti i giorni e non solo esserne d'accordo.
 
 1. *Lupo solitario:* Un IC è autonomo, lavora senza dipendere da nessuno e non aspetta ordini o disposizioni. È una persona affidabile: lasciata da sola con un problema restituisce sempre una soluzione.
