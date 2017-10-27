@@ -4,7 +4,7 @@ title: Perché lo facciamo
 ---
 Per passione.
 
-Tutto quello che facciamo fra Inglorious Coderz è a titolo gratuito: formazione interna, consulenze, progetti, inserimento nelle aziende. Non ci credi? Allora non fai per noi, non hai una mentalità ingloriosa. Ora gentilmente chiudi il tab, vedi la linguetta qui sopra? Clicca sulla **x**. Amici come prima.
+Tutto quello che facciamo all'interno della rete Inglorious Coderz è a titolo gratuito: formazione, consulenze, progetti, inserimento nelle aziende. Non ci credi? Allora non fai per noi, non hai una mentalità ingloriosa. Ora gentilmente chiudi il tab, vedi la linguetta qui sopra? Clicca sulla **x**. Amici come prima.
 
 La verità è che scrivere codice ci piace tanto, così tanto che ne facciamo anche un hobby della domenica.
 
@@ -18,6 +18,6 @@ Quindi se con "perché?" si intende "perché gratis?" la risposta è semplice e 
 
 Per prima cosa `gratis != inNero`. Non stiamo evadendo il Fisco, in quanto questo sarebbe contrario ai nostri saldi principi di trasparenza e onestà.
 
-Lavoriamo gratis perché ognuno di noi ha già un lavoro, non abbiamo bisogno di altri soldi. Insegniamo gratis per combattere un sistema sbagliato, per raddrizzare un torto, per dare un'opportunità a chi se la merita e non solo a chi se la può permettere. Segnaliamo figure professionali gratuitamente per contrastare il becero body rental, perché le aziende interessate sanno che i ragazzi che proponiamo sono bravi sul serio e che non li stiamo spingendo per guadagnarci sopra.
+Ci aiutiamo gratis perché ognuno di noi ha già un lavoro, non abbiamo bisogno di altri soldi. Ci insegniamo gratis per combattere un sistema sbagliato, per raddrizzare un torto, per dare un'opportunità a chi se la merita e non solo a chi se la può permettere. Segnaliamo figure professionali gratuitamente per contrastare il becero body rental, perché le aziende interessate sanno che i ragazzi che proponiamo sono bravi sul serio e che non li stiamo spingendo per guadagnarci sopra.
 
 L'unico guadagno è la gloria, una moneta che spendiamo per farci conoscere e raggiungere altri appassionati, in modo da reclutarli nelle nostre fila. E tu, ti senti degno di far parte degli Inglorious Coderz?

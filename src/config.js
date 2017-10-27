@@ -21,12 +21,16 @@ module.exports = {
       url: 'perche'
     },
     {
+      title: 'Aiuto',
+      url: 'aiuto'
+    },
+    {
       title: 'Contattaci',
       url: 'contattaci'
     },
     {
-      title: 'Il sito fa schifo',
-      url: 'il-sito-fa-schifo'
+      title: 'Bleah',
+      url: 'bleah'
     },
     {
       title: 'Github',

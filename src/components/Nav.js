@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom'
 import { navLinks } from '../config'
 
 const navStyle = {
-  textAlign: 'center'
+  textAlign: 'center',
+  display: 'flex',
+  flexWrap: 'wrap'
 }
 
 const navLinkStyle = {
   paddingLeft: '.25em',
-  paddingRight: '.25em'
+  paddingRight: '.25em',
+  flexGrow: 1
 }
 
 const Nav = () => (

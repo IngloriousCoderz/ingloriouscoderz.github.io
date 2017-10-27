@@ -1,5 +1,7 @@
-# Contratti
-
+---
+layout: default
+title: Contratti
+---
 > Disclaimer: gli Inglorious Coderz rifiutano la guerra in ogni sua forma. La violenza fa schifo, ma i film e i giochi un po' violenti a volte sono divertenti, vero? Se ci aggiungiamo un pizzico di leggerezza, la vita diventa un gioco appassionante che vale la pena di vivere appieno.
 
 Hai bisogno di una mano in un progetto? Vorresti realizzare un'idea da zero? Ti piacerebbe imparare in poco tempo una tecnologia? Gli Inglorious Coderz possono essere assoldati per risolvere il tuo problema, grande o piccolo che sia, nel modo più efficace ed efficiente possibile.
