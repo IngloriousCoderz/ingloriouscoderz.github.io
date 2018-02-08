@@ -23,7 +23,7 @@ Seconda lingua: Mobile
 
 **sariel** - _Hardcore Coder_
 
-![sariel](/images/avatars/sariel.png)
+![sariel](/images/avatars/sariel2.png)
 
 Grammar-nazi dei linguaggi di programmazione, Sariel ama ricercare la perfezione stilistica nel proprio codice così come nei riff delle sue canzoni black metal. Riservato ma fondamentalmente buono come i lupi della steppa, si prende a cuore il problema in esame per sviscerarlo, sbranarlo e rigurgitarlo come una delicata composizione di soluzioni eleganti.
 
