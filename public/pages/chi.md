@@ -5,7 +5,7 @@ title: Chi siamo
 
 Gli Inglorious Coderz non sono un'azienda, non sono numeri, non sono "servizi telematici all'avanguardia nell'era dell'informazione digitale" o fuffa simile. Sono persone che vogliono fare la differenza.
 
-[**IceOnFire**](/page/iceonfire) - *Overlord Coder*
+[**IceOnFire**](/page/iceonfire) - _Overlord Coder_
 
 ![IceOnFire](/images/avatars/iceonfire.png)
 
@@ -13,7 +13,23 @@ La mente che coordina le mosse dei propri guerrieri, Antony conosce tutto e prev
 
 Seconda lingua: JavaScript
 
-**atrox3d** - *Sarge Coder*
+**Giosk** - _Fierce Coder_
+
+![Giosk](/images/avatars/giosk2.png)
+
+Attenzione a chi incrocia il suo cammino: appena viene a sapere di una notizia interessante in ambito tecnologico o scientifico, Giosk va in berserk e con travolgente furia attacca l'argomento fino a diventarne un luminare. Algoritmi genetici o reti neurali non lo spaventano: dotato dell'entusiasmo di un bambino e della saggezza di un veterano, è il perfetto alleato quando il problema da risolvere comprende una forte componente innovativa.
+
+Seconda lingua: Mobile
+
+**sariel** - _Hardcore Coder_
+
+![sariel](/images/avatars/sariel.png)
+
+Grammar-nazi dei linguaggi di programmazione, Sariel ama ricercare la perfezione stilistica nel proprio codice così come nei riff delle sue canzoni black metal. Riservato ma fondamentalmente buono come i lupi della steppa, si prende a cuore il problema in esame per sviscerarlo, sbranarlo e rigurgitarlo come una delicata composizione di soluzioni eleganti.
+
+Seconda lingua: JavaScript
+
+**atrox3d** - _Sarge Coder_
 
 ![atrox3d](/images/avatars/atrox3d.png)
 
@@ -21,7 +37,7 @@ Nonostante provi in tutti i modi a sembrare un burbero devops, Roby ha il Sacro 
 
 Seconda lingua: C
 
-**palmer** - *Neo Coder*
+**palmer** - _Neo Coder_
 
 ![palmer](/images/avatars/palmer.png)
 
@@ -29,7 +45,7 @@ Gli chiedi di impararsi una tecnologia. Ti giri. Un attimo dopo senti le parole 
 
 Seconda lingua: Java
 
-**sendo** - *Kata Coder*
+**sendo** - _Kata Coder_
 
 ![sendo](/images/avatars/sendo.png)
 
@@ -37,7 +53,7 @@ Se è figo, innovativo e funziona bene, Iovel lo evangelizza. Non solo, si prend
 
 Seconda lingua: Python
 
-**Ema** - *Scout Coder*
+**Ema** - _Scout Coder_
 
 ![ema](/images/avatars/ema.png)
 
@@ -45,7 +61,7 @@ Fisico di estrazione ed esperto di finanza, Emanuele è il coprocessore matemati
 
 Seconda lingua: Python
 
-**89snake89** - *Assault Coder*
+**89snake89** - _Assault Coder_
 
 ![89snake89](/images/avatars/89snake89.png)
 
@@ -53,11 +69,11 @@ Hackathon, progetti impegnativi, sfide e certificazioni: dove c'è una prova da 
 
 Seconda lingua: Java
 
-**fabx2dan** - *Healer Coder*
+**fabx2dan** - _Healer Coder_
 
 ![fabx2dan](/images/avatars/fabx2dan.png)
 
-Impegnatissimo nel sociale, Fabio preferisce concentrare le proprie forze e il proprio know-how sulle cause umanitarie. Difensore dei diritti dei più deboli e sviluppatore formidabile: il mondo non può chiedere di meglio.
+Impegnatissimo nel sociale, Fabio preferisce concentrare le proprie forze e il proprio know-how sulle cause umanitarie. Le sue doti comunicative lo rendono il perfetto CTO per una startup e un impareggiabile mentore. Difensore dei diritti dei più deboli e sviluppatore formidabile: il mondo non può chiedere di meglio.
 
 Seconda lingua: PHP
 
@@ -65,7 +81,7 @@ Seconda lingua: PHP
 
 Il Turing Club (in onore ad Alan) è costituito dai nuovi arrivati, dai wannabe o da coloro che sono semplicemente incuriositi e ci stanno monitorando.
 
-Fausto Miceli, Jacopo Gargiulo, Giorgio Elia, Fabio Santella
+Fausto Miceli, Fabio Santella
 
 ## Partner
 

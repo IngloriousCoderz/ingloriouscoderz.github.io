@@ -25,8 +25,8 @@ module.exports = {
       url: 'aiuto'
     },
     {
-      title: 'Contattaci',
-      url: 'contattaci'
+      title: 'Quindi?',
+      url: 'quindi'
     },
     {
       title: 'Bleah',
@@ -45,6 +45,10 @@ module.exports = {
     url:
       'https://api.github.com/repos/IngloriousCoderz/ingloriouscoderz.github.io/contents/',
     list: [
+      {
+        id: '2018-02-08-migliorare-il-codice-con-il-currying',
+        date: new Date('2018-02-08')
+      },
       {
         id: '2016-11-16-componenti-react-redux-come-librerie',
         date: new Date('2016-11-16')
