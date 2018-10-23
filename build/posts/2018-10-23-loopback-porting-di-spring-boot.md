@@ -3,7 +3,7 @@ layout: post
 title: Loopback 4 è un porting di Spring Boot
 ---
 
-Se c'è una cosa buona che il [faticoso ecosistema JavaScript](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4) ha portato nelle nostre vite è un ritorno alla [programmazione funzionale](https://codeburst.io/functional-programming-in-javascript-e57e7e28c0e5). Dopo anni e anni a scervellarsi su oggetti, classi e design pattern, Facebook con i suoi [React](https://reactjs.org/) e [Redux]()https://redux.js.org/ ci ha convinti a fare marcia indietro e riconsiderare le funzioni pure, l'immutabilità e la composizione a scapito dell'ereditarietà, delle annotation e della dependency injection. A un tratto il codice diventa potente, performante, leggibile e testabile come non lo è mai stato, e la programmazione orientata agli oggetti (o meglio, alle classi) pare solo un brutto ricordo.
+Se c'è una cosa buona che il [faticoso ecosistema JavaScript](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4) ha portato nelle nostre vite è un ritorno alla [programmazione funzionale](https://codeburst.io/functional-programming-in-javascript-e57e7e28c0e5). Dopo anni e anni a scervellarsi su oggetti, classi e design pattern, Facebook con i suoi [React](https://reactjs.org/) e [Redux](https://redux.js.org/) ci ha convinti a fare marcia indietro e riconsiderare le funzioni pure, l'immutabilità e la composizione a scapito dell'ereditarietà, delle annotation e della dependency injection. A un tratto il codice diventa potente, performante, leggibile e testabile come non lo è mai stato, e la programmazione orientata agli oggetti (o meglio, alle classi) pare solo un brutto ricordo.
 
 Questo almeno per quanto riguarda il front end. E sul back end? Personalmente per progetti un po' più complessi la mia scelta è ricaduta su [Loopback 3](https://loopback.io/), framework di [Strongloop](https://strongloop.com/) (poi acquisita da [IBM](https://www.ibm.com/)) che, essendo fortemente basato su [Express](https://expressjs.com/), riesce a rendere la creazione di un server Node immediata e la sua personalizzazione perlomeno fattibile. Basta definire un modello in un linguaggio che sostanzialmente è un'estensione di [JSON Schema](https://json-schema.org/) e si ha automaticamente un servizio REST che fa tutte le operazioni CRUD sul database. Se poi si vogliono definire funzioni custom si possono creare degli hook a vari livelli dell'architettura, oppure dei middleware in stile Express.
 
@@ -21,9 +21,10 @@ Un esempio? Questo è il codice necessario a definire una relazione uno-a-molti 
     "todos": {
       "type": "hasMany",
       "model": "Todo",
-      "foreignKey": "todoListId",
-      "primaryKey": "id"
-    },
+      "foreignKey": "todoListId"
+    }
+  }
+}
 ```
 
 Ecco lo stesso tipo di relazione definito in Loopback 4:
@@ -79,7 +80,7 @@ La classe repository serve solo a iniettare la classe datasource.
 
 La classe controller espone tutti i metodi CRUD di base, oportunamente decorati, risultando in circa 130 righe di codice quando in Loopback 3 ne servivano 0.
 
-Parafrasando Bender, mi viene voglia di creare un Loopback tutto mio, con blackjack e squillo di lusso. Anzi, senza blackjack e squillo, ma almeno più funzionale.
+Parafrasando Bender, mi viene voglia di creare un Loopback tutto mio, con blackjack e squillo di lusso. Anzi, senza blackjack e neanche le squillo, ma almeno più funzionale.
 
 ```
 # IceOnFire
