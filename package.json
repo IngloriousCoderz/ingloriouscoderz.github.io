@@ -6,7 +6,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "deploy": "git subtree push --prefix out origin master"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "react-dom": "^16.5.2",
     "react-markdown": "^4.0.2",
     "react-simple-chatbot": "^0.3.7",
-    "styled-components": "^3.4.10"
+    "styled-components": "^3.4.10",
+    "sw-precache-webpack-plugin": "^0.11.5"
   }
 }

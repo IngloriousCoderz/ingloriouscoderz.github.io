@@ -60,6 +60,10 @@ const Header = () => (
         z-index: 1000;
       }
 
+      header > h1 {
+        margin: 0;
+      }
+
       header > h1 > a {
         color: #666;
         display: grid;

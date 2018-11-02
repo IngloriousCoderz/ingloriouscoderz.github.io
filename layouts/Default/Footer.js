@@ -1,30 +1,23 @@
+import ExtLink from '../../components/ExtLink'
+
 const Footer = () => (
   <footer>
     <p>
-      <a
-        href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
-        target="_blank"
-        rel="noopener noreferrer">
+      <ExtLink to="https://creativecommons.org/licenses/by-nc-nd/4.0/">
         <img
           alt="Licenza Creative Commons"
           src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"
         />
-      </a>{' '}
+      </ExtLink>{' '}
       The{' '}
-      <a
-        href="https://github.com/IngloriousCoderz"
-        target="_blank"
-        rel="noopener noreferrer">
+      <ExtLink to="https://github.com/IngloriousCoderz">
         Inglorious Coderz
-      </a>{' '}
+      </ExtLink>{' '}
       website is distributed with License{' '}
-      <a
-        href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
-        target="_blank"
-        rel="noopener noreferrer">
+      <ExtLink to="https://creativecommons.org/licenses/by-nc-nd/4.0/">
         Creative Commons Attribution - NonCommercial - NoDerivatives 4.0
         International
-      </a>
+      </ExtLink>
       .
     </p>
 

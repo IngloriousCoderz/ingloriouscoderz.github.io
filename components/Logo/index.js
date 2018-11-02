@@ -1,8 +1,6 @@
 import { Component } from 'react'
 
-import I from './I.svg'
 import eye from './eye.svg'
-import C from './C.svg'
 
 const MAX_HEAD_TILT_X = 400
 const MAX_HEAD_TILT_Y = 400
@@ -12,6 +10,8 @@ class Logo extends Component {
     transform: `scaleY(1.2) translateZ(${-this.props.size}px) rotateX(-40deg)
   rotateY(-45deg)`,
   }
+
+  logo = React.createRef()
 
   onMouseMove = event => {
     const { clientX, clientY } = event
@@ -35,7 +35,7 @@ class Logo extends Component {
   }
 
   componentDidMount() {
-    const { x, width, y, height } = this.logo.getBoundingClientRect()
+    const { x, width, y, height } = this.logo.current.getBoundingClientRect()
     this.center = {
       x: x + width / 2,
       y: y + height / 2,
@@ -49,18 +49,19 @@ class Logo extends Component {
   }
 
   render() {
-    const { size } = this.props
+    const { size, letters = 'IC' } = this.props
     const { transform } = this.state
+    const [left, right] = letters
 
     return (
-      <div className="logo" ref={el => (this.logo = el)}>
+      <div className="logo" ref={this.logo}>
         <div className="cube">
           <div className="cube__face cube__face--front">
-            <img src={I} />
+            <img src={require(`./${left}.svg`)} />
             <img src={eye} />
           </div>
           <div className="cube__face cube__face--right">
-            <img src={C} />
+            <img src={require(`./${right}.svg`)} />
           </div>
         </div>
 

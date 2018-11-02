@@ -11,7 +11,6 @@ const Layout = ({ isHome = false, children }) => (
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        key="viewport"
       />
     </Head>
 
@@ -95,7 +94,10 @@ const Layout = ({ isHome = false, children }) => (
         font-family: 'Ethnocentric';
         font-weight: normal;
         color: #98c379;
-        margin: 0;
+      }
+
+      p {
+        margin-top: 0;
       }
     `}</style>
 
