@@ -1,6 +1,7 @@
 import App, { Container } from 'next/app'
+import { withNamespaces } from 'react-i18next'
 
-export default class MyApp extends App {
+class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
     let pageProps = {}
 
@@ -34,3 +35,5 @@ export default class MyApp extends App {
     )
   }
 }
+
+export default withNamespaces()(MyApp)

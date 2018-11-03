@@ -1,8 +1,11 @@
 import Link from 'next/link'
+import { withI18n } from 'react-i18next'
 
 import wallpaper from './metal-wallpaper.jpg'
 import Logo from '../../components/Logo'
 import Button from '../../components/Button'
+
+import i18n from '../../utils/i18n'
 
 const links = [
   // { id: 'uh', title: 'Uh?' },
@@ -25,8 +28,13 @@ const links = [
   },
 ]
 
-const Header = () => (
+const Header = ({ t }) => (
   <header>
+    <div>
+      <button onClick={() => i18n.changeLanguage('it')}>it</button>
+      <button onClick={() => i18n.changeLanguage('en')}>en</button>
+    </div>
+
     <h1>
       <Link href="/">
         <a>
@@ -38,8 +46,9 @@ const Header = () => (
     </h1>
 
     <p>
-      A fistful of heroes striving to create a better world through better
-      software.
+      {t(
+        'A fistful of heroes striving to create a better world through better software.',
+      )}
     </p>
 
     <nav>
@@ -92,4 +101,4 @@ const Header = () => (
   </header>
 )
 
-export default Header
+export default withI18n()(Header)

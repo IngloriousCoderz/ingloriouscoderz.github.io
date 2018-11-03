@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import { withI18n } from 'react-i18next'
 
-const Button = ({ id, href, title, target, rel }) => (
+const Button = ({ id, href, title, target, rel, t }) => (
   <Link href={href || `/${id}`} prefetch>
     <a target={target} rel={rel}>
-      {title}
+      {t(title)}
       <style jsx>{`
         a {
           flex: 1;
@@ -22,4 +23,4 @@ const Button = ({ id, href, title, target, rel }) => (
   </Link>
 )
 
-export default Button
+export default withI18n()(Button)
