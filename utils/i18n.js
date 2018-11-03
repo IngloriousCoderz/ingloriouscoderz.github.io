@@ -17,6 +17,7 @@ i18n
     lng: 'it',
     fallbackLng: 'en',
 
+    nsSeparator: false,
     keySeparator: false,
     interpolation: { escapeValue: false },
 

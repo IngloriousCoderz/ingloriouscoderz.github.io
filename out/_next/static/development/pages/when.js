@@ -17403,67 +17403,75 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _layouts_Default__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layouts/Default */ "./layouts/Default/index.js");
+/* harmony import */ var react_i18next__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-i18next */ "./node_modules/react-i18next/dist/es/index.js");
+/* harmony import */ var _layouts_Default__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layouts/Default */ "./layouts/Default/index.js");
 var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/when.js";
 
 
 
+
 var When = function When() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_Default__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_Default__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, "When"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_i18next__WEBPACK_IMPORTED_MODULE_1__["Trans"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "When"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
   }, "In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 15
     },
     __self: this
   }, "Startups"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 17
     },
     __self: this
   }, "An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 27
     },
     __self: this
   }, "Small businesses"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 29
     },
     __self: this
   }, "As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 40
     },
     __self: this
   }, "Big companies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 42
     },
     __self: this
-  }, "Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz."));
+  }, "Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (When);
@@ -17496,7 +17504,7 @@ var When = function When() {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ({"A fistful of heroes striving to create a better world through better software.":"A fistful of heroes striving to create a better world through better software.", "Why":"Why", "Who":"Who", "How":"How", "What":"What", "When":"When", "Where":"Where", "Blog":"Blog", "Github":"Github", "<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.":"<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License."});
+module.exports = ({"A fistful of heroes striving to create a better world through better software.":"A fistful of heroes striving to create a better world through better software.", "Why":"Why", "Who":"Who", "How":"How", "What":"What", "When":"When", "Where":"Where", "Blog":"Blog", "Github":"Github", "<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.":"<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.", "<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>":"<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>"});
 
 /***/ }),
 
@@ -17507,7 +17515,7 @@ module.exports = ({"A fistful of heroes striving to create a better world throug
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ({"A fistful of heroes striving to create a better world through better software.":"Un manipolo di eroi che tenta di creare un mondo migliore attraverso software migliore.", "Why":"Perché", "Who":"Chi", "How":"Come", "What":"Cosa", "When":"Quando", "Where":"Dove", "Blog":"Blog", "Github":"Github", "<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.":"<0><0></0></0> Il sito degli <4>Inglorious Coderz</4> è distribuito con Licenza Pubblica <8>Creative Commons Attribuzione-Non commerciale-NonOpereDerivate 4.0 Internazionale</8>."});
+module.exports = ({"A fistful of heroes striving to create a better world through better software.":"Un manipolo di eroi che tenta di creare un mondo migliore attraverso software migliore.", "Why":"Perché", "Who":"Chi", "How":"Come", "What":"Cosa", "When":"Quando", "Where":"Dove", "Blog":"Blog", "Github":"Github", "<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.":"<0><0></0></0> Il sito degli <4>Inglorious Coderz</4> è distribuito con Licenza Pubblica <8>Creative Commons Attribuzione-Non commerciale-NonOpereDerivate 4.0 Internazionale</8>.", "<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>":"<0>Quando</0><1>In ogni fase del ciclo di vita della tua azienda, gli Inglorious Coderz sono lì per essere i tuoi perfetti alleati tecnologici.</1><2>Startup</2><3>Un'idea fantastica è il punto di partenza per la tua attività, ma poi devi costruire il prodotto vero e proprio. È a questo punto che ti rendi conto che stai davvero mettendo il tuo futuro nelle mani di qualcun altro. Assicurati solo che la persona su cui stai facendo affidamento sia in grado di sviluppare una solida base per il tuo prodotto. Gli Inglorious Coderz possono aiutarti in molti modi, dalla valutazione delle abilità del tuo CTO al mentoring dei tuoi sviluppatori, fino ad assumere il ruolo del tuo primo CTO.</3><4>Piccole imprese</4><5>In qualità di piccola impresa sai che hai bisogno di una presenza online. Inoltre, ti ritrovi a perdere troppo tempo facendo piccoli compiti a mano ogni giorno? È un segnale che hai bisogno di un po' di automazione nella tua vita lavorativa. Gli Inglorious Coderz sono in grado di fornirti soluzioni costruite da zero in modo che siano adattate alle tue esigenze e solo alle tue. I siti web sono incredibilmente veloci perché non si basano su CMS come Wordpress e hanno un design unico perché non sono costruiti da template. Software di gestione, app mobile e applicazioni web fanno esattamente ciò di cui hai bisogno, ma meglio.</5><6>Grandi aziende</6><7>Essendo nel settore già da un po', sai già come funziona la consulenza IT: ti ritrovi a pagare per un senior per ottenere un junior che ha mentito sul suo CV. Non sarebbe meglio assumere persone e mantenere il know-how all'interno? Decisamente. Ma poi, chi li addestrerà? Chi darà loro le best practice e gli standard da seguire? Chi affronterà quei problemi difficili che i tuoi sviluppatori non riescono o non hanno tempo di risolvere? La risposta a tutti e tre è: Inglorious Coderz.</7>"});
 
 /***/ }),
 
@@ -17544,6 +17552,7 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"].use(i18next_browser_languagedete
   },
   lng: 'it',
   fallbackLng: 'en',
+  nsSeparator: false,
   keySeparator: false,
   interpolation: {
     escapeValue: false
@@ -17554,7 +17563,7 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"].use(i18next_browser_languagedete
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*****************************!*\
   !*** multi ./pages/when.js ***!
   \*****************************/
@@ -17579,5 +17588,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=when.js.map
