@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{310:function(n,e,t){__NEXT_REGISTER_PAGE("/who",function(){return n.exports=t(311),{page:n.exports.default}})},311:function(n,e,t){"use strict";t.r(e);var o=t(0),u=t.n(o),a=t(12);e.default=function(){return u.a.createElement(a.a,null,u.a.createElement("h2",null,"Who"))}}},[[310,1,0]]]);
