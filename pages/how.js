@@ -1,9 +1,7 @@
-import Layout from '../layouts/Default'
+import Layout from '~/layouts/default'
 
-const How = () => (
+export default () => (
   <Layout>
     <h2>How</h2>
   </Layout>
 )
-
-export default How

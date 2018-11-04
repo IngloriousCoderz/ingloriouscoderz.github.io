@@ -1,8 +1,8 @@
 import { Trans } from 'react-i18next'
 
-import Layout from '../layouts/Default'
+import Layout from '~/layouts/default'
 
-const When = () => (
+export default () => (
   <Layout>
     <Trans>
       <h2>When</h2>
@@ -51,5 +51,3 @@ const When = () => (
     </Trans>
   </Layout>
 )
-
-export default When

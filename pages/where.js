@@ -1,11 +1,9 @@
-import Layout from '../layouts/Default'
+import Layout from '~/layouts/default'
 
-const Where = () => (
+export default () => (
   <Layout>
     <h2>Where</h2>
 
     <p>The Inglorious Headquarters are based in Turin, Italy.</p>
   </Layout>
 )
-
-export default Where

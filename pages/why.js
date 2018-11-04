@@ -1,11 +1,7 @@
-import Layout from '../layouts/Default'
+import Layout from '~/layouts/default'
 
-const Why = () => (
+export default () => (
   <Layout>
     <h2>Why</h2>
-
-    <p>Because.</p>
   </Layout>
 )
-
-export default Why

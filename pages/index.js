@@ -1,12 +1,12 @@
 import Link from 'next/link'
 
-import Layout from '../layouts/Default'
-// import Logo from '../components/Logo'
-import Chat from '../components/Chat'
+import Layout from '~/layouts/default'
+// import Logo from '~/components/logo'
+import Chat from '~/components/chat'
 
-const LOGO_SIZE = 320
+// const LOGO_SIZE = 320
 
-const Index = () => (
+export default () => (
   <Layout isHome={true}>
     {/* <div className="logo-container">
       <Logo size={LOGO_SIZE} />
@@ -45,5 +45,3 @@ const Index = () => (
     `}</style>
   </Layout>
 )
-
-export default Index

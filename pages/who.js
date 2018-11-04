@@ -1,9 +1,7 @@
-import Layout from '../layouts/Default'
+import Layout from '~/layouts/default'
 
-const Who = () => (
+export default () => (
   <Layout>
     <h2>Who</h2>
   </Layout>
 )
-
-export default Who

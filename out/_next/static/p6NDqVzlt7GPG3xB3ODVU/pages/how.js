@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{439:function(n,e,t){__NEXT_REGISTER_PAGE("/how",function(){return n.exports=t(440),{page:n.exports.default}})},440:function(n,e,t){"use strict";t.r(e);var o=t(0),u=t.n(o),a=t(8);e.default=function(){return u.a.createElement(a.a,null,u.a.createElement("h2",null,"How"))}}},[[439,1,0]]]);
