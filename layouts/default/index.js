@@ -96,6 +96,14 @@ export default ({ children }) => (
         color: #98c379;
       }
 
+      @media (max-width: 640px) {
+        h1,
+        h2,
+        h3 {
+          font-size: 1rem;
+        }
+      }
+
       p {
         margin-top: 0;
       }

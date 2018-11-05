@@ -89,12 +89,6 @@ export default withI18n()(({ t }) => (
         grid-template-columns: 4fr 1fr 4fr;
       }
 
-      @media (max-width: 640px) {
-        header > h1 > a {
-          font-size: 1rem;
-        }
-      }
-
       header > p {
         text-align: center;
         margin: 0.5rem;

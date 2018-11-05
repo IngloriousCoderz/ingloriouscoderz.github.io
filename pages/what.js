@@ -144,7 +144,7 @@ export default () => (
         </div>
       </section>
 
-      <h2>GJC Website</h2>
+      <h2>GiadaJoeyCazzola.com</h2>
 
       <section>
         <img
