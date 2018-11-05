@@ -4,7 +4,7 @@ import wallpaper from '~/static/images/metal-wallpaper.jpg'
 import Header from './header'
 import Footer from './footer'
 
-export default ({ hasBackground = true, children }) => (
+export default ({ children }) => (
   <div className="layout">
     <Head>
       <title>Inglorious Coderz</title>
@@ -16,7 +16,7 @@ export default ({ hasBackground = true, children }) => (
 
     <Header />
 
-    <div className={hasBackground ? 'card card-1' : null}>{children}</div>
+    {children}
 
     <Footer />
 

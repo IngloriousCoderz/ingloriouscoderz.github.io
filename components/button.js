@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import { withI18n } from 'react-i18next'
 
-const Button = ({ id, href, target, rel, title, t }) => (
-  <a href={href || `/${id}`} target={target} rel={rel}>
-    {t(title)}
+const Button = ({ id, href, target, rel, onClick, title, children, t }) => (
+  <a href={href || `/${id}`} target={target} rel={rel} onClick={onClick}>
+    {t(title || children)}
     <style jsx>{`
       a {
         flex: 1;
@@ -22,8 +22,8 @@ const Button = ({ id, href, target, rel, title, t }) => (
 )
 
 export default withI18n()(props => {
-  const { id, href, target } = props
-  return target ? (
+  const { id, href, target, onClick } = props
+  return target || onClick ? (
     Button(props)
   ) : (
     <Link prefetch href={href || `/${id}`}>

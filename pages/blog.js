@@ -6,6 +6,8 @@ import { withI18n } from 'react-i18next'
 import { compose } from '~/utils/compose'
 import i18n from '~/utils/i18n'
 import Layout from '~/layouts/default'
+import ExtLink from '~/components/ext-link'
+import Pre from '~/components/pre'
 
 const enhance = compose(
   withPostsFilterBy(inCategory('blog')),
@@ -19,10 +21,17 @@ export default enhance(({ posts, t }) => (
         <time dateTime={post.data.date}>
           {new Date(post.data.date).toLocaleDateString(i18n.language)}
         </time>
-        <Content {...post} excerpt />
+        <Content
+          {...post}
+          excerpt
+          renderers={{
+            a: ExtLink,
+            pre: Pre,
+          }}
+        />
         <p className="read-more">
           <Link href={post.data.url}>
-            <a>{t('read more...')}</a>
+            <a>{t('read more›')}</a>
           </Link>
         </p>
       </article>
@@ -38,6 +47,7 @@ export default enhance(({ posts, t }) => (
 
       article > .read-more {
         text-align: right;
+        margin-bottom: 0;
       }
     `}</style>
   </Layout>

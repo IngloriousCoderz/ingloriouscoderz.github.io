@@ -2,6 +2,8 @@ import Layout from '~/layouts/default'
 
 export default () => (
   <Layout>
-    <h2>Who</h2>
+    <article className="card card-1">
+      <h1>Who</h1>
+    </article>
   </Layout>
 )

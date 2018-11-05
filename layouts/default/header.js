@@ -17,7 +17,7 @@ const links = [
   // { id: 'help', title: 'Help' },
   // { id: 'so', title: 'So?' },
   // { id: 'yuk', title: 'Yuk' },
-  { id: 'blog', title: 'Blog' },
+  { id: 'blog', title: 'Blog', target: '_self' },
   {
     id: 'github',
     title: 'Github',
@@ -27,11 +27,16 @@ const links = [
   },
 ]
 
+const changeLanguage = language => event => {
+  event.preventDefault()
+  i18n.changeLanguage(language)
+}
+
 export default withI18n()(({ t }) => (
   <header>
-    <div>
-      <button onClick={() => i18n.changeLanguage('it')}>it</button>
-      <button onClick={() => i18n.changeLanguage('en')}>en</button>
+    <div className="languages">
+      <Button onClick={changeLanguage('it')}>it</Button>
+      <Button onClick={changeLanguage('en')}>en</Button>
     </div>
 
     <h1>
@@ -66,6 +71,10 @@ export default withI18n()(({ t }) => (
         position: sticky;
         top: 0;
         z-index: 1000;
+      }
+
+      header > .languages {
+        text-align: right;
       }
 
       header > h1 {

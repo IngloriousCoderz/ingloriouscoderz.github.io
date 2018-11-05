@@ -2,8 +2,10 @@ import Layout from '~/layouts/default'
 
 export default () => (
   <Layout>
-    <h2>Where</h2>
+    <article className="card card-1">
+      <h1>Where</h1>
 
-    <p>The Inglorious Headquarters are based in Turin, Italy.</p>
+      <p>The Inglorious Headquarters are based in Turin, Italy.</p>
+    </article>
   </Layout>
 )

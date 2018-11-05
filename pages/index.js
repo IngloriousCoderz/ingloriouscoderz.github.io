@@ -7,14 +7,14 @@ import Chat from '~/components/chat'
 // const LOGO_SIZE = 320
 
 export default () => (
-  <Layout hasBackground={false}>
+  <Layout>
     {/* <div className="logo-container">
       <Logo size={LOGO_SIZE} />
     </div> */}
 
-    <div className="chat">
+    <article className="chat">
       <Chat />
-    </div>
+    </article>
 
     <style jsx global>{`
       .rsc,

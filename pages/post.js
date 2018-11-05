@@ -7,7 +7,7 @@ import Pre from '~/components/pre'
 
 export default withPost(({ post }) => {
   return (
-    <Layout hasBackground={false}>
+    <Layout>
       <article className="card card-1">
         <h1>{post.data.title}</h1>
         <time dateTime={post.data.date}>
