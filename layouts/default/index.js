@@ -4,7 +4,7 @@ import wallpaper from '~/static/images/metal-wallpaper.jpg'
 import Header from './header'
 import Footer from './footer'
 
-export default ({ isHome = false, children }) => (
+export default ({ hasBackground = true, children }) => (
   <div className="layout">
     <Head>
       <title>Inglorious Coderz</title>
@@ -16,7 +16,7 @@ export default ({ isHome = false, children }) => (
 
     <Header />
 
-    <div className="content">{children}</div>
+    <div className={hasBackground ? 'card card-1' : null}>{children}</div>
 
     <Footer />
 
@@ -113,6 +113,28 @@ export default ({ isHome = false, children }) => (
         word-break: break-all;
         word-wrap: break-word;
       }
+
+      code {
+        font-size: 14px;
+        color: #abb2bf;
+        background: #282c34;
+      }
+
+      .card {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background-color: rgba(40, 44, 52, 0.5);
+      }
+
+      .card-1 {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      }
+
+      .card-1:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.22);
+      }
     `}</style>
 
     <style jsx>{`
@@ -120,11 +142,6 @@ export default ({ isHome = false, children }) => (
         height: 100%;
         display: grid;
         grid-template-rows: auto 1fr auto;
-      }
-
-      .content {
-        padding: ${isHome ? 0 : '1rem'};
-        background-color: ${isHome ? 'transparent' : 'rgba(40, 44, 52, 0.5)'};
       }
     `}</style>
   </div>

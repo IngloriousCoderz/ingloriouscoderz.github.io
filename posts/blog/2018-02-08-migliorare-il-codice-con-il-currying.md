@@ -5,7 +5,7 @@ author: Giosk
 
 Oggi mi sono trovato davanti a un problema a prima vista molto semplice da realizzare, ma il cui risultato si è rivelato orribile e per niente ottimale.
 Il problema si descrive molto facilmente in linguaggio naturale "calcolare la differenza tra due liste A e B".
-Facile no? A prima vista sì, ma scendendo nel tecnico si è rivelato un po' più ostico del previsto, perché le mie due liste erano composte da oggetti, ognuno con più di un parametro e una chiave generata in modo randomico, quindi il problema andrebbe riformulato come ""calcolare la differenza tra due liste di oggetti A e B basandosi su uno dei suoi parametri"".
+Facile no? A prima vista sì, ma scendendo nel tecnico si è rivelato un po' più ostico del previsto, perché le mie due liste erano composte da oggetti, ognuno con più di un parametro e una chiave generata in modo randomico, quindi il problema andrebbe riformulato come "calcolare la differenza tra due liste di oggetti A e B basandosi su uno dei suoi parametri".
 
 Parlando in JavaScript:
 

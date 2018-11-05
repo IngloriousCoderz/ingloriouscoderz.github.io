@@ -7,7 +7,7 @@ import Chat from '~/components/chat'
 // const LOGO_SIZE = 320
 
 export default () => (
-  <Layout isHome={true}>
+  <Layout hasBackground={false}>
     {/* <div className="logo-container">
       <Logo size={LOGO_SIZE} />
     </div> */}

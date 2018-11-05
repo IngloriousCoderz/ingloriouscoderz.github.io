@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{651:function(n,e,t){__NEXT_REGISTER_PAGE("/why",function(){return n.exports=t(652),{page:n.exports.default}})},652:function(n,e,t){"use strict";t.r(e);var u=t(0),a=t.n(u),r=t(8);e.default=function(){return a.a.createElement(r.a,null,a.a.createElement("h2",null,"Why"))}}},[[651,1,0]]]);
