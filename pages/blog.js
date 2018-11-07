@@ -17,7 +17,7 @@ export default enhance(({ posts, t }) => (
   <Layout hasBackground={false}>
     {posts.sort(sortByDate).map((post, index) => (
       <article key={`post-${index}`} className="card card-1">
-        <h2>{post.data.title}</h2>
+        <h1>{post.data.title}</h1>
         <time dateTime={post.data.date}>
           {new Date(post.data.date).toLocaleDateString(i18n.language)}
         </time>

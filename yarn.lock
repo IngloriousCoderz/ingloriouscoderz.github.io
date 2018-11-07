@@ -3814,6 +3814,13 @@ hoist-non-react-statics@3.0.1:
   dependencies:
     react-is "^16.3.2"
 
+hoist-non-react-statics@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.1.0.tgz#42414ccdfff019cd2168168be998c7b3bd5245c0"
+  integrity sha512-MYcYuROh7SBM69xHGqXEwQqDux34s9tz+sCnxJmN18kgWh6JFdTw/5YdZtqsOdZJXddE/wUpCzfEdDrJj8p0Iw==
+  dependencies:
+    react-is "^16.3.2"
+
 hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
@@ -5463,16 +5470,16 @@ next@^7.0.1:
     webpackbar "2.6.3"
     write-file-webpack-plugin "4.3.2"
 
-nextein@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/nextein/-/nextein-2.0.0.tgz#94008c295cea5dd617934db0df2b26e53f71c64e"
-  integrity sha512-d4LJJL9hkS8NbeDEyhQ6Hn2Gti+3Dhosi2Io7YUwTuQQIRTpEzNXPhAkIfQX172ZzaxzqF1OKlHSuqnoKF4dCg==
+nextein@^2.1.0-beta.0:
+  version "2.1.0-beta.0"
+  resolved "https://registry.yarnpkg.com/nextein/-/nextein-2.1.0-beta.0.tgz#d18e77579ed33e58c91c93f0e3b86cefd8f3c636"
+  integrity sha512-/lMzd3gW/4YCKQFw5Lze63VbPivJk3Fg0BPr3IYGeZKderE8tEUPB5XUFj26w3eWqLPIPlp4RS2Wm4lQ0lekAA==
   dependencies:
     chokidar "2.0.4"
     cross-spawn "^6.0.0"
     frontmatter "0.0.3"
     glob "^7.1.2"
-    hoist-non-react-statics "3.0.1"
+    hoist-non-react-statics "3.1.0"
     minimist "^1.2.0"
     object.assign "^4.0.4"
     path-match "^1.2.4"
@@ -5482,7 +5489,7 @@ nextein@^2.0.0:
     rehype-raw "3.0.0"
     rehype-react "3.0.3"
     rehype-stringify "^4.0.0"
-    remark-parse "6.0.0"
+    remark-parse "6.0.1"
     remark-rehype "3.0.1"
     unfetch "^4.0.0"
     unified "7.0.0"
@@ -6783,10 +6790,10 @@ rehype-stringify@^4.0.0:
     hast-util-to-html "^4.0.0"
     xtend "^4.0.1"
 
-remark-parse@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-6.0.0.tgz#e199d435b47a4a4723ee1b851268d6adf069e8ce"
-  integrity sha512-AtZDKnwqOv1LM/0/V4KXmI6i3TzuXmayQNJzBRf9UBAmmKld3jWSFsMuyrniQ3KIsa3H+L+g1742/cTjMK/nCg==
+remark-parse@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-6.0.1.tgz#62bc4fc91045dbb0a9fc6900150b0404e2598e99"
+  integrity sha512-H9h8c/uafJAoVoHvIBMzWuUDxDckW7+tc60/OkstZQw6fv7qDX6ALl3A8a1G6aRrx1s4WeaF0spm4WbXHAHcOw==
   dependencies:
     collapse-white-space "^1.0.2"
     is-alphabetical "^1.0.0"

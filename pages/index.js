@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 import Layout from '~/layouts/default'
 // import Logo from '~/components/logo'
 import Chat from '~/components/chat'

@@ -1,5 +1,6 @@
 import ChatBot from 'react-simple-chatbot'
 import { ThemeProvider } from 'styled-components'
+import { withI18n } from 'react-i18next'
 
 const theme = {
   background: 'rgba(40, 44, 52, 0.5)',
@@ -7,16 +8,18 @@ const theme = {
   headerBgColor: 'transparent',
   headerFontColor: '#98c379',
   headerFontSize: '1rem',
-  botBubbleColor: 'rgba(33, 37, 43, 0.5)',
+  // botBubbleColor: 'rgba(33, 37, 43, 0.5)',
+  botBubbleColor: 'transparent',
   botFontColor: '#98c379',
-  userBubbleColor: 'rgba(33, 37, 43, 0.5)',
+  // userBubbleColor: 'rgba(33, 37, 43, 0.5)',
+  userBubbleColor: 'transparent',
   userFontColor: '#bbb',
 }
 
-export default () => (
+export default withI18n()(({ t }) => (
   <ThemeProvider theme={theme}>
     <ChatBot
-      bubbleStyle={{ fontSize: '1rem' }}
+      bubbleStyle={{ fontSize: '1rem', boxShadow: 'none' }}
       hideBotAvatar={true}
       hideHeader={true}
       hideUserAvatar={true}
@@ -25,12 +28,12 @@ export default () => (
         color: '#bbb',
         borderRadius: 0,
       }}
-      placeholder="Ask me anything..."
+      placeholder={t('Ask me anything...')}
       style={{ width: '100%', borderRadius: 0 }}
       steps={[
         {
           id: 'knock-knock',
-          message: 'Knock knock.',
+          message: t('Knock knock.'),
           trigger: 'who-s-there',
         },
         {
@@ -40,13 +43,14 @@ export default () => (
         },
         {
           id: 'it-s-me',
-          message:
+          message: t(
             "Hey it's me, ICBot. You followed the white rabbit and found us. Good for you.",
+          ),
           trigger: 'ask-me',
         },
         {
           id: 'ask-me',
-          message: 'Feel free to ask me anything about Inglorious Coderz.', //, I'll do my best to reply accordingly.",
+          message: t('Feel free to ask me anything about Inglorious Coderz.'), //, I'll do my best to reply accordingly.",
           trigger: 'question',
         },
         {
@@ -56,22 +60,23 @@ export default () => (
         },
         {
           id: 'response',
-          message: 'I said you could ask me, not that I would answer :P',
+          message: t('I said you could ask, not that I would answer :P'),
           trigger: 'jokes-aside',
         },
         {
           id: 'jokes-aside',
-          message:
+          message: t(
             'Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!',
+          ),
           end: true,
           // trigger: 'want-to-know-else',
         },
         {
           id: 'want-to-know-else',
-          message: 'Want to know anything else?',
+          message: t('Want to know anything else?'),
           trigger: 'question',
         },
       ]}
     />
   </ThemeProvider>
-)
+))

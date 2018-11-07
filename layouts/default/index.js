@@ -16,7 +16,7 @@ export default ({ children }) => (
 
     <Header />
 
-    {children}
+    <main>{children}</main>
 
     <Footer />
 
@@ -59,6 +59,7 @@ export default ({ children }) => (
       body,
       #__next {
         height: 100%;
+        margin: 0;
       }
 
       html {
@@ -69,9 +70,6 @@ export default ({ children }) => (
       }
 
       body {
-        // max-width: 38rem;
-        max-width: 1024px;
-        margin: 0 auto;
         background: black;
         background-image: url(${wallpaper});
         background-position-x: center;
@@ -85,7 +83,7 @@ export default ({ children }) => (
 
       a:hover {
         filter: brightness(125%);
-        text-decoration: underline;
+        // text-decoration: underline;
       }
 
       h1,
@@ -147,6 +145,8 @@ export default ({ children }) => (
 
     <style jsx>{`
       .layout {
+        max-width: 1024px;
+        margin: 0 auto;
         height: 100%;
         display: grid;
         grid-template-rows: auto 1fr auto;

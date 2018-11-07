@@ -17,7 +17,7 @@ const links = [
   // { id: 'help', title: 'Help' },
   // { id: 'so', title: 'So?' },
   // { id: 'yuk', title: 'Yuk' },
-  { id: 'blog', title: 'Blog', target: '_self' },
+  { id: 'blog', title: 'Blog' }, //, target: '_self' },
   {
     id: 'github',
     title: 'Github',
@@ -42,9 +42,15 @@ export default withI18n()(({ t }) => (
     <h1>
       <Link href="/">
         <a>
-          <span>Inglorious</span>
+          <div>
+            <span>Inglorious</span>
+            <span className="shade">&nbsp;</span>
+          </div>
           <Logo size={64} />
-          <span>Coderz</span>
+          <div>
+            <span>Coderz</span>
+            <span className="shade">&nbsp;</span>
+          </div>
         </a>
       </Link>
     </h1>
@@ -87,6 +93,25 @@ export default withI18n()(({ t }) => (
         justify-items: center;
         align-items: center;
         grid-template-columns: 4fr 1fr 4fr;
+      }
+
+      .shade {
+        position: relative;
+        margin: -1.5rem 0 0;
+        padding: 0;
+        display: block;
+        background: #111;
+        width: 100%;
+        height: 1.5rem;
+        opacity: 0.25;
+        text-align: center;
+      }
+
+      @media (max-width: 640px) {
+        .shade {
+          margin: -0.75rem 0 0;
+          height: 1rem;
+        }
       }
 
       header > p {

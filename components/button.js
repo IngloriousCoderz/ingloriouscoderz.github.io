@@ -13,10 +13,6 @@ const Button = ({ id, href, target, rel, onClick, title, children, t }) => (
         padding: 0.25rem;
         text-transform: uppercase;
       }
-
-      a:hover {
-        text-decoration: none;
-      }
     `}</style>
   </a>
 )
