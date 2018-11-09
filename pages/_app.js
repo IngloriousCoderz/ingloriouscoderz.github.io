@@ -4,6 +4,7 @@ import withGA from 'next-ga'
 import { withNamespaces } from 'react-i18next'
 
 import { compose } from '~/utils/compose'
+import '~/static/style.css'
 
 const enhance = compose(
   withGA(process.env.NEXT_STATIC_GA_TRACKING_ID, Router),

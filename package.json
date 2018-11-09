@@ -25,7 +25,7 @@
     "next-env": "^1.0.1",
     "next-ga": "^2.3.3",
     "next-optimized-images": "^1.4.1",
-    "nextein": "^2.1.0-beta.0",
+    "nextein": "^2.1.0-beta.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-i18next": "^8.3.5",

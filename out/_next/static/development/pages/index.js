@@ -11746,12 +11746,12 @@ module.exports = __webpack_require__(/*! ./dist/lib/link */ "./node_modules/next
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_10edf27d814a728d21af ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_ecba6b44147cc8018369 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_10edf27d814a728d21af */ "dll-reference dll_10edf27d814a728d21af"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ecba6b44147cc8018369 */ "dll-reference dll_ecba6b44147cc8018369"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -12394,12 +12394,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_10edf27d814a728d21af ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_ecba6b44147cc8018369 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_10edf27d814a728d21af */ "dll-reference dll_10edf27d814a728d21af"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ecba6b44147cc8018369 */ "dll-reference dll_ecba6b44147cc8018369"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -13007,12 +13007,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_10edf27d814a728d21af ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_ecba6b44147cc8018369 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_10edf27d814a728d21af */ "dll-reference dll_10edf27d814a728d21af"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ecba6b44147cc8018369 */ "dll-reference dll_ecba6b44147cc8018369"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -13274,13 +13274,6 @@ function (_Component) {
   }
 
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(I18nextProvider, [{
-    key: "componentWillReceiveProps",
-    value: function componentWillReceiveProps(nextProps) {
-      if (this.props.i18n !== nextProps.i18n) {
-        throw new Error('[react-i18next][I18nextProvider]does not support changing the i18n object.');
-      }
-    }
-  }, {
     key: "render",
     value: function render() {
       var _this$props = this.props,
@@ -14974,7 +14967,7 @@ module.exports = hoistNonReactStatics;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.6.0
+/** @license React v16.6.1
  * react-is.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -15004,6 +14997,7 @@ var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeac
 var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
 var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
 var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace;
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
 var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
 var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
 var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
@@ -15078,6 +15072,7 @@ function typeOf(object) {
         var type = object.type;
 
         switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
           case REACT_CONCURRENT_MODE_TYPE:
           case REACT_FRAGMENT_TYPE:
           case REACT_PROFILER_TYPE:
@@ -15103,8 +15098,8 @@ function typeOf(object) {
   return undefined;
 }
 
-// AsyncMode alias is deprecated along with isAsyncMode
-var AsyncMode = REACT_CONCURRENT_MODE_TYPE;
+// AsyncMode is deprecated along with isAsyncMode
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
 var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
 var ContextConsumer = REACT_CONTEXT_TYPE;
 var ContextProvider = REACT_PROVIDER_TYPE;
@@ -15125,7 +15120,7 @@ function isAsyncMode(object) {
       lowPriorityWarning$1(false, 'The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
     }
   }
-  return isConcurrentMode(object);
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
 }
 function isConcurrentMode(object) {
   return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
@@ -15213,12 +15208,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_10edf27d814a728d21af ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_ecba6b44147cc8018369 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_10edf27d814a728d21af */ "dll-reference dll_10edf27d814a728d21af"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ecba6b44147cc8018369 */ "dll-reference dll_ecba6b44147cc8018369"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -21909,7 +21904,7 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"].use(i18next_browser_languagedete
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -21923,16 +21918,16 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_10edf27d814a728d21af":
+/***/ "dll-reference dll_ecba6b44147cc8018369":
 /*!*******************************************!*\
-  !*** external "dll_10edf27d814a728d21af" ***!
+  !*** external "dll_ecba6b44147cc8018369" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_10edf27d814a728d21af;
+module.exports = dll_ecba6b44147cc8018369;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[6,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map
