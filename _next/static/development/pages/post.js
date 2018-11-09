@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/blog.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/post.js"],{
 
 /***/ "./components/button.js":
 /*!******************************!*\
@@ -39462,123 +39462,6 @@ exports.default = function (WrappedComponent) {
 
 /***/ }),
 
-/***/ "./node_modules/nextein/dist/components/posts.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/nextein/dist/components/posts.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.withPostsFilterBy = exports.sortByDate = exports.inCategory = exports.entries = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _hoistNonReactStatics = __webpack_require__(/*! hoist-non-react-statics */ "./node_modules/nextein/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
-
-var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
-
-var _load = __webpack_require__(/*! ../entries/load */ "./node_modules/nextein/dist/entries/load.js");
-
-var _load2 = _interopRequireDefault(_load);
-
-var _map = __webpack_require__(/*! ../entries/map */ "./node_modules/nextein/dist/entries/map.js");
-
-var _map2 = _interopRequireDefault(_map);
-
-var _utils = __webpack_require__(/*! ./utils */ "./node_modules/nextein/dist/components/utils.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var entries = exports.entries = _load2.default;
-
-var inCategory = exports.inCategory = function inCategory(category) {
-  var _ref = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
-      _ref$includeSubCatego = _ref.includeSubCategories,
-      includeSubCategories = _ref$includeSubCatego === undefined ? false : _ref$includeSubCatego;
-
-  return function (post) {
-    var data = post.data;
-    var _data$category = data.category,
-        postCategory = _data$category === undefined ? '' : _data$category;
-
-    var result = !includeSubCategories ? postCategory === category : postCategory.startsWith(category);
-
-    return category ? result : true;
-  };
-};
-
-var sortByDate = exports.sortByDate = function sortByDate(a, b) {
-  var aTime = new Date(a.data.date).getTime();
-  var bTime = new Date(b.data.date).getTime();
-  return bTime - aTime;
-};
-
-var withPostsFilterBy = exports.withPostsFilterBy = function withPostsFilterBy(filter) {
-  return function (WrappedComponent) {
-    var _class, _temp;
-
-    var displayName = (0, _utils.getDisplayName)(WrappedComponent);
-    var postfix = filter ? 'FilterBy' : '';
-
-    return (0, _hoistNonReactStatics2.default)((_temp = _class = function (_Component) {
-      _inherits(_class, _Component);
-
-      function _class() {
-        _classCallCheck(this, _class);
-
-        return _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).apply(this, arguments));
-      }
-
-      _createClass(_class, [{
-        key: 'render',
-        value: function render() {
-          return _react2.default.createElement(WrappedComponent, this.props);
-        }
-      }], [{
-        key: 'getInitialProps',
-        value: async function getInitialProps() {
-          var wrappedInitial = WrappedComponent.getInitialProps;
-          var wrapped = wrappedInitial ? await wrappedInitial.apply(undefined, arguments) : {};
-          var _entries = await (0, _load2.default)();
-          var posts = await (0, _load.byEntriesList)(filter ? _entries.filter(filter) : _entries);
-
-          return _extends({}, wrapped, {
-            posts: posts,
-            _entries: _entries,
-            _entriesMap: await (0, _map2.default)(_entries)
-          });
-        }
-      }]);
-
-      return _class;
-    }(_react.Component), _class.displayName = 'WithPosts' + postfix + '(' + displayName + ')', _temp), WrappedComponent, { 'getInitialProps': true });
-  };
-};
-
-var withPosts = withPostsFilterBy();
-
-exports.default = withPosts;
-
-/***/ }),
-
 /***/ "./node_modules/nextein/dist/components/utils.js":
 /*!*******************************************************!*\
   !*** ./node_modules/nextein/dist/components/utils.js ***!
@@ -39886,17 +39769,6 @@ module.exports = hoistNonReactStatics;
 
 module.exports = __webpack_require__(/*! ./dist/components/post */ "./node_modules/nextein/dist/components/post.js")
 
-
-/***/ }),
-
-/***/ "./node_modules/nextein/posts.js":
-/*!***************************************!*\
-  !*** ./node_modules/nextein/posts.js ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/components/posts */ "./node_modules/nextein/dist/components/posts.js")
 
 /***/ }),
 
@@ -58184,9 +58056,9 @@ function extend() {
 
 /***/ }),
 
-/***/ "./pages/blog.js":
+/***/ "./pages/post.js":
 /*!***********************!*\
-  !*** ./pages/blog.js ***!
+  !*** ./pages/post.js ***!
   \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -58197,19 +58069,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var nextein_posts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! nextein/posts */ "./node_modules/nextein/posts.js");
-/* harmony import */ var nextein_posts__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(nextein_posts__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var nextein_post__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! nextein/post */ "./node_modules/nextein/post.js");
-/* harmony import */ var nextein_post__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(nextein_post__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_i18next__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-i18next */ "./node_modules/react-i18next/dist/es/index.js");
-/* harmony import */ var _utils_compose__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/compose */ "./utils/compose.js");
-/* harmony import */ var _utils_i18n__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/i18n */ "./utils/i18n.js");
-/* harmony import */ var _layouts_default__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../layouts/default */ "./layouts/default/index.js");
-/* harmony import */ var _components_ext_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/ext-link */ "./components/ext-link.js");
-/* harmony import */ var _components_pre__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/pre */ "./components/pre.js");
-var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/blog.js";
+/* harmony import */ var nextein_post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! nextein/post */ "./node_modules/nextein/post.js");
+/* harmony import */ var nextein_post__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(nextein_post__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _utils_i18n__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/i18n */ "./utils/i18n.js");
+/* harmony import */ var _layouts_default__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../layouts/default */ "./layouts/default/index.js");
+/* harmony import */ var _components_ext_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ext-link */ "./components/ext-link.js");
+/* harmony import */ var _components_pre__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/pre */ "./components/pre.js");
+var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/post.js";
 
 
 
@@ -58220,81 +58086,49 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
-
-
-
-
-var enhance = Object(_utils_compose__WEBPACK_IMPORTED_MODULE_6__["compose"])(Object(nextein_posts__WEBPACK_IMPORTED_MODULE_3__["withPostsFilterBy"])(Object(nextein_posts__WEBPACK_IMPORTED_MODULE_3__["inCategory"])('blog')), Object(react_i18next__WEBPACK_IMPORTED_MODULE_5__["withI18n"])());
-/* harmony default export */ __webpack_exports__["default"] = (enhance(function (_ref) {
-  var posts = _ref.posts,
-      t = _ref.t;
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_layouts_default__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    hasBackground: false,
+/* harmony default export */ __webpack_exports__["default"] = (nextein_post__WEBPACK_IMPORTED_MODULE_2___default()(function (_ref) {
+  var post = _ref.post;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_layouts_default__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 10
     },
     __self: this
-  }, posts.sort(nextein_posts__WEBPACK_IMPORTED_MODULE_3__["sortByDate"]).map(function (post, index) {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
-      key: "post-".concat(index),
-      className: "jsx-2194478757" + " " + "card card-1",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-      className: "jsx-2194478757",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20
-      },
-      __self: this
-    }, post.data.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("time", {
-      dateTime: post.data.date,
-      className: "jsx-2194478757",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21
-      },
-      __self: this
-    }, new Date(post.data.date).toLocaleDateString(_utils_i18n__WEBPACK_IMPORTED_MODULE_7__["default"].language)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(nextein_post__WEBPACK_IMPORTED_MODULE_4__["Content"], _extends({}, post, {
-      excerpt: true,
-      renderers: {
-        a: _components_ext_link__WEBPACK_IMPORTED_MODULE_9__["default"],
-        pre: _components_pre__WEBPACK_IMPORTED_MODULE_10__["default"]
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 24
-      },
-      __self: this
-    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      className: "jsx-2194478757" + " " + "read-more",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: post.data.url,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-      className: "jsx-2194478757",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34
-      },
-      __self: this
-    }, t('read more›')))));
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "2194478757",
-    css: "article.jsx-2194478757>time.jsx-2194478757{display:block;margin-top:-0.5rem;margin-bottom:1rem;color:#9a9a9a;}article.jsx-2194478757>.read-more.jsx-2194478757{text-align:right;margin-bottom:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9wYWdlcy9ibG9nLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXVDZ0IsQUFHdUIsQUFPRyxjQU5FLEdBT0gsZ0JBTkcsQUFPckIsbUJBTmdCLGNBQ2hCIiwiZmlsZSI6Ii9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9wYWdlcy9ibG9nLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuaW1wb3J0IHsgd2l0aFBvc3RzRmlsdGVyQnksIGluQ2F0ZWdvcnksIHNvcnRCeURhdGUgfSBmcm9tICduZXh0ZWluL3Bvc3RzJ1xuaW1wb3J0IHsgQ29udGVudCB9IGZyb20gJ25leHRlaW4vcG9zdCdcbmltcG9ydCB7IHdpdGhJMThuIH0gZnJvbSAncmVhY3QtaTE4bmV4dCdcblxuaW1wb3J0IHsgY29tcG9zZSB9IGZyb20gJ34vdXRpbHMvY29tcG9zZSdcbmltcG9ydCBpMThuIGZyb20gJ34vdXRpbHMvaTE4bidcbmltcG9ydCBMYXlvdXQgZnJvbSAnfi9sYXlvdXRzL2RlZmF1bHQnXG5pbXBvcnQgRXh0TGluayBmcm9tICd+L2NvbXBvbmVudHMvZXh0LWxpbmsnXG5pbXBvcnQgUHJlIGZyb20gJ34vY29tcG9uZW50cy9wcmUnXG5cbmNvbnN0IGVuaGFuY2UgPSBjb21wb3NlKFxuICB3aXRoUG9zdHNGaWx0ZXJCeShpbkNhdGVnb3J5KCdibG9nJykpLFxuICB3aXRoSTE4bigpLFxuKVxuZXhwb3J0IGRlZmF1bHQgZW5oYW5jZSgoeyBwb3N0cywgdCB9KSA9PiAoXG4gIDxMYXlvdXQgaGFzQmFja2dyb3VuZD17ZmFsc2V9PlxuICAgIHtwb3N0cy5zb3J0KHNvcnRCeURhdGUpLm1hcCgocG9zdCwgaW5kZXgpID0+IChcbiAgICAgIDxhcnRpY2xlIGtleT17YHBvc3QtJHtpbmRleH1gfSBjbGFzc05hbWU9XCJjYXJkIGNhcmQtMVwiPlxuICAgICAgICA8aDE+e3Bvc3QuZGF0YS50aXRsZX08L2gxPlxuICAgICAgICA8dGltZSBkYXRlVGltZT17cG9zdC5kYXRhLmRhdGV9PlxuICAgICAgICAgIHtuZXcgRGF0ZShwb3N0LmRhdGEuZGF0ZSkudG9Mb2NhbGVEYXRlU3RyaW5nKGkxOG4ubGFuZ3VhZ2UpfVxuICAgICAgICA8L3RpbWU+XG4gICAgICAgIDxDb250ZW50XG4gICAgICAgICAgey4uLnBvc3R9XG4gICAgICAgICAgZXhjZXJwdFxuICAgICAgICAgIHJlbmRlcmVycz17e1xuICAgICAgICAgICAgYTogRXh0TGluayxcbiAgICAgICAgICAgIHByZTogUHJlLFxuICAgICAgICAgIH19XG4gICAgICAgIC8+XG4gICAgICAgIDxwIGNsYXNzTmFtZT1cInJlYWQtbW9yZVwiPlxuICAgICAgICAgIDxMaW5rIGhyZWY9e3Bvc3QuZGF0YS51cmx9PlxuICAgICAgICAgICAgPGE+e3QoJ3JlYWQgbW9yZeKAuicpfTwvYT5cbiAgICAgICAgICA8L0xpbms+XG4gICAgICAgIDwvcD5cbiAgICAgIDwvYXJ0aWNsZT5cbiAgICApKX1cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIGFydGljbGUgPiB0aW1lIHtcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgIG1hcmdpbi10b3A6IC0wLjVyZW07XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XG4gICAgICAgIGNvbG9yOiAjOWE5YTlhO1xuICAgICAgfVxuXG4gICAgICBhcnRpY2xlID4gLnJlYWQtbW9yZSB7XG4gICAgICAgIHRleHQtYWxpZ246IHJpZ2h0O1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAwO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9MYXlvdXQ+XG4pKVxuIl19 */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/blog.js */",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
+    className: "jsx-4227925460" + " " + "card card-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "jsx-4227925460",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, post.data.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("time", {
+    dateTime: post.data.date,
+    className: "jsx-4227925460",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, new Date(post.data.date).toLocaleDateString(_utils_i18n__WEBPACK_IMPORTED_MODULE_3__["default"].language)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(nextein_post__WEBPACK_IMPORTED_MODULE_2__["Content"], _extends({}, post, {
+    renderers: {
+      a: _components_ext_link__WEBPACK_IMPORTED_MODULE_5__["default"],
+      pre: _components_pre__WEBPACK_IMPORTED_MODULE_6__["default"]
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "4227925460",
+    css: "article.jsx-4227925460>time.jsx-4227925460{display:block;margin-top:-0.5rem;margin-bottom:1rem;color:#9a9a9a;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9wYWdlcy9wb3N0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCa0IsQUFHeUIsY0FDSyxtQkFDQSxtQkFDTCxjQUNoQiIsImZpbGUiOiIvaG9tZS9hbnRvbnkvUHJvZ2V0dGkvSW5nbG9yaW91cyBDb2RlcnovaW5nbG9yaW91c2NvZGVyei5naXRodWIuaW8vcGFnZXMvcG9zdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB3aXRoUG9zdCwgeyBDb250ZW50IH0gZnJvbSAnbmV4dGVpbi9wb3N0J1xuXG5pbXBvcnQgaTE4biBmcm9tICd+L3V0aWxzL2kxOG4nXG5pbXBvcnQgTGF5b3V0IGZyb20gJ34vbGF5b3V0cy9kZWZhdWx0J1xuaW1wb3J0IEV4dExpbmsgZnJvbSAnfi9jb21wb25lbnRzL2V4dC1saW5rJ1xuaW1wb3J0IFByZSBmcm9tICd+L2NvbXBvbmVudHMvcHJlJ1xuXG5leHBvcnQgZGVmYXVsdCB3aXRoUG9zdCgoeyBwb3N0IH0pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8TGF5b3V0PlxuICAgICAgPGFydGljbGUgY2xhc3NOYW1lPVwiY2FyZCBjYXJkLTFcIj5cbiAgICAgICAgPGgxPntwb3N0LmRhdGEudGl0bGV9PC9oMT5cbiAgICAgICAgPHRpbWUgZGF0ZVRpbWU9e3Bvc3QuZGF0YS5kYXRlfT5cbiAgICAgICAgICB7bmV3IERhdGUocG9zdC5kYXRhLmRhdGUpLnRvTG9jYWxlRGF0ZVN0cmluZyhpMThuLmxhbmd1YWdlKX1cbiAgICAgICAgPC90aW1lPlxuICAgICAgICA8Q29udGVudFxuICAgICAgICAgIHsuLi5wb3N0fVxuICAgICAgICAgIHJlbmRlcmVycz17e1xuICAgICAgICAgICAgYTogRXh0TGluayxcbiAgICAgICAgICAgIHByZTogUHJlLFxuICAgICAgICAgIH19XG4gICAgICAgIC8+XG4gICAgICA8L2FydGljbGU+XG5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgYXJ0aWNsZSA+IHRpbWUge1xuICAgICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgICAgIG1hcmdpbi10b3A6IC0wLjVyZW07XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMXJlbTtcbiAgICAgICAgICBjb2xvcjogIzlhOWE5YTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvTGF5b3V0PlxuICApXG59KVxuIl19 */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/post.js */",
     __self: this
   }));
 }));
@@ -58314,7 +58148,7 @@ var enhance = Object(_utils_compose__WEBPACK_IMPORTED_MODULE_6__["compose"])(Obj
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/blog")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/post")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -58350,30 +58184,6 @@ module.exports = ({"it":"it", "en":"en", "A fistful of heroes striving to create
 /***/ (function(module, exports) {
 
 module.exports = ({"it":"it", "en":"en", "A fistful of heroes striving to create a better world through better software.":"Un manipolo di eroi che tenta di creare un mondo migliore attraverso software migliore.", "Why":"Perché", "Who":"Chi", "How":"Come", "What":"Cosa", "When":"Quando", "Where":"Dove", "Blog":"Blog", "Github":"Github", "<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.":"<0><0></0></0> Il sito degli <4>Inglorious Coderz</4> è distribuito con Licenza Pubblica <8>Creative Commons Attribuzione-Non commerciale-NonOpereDerivate 4.0 Internazionale</8>.", "Ask me anything...":"Chiedimi qualcosa...", "Knock knock.":"Toc toc.", "Hey it's me, ICBot. You followed the white rabbit and found us. Good for you.":"Ehi sono io, ICBot. Hai seguito il bianconiglio e ci hai trovati. Buon per te.", "Feel free to ask me anything about Inglorious Coderz.":"Puoi chiedermi quello che vuoi sugli Inglorious Coderz.", "I said you could ask, not that I would answer :P":"Ho detto che potevi chiedere, non che avrei risposto :P", "Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!":"Scherzi a parte, un giorno sarò in grado di dirti qualcosa di significativo, ma al momento non ho nessuna IA dietro. Quindi nel frattempo dai un'occhiata in giro!", "Want to know anything else?":"Vuoi sapere altro?", "<0>What</0><1>There's no better explanation of what we do than some real use case scenarios.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> wanted to create the best invoice management system. They wanted to start with the best architecture, with the best technologies, so they hired the best people.</0><1>Four developers, one of wich was an IC, met at the Inglorious Headquarters for a total of 29 days. Together in this short period of time they:</1><2><0>defined the product (features, UX)</0><1>defined the project (technology stack, planning)</1><2>laid out an MVP</2></2><3>Two devs created the back end in <2>.NET Core</2>, while the other two developed the front end in <5>Core UI</5> for <8>React</8>. To date, the customer is continuing to develop independently, and the result looks very promising.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> is the perfect solution for your home deliveries. The key concepts are:</0><1><0>You get your package delivered at home whenever you want</0><1>You book your appointment from mobile or desktop in a simple and pleasant way</1></1><2>This is why they asked us to implement this responsive, performant, highly customizable, multi-touch <2>React</2> component. It's very difficult to build simple things, so they chose to leave the task to us. After 9 days of constant feedback the component was delivered fully tested and bug-free, along with a <5>Storybook</5> playground.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>This is actually a failure case. But, as you may know, failures are as important, if not more, than success cases.</0><1><0>PrivateGriffe</0> was suffering from performance issues on their new <4>React</4> front end and also for a bloated <7>Spring</7> back end. We solved the most crucial performance issues and gathered a task force that re-created from scratch the back end server with <10>Loopback 3</10> and the backoffice panel with <13>Core UI</13> for <16>React</16>.</1><2>Unfortunately the team performed slower than planned and the client argued with the supplier responsible for the front end, so development stopped and employees quit the company.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> wanted to hire us for a project that had to last six months. We told that they needed us for a lot less. They decided to go with two weeks for a start. After one week the project was ready for production.</0><1>Lanieri Backoffice Platform is a <2>Vue.js</2> web application backed by an <5>Express</5>/<7>MongoDB</7> server with authentication, file upload, and communication both REST and realtime. The project was then passed to the client's devs who easily continued working on it.</1><2>The client is so satisfied with the outcome that we are being asked to build a more generic framework based on the features of this project and others.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Inglorious Coderz do not always make websites. But when they do, they build them from scratch.</0><1><0>GiadaJoeyCazzola.com</0> is a responsive and SEO-friendly progressive webapp generated with <4>Nuxt</4>. Although it doesn't allow the user to publish their own content (which could also be considered a feature, because it ensures content correctness), the UX is completely custom and the performance achieved is far better than any CMS-generated website.</1></1></11><12>Tazebao</12><13><0></0><1><0>To create the best school management system, <2>CNOS-FAP</2> needed someone who could solve the most complex algorithms, guide the architecture, and give best practices on code quality.</0><1>The result is an ecosystem of different pieces of software, such as a desktop webapp in <2>Vue.js</2>, a mobile electronic register in <5>Framework7</5>, a <8>Loopback 3</8> server, and a <10>Dialogflow</10> bot.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Inglorious Coderz are damn good at developing software but also at communicating software. That's why 50% of our activity consists in teaching, training, mentoring, coaching, and public speaking in general.</0><1>Clients such as <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7>, and <10>forma-re-te</10> rely on us to provide the best training experience.</1><2>Every lesson is a show: students manage to grasp the most difficult concepts explained in a super-easy and fun way. During our courses we build a complete project step-by-step from the ground up, and every step is backed by strong theoretical concepts.</2></1></15>":"<0>Cosa</0><1>Per spiegare ciò che facciamo non c'è modo migliore che descrivere alcuni casi d'uso reali.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> intendeva creare il miglior sistema di gestione delle fatture. Volevano iniziare con la migliore architettura, con le migliori tecnologie, così hanno assunto le persone migliori.</0><1>Quattro sviluppatori, uno dei quali era un IC, si sono incontrati presso gli Inglorious Headquarters per un totale di 29 giorni. Insieme in questo breve lasso di tempo hanno:</1><2><0>definito il prodotto (feature, UX)</0><1>definito il progetto (stack tecnologico, pianificazione)</1><2>realizzato un MVP</2></2><3>Due sviluppatori hanno creato il back-end in <2>.NET Core</2>, mentre gli altri due hanno sviluppato il front-end in <5>Core UI</5> per <8>React</8>. Ad oggi il Cliente sta continuando gli sviluppi in modo autonomo, e il risultato sembra molto promettente.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> è la soluzione perfetta per le tue consegne a domicilio. I concetti chiave sono:</0><1><0>Ricevi il pacco consegnato a casa quando vuoi</0><1>Prenoti l'appuntamento da mobile o da desktop in modo semplice e divertente</1></1><2>Questo è il motivo per cui ci hanno chiesto di implementare questo componente <2>React</2> responsive, performante, altamente personalizzabile e multi-touch. È molto difficile costruire cose semplici, quindi hanno scelto di lasciare il compito a noi. Dopo 9 giorni di feedback costante, il componente è stato consegnato completamente testato e privo di bug, insieme a un playground realizzato con <5>Storybook</5>.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>Questo è in realtà un caso di fallimento. Ma si sa, i fallimenti sono altrettanto importanti, se non di più, dei casi di successo.</0><1><0>PrivateGriffe</0> ha sofferto di problemi di prestazioni sul suo nuovo front-end <4>React</4> e anche di un back-end <7>Spring</7> rigonfio di codice legacy. Abbiamo risolto immediatamente i problemi di prestazioni più importanti, dopodiché abbiamo riunito una task force che ha ricreato da zero il server di back-end con <10>Loopback 3</10> e il pannello di backoffice con <13>Core UI</13> per <16>React</16>.</1><2>Purtroppo il team ha performato più lentamente del previsto e il Cliente ha discusso con il fornitore responsabile del front-end, quindi lo sviluppo si è interrotto e i dipendenti hanno lasciato la società.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> voleva assumerci per un progetto che doveva durare sei mesi. Abbiamo assicurato che avrebbero avuto bisogno di noi per molto meno tempo. Hanno deciso di cominciare con due settimane. Dopo una settimana il progetto era pronto per andare online.</0><1>Lanieri Backoffice Platform è un'applicazione web <2>Vue.js</2> supportata da un server <5>Express</5>/<7>MongoDB</7> con autenticazione, caricamento file e comunicazione sia REST che real-time. Il progetto è stato poi passato in carico agli sviluppatori del Cliente che hanno continuato a lavorarci senza problemi.</1><2>Il Cliente è così soddisfatto del risultato che recentemente ci è stato chiesto di costruire un framework più generico basato sulle feature di questo progetto e di altri.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Gli Inglorious Coderz non sempre creano siti web. Ma quando lo fanno, li costruiscono da zero.</0><1><0>GiadaJoeyCazzola.com</0> è una progressive webapp responsive e SEO-friendly generata con <4>Nuxt</4>. Sebbene non consenta all'utente di pubblicare i propri contenuti (che potrebbe anche essere considerato una feature, poiché garantisce la correttezza dei contenuti), la UX è completamente personalizzata e le prestazioni raggiunte sono di gran lunga migliori rispetto a qualsiasi sito web generato da CMS.</1></1></11><12>Tazebao</12><13><0></0><1><0>Per creare il miglior sistema di gestione per i propri istituti formativi, <2>CNOS-FAP</2> avevo bisogno di qualcuno che potesse risolvere gli algoritmi più complessi, guidare l'architettura e fornire delle best practice sulla qualità del codice.</0><1>Il risultato è un ecosistema di diversi software, come una webapp desktop in <2>Vue.js</2> per la segreteria, un registro elettronico mobile in <5>Framework7</5>, un server <8>Loopback 3</8> e un bot <10>Dialogflow</10>.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Gli Inglorious Coderz sono dannatamente bravi nello sviluppo del software ma anche nella comunicazione del software. Ecco perché il 50% della nostra attività consiste nell'insegnamento, formazione, tutoraggio, coaching e public speaking in generale.</0><1>Clienti come <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7> e <10>forma-re-te</10> si affidano a noi per fornire la migliore esperienza di formazione.</1><2>Ogni lezione è uno spettacolo: gli studenti gestiscono per cogliere i concetti più difficili spiegati in modo super-facile e divertente. Durante i nostri corsi costruiamo un progetto completo passo dopo passo da zero, e ogni fase è supportata da forti concetti teorici.</2></1></15>", "<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>":"<0>Quando</0><1>In ogni fase del ciclo di vita della tua azienda, gli Inglorious Coderz sono lì per essere i tuoi perfetti alleati tecnologici.</1><2>Startup</2><3>Un'idea fantastica è il punto di partenza per la tua attività, ma poi devi costruire il prodotto vero e proprio. È a questo punto che ti rendi conto che stai davvero mettendo il tuo futuro nelle mani di qualcun altro. Assicurati solo che la persona su cui stai facendo affidamento sia in grado di sviluppare una solida base per il tuo prodotto. Gli Inglorious Coderz possono aiutarti in molti modi, dalla valutazione delle abilità del tuo CTO al mentoring dei tuoi sviluppatori, fino ad assumere il ruolo del tuo primo CTO.</3><4>Piccole imprese</4><5>In qualità di piccola impresa sai che hai bisogno di una presenza online. Inoltre, ti ritrovi a perdere troppo tempo facendo piccoli compiti a mano ogni giorno? È un segnale che hai bisogno di un po' di automazione nella tua vita lavorativa. Gli Inglorious Coderz sono in grado di fornirti soluzioni costruite da zero in modo che siano adattate alle tue esigenze e solo alle tue. I siti web sono incredibilmente veloci perché non si basano su CMS come Wordpress e hanno un design unico perché non sono costruiti da template. Software di gestione, app mobile e applicazioni web fanno esattamente ciò di cui hai bisogno, ma meglio.</5><6>Grandi aziende</6><7>Essendo nel settore già da un po', sai già come funziona la consulenza IT: ti ritrovi a pagare per un senior per ottenere un junior che ha mentito sul suo CV. Non sarebbe meglio assumere persone e mantenere il know-how all'interno? Decisamente. Ma poi, chi li addestrerà? Chi darà loro le best practice e gli standard da seguire? Chi affronterà quei problemi difficili che i tuoi sviluppatori non riescono o non hanno tempo di risolvere? La risposta a tutti e tre è: Inglorious Coderz.</7>", "read more›":"continua›"});
-
-/***/ }),
-
-/***/ "./utils/compose.js":
-/*!**************************!*\
-  !*** ./utils/compose.js ***!
-  \**************************/
-/*! exports provided: compose */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "compose", function() { return compose; });
-var compose = function compose() {
-  for (var _len = arguments.length, fns = new Array(_len), _key = 0; _key < _len; _key++) {
-    fns[_key] = arguments[_key];
-  }
-
-  return function (x) {
-    return fns.reduceRight(function (acc, fn) {
-      return fn(acc);
-    }, x);
-  };
-};
 
 /***/ }),
 
@@ -58421,15 +58231,15 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"].use(i18next_browser_languagedete
 
 /***/ }),
 
-/***/ 4:
+/***/ 9:
 /*!*****************************!*\
-  !*** multi ./pages/blog.js ***!
+  !*** multi ./pages/post.js ***!
   \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/blog', function() {
-module.exports = __webpack_require__(/*! ./pages/blog.js */"./pages/blog.js");
+__NEXT_REGISTER_PAGE('/post', function() {
+module.exports = __webpack_require__(/*! ./pages/post.js */"./pages/post.js");
 
 return { page: module.exports.default }});
 
@@ -58446,5 +58256,5 @@ module.exports = dll_ecba6b44147cc8018369;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]));;
-//# sourceMappingURL=blog.js.map
+},[[9,"static/runtime/webpack.js","styles"]]]));;
+//# sourceMappingURL=post.js.map
