@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'nextein/link'
 import { withPostsFilterBy, inCategory, sortByDate } from 'nextein/posts'
 import { Content } from 'nextein/post'
 import { withI18n } from 'react-i18next'
@@ -30,7 +30,7 @@ export default enhance(({ posts, t }) => (
           }}
         />
         <p className="read-more">
-          <Link href={post.data.url}>
+          <Link {...post}>
             <a>{t('read more›')}</a>
           </Link>
         </p>

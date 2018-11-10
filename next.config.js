@@ -13,7 +13,7 @@ module.exports = withPlugins(
   [withNextEnv, withCSS, withOptimizedImages, withNextein],
   {
     exportPathMap: defaultPathMap => ({
-      ...defaultPathMap,
+      // ...defaultPathMap,
       '/how': { page: '/how' },
       '/what': { page: '/what' },
       '/when': { page: '/when' },
