@@ -4,20 +4,15 @@ import { withI18n } from 'react-i18next'
 import wallpaper from '~/static/images/metal-wallpaper.jpg'
 import Logo from '~/components/logo'
 import Button from '~/components/button'
-import i18n from '~/utils/i18n'
 
 const links = [
-  // { id: 'uh', title: 'Uh?' },
   { id: 'why', title: 'Why' },
   { id: 'who', title: 'Who' },
   { id: 'how', title: 'How' },
   { id: 'what', title: 'What' },
   { id: 'when', title: 'When' },
   { id: 'where', title: 'Where' },
-  // { id: 'help', title: 'Help' },
-  // { id: 'so', title: 'So?' },
-  // { id: 'yuk', title: 'Yuk' },
-  { id: 'blog', title: 'Blog' }, //, target: '_self' },
+  { id: 'blog', title: 'Blog' },
   {
     id: 'github',
     title: 'Github',
@@ -27,18 +22,8 @@ const links = [
   },
 ]
 
-const changeLanguage = language => event => {
-  event.preventDefault()
-  i18n.changeLanguage(language)
-}
-
 export default withI18n()(({ t }) => (
   <header>
-    <div className="languages">
-      <Button onClick={changeLanguage('it')}>it</Button>
-      <Button onClick={changeLanguage('en')}>en</Button>
-    </div>
-
     <h1>
       <Link href="/">
         <a>
@@ -55,11 +40,11 @@ export default withI18n()(({ t }) => (
       </Link>
     </h1>
 
-    <p>
+    {/* <p>
       {t(
         'A fistful of heroes striving to create a better world through better software.',
       )}
-    </p>
+    </p> */}
 
     <nav>
       {links.map(link => (
@@ -73,19 +58,17 @@ export default withI18n()(({ t }) => (
         background-image: url(${wallpaper});
         background-position-x: center;
         background-attachment: fixed;
-        padding: 1rem;
+        margin-bottom: 1rem;
         position: sticky;
         top: 0;
         z-index: 1000;
       }
 
-      header > .languages {
-        text-align: right;
-      }
-
-      header > h1 {
-        margin: 0;
-      }
+      // header > h1 {
+      //   clear: both;
+      //   margin: 0;
+      //   margin-bottom: 1rem;
+      // }
 
       header > h1 > a {
         color: #666;

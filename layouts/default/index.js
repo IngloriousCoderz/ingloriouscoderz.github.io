@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import wallpaper from '~/static/images/metal-wallpaper.jpg'
+import Toolbar from './toolbar'
 import Header from './header'
 import Footer from './footer'
 
@@ -13,6 +14,8 @@ export default ({ children }) => (
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
       />
     </Head>
+
+    <Toolbar />
 
     <Header />
 
@@ -83,7 +86,6 @@ export default ({ children }) => (
 
       a:hover {
         filter: brightness(125%);
-        // text-decoration: underline;
       }
 
       h1,
@@ -149,7 +151,11 @@ export default ({ children }) => (
         margin: 0 auto;
         height: 100%;
         display: grid;
-        grid-template-rows: auto 1fr auto;
+        grid-template-rows: auto auto 1fr auto;
+      }
+
+      main {
+        position: relative;
       }
     `}</style>
   </div>

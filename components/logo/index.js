@@ -67,6 +67,7 @@ export default class extends Component {
           .logo {
             width: ${size}px;
             perspective: ${size}px;
+            margin-top: -1rem;
           }
 
           .cube {

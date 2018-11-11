@@ -10,7 +10,7 @@ const Button = ({ id, href, target, rel, onClick, title, children, t }) => (
         background-color: rgba(40, 44, 52, 0.5);
         margin: 0.25rem;
         border: 1px solid #429aef;
-        padding: 0.25rem;
+        padding: 0.25rem 0.5rem;
         text-transform: uppercase;
       }
     `}</style>
