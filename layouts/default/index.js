@@ -105,7 +105,7 @@ export default ({ children }) => (
       }
 
       p {
-        margin-top: 0;
+        margin: 0;
       }
 
       img {

@@ -27,6 +27,7 @@ export default () => (
 
     <style jsx>{`
       footer {
+        background: black;
         font-size: small;
         text-align: center;
         padding: 1rem;

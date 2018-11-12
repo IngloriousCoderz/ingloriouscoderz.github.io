@@ -11,6 +11,18 @@ export default () => (
   <div className="toolbar">
     <div className="social">
       <Button
+        href="https://github.com/IngloriousCoderz/"
+        target="_blank"
+        rel="noopener noreferrer">
+        G
+      </Button>
+      <Button
+        href="https://www.instagram.com/ingloriouscoderz/"
+        target="_blank"
+        rel="noopener noreferrer">
+        I
+      </Button>
+      <Button
         href="https://www.linkedin.com/company/inglorious-coderz/"
         target="_blank"
         rel="noopener noreferrer">
@@ -21,12 +33,6 @@ export default () => (
         target="_blank"
         rel="noopener noreferrer">
         F
-      </Button>
-      <Button
-        href="https://www.instagram.com/ingloriouscoderz/"
-        target="_blank"
-        rel="noopener noreferrer">
-        I
       </Button>
     </div>
 

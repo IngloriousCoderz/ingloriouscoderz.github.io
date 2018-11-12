@@ -36,9 +36,9 @@ export default withI18n()(({ t }) => (
 
     <style jsx>{`
       article {
+        width: 75%;
         position: absolute;
         top: 50%;
-        width: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
