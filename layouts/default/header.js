@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { withI18n } from 'react-i18next'
 
 import wallpaper from '~/static/images/metal-wallpaper.jpg'
 import Logo from '~/components/logo'
@@ -12,6 +11,8 @@ const links = [
   { id: 'what', title: 'What' },
   { id: 'when', title: 'When' },
   { id: 'where', title: 'Where' },
+  { id: 'how-much', title: 'How Much' },
+  { id: 'logo', title: 'Logo' },
   { id: 'blog', title: 'Blog' },
   {
     id: 'github',
@@ -22,7 +23,7 @@ const links = [
   },
 ]
 
-export default withI18n()(({ t }) => (
+export default () => (
   <header>
     <h1>
       <Link href="/">
@@ -39,12 +40,6 @@ export default withI18n()(({ t }) => (
         </a>
       </Link>
     </h1>
-
-    {/* <p>
-      {t(
-        'A fistful of heroes striving to create a better world through better software.',
-      )}
-    </p> */}
 
     <nav>
       {links.map(link => (
@@ -64,13 +59,8 @@ export default withI18n()(({ t }) => (
         z-index: 1000;
       }
 
-      // header > h1 {
-      //   clear: both;
-      //   margin: 0;
-      //   margin-bottom: 1rem;
-      // }
-
       header > h1 > a {
+        font-family: 'Ethnocentric';
         color: #666;
         display: grid;
         justify-items: center;
@@ -109,4 +99,4 @@ export default withI18n()(({ t }) => (
       }
     `}</style>
   </header>
-))
+)

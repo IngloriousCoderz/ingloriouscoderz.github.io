@@ -1,9 +1,9 @@
-import { Component } from 'react'
+import { PureComponent } from 'react'
 
 const MAX_HEAD_TILT_X = 400
 const MAX_HEAD_TILT_Y = 400
 
-export default class extends Component {
+export default class extends PureComponent {
   state = {
     transform: `scaleY(1.2) translateZ(${-this.props.size}px) rotateX(-40deg)
   rotateY(-45deg)`,
@@ -47,19 +47,23 @@ export default class extends Component {
   }
 
   render() {
-    const { size, letters = 'IC' } = this.props
+    const { size, letters = 'IC', reverse = [false, false] } = this.props
     const { transform } = this.state
-    const [left, right] = letters
+    const [leftLetter, rightLetter] = letters
+    const [reverseLeft, reverseRight] = reverse
 
     return (
       <div className="logo" ref={this.logo}>
         <div className="cube">
           <div className="cube__face cube__face--front">
-            <img src={require(`./faces/${left}.svg`)} alt={left} />
+            <img src={require(`./faces/${leftLetter}.svg`)} alt={leftLetter} />
             <img src={require('./eye.svg')} alt="eye" />
           </div>
           <div className="cube__face cube__face--right">
-            <img src={require(`./faces/${right}.svg`)} alt={right} />
+            <img
+              src={require(`./faces/${rightLetter}.svg`)}
+              alt={rightLetter}
+            />
           </div>
         </div>
 
@@ -67,7 +71,8 @@ export default class extends Component {
           .logo {
             width: ${size}px;
             perspective: ${size}px;
-            margin-top: -1rem;
+            // margin-top: -1rem;
+            margin: 0 auto;
           }
 
           .cube {
@@ -94,6 +99,14 @@ export default class extends Component {
 
           .cube__face--right {
             transform: rotateY(90deg) translateZ(${size / 2}px) skew(-12deg);
+          }
+
+          .cube__face--front > img:first-of-type {
+            ${reverseLeft ? 'transform: rotateY(180deg);' : ''}
+          }
+
+          .cube__face--right > img:first-of-type {
+            ${reverseRight ? 'transform: rotateY(180deg);' : ''}
           }
         `}</style>
       </div>

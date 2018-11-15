@@ -91,7 +91,7 @@ export default ({ children }) => (
       h1,
       h2,
       h3 {
-        font-family: 'Ethnocentric';
+        font-family: 'Orbitron';
         font-weight: normal;
         color: #98c379;
       }
@@ -105,7 +105,7 @@ export default ({ children }) => (
       }
 
       p {
-        margin: 0;
+        margin-top: 0;
       }
 
       img {
@@ -113,6 +113,10 @@ export default ({ children }) => (
         vertical-align: middle;
         max-width: 100%;
         margin: 0;
+      }
+
+      input[type='checkbox'] {
+        vertical-align: middle;
       }
 
       pre {
@@ -142,6 +146,23 @@ export default ({ children }) => (
       .card-1:hover {
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
           0 10px 10px rgba(0, 0, 0, 0.22);
+      }
+
+      /* copied to prevent FOUC */
+      .svg-inline--fa.fa-w-16 {
+        width: 1em;
+      }
+
+      .svg-inline--fa.fa-w-14 {
+        width: 0.875em;
+      }
+
+      .svg-inline--fa {
+        display: inline-block;
+        font-size: inherit;
+        height: 1em;
+        overflow: visible;
+        vertical-align: -0.125em;
       }
     `}</style>
 

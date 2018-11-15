@@ -1,10 +1,13 @@
 import App, { Container } from 'next/app'
 import Router from 'next/router'
 import withGA from 'next-ga'
+import NextSeo from 'next-seo'
 import { withNamespaces } from 'react-i18next'
 
 import { compose } from '~/utils/compose'
+import 'flexboxgrid'
 import '~/static/style.css'
+import SEO from '~/next-seo.config'
 
 const enhance = compose(
   withGA(process.env.NEXT_STATIC_GA_TRACKING_ID, Router),
@@ -40,6 +43,7 @@ export default enhance(
 
       return (
         <Container>
+          <NextSeo config={SEO} />
           <Component {...pageProps} />
         </Container>
       )

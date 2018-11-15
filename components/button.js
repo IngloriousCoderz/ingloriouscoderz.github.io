@@ -3,7 +3,7 @@ import { withI18n } from 'react-i18next'
 
 const Button = ({ id, href, target, rel, onClick, title, children, t }) => (
   <a href={href || `/${id}`} target={target} rel={rel} onClick={onClick}>
-    {t(title || children)}
+    {children && typeof children !== 'string' ? children : t(title || children)}
     <style jsx>{`
       a {
         flex: 1;

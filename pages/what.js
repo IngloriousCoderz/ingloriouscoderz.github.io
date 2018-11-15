@@ -5,23 +5,26 @@ import ExtLink from '~/components/ext-link'
 
 export default () => (
   <Layout>
-    <article className="card card-1">
-      <Trans>
+    <Trans>
+      <section className="card card-1">
         <h1>What</h1>
 
         <p>
           There's no better explanation of what we do than some real use case
           scenarios.
         </p>
+      </section>
 
-        <h2>Fattutto</h2>
-
-        <section>
-          <img
-            src={require('~/static/images/screenshots/fattutto.png')}
-            alt="Fattutto"
-          />
-          <div>
+      <section className="card card-1">
+        <h1>Fattutto</h1>
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              src={require('~/static/images/screenshots/fattutto.png')}
+              alt="Fattutto"
+            />
+          </div>
+          <div className="col-md-8">
             <p>
               <ExtLink to="https://www.sistemict.it/">Sistemi ICT</ExtLink>{' '}
               wanted to create the best invoice management system. They wanted
@@ -50,16 +53,20 @@ export default () => (
               looks very promising.
             </p>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <section className="card card-1">
         <h2>Appointment Selector</h2>
 
-        <section>
-          <img
-            src={require('~/static/images/screenshots/appointment-selector.png')}
-            alt="Appointment Selector"
-          />
-          <div>
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              src={require('~/static/images/screenshots/appointment-selector.png')}
+              alt="Appointment Selector"
+            />
+          </div>
+          <div className="col-md-8">
             <p>
               <ExtLink to="https://www.milkman.it/">Milkman</ExtLink> is the
               perfect solution for your home deliveries. The key concepts are:
@@ -82,16 +89,20 @@ export default () => (
               playground.
             </p>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <section className="card card-1">
         <h2>PrivateGriffe</h2>
 
-        <section>
-          <img
-            src={require('~/static/images/screenshots/privategriffe.png')}
-            alt="PrivateGriffe"
-          />
-          <div>
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              src={require('~/static/images/screenshots/privategriffe.png')}
+              alt="PrivateGriffe"
+            />
+          </div>
+          <div className="col-md-8">
             <p>
               This is actually a failure case. But, as you may know, failures
               are as important, if not more, than success cases.
@@ -117,16 +128,20 @@ export default () => (
               development stopped and employees quit the company.
             </p>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <section className="card card-1">
         <h2>Lanieri BO Platform</h2>
 
-        <section>
-          <img
-            src={require('~/static/images/screenshots/bo-platform.png')}
-            alt="Lanieri BO Platform"
-          />
-          <div>
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              src={require('~/static/images/screenshots/bo-platform.png')}
+              alt="Lanieri BO Platform"
+            />
+          </div>
+          <div className="col-md-8">
             <p>
               <ExtLink to="https://protocube.it/">Protocube</ExtLink> wanted to
               hire us for a project that had to last six months. We told that
@@ -149,16 +164,20 @@ export default () => (
               this project and others.
             </p>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <section className="card card-1">
         <h2>GiadaJoeyCazzola.com</h2>
 
-        <section>
-          <img
-            src={require('~/static/images/screenshots/giadajoeycazzola.png')}
-            alt="GiadaJoeyCazzola.com"
-          />
-          <div>
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              src={require('~/static/images/screenshots/giadajoeycazzola.png')}
+              alt="GiadaJoeyCazzola.com"
+            />
+          </div>
+          <div className="col-md-8">
             <p>
               Inglorious Coderz do not always make websites. But when they do,
               they build them from scratch.
@@ -175,16 +194,20 @@ export default () => (
               achieved is far better than any CMS-generated website.
             </p>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <section className="card card-1">
         <h2>Tazebao</h2>
 
-        <section>
-          <img
-            src={require('~/static/images/screenshots/tazebao.png')}
-            alt="Tazebao"
-          />
-          <div>
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              src={require('~/static/images/screenshots/tazebao.png')}
+              alt="Tazebao"
+            />
+          </div>
+          <div className="col-md-8">
             <p>
               To create the best school management system,{' '}
               <ExtLink to="http://www.cnosfap.net/">CNOS-FAP</ExtLink> needed
@@ -202,16 +225,20 @@ export default () => (
               bot.
             </p>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <section className="card card-1">
         <h2>Public Speaking</h2>
 
-        <section>
-          <img
-            src={require('~/static/images/screenshots/apia.jpg')}
-            alt="Public Speaking"
-          />
-          <div>
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              src={require('~/static/images/screenshots/apia.jpg')}
+              alt="Public Speaking"
+            />
+          </div>
+          <div className="col-md-8">
             <p>
               Inglorious Coderz are damn good at developing software but also at
               communicating software. That's why 50% of our activity consists in
@@ -236,31 +263,31 @@ export default () => (
               concepts.
             </p>
           </div>
-        </section>
-      </Trans>
-    </article>
+        </div>
+      </section>
+    </Trans>
 
     <style jsx>{`
-      section {
-        display: flex;
-        align-items: flex-start;
-      }
+      // section {
+      //   display: flex;
+      //   align-items: flex-start;
+      // }
 
-      section > img {
-        width: 33%;
-        margin-right: 1rem;
-      }
+      // section > img {
+      //   width: 33%;
+      //   margin-right: 1rem;
+      // }
 
-      @media (max-width: 640px) {
-        section {
-          flex-direction: column;
-        }
-        section > img {
-          width: 100%;
-          margin-right: 0;
-          margin-bottom: 1rem;
-        }
-      }
+      // @media (max-width: 640px) {
+      //   section {
+      //     flex-direction: column;
+      //   }
+      //   section > img {
+      //     width: 100%;
+      //     margin-right: 0;
+      //     margin-bottom: 1rem;
+      //   }
+      // }
     `}</style>
   </Layout>
 )

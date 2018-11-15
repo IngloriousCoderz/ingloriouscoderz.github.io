@@ -1,9 +1,19 @@
+import NextSeo from 'next-seo'
 import { Trans } from 'react-i18next'
 
 import Layout from '~/layouts/default'
 
 export default () => (
   <Layout>
+    <NextSeo
+      config={{
+        title: 'When',
+        description:
+          "In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.",
+        canonical: 'https://www.ingloriouscoderz.it/when',
+      }}
+    />
+
     <article className="card card-1">
       <Trans>
         <h1>When</h1>

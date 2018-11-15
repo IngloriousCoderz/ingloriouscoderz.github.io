@@ -1,5 +1,12 @@
-import i18n from '~/utils/i18n'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+  faFacebook,
+} from '@fortawesome/free-brands-svg-icons'
 
+import i18n from '~/utils/i18n'
 import Button from '~/components/button'
 
 const changeLanguage = language => event => {
@@ -14,25 +21,25 @@ export default () => (
         href="https://github.com/IngloriousCoderz/"
         target="_blank"
         rel="noopener noreferrer">
-        G
+        <FontAwesomeIcon icon={faGithub} />
       </Button>
       <Button
         href="https://www.instagram.com/ingloriouscoderz/"
         target="_blank"
         rel="noopener noreferrer">
-        I
+        <FontAwesomeIcon icon={faInstagram} />
       </Button>
       <Button
         href="https://www.linkedin.com/company/inglorious-coderz/"
         target="_blank"
         rel="noopener noreferrer">
-        L
+        <FontAwesomeIcon icon={faLinkedin} />
       </Button>
       <Button
         href="https://www.facebook.com/IngloriousCoderz/"
         target="_blank"
         rel="noopener noreferrer">
-        F
+        <FontAwesomeIcon icon={faFacebook} />
       </Button>
     </div>
 
