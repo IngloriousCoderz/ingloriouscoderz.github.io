@@ -4,6 +4,7 @@ export default () => (
   <Layout>
     <article className="card card-1">
       <h1>Why</h1>
+
       <p>
         It's the year <code>{'/20\\d{2}/'}</code>, the Age of Information.
         Everything is connected, everything sends and receives data.

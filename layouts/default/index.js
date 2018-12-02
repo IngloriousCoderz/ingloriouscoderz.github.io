@@ -6,7 +6,7 @@ import Header from './header'
 import Footer from './footer'
 
 export default ({ children }) => (
-  <div className="layout">
+  <div className="layout container-fluid">
     <Head>
       <title>Inglorious Coderz</title>
       <meta
@@ -100,7 +100,7 @@ export default ({ children }) => (
         h1,
         h2,
         h3 {
-          font-size: 1rem;
+          font-size: 1.2rem;
         }
       }
 
@@ -148,7 +148,22 @@ export default ({ children }) => (
           0 10px 10px rgba(0, 0, 0, 0.22);
       }
 
-      /* copied to prevent FOUC */
+      .button {
+        flex: 1;
+        background-color: rgba(40, 44, 52, 0.5);
+        margin: 0.25rem;
+        border: 1px solid #429aef;
+        padding: 0.25rem 0.5rem;
+        text-transform: uppercase;
+      }
+
+      /* override of flexbox grid */
+      .container-fluid {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      /* copied from FontAwesome's style to prevent FOUC */
       .svg-inline--fa.fa-w-16 {
         width: 1em;
       }

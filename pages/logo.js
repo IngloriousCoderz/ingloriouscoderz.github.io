@@ -63,15 +63,15 @@ export default class extends PureComponent {
 
     return (
       <Layout>
-        <section className="card card-1">
-          <h1>Create your own Inglorious logo</h1>
-
-          <p>Simply select the two letters you want to show and see it live!</p>
-        </section>
-
         <div className="row">
-          <div className="col-md-4 col-xs-12">
+          <div className="col-xs-12 col-md-4">
             <section className="card card-1">
+              <h1>Create your own Inglorious logo</h1>
+
+              <p>
+                Simply select the two letters you want to show and see it live!
+              </p>
+
               <form>
                 <div className="row">
                   <div className="col-xs-6">
@@ -127,10 +127,10 @@ export default class extends PureComponent {
             </section>
           </div>
 
-          <div className="col-md-8 col-xs-12">
+          <div className="col-xs-12 col-md-8">
             <section className="card card-1">
               <Logo
-                size={300}
+                size={280}
                 letters={[first.letter, second.letter]}
                 reverse={[first.reverse, second.reverse]}
               />

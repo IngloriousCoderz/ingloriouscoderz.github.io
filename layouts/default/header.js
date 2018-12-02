@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '~/components/link'
 
 import wallpaper from '~/static/images/metal-wallpaper.jpg'
 import Logo from '~/components/logo'
@@ -14,20 +14,13 @@ const links = [
   { id: 'how-much', title: 'How Much' },
   { id: 'logo', title: 'Logo' },
   { id: 'blog', title: 'Blog' },
-  {
-    id: 'github',
-    title: 'Github',
-    href: 'https://github.com/IngloriousCoderz',
-    target: '_blank',
-    rel: 'noopener noreferrer',
-  },
 ]
 
 export default () => (
   <header>
     <h1>
-      <Link href="/">
-        <a>
+      <Link to="/">
+        <div className="title">
           <div>
             <span>Inglorious</span>
             <span className="shade">&nbsp;</span>
@@ -37,7 +30,7 @@ export default () => (
             <span>Coderz</span>
             <span className="shade">&nbsp;</span>
           </div>
-        </a>
+        </div>
       </Link>
     </h1>
 
@@ -59,7 +52,13 @@ export default () => (
         z-index: 1000;
       }
 
-      header > h1 > a {
+      @media (max-width: 640px) {
+        header > h1 {
+          font-size: 1rem;
+        }
+      }
+
+      header > h1 .title {
         font-family: 'Ethnocentric';
         color: #666;
         display: grid;
