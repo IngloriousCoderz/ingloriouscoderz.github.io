@@ -29,7 +29,7 @@ export default enhance(({ posts, t }) => (
             pre: Pre,
           }}
         />
-        <p className="read-more">
+        <p className="text-right">
           <Link {...post}>
             <a>{t('read more›')}</a>
           </Link>
@@ -43,11 +43,6 @@ export default enhance(({ posts, t }) => (
         margin-top: -0.5rem;
         margin-bottom: 1rem;
         color: #9a9a9a;
-      }
-
-      article > .read-more {
-        text-align: right;
-        margin-bottom: 0;
       }
     `}</style>
   </Layout>

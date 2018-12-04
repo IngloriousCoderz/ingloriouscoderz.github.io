@@ -2,7 +2,9 @@ import Link from '~/components/link'
 import { Trans } from 'react-i18next'
 
 import Layout from '~/layouts/default'
-import Card from '~/components/vertical-card'
+import Row from '~/components/row'
+import Column from '~/components/column'
+import Card from '~/components/card'
 
 export default () => (
   <Layout>
@@ -13,17 +15,17 @@ export default () => (
         <p>There are many activities involved. Have a look at what we do:</p>
       </section>
 
-      <div className="row">
-        <div className="col-xs-12 col-md-6">
+      <Row>
+        <Column>
           <Card
             title="Code"
             image={require('~/static/images/what/code/fattutto.png')}>
             <p>Code is what we love, and it's what we do best.</p>
             <Link to="/what/code">see all projects</Link>
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column>
           <Card
             title="Speak"
             image={require('~/static/images/what/speak/apia.jpg')}>
@@ -32,26 +34,26 @@ export default () => (
             </p>
             <Link to="/what/speak">see all speaking activities</Link>
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column>
           <Card
             title="Volunteer"
             image={require('~/static/images/what/volunteer/lampedusa_blood_sample.jpg')}>
             <p>We are here to change the world for the better.</p>
             <Link to="/what/volunteer">see all volunteering activities</Link>
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column>
           <Card
             title="Community"
             image={require('~/static/images/what/community/king.jpg')}>
             <p>We can make it if we do it together.</p>
             <Link to="/what/community">see details about the community</Link>
           </Card>
-        </div>
-      </div>
+        </Column>
+      </Row>
     </Trans>
   </Layout>
 )

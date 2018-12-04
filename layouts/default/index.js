@@ -26,7 +26,9 @@ export default ({ children }) => (
     <style jsx global>{`
       @font-face {
         font-family: 'Ethnocentric';
-        src: url('/static/fonts/ethnocentric_rg.ttf');
+        font-style: normal;
+        font-weight: 400;
+        src: url('/static/fonts/ethnocentric_rg.ttf') format('ttf');
         unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
           U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
           U+2212, U+2215, U+FEFF, U+FFFD;
@@ -34,16 +36,10 @@ export default ({ children }) => (
 
       @font-face {
         font-family: 'Orbitron';
-        src: url('/static/fonts/orbitron.woff2');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-          U+2212, U+2215, U+FEFF, U+FFFD;
-        letter-spacing: 0.05em;
-      }
-
-      @font-face {
-        font-family: 'Ubuntu';
-        src: url('/static/fonts/ubuntu.woff2');
+        font-style: normal;
+        font-weight: 400;
+        src: local('Orbitron Regular'), local('Orbitron-Regular'),
+          url('/static/fonts/orbitron.woff2') format('woff2');
         unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
           U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
           U+2212, U+2215, U+FEFF, U+FFFD;
@@ -51,8 +47,21 @@ export default ({ children }) => (
 
       @font-face {
         font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
         src: local('Roboto'), local('Roboto-Regular'),
-          url('/static/fonts/Roboto-Regular.ttf');
+          url('/static/fonts/roboto.woff2') format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      @font-face {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+          rl('/static/fonts/ubuntu.woff2') format('woff2');
         unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
           U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
           U+2212, U+2215, U+FEFF, U+FFFD;
@@ -96,16 +105,20 @@ export default ({ children }) => (
         color: #98c379;
       }
 
-      @media (max-width: 640px) {
-        h1,
-        h2,
-        h3 {
-          font-size: 1.2rem;
-        }
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
       }
 
       p {
         margin-top: 0;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
       }
 
       img {
@@ -132,6 +145,34 @@ export default ({ children }) => (
         background: #282c34;
       }
 
+      blockquote {
+        margin: 0;
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+        border-left: 0.25rem solid #bbb;
+        // quotes: '“' '”' '‘' '’';
+      }
+
+      blockquote > p:before {
+        content: '“';
+        font-size: 2rem;
+        line-height: 0.1rem;
+        margin-right: 0.5rem;
+        vertical-align: -0.5rem;
+      }
+
+      blockquote > p:last-of-type:after {
+        content: '”';
+        font-size: 2rem;
+        line-height: 0.1rem;
+        margin-right: 0.5rem;
+        vertical-align: -0.5rem;
+      }
+
+      .text-right {
+        text-align: right;
+      }
+
       .card {
         margin-bottom: 1rem;
         padding: 1rem;
@@ -148,19 +189,14 @@ export default ({ children }) => (
           0 10px 10px rgba(0, 0, 0, 0.22);
       }
 
-      .button {
-        flex: 1;
-        background-color: rgba(40, 44, 52, 0.5);
-        margin: 0.25rem;
-        border: 1px solid #429aef;
-        padding: 0.25rem 0.5rem;
-        text-transform: uppercase;
-      }
-
       /* override of flexbox grid */
       .container-fluid {
         padding-left: 1rem;
         padding-right: 1rem;
+      }
+
+      .row > * {
+        height: 100%;
       }
 
       /* copied from FontAwesome's style to prevent FOUC */

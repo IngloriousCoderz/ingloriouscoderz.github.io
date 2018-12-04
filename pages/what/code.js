@@ -1,7 +1,9 @@
 import { Trans } from 'react-i18next'
 
 import Layout from '~/layouts/default'
-import Card from '~/components/vertical-card'
+import Row from '~/components/row'
+import Column from '~/components/column'
+import Card from '~/components/card'
 import ExtLink from '~/components/ext-link'
 
 export default () => (
@@ -17,8 +19,8 @@ export default () => (
         </p>
       </section>
 
-      <div className="row">
-        <div className="col-xs-12 col-md-6">
+      <Row>
+        <Column max={3}>
           <Card
             title="Fattutto"
             image={require('~/static/images/what/code/fattutto.png')}>
@@ -50,9 +52,9 @@ export default () => (
               looks very promising.
             </p>
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column max={3}>
           <Card
             title="Appointment Selector"
             image={require('~/static/images/what/code/appointment-selector.png')}>
@@ -78,23 +80,24 @@ export default () => (
               playground.
             </p>
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column max={3}>
           <Card
-            title="PrivateGriffe"
+            title="Saving Private Griffe"
             image={require('~/static/images/what/code/privategriffe.png')}>
             <p>
               This is actually a failure case. But, as you may know, failures
               are as important, if not more, than success cases.
             </p>
             <p>
+              The startup company{' '}
               <ExtLink to="https://it.privategriffe.com/">
                 PrivateGriffe
               </ExtLink>{' '}
-              was suffering from performance issues on their new{' '}
-              <ExtLink to="https://reactjs.org/">React</ExtLink> front end and
-              also for a bloated{' '}
+              was on the edge of default due to severe performance issues on
+              their new <ExtLink to="https://reactjs.org/">React</ExtLink> front
+              end and also for a heavily bloated{' '}
               <ExtLink to="https://spring.io/">Spring</ExtLink> back end. We
               solved the most crucial performance issues and gathered a task
               force that re-created from scratch the back end server with{' '}
@@ -104,14 +107,15 @@ export default () => (
               <ExtLink to="https://reactjs.org/">React</ExtLink>.
             </p>
             <p>
-              Unfortunately the team performed slower than planned and the
-              client argued with the supplier responsible for the front end, so
-              development stopped and employees quit the company.
+              Unfortunately lots of obstacles along the way prevented us to go
+              further. Half of the employees quit the firm while the controlling
+              company, <ExtLink to="https://www.axelero.it/">axélero</ExtLink>,
+              cut salaries to avoid defaulting itself.
             </p>
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column max={3}>
           <Card
             title="Lanieri BO Platform"
             image={require('~/static/images/what/code/bo-platform.png')}>
@@ -131,15 +135,15 @@ export default () => (
               realtime. The project was then passed to the client's devs who
               easily continued working on it.
             </p>
-            <p>
+            {/* <p>
               The client is so satisfied with the outcome that we are being
               asked to build a more generic framework based on the features of
               this project and others.
-            </p>
+            </p> */}
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column max={3}>
           <Card
             title="GiadaJoeyCazzola.com"
             image={require('~/static/images/what/code/giadajoeycazzola.png')}>
@@ -159,9 +163,9 @@ export default () => (
               achieved is far better than any CMS-generated website.
             </p>
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column max={3}>
           <Card
             title="Tazebao"
             image={require('~/static/images/what/code/tazebao.png')}>
@@ -182,8 +186,8 @@ export default () => (
               bot.
             </p>
           </Card>
-        </div>
-      </div>
+        </Column>
+      </Row>
     </Trans>
   </Layout>
 )

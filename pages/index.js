@@ -7,10 +7,6 @@ import { withI18n } from 'react-i18next'
 
 export default withI18n()(({ t }) => (
   <Layout>
-    {/* <div className="logo-container">
-      <Logo size={LOGO_SIZE} />
-    </div> */}
-
     <article className="card card-1">
       <h1>
         {t(
@@ -18,10 +14,6 @@ export default withI18n()(({ t }) => (
         )}
       </h1>
     </article>
-
-    {/* <article className="chat">
-      <Chat />
-    </article> */}
 
     <style jsx global>{`
       .rsc,
@@ -37,26 +29,18 @@ export default withI18n()(({ t }) => (
     <style jsx>{`
       article {
         width: 75%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
       }
 
-      /*.logo-container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }*/
-
-      .chat {
-        height: 100%;
-        max-height: 602px;
+      @media (min-width: 641px) {
+        article {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
       }
     `}</style>
   </Layout>

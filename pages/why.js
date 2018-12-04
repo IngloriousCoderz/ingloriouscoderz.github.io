@@ -15,20 +15,30 @@ export default () => (
         are becoming mere purchasers.
       </p>
       <p>
-        Machines on the other hand are evolving rapidly, gaining a role in
+        On the other hand machines are evolving rapidly, gaining a role in
         society that's more and more relevant. They are replacing us in every
-        aspect of life, sometimes performing better than humans even on tasks
-        that we thought required human interaction.
+        aspect of life, sometimes performing much better than humans even on
+        tasks that we thought required human interaction.
       </p>
       <p>
         No one knows if machines will take us over completely, when will it
         happen, and what consequences will it have. Maybe we will witness the
-        realization of a utopia in which humans will just need to enjoy life.
-        But meanwhile people are losing their jobs, feeling useless, and
-        possibly starving.
+        realization of a utopia in which humans will have nothing to do but
+        enjoy life. Meanwhile, however, people are losing their jobs and
+        starting to feel useless.
       </p>
-      <p>One of the few markets that are still thiving is IT, </p>
-      <p> But IT is all about building even better machines.</p>
+      <p>
+        There is only one thing that we humans can still do better than
+        machines: being human. We feel compassion, we care for others, we love
+        what we do. In this industrial, globalized, low-cost society we still
+        appreciate the value of good craftsmanship.
+      </p>
+      <p>
+        This is Inglorious Coderz: we strongly believe in good software made by
+        good people for good clients. We find a solution because we care for
+        your problem. We guide you to the solution because we care for you. We
+        build the best solution because we care for us.
+      </p>
     </article>
   </Layout>
 )

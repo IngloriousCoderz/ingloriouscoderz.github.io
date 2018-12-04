@@ -1,7 +1,9 @@
 import { Trans } from 'react-i18next'
 
 import Layout from '~/layouts/default'
-import Card from '~/components/vertical-card'
+import Row from '~/components/row'
+import Column from '~/components/column'
+import Card from '~/components/card'
 import ExtLink from '~/components/ext-link'
 
 export default () => (
@@ -18,8 +20,8 @@ export default () => (
         </p>
       </section>
 
-      <div className="row">
-        <div className="col-xs-12 col-md-6">
+      <Row>
+        <Column max={3}>
           <Card
             title="Courses"
             image={require('~/static/images/what/speak/vulog.jpg')}>
@@ -36,7 +38,7 @@ export default () => (
               waiting for the others to catch up.
             </p>
             <p>
-              This image shows the second edition of an advanced{' '}
+              The above image shows the second edition of an advanced{' '}
               <ExtLink to="https://reactjs.org/">React</ExtLink> course starting
               at <ExtLink to="https://www.vulog.com/">Vulog</ExtLink>.
             </p>
@@ -58,9 +60,9 @@ export default () => (
               <ExtLink to="https://blog.cleancoder.com/">Clean Code</ExtLink>.
             </p>
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column max={3}>
           <Card
             title="Mentorship"
             image={require('~/static/images/what/speak/mentor.jpg')}>
@@ -69,7 +71,7 @@ export default () => (
               control". When people have a great potential but lack guidance,
               what they need is an authoritative figure to rely on. There's
               nothing worse than wasting potential because there is no one
-              around giving the right guidance and encouragement.
+              around giving the right support and motivation.
             </p>
             <p>
               Inglorious Coderz will be your technical lead and will{' '}
@@ -98,9 +100,9 @@ export default () => (
               .
             </p>
           </Card>
-        </div>
+        </Column>
 
-        <div className="col-xs-12 col-md-6">
+        <Column max={3}>
           <Card
             title="Conferences"
             image={require('~/static/images/what/speak/apia.jpg')}>
@@ -108,7 +110,7 @@ export default () => (
               It's hard to convey a message in 40 minutes or less. There's no
               time for introductions nor boring stuff. That's why every
               conference made by Inglorious Coderz is a thrilling rollercoaster,
-              at the end of which the audience feels blown away.
+              at the end of which the audience simply feels blown away.
             </p>
 
             <p>
@@ -121,11 +123,11 @@ export default () => (
               <ExtLink to="https://www.slideshare.net/InnovationAcademy/apia2018-antony-mistretta-tech-101?qid=80340f9c-4dd9-4933-85ef-938fa0a0a84b">
                 Slideshare
               </ExtLink>
-              , are funny doodles drawn by hand.
+              , are made as funny hand-drawn doodles.
             </p>
           </Card>
-        </div>
-      </div>
+        </Column>
+      </Row>
     </Trans>
   </Layout>
 )

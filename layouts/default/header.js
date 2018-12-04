@@ -7,8 +7,8 @@ import Button from '~/components/button'
 const links = [
   { id: 'why', title: 'Why' },
   { id: 'who', title: 'Who' },
-  { id: 'how', title: 'How' },
   { id: 'what', title: 'What' },
+  { id: 'how', title: 'How' },
   { id: 'when', title: 'When' },
   { id: 'where', title: 'Where' },
   { id: 'how-much', title: 'How Much' },
@@ -25,7 +25,7 @@ export default () => (
             <span>Inglorious</span>
             <span className="shade">&nbsp;</span>
           </div>
-          <Logo size={64} />
+          <Logo />
           <div>
             <span>Coderz</span>
             <span className="shade">&nbsp;</span>
@@ -51,6 +51,16 @@ export default () => (
         top: 0;
         z-index: 1000;
       }
+
+      header > h1 {
+        font-size: 2rem;
+      }
+
+      // @media (max-width: 1024px) {
+      //   header > h1 {
+      //     font-size: 1.5rem;
+      //   }
+      // }
 
       @media (max-width: 640px) {
         header > h1 {

@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "nextein",
-    "build": "nextein build",
+    "build": "NODE_ENV=production nextein build",
     "start": "nextein start",
-    "export": "nextein build && nextein export",
+    "export": "NODE_ENV=production nextein build && nextein export",
     "deploy": "git subtree push --prefix out origin master"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "IceOnFire <antony.mistretta@gmail.com> (https://www.ingloriouscoderz.it/)",
+  "license": "CC BY-NC-ND 4.0",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-brands-svg-icons": "^5.5.0",
@@ -19,6 +19,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.5.0",
     "@fortawesome/react-fontawesome": "^0.1.3",
     "@zeit/next-css": "^1.0.1",
+    "classnames": "^2.2.6",
     "dotenv-load": "^1.1.0",
     "flexboxgrid": "^6.3.1",
     "highlight.js": "^9.13.1",

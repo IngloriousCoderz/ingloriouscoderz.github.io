@@ -3,7 +3,7 @@ import { PureComponent } from 'react'
 const MAX_HEAD_TILT_X = 400
 const MAX_HEAD_TILT_Y = 400
 
-export default class extends PureComponent {
+class Logo extends PureComponent {
   state = {
     transform: `scaleY(1.2) translateZ(${-this.props.size}px) rotateX(-40deg)
   rotateY(-45deg)`,
@@ -11,14 +11,13 @@ export default class extends PureComponent {
 
   logo = React.createRef()
 
-  onMouseMove = event => {
-    const { clientX, clientY } = event
+  onMove = event => {
     const { size } = this.props
 
-    const vector = {
-      x: saturate(clientX - this.center.x, MAX_HEAD_TILT_X),
-      y: saturate(clientY - this.center.y, MAX_HEAD_TILT_Y),
-    }
+    const { pageX, pageY } = event
+
+    const x = saturate(pageX - this.center.x, MAX_HEAD_TILT_X)
+    const y = saturate(pageY - this.center.y, MAX_HEAD_TILT_Y)
 
     // const polar = {
     //   r: Math.sqrt(vector.x * vector.x + vector.y * vector.y),
@@ -26,9 +25,7 @@ export default class extends PureComponent {
     // }
 
     this.setState({
-      transform: `scaleY(1.2) translateZ(${-size}px) rotateX(calc(-40deg - 0.001 * ${
-        vector.y
-      }rad)) rotateY(calc(-45deg + 0.001 * ${vector.x}rad))`,
+      transform: `scaleY(1.2) translateZ(${-size}px) rotateX(calc(-40deg - 0.001 * ${y}rad)) rotateY(calc(-45deg + 0.001 * ${x}rad))`,
     })
   }
 
@@ -39,15 +36,15 @@ export default class extends PureComponent {
       y: y + height / 2,
     }
 
-    document.addEventListener('mousemove', this.onMouseMove)
+    document.addEventListener('mousemove', this.onMove)
   }
 
   componentWillUnmount() {
-    document.removeEventListener('mousemove', this.onMouseMove)
+    document.removeEventListener('mousemove', this.onMove)
   }
 
   render() {
-    const { size, letters = 'IC', reverse = [false, false] } = this.props
+    const { size, letters, reverse } = this.props
     const { transform } = this.state
     const [leftLetter, rightLetter] = letters
     const [reverseLeft, reverseRight] = reverse
@@ -71,7 +68,6 @@ export default class extends PureComponent {
           .logo {
             width: ${size}px;
             perspective: ${size}px;
-            // margin-top: -1rem;
             margin: 0 auto;
           }
 
@@ -113,6 +109,14 @@ export default class extends PureComponent {
     )
   }
 }
+
+Logo.defaultProps = {
+  size: 64,
+  letters: 'IC',
+  reverse: [false, false],
+}
+
+export default Logo
 
 function saturate(num, limit) {
   if (num < -limit) return -limit

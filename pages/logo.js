@@ -1,6 +1,7 @@
 import { PureComponent } from 'react'
 
 import Layout from '~/layouts/default'
+import Row from '~/components/row'
 import Logo from '~/components/logo'
 
 const availableLetters = [
@@ -63,7 +64,7 @@ export default class extends PureComponent {
 
     return (
       <Layout>
-        <div className="row">
+        <Row>
           <div className="col-xs-12 col-md-4">
             <section className="card card-1">
               <h1>Create your own Inglorious logo</h1>
@@ -73,7 +74,7 @@ export default class extends PureComponent {
               </p>
 
               <form>
-                <div className="row">
+                <Row>
                   <div className="col-xs-6">
                     <label>First letter:</label>
                   </div>
@@ -98,8 +99,9 @@ export default class extends PureComponent {
                       onChange={this.changeReverse('first')}
                     />
                   </div>
-                </div>
-                <div className="row">
+                </Row>
+
+                <Row>
                   <div className="col-xs-6">
                     <label>Second letter:</label>
                   </div>
@@ -122,7 +124,7 @@ export default class extends PureComponent {
                       onChange={this.changeReverse('second')}
                     />
                   </div>
-                </div>
+                </Row>
               </form>
             </section>
           </div>
@@ -136,14 +138,7 @@ export default class extends PureComponent {
               />
             </section>
           </div>
-        </div>
-        <style jsx>{`
-          @media (max-width: 640px) {
-            .row {
-              margin: 0;
-            }
-          }
-        `}</style>
+        </Row>
       </Layout>
     )
   }
