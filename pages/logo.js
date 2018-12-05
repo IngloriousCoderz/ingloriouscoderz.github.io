@@ -35,16 +35,16 @@ const availableLetters = [
 
 export default class extends PureComponent {
   state = {
-    first: { letter: 'A', reverse: false },
-    second: { letter: 'A', reverse: false },
+    first: { letter: 'A', reverse: false, eye: true },
+    second: { letter: 'A', reverse: false, eye: true },
   }
 
   changeLetter = which => event => {
     const letter = event.target.value
     this.setState(prevState => ({
       [which]: {
+        ...prevState[which],
         letter,
-        reverse: prevState[which].reverse,
       },
     }))
   }
@@ -53,8 +53,18 @@ export default class extends PureComponent {
     const reverse = event.target.checked
     this.setState(prevState => ({
       [which]: {
-        letter: prevState[which].letter,
+        ...prevState[which],
         reverse,
+      },
+    }))
+  }
+
+  changeEye = which => event => {
+    const eye = event.target.checked
+    this.setState(prevState => ({
+      [which]: {
+        ...prevState[which],
+        eye,
       },
     }))
   }
@@ -99,6 +109,17 @@ export default class extends PureComponent {
                       onChange={this.changeReverse('first')}
                     />
                   </div>
+
+                  <div className="col-xs-6">
+                    <label>Eye:</label>
+                  </div>
+                  <div className="col-xs-6">
+                    <input
+                      type="checkbox"
+                      checked={first.eye}
+                      onChange={this.changeEye('first')}
+                    />
+                  </div>
                 </Row>
 
                 <Row>
@@ -114,6 +135,7 @@ export default class extends PureComponent {
                       ))}
                     </select>
                   </div>
+
                   <div className="col-xs-6">
                     <label>Reverse:</label>
                   </div>
@@ -122,6 +144,17 @@ export default class extends PureComponent {
                       type="checkbox"
                       checked={second.reverse}
                       onChange={this.changeReverse('second')}
+                    />
+                  </div>
+
+                  <div className="col-xs-6">
+                    <label>Eye:</label>
+                  </div>
+                  <div className="col-xs-6">
+                    <input
+                      type="checkbox"
+                      checked={second.eye}
+                      onChange={this.changeEye('second')}
                     />
                   </div>
                 </Row>
@@ -135,6 +168,7 @@ export default class extends PureComponent {
                 size={280}
                 letters={[first.letter, second.letter]}
                 reverse={[first.reverse, second.reverse]}
+                eyes={[first.eye, second.eye]}
               />
             </section>
           </div>

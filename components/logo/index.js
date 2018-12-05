@@ -44,23 +44,29 @@ class Logo extends PureComponent {
   }
 
   render() {
-    const { size, letters, reverse } = this.props
+    const { size, letters, reverse, eyes } = this.props
     const { transform } = this.state
     const [leftLetter, rightLetter] = letters
     const [reverseLeft, reverseRight] = reverse
+    const [leftEye, rightEye] = eyes
 
     return (
       <div className="logo" ref={this.logo}>
         <div className="cube">
           <div className="cube__face cube__face--front">
             <img src={require(`./faces/${leftLetter}.svg`)} alt={leftLetter} />
-            <img src={require('./eye.svg')} alt="eye" />
+            {leftEye && (
+              <img className="eye" src={require('./eye.svg')} alt="left eye" />
+            )}
           </div>
           <div className="cube__face cube__face--right">
             <img
               src={require(`./faces/${rightLetter}.svg`)}
               alt={rightLetter}
             />
+            {rightEye && (
+              <img className="eye" src={require('./eye.svg')} alt="right eye" />
+            )}
           </div>
         </div>
 
@@ -97,6 +103,10 @@ class Logo extends PureComponent {
             transform: rotateY(90deg) translateZ(${size / 2}px) skew(-12deg);
           }
 
+          .cube__face--right > .eye {
+            transform: rotateY(180deg);
+          }
+
           .cube__face--front > img:first-of-type {
             ${reverseLeft ? 'transform: rotateY(180deg);' : ''}
           }
@@ -114,6 +124,7 @@ Logo.defaultProps = {
   size: 64,
   letters: 'IC',
   reverse: [false, false],
+  eyes: [true, false],
 }
 
 export default Logo
