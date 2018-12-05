@@ -15,6 +15,14 @@ const enhance = compose(
 )
 export default enhance(({ posts, t }) => (
   <Layout hasBackground={false}>
+    <article className="card card-1">
+      <h1>Blog</h1>
+      <p>
+        This is where we share some of our experiences with software and
+        entrepreneurship in general. Italian only for now, sorry :)
+      </p>
+    </article>
+
     {posts.sort(sortByDate).map((post, index) => (
       <article key={`post-${index}`} className="card card-1">
         <h1>{post.data.title}</h1>

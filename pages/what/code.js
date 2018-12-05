@@ -13,9 +13,10 @@ export default () => (
         <h1>Code</h1>
 
         <p>
-          We love to code. That's what we do best. That's why every project is
-          treated like a creature we raise and nurture until it's able to go on
-          its own.
+          Coding is a mean through which we express ourselves. It is an
+          artisanal activity that mixes creativity and logic. That's why every
+          project is treated like a creature we raise and nurture until it is
+          able to go on its own.
         </p>
       </section>
 

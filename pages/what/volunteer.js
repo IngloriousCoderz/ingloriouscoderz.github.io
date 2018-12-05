@@ -12,11 +12,10 @@ export default () => (
       <section className="card card-1">
         <h1>Volunteer</h1>
         <p>
-          The purpose of Inglorious Coderz is to change the world for the
-          better. But let's face it, code by itself will not suffice. That's why
-          we are also first in line when dealing with volunteering. Part of the
-          money we earn is not just spent on charity, it allows us to take
-          action directly.
+          The purpose of Inglorious Coderz is to build a better world. But let's
+          face it, code by itself will not suffice. That's why we are also first
+          in line when dealing with volunteering. Part of the money we earn is
+          not just spent on charity, it allows us to take action directly.
         </p>
       </section>
 

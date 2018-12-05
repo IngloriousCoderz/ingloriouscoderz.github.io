@@ -21,7 +21,9 @@ export default () => (
             title="Code"
             image={require('~/static/images/what/code/fattutto.png')}>
             <p>Code is what we love, and it's what we do best.</p>
-            <Link to="/what/code">see all projects</Link>
+            <p className="text-right">
+              <Link to="/what/code">see all projects›</Link>
+            </p>
           </Card>
         </Column>
 
@@ -32,7 +34,9 @@ export default () => (
             <p>
               We love developing software as much as we love developing people.
             </p>
-            <Link to="/what/speak">see all speaking activities</Link>
+            <p className="text-right">
+              <Link to="/what/speak">see all speaking activities›</Link>
+            </p>
           </Card>
         </Column>
 
@@ -40,8 +44,10 @@ export default () => (
           <Card
             title="Volunteer"
             image={require('~/static/images/what/volunteer/lampedusa_blood_sample.jpg')}>
-            <p>We are here to change the world for the better.</p>
-            <Link to="/what/volunteer">see all volunteering activities</Link>
+            <p>Our main goal is to change the world for the better.</p>
+            <p className="text-right">
+              <Link to="/what/volunteer">see all volunteering activities›</Link>
+            </p>
           </Card>
         </Column>
 
@@ -49,8 +55,10 @@ export default () => (
           <Card
             title="Community"
             image={require('~/static/images/what/community/king.jpg')}>
-            <p>We can make it if we do it together.</p>
-            <Link to="/what/community">see details about the community</Link>
+            <p>We can make it if we are in this together.</p>
+            <p className="text-right">
+              <Link to="/what/community">see details about the community›</Link>
+            </p>
           </Card>
         </Column>
       </Row>
