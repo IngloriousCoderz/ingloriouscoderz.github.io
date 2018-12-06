@@ -5,8 +5,9 @@ const enhance = compose(
   React.forwardRef,
 )
 
-export default enhance(({ size, faces, transform }, ref) => {
+export default enhance(({ size, faces, x, y }, ref) => {
   const [left, right] = faces
+
   return (
     <div className="logo" ref={ref}>
       <div className="cube">
@@ -34,7 +35,9 @@ export default enhance(({ size, faces, transform }, ref) => {
         .cube {
           height: ${size}px;
           transform-style: preserve-3d;
-          transform: ${transform};
+          transform: scaleY(1.2) translateZ(${-size}px)
+            rotateX(calc(-40deg - 0.001 * ${y}rad))
+            rotateY(calc(-45deg + 0.001 * ${x}rad));
           transition: ease-out 0.2s;
         }
 

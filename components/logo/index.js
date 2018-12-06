@@ -6,24 +6,17 @@ const MAX_HEAD_TILT_X = 400
 const MAX_HEAD_TILT_Y = 400
 
 class LogoContainer extends PureComponent {
-  state = {
-    transform: `scaleY(1.2) translateZ(${-this.props.size}px) rotateX(-40deg)
-  rotateY(-45deg)`,
-  }
+  state = { x: 0, y: 0 }
 
   logo = React.createRef()
 
   onMove = event => {
-    const { size } = this.props
-
     const { pageX, pageY } = event
 
     const x = saturate(pageX - this.center.x, MAX_HEAD_TILT_X)
     const y = saturate(pageY - this.center.y, MAX_HEAD_TILT_Y)
 
-    this.setState({
-      transform: `scaleY(1.2) translateZ(${-size}px) rotateX(calc(-40deg - 0.001 * ${y}rad)) rotateY(calc(-45deg + 0.001 * ${x}rad))`,
-    })
+    this.setState({ x, y })
   }
 
   componentDidMount() {
@@ -42,11 +35,8 @@ class LogoContainer extends PureComponent {
 
   render() {
     const { size, faces } = this.props
-    const { transform } = this.state
 
-    return (
-      <Logo size={size} faces={faces} transform={transform} ref={this.logo} />
-    )
+    return <Logo size={size} faces={faces} {...this.state} ref={this.logo} />
   }
 }
 
