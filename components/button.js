@@ -23,6 +23,13 @@ export default withI18n()(
             padding: 0.25rem 0.5rem;
             text-transform: uppercase;
             line-height: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          div {
+            height: 100%;
           }
         `}</style>
       </Component>

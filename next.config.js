@@ -1,6 +1,6 @@
 const nextEnv = require('next-env')
 const dotenvLoad = require('dotenv-load')
-const withPlugins = require('next-compose-plugins')
+const compose = require('next-compose-plugins')
 const withCSS = require('@zeit/next-css')
 const withPurgeCSS = require('next-purgecss')
 const withOptimizedImages = require('next-optimized-images')
@@ -10,8 +10,14 @@ const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
 dotenvLoad()
 const withNextEnv = nextEnv()
 
-module.exports = withPlugins(
-  [withNextEnv, withCSS, withPurgeCSS, withOptimizedImages, withNextein],
+module.exports = compose(
+  [
+    withNextEnv,
+    withCSS,
+    [withPurgeCSS, { purgeCss: { whitelistPatterns: () => [/^hljs/] } }],
+    withOptimizedImages,
+    withNextein,
+  ],
   {
     exportPathMap: defaultPathMap => ({
       // ...defaultPathMap,
@@ -42,7 +48,8 @@ module.exports = withPlugins(
 
       config.plugins.push(
         new SWPrecacheWebpackPlugin({
-          navigateFallback: '/index',
+          // NOTE: this line is not present here: https://github.com/zeit/next.js/blob/canary/examples/with-sw-precache/next.config.js
+          // navigateFallback: '/index',
           verbose: true,
           staticFileGlobsIgnorePatterns: [/\.next\//],
           runtimeCaching: [
@@ -53,6 +60,7 @@ module.exports = withPlugins(
           ],
         }),
       )
+
       return config
     },
 
@@ -60,6 +68,7 @@ module.exports = withPlugins(
       config.watchOptions = {
         ignored: [/\.git\//, /\.next\//, /node_modules/],
       }
+
       return config
     },
   },

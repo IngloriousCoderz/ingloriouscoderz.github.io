@@ -6,7 +6,7 @@ import Column from '~/components/column'
 import Card from '~/components/card'
 
 export default () => (
-  <Layout>
+  <Layout path="how-much" title="How Much" description="">
     <Trans>
       <article className="card card-1">
         <h1>How Much</h1>
@@ -21,8 +21,8 @@ export default () => (
         <p>
           The price for an Inglorious service ranges from €0 to €2000 a day.
           Yes, even zero! But unless you can provide something valuable in
-          exchange or you are an endangered species to be saved it will be
-          higher than that.
+          exchange, or you are an endangered species, it will be higher than
+          that.
         </p>
 
         <p>

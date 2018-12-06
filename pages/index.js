@@ -1,12 +1,8 @@
 import Layout from '~/layouts/default'
-// import Logo from '~/components/logo'
-// import Chat from '~/components/chat'
 import { withI18n } from 'react-i18next'
 
-// const LOGO_SIZE = 320
-
 export default withI18n()(({ t }) => (
-  <Layout>
+  <Layout path="" title="" description="">
     <article className="card card-1">
       <h1>
         {t(
@@ -36,10 +32,11 @@ export default withI18n()(({ t }) => (
 
       @media (min-width: 641px) {
         article {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+          margin-top: 10rem;
+          // position: absolute;
+          // top: 50%;
+          // left: 50%;
+          // transform: translate(-50%, -50%);
         }
       }
     `}</style>

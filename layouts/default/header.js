@@ -1,6 +1,5 @@
 import Link from '~/components/link'
 
-import wallpaper from '~/static/images/metal-wallpaper.jpg'
 import Logo from '~/components/logo'
 import Button from '~/components/button'
 
@@ -16,7 +15,7 @@ const links = [
   { id: 'blog', title: 'Blog' },
 ]
 
-export default () => (
+export default ({ wallpaper }) => (
   <header>
     <h1>
       <Link to="/">
@@ -55,12 +54,6 @@ export default () => (
       header > h1 {
         font-size: 2rem;
       }
-
-      // @media (max-width: 1024px) {
-      //   header > h1 {
-      //     font-size: 1.5rem;
-      //   }
-      // }
 
       @media (max-width: 640px) {
         header > h1 {

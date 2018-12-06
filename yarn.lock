@@ -5545,10 +5545,9 @@ next-env@^1.0.1:
   resolved "https://registry.yarnpkg.com/next-env/-/next-env-1.0.1.tgz#7221e6bdbc343a32ae50e803491ff8178c966f61"
   integrity sha512-J+xDaJomJjlzwZ1S1vftvWzbn5csTOBrZPuYb1jHFZ45i8ygzHj25v2lZL6O327RBPylEJ8PjbpbU+GY+u1FkQ==
 
-next-ga@^2.3.3:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/next-ga/-/next-ga-2.3.4.tgz#0bec23e7c2eea35485af0b342e7794bbbdb61d04"
-  integrity sha512-mIol83ehPCz9Z+QtK6ig1w9Db4ShoyhjS6NgDnTIVJuBQ1iobiZap2xXn6KtYWBc+AH5DdTCBtZRF8PP5yJAVA==
+"next-ga@git+ssh:git@github.com:IngloriousCoderz/next-ga.git":
+  version "2.3.3"
+  resolved "git+ssh:git@github.com:IngloriousCoderz/next-ga.git#01648cc0549b1da16646cbf0d4f88e38efc68dd1"
   dependencies:
     debug "^4.0.0"
     react-ga "^2.5.3"

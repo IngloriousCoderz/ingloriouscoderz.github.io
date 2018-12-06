@@ -13,6 +13,7 @@ const enhance = compose(
   withGA(process.env.NEXT_STATIC_GA_TRACKING_ID, Router),
   withNamespaces(),
 )
+
 export default enhance(
   class extends App {
     static async getInitialProps({ Component, router, ctx }) {
@@ -29,12 +30,10 @@ export default enhance(
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker
           .register('/service-worker.js')
-          .then(registration => {
-            console.log('service worker registration successful')
-          })
-          .catch(err => {
-            console.warn('service worker registration failed', err.message)
-          })
+          .then(() => console.log('service worker registered.'))
+          .catch(err =>
+            console.warn('service worker registration failed.', err.message),
+          )
       }
     }
 

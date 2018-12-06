@@ -6,7 +6,7 @@ import Column from '~/components/column'
 import Card from '~/components/card'
 
 export default () => (
-  <Layout>
+  <Layout path="how" title="How" description="">
     <Trans>
       <article className="card card-1">
         <h1>How</h1>

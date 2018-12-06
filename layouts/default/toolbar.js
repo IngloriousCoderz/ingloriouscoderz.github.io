@@ -16,7 +16,7 @@ const changeLanguage = language => event => {
 
 export default () => (
   <div className="toolbar">
-    <div className="social">
+    <div>
       <Button
         href="https://github.com/IngloriousCoderz/"
         target="_blank"
@@ -43,22 +43,28 @@ export default () => (
       </Button>
     </div>
 
-    <div className="languages">
-      <Button onClick={changeLanguage('it')}>it</Button>
-      <Button onClick={changeLanguage('en')}>en</Button>
+    <div>
+      <Button to="/privacy-policy">Privacy</Button>
     </div>
+
+    {/* <div>
+      <Button to="#" onClick={changeLanguage('it')}>
+        it
+      </Button>
+      <Button to="#" onClick={changeLanguage('en')}>
+        en
+      </Button>
+    </div> */}
 
     <style jsx>{`
       .toolbar {
         padding: 0.5rem 0;
+        display: flex;
+        justify-content: space-between;
       }
 
-      .toolbar > .social {
-        float: left;
-      }
-
-      .toolbar > .languages {
-        float: right;
+      .toolbar > div {
+        display: flex;
       }
     `}</style>
   </div>

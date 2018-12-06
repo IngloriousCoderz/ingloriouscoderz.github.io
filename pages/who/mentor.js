@@ -4,7 +4,7 @@ import Card from '~/components/card'
 import ExtLink from '~/components/ext-link'
 
 export default () => (
-  <Layout>
+  <Layout path="who/mentor" title="Mentor" description="">
     <Card>
       <blockquote>
         <p>

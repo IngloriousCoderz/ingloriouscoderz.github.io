@@ -45,8 +45,6 @@ export default class extends Document {
             content="RFVNvxmtxJpN5XtPqm_lrA2jrphy-Sn_fy3XyekO-2E"
           />
 
-          <link rel="canonical" href="https://www.ingloriouscoderz.it" />
-
           <script src="/static/scripts/gh-spa-redirect.js" />
         </Head>
         <body>

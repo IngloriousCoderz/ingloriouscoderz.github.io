@@ -6,7 +6,7 @@ import en from '~/static/locales/en/translation.yml'
 import it from '~/static/locales/it/translation.yml'
 
 i18n
-  .use(detector)
+  // .use(detector)
   .use(reactI18nextModule)
   .init({
     resources: {
@@ -18,7 +18,7 @@ i18n
     keySeparator: false,
     interpolation: { escapeValue: false },
 
-    debug: process.env.NODE_ENV === 'development',
+    // debug: process.env.NODE_ENV === 'development',
   })
 
 export default i18n

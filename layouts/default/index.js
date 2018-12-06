@@ -1,19 +1,23 @@
-import Head from 'next/head'
+import NextSeo from 'next-seo'
 
 import wallpaper from '~/static/images/metal-wallpaper.jpg'
 import Toolbar from './toolbar'
 import Header from './header'
 import Footer from './footer'
 
-export default ({ children }) => (
+export default ({ path, title, description, children }) => (
   <div className="layout container-fluid">
-    <Head>
-      <title>Inglorious Coderz</title>
-    </Head>
+    <NextSeo
+      config={{
+        canonical: `https://www.ingloriouscoderz.it/${path}`,
+        title,
+        description,
+      }}
+    />
 
     <Toolbar />
 
-    <Header />
+    <Header wallpaper={wallpaper} />
 
     <main>{children}</main>
 
@@ -129,7 +133,6 @@ export default ({ children }) => (
       }
 
       pre {
-        font-size: 14px;
         white-space: pre-wrap;
         word-break: break-all;
         word-wrap: break-word;

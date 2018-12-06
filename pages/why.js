@@ -1,7 +1,7 @@
 import Layout from '~/layouts/default'
 
 export default () => (
-  <Layout>
+  <Layout path="why" title="Why" description="">
     <article className="card card-1">
       <h1>Why</h1>
 

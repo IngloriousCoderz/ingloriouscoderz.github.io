@@ -8,7 +8,7 @@ import Link from '~/components/link'
 import ExtLink from '~/components/ext-link'
 
 export default () => (
-  <Layout>
+  <Layout path="who" title="Who" description="">
     <Trans>
       <article className="card card-1">
         <h1>Who</h1>

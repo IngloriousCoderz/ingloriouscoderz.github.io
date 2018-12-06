@@ -7,7 +7,7 @@ import Card from '~/components/card'
 import ExtLink from '~/components/ext-link'
 
 export default () => (
-  <Layout>
+  <Layout path="what/volunteer" title="Volunteer" description="">
     <Trans>
       <section className="card card-1">
         <h1>Volunteer</h1>

@@ -63,15 +63,13 @@ export default class extends PureComponent {
     const [left, right] = faces
 
     return (
-      <Layout>
+      <Layout path="logo" title="Logo" description="">
         <Row>
           <div className="col-xs-12 col-md-4">
             <section className="card card-1">
-              <h1>Create your own Inglorious logo</h1>
+              <h1>Create your own Inglorious logo!</h1>
 
-              <p>
-                Simply select the two letters you want to show and see it live!
-              </p>
+              <p>Simply play with the parameters below and see it live!</p>
 
               <form>
                 <Row>
@@ -151,11 +149,17 @@ export default class extends PureComponent {
           </div>
 
           <div className="col-xs-12 col-md-8">
-            <section className="card card-1">
+            <section className="card card-1 logo-container">
               <Logo size={280} faces={faces} />
             </section>
           </div>
         </Row>
+
+        <style jsx>{`
+          .logo-container {
+            padding-bottom: 3.5rem;
+          }
+        `}</style>
       </Layout>
     )
   }

@@ -2,12 +2,12 @@ export default {
   noindex: true, // TODO: remove when ready for production
 
   // override on each page
-  title: 'Homepage',
+  title: 'Home',
   description:
     'A fistful of heroes striving to create a better world through better software.',
   canonical: 'https://www.ingloriouscoderz.it',
 
-  titleTemplate: `Inglorious Coderz | %s`,
+  titleTemplate: `%s | Inglorious Coderz`,
   openGraph: {
     type: 'website',
     locale: 'en_US',
