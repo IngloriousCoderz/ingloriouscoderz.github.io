@@ -20,7 +20,8 @@ var _debug=_interopRequireDefault(__webpack_require__(/*! debug */ "../next-ga/n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-var _reactGa=_interopRequireDefault(__webpack_require__(/*! react-ga */ "../next-ga/node_modules/react-ga/dist/react-ga.js"));Object.defineProperty(exports,"__esModule",{value:!0}),exports.init=init,exports.pageview=pageview,exports.event=event,exports.exception=exception;function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var IS_BROWSER="undefined"!=typeof window;function init(a){IS_BROWSER&&!window.GA_INITIALIZED&&a&&_reactGa.default.initialize(a)}function pageview(){_reactGa.default.set({page:window.location.pathname}),_reactGa.default.pageview(window.location.pathname)}function event(){var a=0<arguments.length&&arguments[0]!==void 0?arguments[0]:"",b=1<arguments.length&&arguments[1]!==void 0?arguments[1]:"";a&&b&&_reactGa.default.event({category:a,action:b})}function exception(){var a=0<arguments.length&&arguments[0]!==void 0?arguments[0]:"",b=!!(1<arguments.length&&arguments[1]!==void 0)&&arguments[1];a&&_reactGa.default.exception({description:a,fatal:b})}
+var _reactGa=_interopRequireDefault(__webpack_require__(/*! react-ga */ "../next-ga/node_modules/react-ga/dist/react-ga.js"));Object.defineProperty(exports,"__esModule",{value:!0}),exports.init=init,exports.pageview=pageview,exports.event=event,exports.exception=exception;function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var IS_BROWSER="undefined"!=typeof window,GA_LOCAL_STORAGE_KEY="ga:clientId";function init(a){if(IS_BROWSER&&!window.GA_INITIALIZED&&a&&window.localStorage){var b=_reactGa.default.ga();// @see https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id
+b("create",a,{storage:"none",clientId:localStorage.getItem(GA_LOCAL_STORAGE_KEY)}),b(function(a){localStorage.setItem(GA_LOCAL_STORAGE_KEY,a.get("clientId"))})}}function pageview(){_reactGa.default.set({page:window.location.pathname}),_reactGa.default.pageview(window.location.pathname)}function event(){var a=0<arguments.length&&arguments[0]!==void 0?arguments[0]:"",b=1<arguments.length&&arguments[1]!==void 0?arguments[1]:"";a&&b&&_reactGa.default.event({category:a,action:b})}function exception(){var a=0<arguments.length&&arguments[0]!==void 0?arguments[0]:"",b=!!(1<arguments.length&&arguments[1]!==void 0)&&arguments[1];a&&_reactGa.default.exception({description:a,fatal:b})}
 
 /***/ }),
 
@@ -46,7 +47,7 @@ var f=b.onRouteChangeComplete;b.onRouteChangeComplete=function(){"function"==typ
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./dist/index.js */ "../next-ga/dist/index.js");
+module.exports = __webpack_require__(/*! ./dist/index.js */ "../next-ga/dist/index.js")
 
 
 /***/ }),
@@ -4440,10 +4441,10 @@ __webpack_require__.r(__webpack_exports__);
   noindex: true,
   // TODO: remove when ready for production
   // override on each page
-  title: 'Homepage',
+  title: 'Home',
   description: 'A fistful of heroes striving to create a better world through better software.',
   canonical: 'https://www.ingloriouscoderz.it',
-  titleTemplate: "Inglorious Coderz | %s",
+  titleTemplate: "%s | Inglorious Coderz",
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -17726,10 +17727,10 @@ function (_App) {
     key: "componentDidMount",
     value: function componentDidMount() {
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
-          console.log('service worker registration successful');
+        navigator.serviceWorker.register('/service-worker.js').then(function () {
+          return console.log('service worker registered.');
         }).catch(function (err) {
-          console.warn('service worker registration failed', err.message);
+          return console.warn('service worker registration failed.', err.message);
         });
       }
     }
@@ -17742,20 +17743,20 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_2__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 44
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_5___default.a, {
         config: _next_seo_config__WEBPACK_IMPORTED_MODULE_10__["default"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 45
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, _extends({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 46
         },
         __self: this
       })));

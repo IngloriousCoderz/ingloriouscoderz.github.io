@@ -36,15 +36,15 @@ var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.git
     target: target,
     rel: rel,
     onClick: onClick,
-    className: "jsx-1165254406" + " " + "button",
+    className: "jsx-2096718123" + " " + "button",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, children && typeof children !== 'string' ? children : t(title || children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "1165254406",
-    css: ".button.jsx-1165254406{-webkit-flex:1;-ms-flex:1;flex:1;background-color:rgba(40,44,52,0.5);margin:0.25rem;border:1px solid #429aef;padding:0.25rem 0.5rem;text-transform:uppercase;line-height:1;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9jb21wb25lbnRzL2J1dHRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQm9CLEFBR29CLGlDQUNnQyxvQ0FDeEIsZUFDVSx5QkFDRix1QkFDRSx5QkFDWCxjQUNoQiIsImZpbGUiOiIvaG9tZS9hbnRvbnkvUHJvZ2V0dGkvSW5nbG9yaW91cyBDb2RlcnovaW5nbG9yaW91c2NvZGVyei5naXRodWIuaW8vY29tcG9uZW50cy9idXR0b24uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICd+L2NvbXBvbmVudHMvbGluaydcbmltcG9ydCB7IHdpdGhJMThuIH0gZnJvbSAncmVhY3QtaTE4bmV4dCdcblxuZXhwb3J0IGRlZmF1bHQgd2l0aEkxOG4oKShcbiAgKHsgdCwgaWQsIHRvLCBocmVmLCB0YXJnZXQsIHJlbCwgb25DbGljaywgdGl0bGUsIGNoaWxkcmVuIH0pID0+IHtcbiAgICBjb25zdCBDb21wb25lbnQgPSB0YXJnZXQgfHwgb25DbGljayA/ICdhJyA6IExpbmtcbiAgICByZXR1cm4gKFxuICAgICAgPENvbXBvbmVudFxuICAgICAgICBocmVmPXt0byB8fCBocmVmIHx8IGAvJHtpZH1gfVxuICAgICAgICB0YXJnZXQ9e3RhcmdldH1cbiAgICAgICAgcmVsPXtyZWx9XG4gICAgICAgIG9uQ2xpY2s9e29uQ2xpY2t9XG4gICAgICAgIGNsYXNzTmFtZT1cImJ1dHRvblwiPlxuICAgICAgICB7Y2hpbGRyZW4gJiYgdHlwZW9mIGNoaWxkcmVuICE9PSAnc3RyaW5nJ1xuICAgICAgICAgID8gY2hpbGRyZW5cbiAgICAgICAgICA6IHQodGl0bGUgfHwgY2hpbGRyZW4pfVxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgLmJ1dHRvbiB7XG4gICAgICAgICAgICBmbGV4OiAxO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSg0MCwgNDQsIDUyLCAwLjUpO1xuICAgICAgICAgICAgbWFyZ2luOiAwLjI1cmVtO1xuICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgIzQyOWFlZjtcbiAgICAgICAgICAgIHBhZGRpbmc6IDAuMjVyZW0gMC41cmVtO1xuICAgICAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxO1xuICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgPC9Db21wb25lbnQ+XG4gICAgKVxuICB9LFxuKVxuIl19 */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/components/button.js */",
+    styleId: "2096718123",
+    css: ".button.jsx-2096718123{-webkit-flex:1;-ms-flex:1;flex:1;background-color:rgba(40,44,52,0.5);margin:0.25rem;border:1px solid #429aef;padding:0.25rem 0.5rem;text-transform:uppercase;line-height:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}div.jsx-2096718123{height:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9jb21wb25lbnRzL2J1dHRvbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQm9CLEFBR29CLEFBYUssWUFDZCxxQkFieUMsb0NBQ3hCLGVBQ1UseUJBQ0YsdUJBQ0UseUJBQ1gsY0FDRCwwRUFDVSxtR0FDSiw2RkFDckIiLCJmaWxlIjoiL2hvbWUvYW50b255L1Byb2dldHRpL0luZ2xvcmlvdXMgQ29kZXJ6L2luZ2xvcmlvdXNjb2RlcnouZ2l0aHViLmlvL2NvbXBvbmVudHMvYnV0dG9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnfi9jb21wb25lbnRzL2xpbmsnXG5pbXBvcnQgeyB3aXRoSTE4biB9IGZyb20gJ3JlYWN0LWkxOG5leHQnXG5cbmV4cG9ydCBkZWZhdWx0IHdpdGhJMThuKCkoXG4gICh7IHQsIGlkLCB0bywgaHJlZiwgdGFyZ2V0LCByZWwsIG9uQ2xpY2ssIHRpdGxlLCBjaGlsZHJlbiB9KSA9PiB7XG4gICAgY29uc3QgQ29tcG9uZW50ID0gdGFyZ2V0IHx8IG9uQ2xpY2sgPyAnYScgOiBMaW5rXG4gICAgcmV0dXJuIChcbiAgICAgIDxDb21wb25lbnRcbiAgICAgICAgaHJlZj17dG8gfHwgaHJlZiB8fCBgLyR7aWR9YH1cbiAgICAgICAgdGFyZ2V0PXt0YXJnZXR9XG4gICAgICAgIHJlbD17cmVsfVxuICAgICAgICBvbkNsaWNrPXtvbkNsaWNrfVxuICAgICAgICBjbGFzc05hbWU9XCJidXR0b25cIj5cbiAgICAgICAge2NoaWxkcmVuICYmIHR5cGVvZiBjaGlsZHJlbiAhPT0gJ3N0cmluZydcbiAgICAgICAgICA/IGNoaWxkcmVuXG4gICAgICAgICAgOiB0KHRpdGxlIHx8IGNoaWxkcmVuKX1cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgIC5idXR0b24ge1xuICAgICAgICAgICAgZmxleDogMTtcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoNDAsIDQ0LCA1MiwgMC41KTtcbiAgICAgICAgICAgIG1hcmdpbjogMC4yNXJlbTtcbiAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICM0MjlhZWY7XG4gICAgICAgICAgICBwYWRkaW5nOiAwLjI1cmVtIDAuNXJlbTtcbiAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgICAgICAgICBsaW5lLWhlaWdodDogMTtcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgZGl2IHtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvQ29tcG9uZW50PlxuICAgIClcbiAgfSxcbilcbiJdfQ== */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/components/button.js */",
     __self: this
   }));
 }));
@@ -504,23 +504,15 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _logo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logo */ "./components/logo/logo.js");
 var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/components/logo/index.js";
-
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -541,52 +533,51 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
+
 var MAX_HEAD_TILT_X = 400;
 var MAX_HEAD_TILT_Y = 400;
 
-var Logo =
+var LogoContainer =
 /*#__PURE__*/
 function (_PureComponent) {
-  _inherits(Logo, _PureComponent);
+  _inherits(LogoContainer, _PureComponent);
 
-  function Logo() {
+  function LogoContainer() {
     var _getPrototypeOf2;
 
     var _this;
 
-    _classCallCheck(this, Logo);
+    _classCallCheck(this, LogoContainer);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Logo)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(LogoContainer)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
-      transform: "scaleY(1.2) translateZ(".concat(-_this.props.size, "px) rotateX(-40deg)\n  rotateY(-45deg)")
+      x: 0,
+      y: 0
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "logo", react__WEBPACK_IMPORTED_MODULE_1___default.a.createRef());
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "logo", react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef());
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onMove", function (event) {
-      var size = _this.props.size;
       var pageX = event.pageX,
           pageY = event.pageY;
       var x = saturate(pageX - _this.center.x, MAX_HEAD_TILT_X);
-      var y = saturate(pageY - _this.center.y, MAX_HEAD_TILT_Y); // const polar = {
-      //   r: Math.sqrt(vector.x * vector.x + vector.y * vector.y),
-      //   a: Math.atan(vector.y / vector.x),
-      // }
+      var y = saturate(pageY - _this.center.y, MAX_HEAD_TILT_Y);
 
       _this.setState({
-        transform: "scaleY(1.2) translateZ(".concat(-size, "px) rotateX(calc(-40deg - 0.001 * ").concat(y, "rad)) rotateY(calc(-45deg + 0.001 * ").concat(x, "rad))")
+        x: x,
+        y: y
       });
     });
 
     return _this;
   }
 
-  _createClass(Logo, [{
+  _createClass(LogoContainer, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       var _this$logo$current$ge = this.logo.current.getBoundingClientRect(),
@@ -611,113 +602,156 @@ function (_PureComponent) {
     value: function render() {
       var _this$props = this.props,
           size = _this$props.size,
-          letters = _this$props.letters,
-          reverse = _this$props.reverse,
-          eyes = _this$props.eyes;
-      var transform = this.state.transform;
-
-      var _letters = _slicedToArray(letters, 2),
-          leftLetter = _letters[0],
-          rightLetter = _letters[1];
-
-      var _reverse = _slicedToArray(reverse, 2),
-          reverseLeft = _reverse[0],
-          reverseRight = _reverse[1];
-
-      var _eyes = _slicedToArray(eyes, 2),
-          leftEye = _eyes[0],
-          rightEye = _eyes[1];
-
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          faces = _this$props.faces;
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_logo__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
+        size: size,
+        faces: faces
+      }, this.state, {
         ref: this.logo,
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4223061962", [size, size, size, transform, size / 2, size / 2, reverseLeft ? 'transform: rotateY(180deg);' : '', reverseRight ? 'transform: rotateY(180deg);' : '']]]) + " " + "logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 39
         },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4223061962", [size, size, size, transform, size / 2, size / 2, reverseLeft ? 'transform: rotateY(180deg);' : '', reverseRight ? 'transform: rotateY(180deg);' : '']]]) + " " + "cube",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4223061962", [size, size, size, transform, size / 2, size / 2, reverseLeft ? 'transform: rotateY(180deg);' : '', reverseRight ? 'transform: rotateY(180deg);' : '']]]) + " " + "cube__face cube__face--front",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: __webpack_require__("./components/logo/faces sync recursive ^\\.\\/.*\\.svg$")("./".concat(leftLetter, ".svg")),
-        alt: leftLetter,
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4223061962", [size, size, size, transform, size / 2, size / 2, reverseLeft ? 'transform: rotateY(180deg);' : '', reverseRight ? 'transform: rotateY(180deg);' : '']]]),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      }), leftEye && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: __webpack_require__(/*! ./eye.svg */ "./components/logo/eye.svg"),
-        alt: "left eye",
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4223061962", [size, size, size, transform, size / 2, size / 2, reverseLeft ? 'transform: rotateY(180deg);' : '', reverseRight ? 'transform: rotateY(180deg);' : '']]]) + " " + "eye",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4223061962", [size, size, size, transform, size / 2, size / 2, reverseLeft ? 'transform: rotateY(180deg);' : '', reverseRight ? 'transform: rotateY(180deg);' : '']]]) + " " + "cube__face cube__face--right",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: __webpack_require__("./components/logo/faces sync recursive ^\\.\\/.*\\.svg$")("./".concat(rightLetter, ".svg")),
-        alt: rightLetter,
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4223061962", [size, size, size, transform, size / 2, size / 2, reverseLeft ? 'transform: rotateY(180deg);' : '', reverseRight ? 'transform: rotateY(180deg);' : '']]]),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
-      }), rightEye && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: __webpack_require__(/*! ./eye.svg */ "./components/logo/eye.svg"),
-        alt: "right eye",
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4223061962", [size, size, size, transform, size / 2, size / 2, reverseLeft ? 'transform: rotateY(180deg);' : '', reverseRight ? 'transform: rotateY(180deg);' : '']]]) + " " + "eye",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-        styleId: "4223061962",
-        css: ".logo.__jsx-style-dynamic-selector{width:".concat(size, "px;-webkit-perspective:").concat(size, "px;-moz-perspective:").concat(size, "px;-ms-perspective:").concat(size, "px;perspective:").concat(size, "px;margin:0 auto;}.cube.__jsx-style-dynamic-selector{height:").concat(size, "px;-webkit-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transform:").concat(transform, ";-ms-transform:").concat(transform, ";transform:").concat(transform, ";-webkit-transition:ease-out 0.2s;transition:ease-out 0.2s;}.cube__face.__jsx-style-dynamic-selector{position:absolute;width:100%;height:100%;-webkit-transform-origin:bottom center;-ms-transform-origin:bottom center;transform-origin:bottom center;}.cube__face.__jsx-style-dynamic-selector>img.__jsx-style-dynamic-selector{position:absolute;}.cube__face--front.__jsx-style-dynamic-selector{-webkit-transform:rotateY(0deg) translateZ(").concat(size / 2, "px) skew(12deg);-ms-transform:rotateY(0deg) translateZ(").concat(size / 2, "px) skew(12deg);transform:rotateY(0deg) translateZ(").concat(size / 2, "px) skew(12deg);}.cube__face--right.__jsx-style-dynamic-selector{-webkit-transform:rotateY(90deg) translateZ(").concat(size / 2, "px) skew(-12deg);-ms-transform:rotateY(90deg) translateZ(").concat(size / 2, "px) skew(-12deg);transform:rotateY(90deg) translateZ(").concat(size / 2, "px) skew(-12deg);}.cube__face--right.__jsx-style-dynamic-selector>.eye.__jsx-style-dynamic-selector{-webkit-transform:rotateY(180deg);-ms-transform:rotateY(180deg);transform:rotateY(180deg);}.cube__face--front.__jsx-style-dynamic-selector>img.__jsx-style-dynamic-selector:first-of-type{").concat(reverseLeft ? 'transform: rotateY(180deg);' : '', ";}.cube__face--right.__jsx-style-dynamic-selector>img.__jsx-style-dynamic-selector:first-of-type{").concat(reverseRight ? 'transform: rotateY(180deg);' : '', ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9jb21wb25lbnRzL2xvZ28vaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0VvQixBQUdrRCxBQU1DLEFBT3BCLEFBT0EsQUFJNkQsQUFJRSxBQUl2RCxBQUs3QixBQUlBLGtCQTNCYyxBQU9iLFdBTmMsQUFzQmQsQUFJQSxRQXhDNkMsQ0FNZixHQVNHLGlEQWlCakMsNENBekJ5QyxZQVN6QyxnRkFmZ0IsY0FDaEIsU0FzQkEsTUFJQSxRQXBCMkIsMERBQzNCIiwiZmlsZSI6Ii9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9jb21wb25lbnRzL2xvZ28vaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQdXJlQ29tcG9uZW50IH0gZnJvbSAncmVhY3QnXG5cbmNvbnN0IE1BWF9IRUFEX1RJTFRfWCA9IDQwMFxuY29uc3QgTUFYX0hFQURfVElMVF9ZID0gNDAwXG5cbmNsYXNzIExvZ28gZXh0ZW5kcyBQdXJlQ29tcG9uZW50IHtcbiAgc3RhdGUgPSB7XG4gICAgdHJhbnNmb3JtOiBgc2NhbGVZKDEuMikgdHJhbnNsYXRlWigkey10aGlzLnByb3BzLnNpemV9cHgpIHJvdGF0ZVgoLTQwZGVnKVxuICByb3RhdGVZKC00NWRlZylgLFxuICB9XG5cbiAgbG9nbyA9IFJlYWN0LmNyZWF0ZVJlZigpXG5cbiAgb25Nb3ZlID0gZXZlbnQgPT4ge1xuICAgIGNvbnN0IHsgc2l6ZSB9ID0gdGhpcy5wcm9wc1xuXG4gICAgY29uc3QgeyBwYWdlWCwgcGFnZVkgfSA9IGV2ZW50XG5cbiAgICBjb25zdCB4ID0gc2F0dXJhdGUocGFnZVggLSB0aGlzLmNlbnRlci54LCBNQVhfSEVBRF9USUxUX1gpXG4gICAgY29uc3QgeSA9IHNhdHVyYXRlKHBhZ2VZIC0gdGhpcy5jZW50ZXIueSwgTUFYX0hFQURfVElMVF9ZKVxuXG4gICAgLy8gY29uc3QgcG9sYXIgPSB7XG4gICAgLy8gICByOiBNYXRoLnNxcnQodmVjdG9yLnggKiB2ZWN0b3IueCArIHZlY3Rvci55ICogdmVjdG9yLnkpLFxuICAgIC8vICAgYTogTWF0aC5hdGFuKHZlY3Rvci55IC8gdmVjdG9yLngpLFxuICAgIC8vIH1cblxuICAgIHRoaXMuc2V0U3RhdGUoe1xuICAgICAgdHJhbnNmb3JtOiBgc2NhbGVZKDEuMikgdHJhbnNsYXRlWigkey1zaXplfXB4KSByb3RhdGVYKGNhbGMoLTQwZGVnIC0gMC4wMDEgKiAke3l9cmFkKSkgcm90YXRlWShjYWxjKC00NWRlZyArIDAuMDAxICogJHt4fXJhZCkpYCxcbiAgICB9KVxuICB9XG5cbiAgY29tcG9uZW50RGlkTW91bnQoKSB7XG4gICAgY29uc3QgeyB4LCB3aWR0aCwgeSwgaGVpZ2h0IH0gPSB0aGlzLmxvZ28uY3VycmVudC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKVxuICAgIHRoaXMuY2VudGVyID0ge1xuICAgICAgeDogeCArIHdpZHRoIC8gMixcbiAgICAgIHk6IHkgKyBoZWlnaHQgLyAyLFxuICAgIH1cblxuICAgIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ21vdXNlbW92ZScsIHRoaXMub25Nb3ZlKVxuICB9XG5cbiAgY29tcG9uZW50V2lsbFVubW91bnQoKSB7XG4gICAgZG9jdW1lbnQucmVtb3ZlRXZlbnRMaXN0ZW5lcignbW91c2Vtb3ZlJywgdGhpcy5vbk1vdmUpXG4gIH1cblxuICByZW5kZXIoKSB7XG4gICAgY29uc3QgeyBzaXplLCBsZXR0ZXJzLCByZXZlcnNlLCBleWVzIH0gPSB0aGlzLnByb3BzXG4gICAgY29uc3QgeyB0cmFuc2Zvcm0gfSA9IHRoaXMuc3RhdGVcbiAgICBjb25zdCBbbGVmdExldHRlciwgcmlnaHRMZXR0ZXJdID0gbGV0dGVyc1xuICAgIGNvbnN0IFtyZXZlcnNlTGVmdCwgcmV2ZXJzZVJpZ2h0XSA9IHJldmVyc2VcbiAgICBjb25zdCBbbGVmdEV5ZSwgcmlnaHRFeWVdID0gZXllc1xuXG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwibG9nb1wiIHJlZj17dGhpcy5sb2dvfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjdWJlXCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjdWJlX19mYWNlIGN1YmVfX2ZhY2UtLWZyb250XCI+XG4gICAgICAgICAgICA8aW1nIHNyYz17cmVxdWlyZShgLi9mYWNlcy8ke2xlZnRMZXR0ZXJ9LnN2Z2ApfSBhbHQ9e2xlZnRMZXR0ZXJ9IC8+XG4gICAgICAgICAgICB7bGVmdEV5ZSAmJiAoXG4gICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwiZXllXCIgc3JjPXtyZXF1aXJlKCcuL2V5ZS5zdmcnKX0gYWx0PVwibGVmdCBleWVcIiAvPlxuICAgICAgICAgICAgKX1cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImN1YmVfX2ZhY2UgY3ViZV9fZmFjZS0tcmlnaHRcIj5cbiAgICAgICAgICAgIDxpbWdcbiAgICAgICAgICAgICAgc3JjPXtyZXF1aXJlKGAuL2ZhY2VzLyR7cmlnaHRMZXR0ZXJ9LnN2Z2ApfVxuICAgICAgICAgICAgICBhbHQ9e3JpZ2h0TGV0dGVyfVxuICAgICAgICAgICAgLz5cbiAgICAgICAgICAgIHtyaWdodEV5ZSAmJiAoXG4gICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwiZXllXCIgc3JjPXtyZXF1aXJlKCcuL2V5ZS5zdmcnKX0gYWx0PVwicmlnaHQgZXllXCIgLz5cbiAgICAgICAgICAgICl9XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAubG9nbyB7XG4gICAgICAgICAgICB3aWR0aDogJHtzaXplfXB4O1xuICAgICAgICAgICAgcGVyc3BlY3RpdmU6ICR7c2l6ZX1weDtcbiAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5jdWJlIHtcbiAgICAgICAgICAgIGhlaWdodDogJHtzaXplfXB4O1xuICAgICAgICAgICAgdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgICAgICAgICAgIHRyYW5zZm9ybTogJHt0cmFuc2Zvcm19O1xuICAgICAgICAgICAgdHJhbnNpdGlvbjogZWFzZS1vdXQgMC4ycztcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuY3ViZV9fZmFjZSB7XG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHRyYW5zZm9ybS1vcmlnaW46IGJvdHRvbSBjZW50ZXI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmN1YmVfX2ZhY2UgPiBpbWcge1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5jdWJlX19mYWNlLS1mcm9udCB7XG4gICAgICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZVkoMGRlZykgdHJhbnNsYXRlWigke3NpemUgLyAyfXB4KSBza2V3KDEyZGVnKTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuY3ViZV9fZmFjZS0tcmlnaHQge1xuICAgICAgICAgICAgdHJhbnNmb3JtOiByb3RhdGVZKDkwZGVnKSB0cmFuc2xhdGVaKCR7c2l6ZSAvIDJ9cHgpIHNrZXcoLTEyZGVnKTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuY3ViZV9fZmFjZS0tcmlnaHQgPiAuZXllIHtcbiAgICAgICAgICAgIHRyYW5zZm9ybTogcm90YXRlWSgxODBkZWcpO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5jdWJlX19mYWNlLS1mcm9udCA+IGltZzpmaXJzdC1vZi10eXBlIHtcbiAgICAgICAgICAgICR7cmV2ZXJzZUxlZnQgPyAndHJhbnNmb3JtOiByb3RhdGVZKDE4MGRlZyk7JyA6ICcnfVxuICAgICAgICAgIH1cblxuICAgICAgICAgIC5jdWJlX19mYWNlLS1yaWdodCA+IGltZzpmaXJzdC1vZi10eXBlIHtcbiAgICAgICAgICAgICR7cmV2ZXJzZVJpZ2h0ID8gJ3RyYW5zZm9ybTogcm90YXRlWSgxODBkZWcpOycgOiAnJ31cbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvZGl2PlxuICAgIClcbiAgfVxufVxuXG5Mb2dvLmRlZmF1bHRQcm9wcyA9IHtcbiAgc2l6ZTogNjQsXG4gIGxldHRlcnM6ICdJQycsXG4gIHJldmVyc2U6IFtmYWxzZSwgZmFsc2VdLFxuICBleWVzOiBbdHJ1ZSwgZmFsc2VdLFxufVxuXG5leHBvcnQgZGVmYXVsdCBMb2dvXG5cbmZ1bmN0aW9uIHNhdHVyYXRlKG51bSwgbGltaXQpIHtcbiAgaWYgKG51bSA8IC1saW1pdCkgcmV0dXJuIC1saW1pdFxuICBpZiAobnVtID4gbGltaXQpIHJldHVybiBsaW1pdFxuICByZXR1cm4gbnVtXG59XG4iXX0= */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/components/logo/index.js */"),
-        dynamic: [size, size, size, transform, size / 2, size / 2, reverseLeft ? 'transform: rotateY(180deg);' : '', reverseRight ? 'transform: rotateY(180deg);' : ''],
         __self: this
       }));
     }
   }]);
 
-  return Logo;
-}(react__WEBPACK_IMPORTED_MODULE_1__["PureComponent"]);
+  return LogoContainer;
+}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
 
-Logo.defaultProps = {
+LogoContainer.defaultProps = {
   size: 64,
-  letters: 'IC',
-  reverse: [false, false],
-  eyes: [true, false]
+  faces: [{
+    image: 'I',
+    reverse: false,
+    eye: true
+  }, {
+    image: 'C',
+    reverse: false,
+    eye: false
+  }]
 };
-/* harmony default export */ __webpack_exports__["default"] = (Logo);
+/* harmony default export */ __webpack_exports__["default"] = (LogoContainer);
 
 function saturate(num, limit) {
   if (num < -limit) return -limit;
   if (num > limit) return limit;
   return num;
 }
+
+/***/ }),
+
+/***/ "./components/logo/logo.js":
+/*!*********************************!*\
+  !*** ./components/logo/logo.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _utils_compose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils/compose */ "./utils/compose.js");
+var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/components/logo/logo.js";
+
+
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+var enhance = Object(_utils_compose__WEBPACK_IMPORTED_MODULE_2__["compose"])(react__WEBPACK_IMPORTED_MODULE_1___default.a.memo, react__WEBPACK_IMPORTED_MODULE_1___default.a.forwardRef);
+/* harmony default export */ __webpack_exports__["default"] = (enhance(function (_ref, ref) {
+  var size = _ref.size,
+      faces = _ref.faces,
+      x = _ref.x,
+      y = _ref.y;
+
+  var _faces = _slicedToArray(faces, 2),
+      left = _faces[0],
+      right = _faces[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    ref: ref,
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2976415343", [size, size, size, -size, y, x, size / 2, size / 2, left.reverse ? 'transform: rotateY(180deg);' : '', right.reverse ? 'transform: rotateY(180deg);' : '']]]) + " " + "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2976415343", [size, size, size, -size, y, x, size / 2, size / 2, left.reverse ? 'transform: rotateY(180deg);' : '', right.reverse ? 'transform: rotateY(180deg);' : '']]]) + " " + "cube",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2976415343", [size, size, size, -size, y, x, size / 2, size / 2, left.reverse ? 'transform: rotateY(180deg);' : '', right.reverse ? 'transform: rotateY(180deg);' : '']]]) + " " + "cube__face cube__face--left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: __webpack_require__("./components/logo/faces sync recursive ^\\.\\/.*\\.svg$")("./".concat(left.image, ".svg")),
+    alt: left.image,
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2976415343", [size, size, size, -size, y, x, size / 2, size / 2, left.reverse ? 'transform: rotateY(180deg);' : '', right.reverse ? 'transform: rotateY(180deg);' : '']]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), left.eye && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: __webpack_require__(/*! ./eye.svg */ "./components/logo/eye.svg"),
+    alt: "left eye",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2976415343", [size, size, size, -size, y, x, size / 2, size / 2, left.reverse ? 'transform: rotateY(180deg);' : '', right.reverse ? 'transform: rotateY(180deg);' : '']]]) + " " + "eye",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2976415343", [size, size, size, -size, y, x, size / 2, size / 2, left.reverse ? 'transform: rotateY(180deg);' : '', right.reverse ? 'transform: rotateY(180deg);' : '']]]) + " " + "cube__face cube__face--right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: __webpack_require__("./components/logo/faces sync recursive ^\\.\\/.*\\.svg$")("./".concat(right.image, ".svg")),
+    alt: right.image,
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2976415343", [size, size, size, -size, y, x, size / 2, size / 2, left.reverse ? 'transform: rotateY(180deg);' : '', right.reverse ? 'transform: rotateY(180deg);' : '']]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), right.eye && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: __webpack_require__(/*! ./eye.svg */ "./components/logo/eye.svg"),
+    alt: "right eye",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2976415343", [size, size, size, -size, y, x, size / 2, size / 2, left.reverse ? 'transform: rotateY(180deg);' : '', right.reverse ? 'transform: rotateY(180deg);' : '']]]) + " " + "eye",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "2976415343",
+    css: ".logo.__jsx-style-dynamic-selector{width:".concat(size, "px;-webkit-perspective:").concat(size, "px;-moz-perspective:").concat(size, "px;-ms-perspective:").concat(size, "px;perspective:").concat(size, "px;margin:0 auto;}.cube.__jsx-style-dynamic-selector{height:").concat(size, "px;-webkit-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transform:scaleY(1.2) translateZ(").concat(-size, "px) rotateX(calc(-40deg - 0.001 * ").concat(y, "rad)) rotateY(calc(-45deg + 0.001 * ").concat(x, "rad));-ms-transform:scaleY(1.2) translateZ(").concat(-size, "px) rotateX(calc(-40deg - 0.001 * ").concat(y, "rad)) rotateY(calc(-45deg + 0.001 * ").concat(x, "rad));transform:scaleY(1.2) translateZ(").concat(-size, "px) rotateX(calc(-40deg - 0.001 * ").concat(y, "rad)) rotateY(calc(-45deg + 0.001 * ").concat(x, "rad));-webkit-transition:ease-out 0.2s;transition:ease-out 0.2s;}.cube__face.__jsx-style-dynamic-selector{position:absolute;width:100%;height:100%;-webkit-transform-origin:bottom center;-ms-transform-origin:bottom center;transform-origin:bottom center;}.cube__face.__jsx-style-dynamic-selector>img.__jsx-style-dynamic-selector{position:absolute;}.cube__face--left.__jsx-style-dynamic-selector{-webkit-transform:rotateY(0deg) translateZ(").concat(size / 2, "px) skew(12deg);-ms-transform:rotateY(0deg) translateZ(").concat(size / 2, "px) skew(12deg);transform:rotateY(0deg) translateZ(").concat(size / 2, "px) skew(12deg);}.cube__face--right.__jsx-style-dynamic-selector{-webkit-transform:rotateY(90deg) translateZ(").concat(size / 2, "px) skew(-12deg);-ms-transform:rotateY(90deg) translateZ(").concat(size / 2, "px) skew(-12deg);transform:rotateY(90deg) translateZ(").concat(size / 2, "px) skew(-12deg);}.cube__face--right.__jsx-style-dynamic-selector>.eye.__jsx-style-dynamic-selector{-webkit-transform:rotateY(180deg);-ms-transform:rotateY(180deg);transform:rotateY(180deg);}.cube__face--left.__jsx-style-dynamic-selector>img.__jsx-style-dynamic-selector:first-of-type{").concat(left.reverse ? 'transform: rotateY(180deg);' : '', ";}.cube__face--right.__jsx-style-dynamic-selector>img.__jsx-style-dynamic-selector:first-of-type{").concat(right.reverse ? 'transform: rotateY(180deg);' : '', ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9jb21wb25lbnRzL2xvZ28vbG9nby5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEyQmtCLEFBR2dELEFBTUMsQUFTcEIsQUFPQSxBQUk2RCxBQUlFLEFBSXZELEFBSzdCLEFBSUEsa0JBM0JjLEFBT2IsV0FOYyxBQXNCZCxBQUlBLFFBMUM2QyxDQU1mLEdBV0csaURBaUJqQyw0Q0F6Qm1FLFlBU25FLGdGQWpCZ0IsY0FDaEIsU0F3QkEsTUFJQSxzZEFwQjJCLDBEQUMzQiIsImZpbGUiOiIvaG9tZS9hbnRvbnkvUHJvZ2V0dGkvSW5nbG9yaW91cyBDb2RlcnovaW5nbG9yaW91c2NvZGVyei5naXRodWIuaW8vY29tcG9uZW50cy9sb2dvL2xvZ28uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjb21wb3NlIH0gZnJvbSAnfi91dGlscy9jb21wb3NlJ1xuXG5jb25zdCBlbmhhbmNlID0gY29tcG9zZShcbiAgUmVhY3QubWVtbyxcbiAgUmVhY3QuZm9yd2FyZFJlZixcbilcblxuZXhwb3J0IGRlZmF1bHQgZW5oYW5jZSgoeyBzaXplLCBmYWNlcywgeCwgeSB9LCByZWYpID0+IHtcbiAgY29uc3QgW2xlZnQsIHJpZ2h0XSA9IGZhY2VzXG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImxvZ29cIiByZWY9e3JlZn0+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImN1YmVcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjdWJlX19mYWNlIGN1YmVfX2ZhY2UtLWxlZnRcIj5cbiAgICAgICAgICA8aW1nIHNyYz17cmVxdWlyZShgLi9mYWNlcy8ke2xlZnQuaW1hZ2V9LnN2Z2ApfSBhbHQ9e2xlZnQuaW1hZ2V9IC8+XG4gICAgICAgICAge2xlZnQuZXllICYmIChcbiAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwiZXllXCIgc3JjPXtyZXF1aXJlKCcuL2V5ZS5zdmcnKX0gYWx0PVwibGVmdCBleWVcIiAvPlxuICAgICAgICAgICl9XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImN1YmVfX2ZhY2UgY3ViZV9fZmFjZS0tcmlnaHRcIj5cbiAgICAgICAgICA8aW1nIHNyYz17cmVxdWlyZShgLi9mYWNlcy8ke3JpZ2h0LmltYWdlfS5zdmdgKX0gYWx0PXtyaWdodC5pbWFnZX0gLz5cbiAgICAgICAgICB7cmlnaHQuZXllICYmIChcbiAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwiZXllXCIgc3JjPXtyZXF1aXJlKCcuL2V5ZS5zdmcnKX0gYWx0PVwicmlnaHQgZXllXCIgLz5cbiAgICAgICAgICApfVxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5sb2dvIHtcbiAgICAgICAgICB3aWR0aDogJHtzaXplfXB4O1xuICAgICAgICAgIHBlcnNwZWN0aXZlOiAke3NpemV9cHg7XG4gICAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgIH1cblxuICAgICAgICAuY3ViZSB7XG4gICAgICAgICAgaGVpZ2h0OiAke3NpemV9cHg7XG4gICAgICAgICAgdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgICAgICAgICB0cmFuc2Zvcm06IHNjYWxlWSgxLjIpIHRyYW5zbGF0ZVooJHstc2l6ZX1weClcbiAgICAgICAgICAgIHJvdGF0ZVgoY2FsYygtNDBkZWcgLSAwLjAwMSAqICR7eX1yYWQpKVxuICAgICAgICAgICAgcm90YXRlWShjYWxjKC00NWRlZyArIDAuMDAxICogJHt4fXJhZCkpO1xuICAgICAgICAgIHRyYW5zaXRpb246IGVhc2Utb3V0IDAuMnM7XG4gICAgICAgIH1cblxuICAgICAgICAuY3ViZV9fZmFjZSB7XG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICB0cmFuc2Zvcm0tb3JpZ2luOiBib3R0b20gY2VudGVyO1xuICAgICAgICB9XG5cbiAgICAgICAgLmN1YmVfX2ZhY2UgPiBpbWcge1xuICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5jdWJlX19mYWNlLS1sZWZ0IHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZVkoMGRlZykgdHJhbnNsYXRlWigke3NpemUgLyAyfXB4KSBza2V3KDEyZGVnKTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5jdWJlX19mYWNlLS1yaWdodCB7XG4gICAgICAgICAgdHJhbnNmb3JtOiByb3RhdGVZKDkwZGVnKSB0cmFuc2xhdGVaKCR7c2l6ZSAvIDJ9cHgpIHNrZXcoLTEyZGVnKTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5jdWJlX19mYWNlLS1yaWdodCA+IC5leWUge1xuICAgICAgICAgIHRyYW5zZm9ybTogcm90YXRlWSgxODBkZWcpO1xuICAgICAgICB9XG5cbiAgICAgICAgLmN1YmVfX2ZhY2UtLWxlZnQgPiBpbWc6Zmlyc3Qtb2YtdHlwZSB7XG4gICAgICAgICAgJHtsZWZ0LnJldmVyc2UgPyAndHJhbnNmb3JtOiByb3RhdGVZKDE4MGRlZyk7JyA6ICcnfVxuICAgICAgICB9XG5cbiAgICAgICAgLmN1YmVfX2ZhY2UtLXJpZ2h0ID4gaW1nOmZpcnN0LW9mLXR5cGUge1xuICAgICAgICAgICR7cmlnaHQucmV2ZXJzZSA/ICd0cmFuc2Zvcm06IHJvdGF0ZVkoMTgwZGVnKTsnIDogJyd9XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKVxufSlcbiJdfQ== */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/components/logo/logo.js */"),
+    dynamic: [size, size, size, -size, y, x, size / 2, size / 2, left.reverse ? 'transform: rotateY(180deg);' : '', right.reverse ? 'transform: rotateY(180deg);' : ''],
+    __self: this
+  }));
+}));
 
 /***/ }),
 
@@ -808,16 +842,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/link */ "./components/link.js");
-/* harmony import */ var _static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../static/images/metal-wallpaper.jpg */ "./static/images/metal-wallpaper.jpg");
-/* harmony import */ var _static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_logo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/logo */ "./components/logo/index.js");
-/* harmony import */ var _components_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/button */ "./components/button.js");
+/* harmony import */ var _components_logo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/logo */ "./components/logo/index.js");
+/* harmony import */ var _components_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/button */ "./components/button.js");
 var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/layouts/default/header.js";
 
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
 
 
 
@@ -850,104 +881,105 @@ var links = [{
   id: 'blog',
   title: 'Blog'
 }];
-/* harmony default export */ __webpack_exports__["default"] = (function () {
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var wallpaper = _ref.wallpaper;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("header", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
     to: "/",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]) + " " + "title",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]) + " " + "title",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
+  }, "Inglorious"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]) + " " + "shade",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, "Inglorious"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]) + " " + "shade",
+  }, "\xA0")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_logo__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
-  }, "\xA0")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_logo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
+  }, "Coderz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]) + " " + "shade",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, "Coderz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]) + " " + "shade",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
   }, "\xA0"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2343383050", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["4234221220", [wallpaper]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 36
     },
     __self: this
   }, links.map(function (link) {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_button__WEBPACK_IMPORTED_MODULE_5__["default"], _extends({
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_button__WEBPACK_IMPORTED_MODULE_4__["default"], _extends({
       key: link.id
     }, link, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 38
       },
       __self: this
     }));
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "2343383050",
-    css: "header.__jsx-style-dynamic-selector{background:black;background-image:url(".concat(_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a, ");background-position-x:center;background-attachment:fixed;margin-bottom:1rem;position:-webkit-sticky;position:sticky;top:0;z-index:1000;}header.__jsx-style-dynamic-selector>h1.__jsx-style-dynamic-selector{font-size:2rem;}@media (max-width:640px){header.__jsx-style-dynamic-selector>h1.__jsx-style-dynamic-selector{font-size:1rem;}}header.__jsx-style-dynamic-selector>h1.__jsx-style-dynamic-selector .title.__jsx-style-dynamic-selector{font-family:'Ethnocentric';color:#666;display:grid;justify-items:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;grid-template-columns:4fr 1fr 4fr;}.shade.__jsx-style-dynamic-selector{position:relative;margin:-1.5rem 0 0;padding:0;display:block;background:#111;width:100%;height:1.5rem;opacity:0.25;text-align:center;}@media (max-width:640px){.shade.__jsx-style-dynamic-selector{margin:-0.75rem 0 0;height:1rem;}}header.__jsx-style-dynamic-selector>p.__jsx-style-dynamic-selector{text-align:center;margin:0.5rem;}nav.__jsx-style-dynamic-selector{text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9sYXlvdXRzL2RlZmF1bHQvaGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTBDZ0IsQUFHMEIsQUFXRixBQVdFLEFBS1UsQUFTVCxBQWFJLEFBTUosQUFLQSxlQWhEcEIsQUFXRSxFQXRCbUQsQ0FvQ2hDLEFBbUJMLEFBS0QsRUFYQyxPQXRCSCxLQXVCWCxBQU1GLEtBbkJZLENBVEcsU0FVQyxJQVRPLFVBVUwsT0F0Q2EsSUE2QlYsS0FVUixXQUNHLElBb0JDLEtBM0RhLEtBd0NmLGFBQ0ssVUF4Q0MsUUF5Q3JCLFdBeENrQixLQTBEbEIsZ0JBL0JvQyxtQkExQjVCLE1BQ08sU0EwQmYsSUF6QkEiLCJmaWxlIjoiL2hvbWUvYW50b255L1Byb2dldHRpL0luZ2xvcmlvdXMgQ29kZXJ6L2luZ2xvcmlvdXNjb2RlcnouZ2l0aHViLmlvL2xheW91dHMvZGVmYXVsdC9oZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICd+L2NvbXBvbmVudHMvbGluaydcblxuaW1wb3J0IHdhbGxwYXBlciBmcm9tICd+L3N0YXRpYy9pbWFnZXMvbWV0YWwtd2FsbHBhcGVyLmpwZydcbmltcG9ydCBMb2dvIGZyb20gJ34vY29tcG9uZW50cy9sb2dvJ1xuaW1wb3J0IEJ1dHRvbiBmcm9tICd+L2NvbXBvbmVudHMvYnV0dG9uJ1xuXG5jb25zdCBsaW5rcyA9IFtcbiAgeyBpZDogJ3doeScsIHRpdGxlOiAnV2h5JyB9LFxuICB7IGlkOiAnd2hvJywgdGl0bGU6ICdXaG8nIH0sXG4gIHsgaWQ6ICd3aGF0JywgdGl0bGU6ICdXaGF0JyB9LFxuICB7IGlkOiAnaG93JywgdGl0bGU6ICdIb3cnIH0sXG4gIHsgaWQ6ICd3aGVuJywgdGl0bGU6ICdXaGVuJyB9LFxuICB7IGlkOiAnd2hlcmUnLCB0aXRsZTogJ1doZXJlJyB9LFxuICB7IGlkOiAnaG93LW11Y2gnLCB0aXRsZTogJ0hvdyBNdWNoJyB9LFxuICB7IGlkOiAnbG9nbycsIHRpdGxlOiAnTG9nbycgfSxcbiAgeyBpZDogJ2Jsb2cnLCB0aXRsZTogJ0Jsb2cnIH0sXG5dXG5cbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcbiAgPGhlYWRlcj5cbiAgICA8aDE+XG4gICAgICA8TGluayB0bz1cIi9cIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0aXRsZVwiPlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICA8c3Bhbj5Jbmdsb3Jpb3VzPC9zcGFuPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwic2hhZGVcIj4mbmJzcDs8L3NwYW4+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPExvZ28gLz5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPHNwYW4+Q29kZXJ6PC9zcGFuPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwic2hhZGVcIj4mbmJzcDs8L3NwYW4+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9MaW5rPlxuICAgIDwvaDE+XG5cbiAgICA8bmF2PlxuICAgICAge2xpbmtzLm1hcChsaW5rID0+IChcbiAgICAgICAgPEJ1dHRvbiBrZXk9e2xpbmsuaWR9IHsuLi5saW5rfSAvPlxuICAgICAgKSl9XG4gICAgPC9uYXY+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICBoZWFkZXIge1xuICAgICAgICBiYWNrZ3JvdW5kOiBibGFjaztcbiAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCR7d2FsbHBhcGVyfSk7XG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb24teDogY2VudGVyO1xuICAgICAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IGZpeGVkO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xuICAgICAgICBwb3NpdGlvbjogc3RpY2t5O1xuICAgICAgICB0b3A6IDA7XG4gICAgICAgIHotaW5kZXg6IDEwMDA7XG4gICAgICB9XG5cbiAgICAgIGhlYWRlciA+IGgxIHtcbiAgICAgICAgZm9udC1zaXplOiAycmVtO1xuICAgICAgfVxuXG4gICAgICAvLyBAbWVkaWEgKG1heC13aWR0aDogMTAyNHB4KSB7XG4gICAgICAvLyAgIGhlYWRlciA+IGgxIHtcbiAgICAgIC8vICAgICBmb250LXNpemU6IDEuNXJlbTtcbiAgICAgIC8vICAgfVxuICAgICAgLy8gfVxuXG4gICAgICBAbWVkaWEgKG1heC13aWR0aDogNjQwcHgpIHtcbiAgICAgICAgaGVhZGVyID4gaDEge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMXJlbTtcbiAgICAgICAgfVxuICAgICAgfVxuXG4gICAgICBoZWFkZXIgPiBoMSAudGl0bGUge1xuICAgICAgICBmb250LWZhbWlseTogJ0V0aG5vY2VudHJpYyc7XG4gICAgICAgIGNvbG9yOiAjNjY2O1xuICAgICAgICBkaXNwbGF5OiBncmlkO1xuICAgICAgICBqdXN0aWZ5LWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNGZyIDFmciA0ZnI7XG4gICAgICB9XG5cbiAgICAgIC5zaGFkZSB7XG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgbWFyZ2luOiAtMS41cmVtIDAgMDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgIGJhY2tncm91bmQ6ICMxMTE7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICBoZWlnaHQ6IDEuNXJlbTtcbiAgICAgICAgb3BhY2l0eTogMC4yNTtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgfVxuXG4gICAgICBAbWVkaWEgKG1heC13aWR0aDogNjQwcHgpIHtcbiAgICAgICAgLnNoYWRlIHtcbiAgICAgICAgICBtYXJnaW46IC0wLjc1cmVtIDAgMDtcbiAgICAgICAgICBoZWlnaHQ6IDFyZW07XG4gICAgICAgIH1cbiAgICAgIH1cblxuICAgICAgaGVhZGVyID4gcCB7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgbWFyZ2luOiAwLjVyZW07XG4gICAgICB9XG5cbiAgICAgIG5hdiB7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgZmxleC13cmFwOiB3cmFwO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9oZWFkZXI+XG4pXG4iXX0= */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/layouts/default/header.js */"),
-    dynamic: [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a],
+    styleId: "4234221220",
+    css: "header.__jsx-style-dynamic-selector{background:black;background-image:url(".concat(wallpaper, ");background-position-x:center;background-attachment:fixed;margin-bottom:1rem;position:-webkit-sticky;position:sticky;top:0;z-index:1000;}header.__jsx-style-dynamic-selector>h1.__jsx-style-dynamic-selector{font-size:2rem;}@media (max-width:640px){header.__jsx-style-dynamic-selector>h1.__jsx-style-dynamic-selector{font-size:1rem;}}header.__jsx-style-dynamic-selector>h1.__jsx-style-dynamic-selector .title.__jsx-style-dynamic-selector{font-family:'Ethnocentric';color:#666;display:grid;justify-items:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;grid-template-columns:4fr 1fr 4fr;}.shade.__jsx-style-dynamic-selector{position:relative;margin:-1.5rem 0 0;padding:0;display:block;background:#111;width:100%;height:1.5rem;opacity:0.25;text-align:center;}@media (max-width:640px){.shade.__jsx-style-dynamic-selector{margin:-0.75rem 0 0;height:1rem;}}header.__jsx-style-dynamic-selector>p.__jsx-style-dynamic-selector{text-align:center;margin:0.5rem;}nav.__jsx-style-dynamic-selector{text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9sYXlvdXRzL2RlZmF1bHQvaGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXlDZ0IsQUFHMEIsQUFXRixBQUtFLEFBS1UsQUFTVCxBQWFJLEFBTUosQUFLQSxlQTFDcEIsQUFLRSxFQWhCbUQsQ0E4QmhDLEFBbUJMLEFBS0QsRUFYQyxPQXRCSCxLQXVCWCxBQU1GLEtBbkJZLENBVEcsU0FVQyxJQVRPLFVBVUwsT0FoQ2EsSUF1QlYsS0FVUixXQUNHLElBb0JDLEtBckRhLEtBa0NmLGFBQ0ssVUFsQ0MsUUFtQ3JCLFdBbENrQixLQW9EbEIsZ0JBL0JvQyxtQkFwQjVCLE1BQ08sU0FvQmYsSUFuQkEiLCJmaWxlIjoiL2hvbWUvYW50b255L1Byb2dldHRpL0luZ2xvcmlvdXMgQ29kZXJ6L2luZ2xvcmlvdXNjb2RlcnouZ2l0aHViLmlvL2xheW91dHMvZGVmYXVsdC9oZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICd+L2NvbXBvbmVudHMvbGluaydcblxuaW1wb3J0IExvZ28gZnJvbSAnfi9jb21wb25lbnRzL2xvZ28nXG5pbXBvcnQgQnV0dG9uIGZyb20gJ34vY29tcG9uZW50cy9idXR0b24nXG5cbmNvbnN0IGxpbmtzID0gW1xuICB7IGlkOiAnd2h5JywgdGl0bGU6ICdXaHknIH0sXG4gIHsgaWQ6ICd3aG8nLCB0aXRsZTogJ1dobycgfSxcbiAgeyBpZDogJ3doYXQnLCB0aXRsZTogJ1doYXQnIH0sXG4gIHsgaWQ6ICdob3cnLCB0aXRsZTogJ0hvdycgfSxcbiAgeyBpZDogJ3doZW4nLCB0aXRsZTogJ1doZW4nIH0sXG4gIHsgaWQ6ICd3aGVyZScsIHRpdGxlOiAnV2hlcmUnIH0sXG4gIHsgaWQ6ICdob3ctbXVjaCcsIHRpdGxlOiAnSG93IE11Y2gnIH0sXG4gIHsgaWQ6ICdsb2dvJywgdGl0bGU6ICdMb2dvJyB9LFxuICB7IGlkOiAnYmxvZycsIHRpdGxlOiAnQmxvZycgfSxcbl1cblxuZXhwb3J0IGRlZmF1bHQgKHsgd2FsbHBhcGVyIH0pID0+IChcbiAgPGhlYWRlcj5cbiAgICA8aDE+XG4gICAgICA8TGluayB0bz1cIi9cIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0aXRsZVwiPlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICA8c3Bhbj5Jbmdsb3Jpb3VzPC9zcGFuPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwic2hhZGVcIj4mbmJzcDs8L3NwYW4+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPExvZ28gLz5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPHNwYW4+Q29kZXJ6PC9zcGFuPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwic2hhZGVcIj4mbmJzcDs8L3NwYW4+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9MaW5rPlxuICAgIDwvaDE+XG5cbiAgICA8bmF2PlxuICAgICAge2xpbmtzLm1hcChsaW5rID0+IChcbiAgICAgICAgPEJ1dHRvbiBrZXk9e2xpbmsuaWR9IHsuLi5saW5rfSAvPlxuICAgICAgKSl9XG4gICAgPC9uYXY+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICBoZWFkZXIge1xuICAgICAgICBiYWNrZ3JvdW5kOiBibGFjaztcbiAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCR7d2FsbHBhcGVyfSk7XG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb24teDogY2VudGVyO1xuICAgICAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IGZpeGVkO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xuICAgICAgICBwb3NpdGlvbjogc3RpY2t5O1xuICAgICAgICB0b3A6IDA7XG4gICAgICAgIHotaW5kZXg6IDEwMDA7XG4gICAgICB9XG5cbiAgICAgIGhlYWRlciA+IGgxIHtcbiAgICAgICAgZm9udC1zaXplOiAycmVtO1xuICAgICAgfVxuXG4gICAgICBAbWVkaWEgKG1heC13aWR0aDogNjQwcHgpIHtcbiAgICAgICAgaGVhZGVyID4gaDEge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMXJlbTtcbiAgICAgICAgfVxuICAgICAgfVxuXG4gICAgICBoZWFkZXIgPiBoMSAudGl0bGUge1xuICAgICAgICBmb250LWZhbWlseTogJ0V0aG5vY2VudHJpYyc7XG4gICAgICAgIGNvbG9yOiAjNjY2O1xuICAgICAgICBkaXNwbGF5OiBncmlkO1xuICAgICAgICBqdXN0aWZ5LWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNGZyIDFmciA0ZnI7XG4gICAgICB9XG5cbiAgICAgIC5zaGFkZSB7XG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgbWFyZ2luOiAtMS41cmVtIDAgMDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgIGJhY2tncm91bmQ6ICMxMTE7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICBoZWlnaHQ6IDEuNXJlbTtcbiAgICAgICAgb3BhY2l0eTogMC4yNTtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgfVxuXG4gICAgICBAbWVkaWEgKG1heC13aWR0aDogNjQwcHgpIHtcbiAgICAgICAgLnNoYWRlIHtcbiAgICAgICAgICBtYXJnaW46IC0wLjc1cmVtIDAgMDtcbiAgICAgICAgICBoZWlnaHQ6IDFyZW07XG4gICAgICAgIH1cbiAgICAgIH1cblxuICAgICAgaGVhZGVyID4gcCB7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgbWFyZ2luOiAwLjVyZW07XG4gICAgICB9XG5cbiAgICAgIG5hdiB7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgZmxleC13cmFwOiB3cmFwO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9oZWFkZXI+XG4pXG4iXX0= */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/layouts/default/header.js */"),
+    dynamic: [wallpaper],
     __self: this
   }));
 });
@@ -967,8 +999,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-seo */ "./node_modules/next-seo/dist/index.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../static/images/metal-wallpaper.jpg */ "./static/images/metal-wallpaper.jpg");
 /* harmony import */ var _static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _toolbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./toolbar */ "./layouts/default/toolbar.js");
@@ -983,60 +1015,62 @@ var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.git
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
-  var children = _ref.children;
+  var path = _ref.path,
+      title = _ref.title,
+      description = _ref.description,
+      children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1556387584 " + styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2396428239", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]) + " " + "layout container-fluid",
+    className: "jsx-1556387584 " + styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["597983848", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]) + " " + "layout container-fluid",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    config: {
+      canonical: "https://www.ingloriouscoderz.it/".concat(path),
+      title: title,
+      description: description
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-    className: "jsx-1556387584 " + styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2396428239", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Inglorious Coderz")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_toolbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("main", {
-    className: "jsx-1556387584 " + styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2396428239", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_toolbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    wallpaper: _static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("main", {
+    className: "jsx-1556387584 " + styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["597983848", [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a]]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "2396428239",
-    css: "@font-face{font-family:'Ethnocentric';font-style:normal;font-weight:400;src:url('/static/fonts/ethnocentric_rg.ttf');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6, U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193, U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Orbitron';font-style:normal;font-weight:400;src:local('Orbitron:Regular'),local('Orbitron-Regular'), url('/static/fonts/orbitron.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6, U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193, U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),:url('/static/fonts/roboto.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6, U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193, U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu:Regular'),local('Ubuntu-Regular'), rl('/static/fonts/ubuntu.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6, U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193, U+2212,U+2215,U+FEFF,U+FFFD;}html,body,#__next{height:100%;margin:0;}html{font-family:'Roboto','Ubuntu',sans-serif;font-size:16px;line-height:1.5;color:#bbb;}body{background:black;background-image:url(".concat(_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a, ");background-position-x:center;background-attachment:fixed;}a{color:#429aef;-webkit-text-decoration:none;text-decoration:none;}a:hover{-webkit-filter:brightness(125%);filter:brightness(125%);}h1,h2,h3{font-family:'Orbitron';font-weight:normal;color:#98c379;}h1{font-size:1.5rem;}h2{font-size:1.2rem;}p{margin-top:0;}p:last-child{margin-bottom:0;}img{display:inline-block;vertical-align:middle;max-width:100%;margin:0;}input[type='checkbox']{vertical-align:middle;}pre{font-size:14px;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;}code{font-size:14px;color:#abb2bf;background:#282c34;}blockquote{margin:0;margin-bottom:1rem;padding:0 1rem;border-left:0.25rem solid #bbb;}blockquote>p:before{content:'\u201C';font-size:2rem;line-height:0.1rem;margin-right:0.5rem;vertical-align:-0.5rem;}blockquote>p:last-of-type:after{content:'\u201D';font-size:2rem;line-height:0.1rem;margin-right:0.5rem;vertical-align:-0.5rem;}.text-right{text-align:right;}.card{margin-bottom:1rem;padding:1rem;background-color:rgba(40,44,52,0.5);}.card-1{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);-webkit-transition:all 0.3s cubic-bezier(0.25,0.8,0.25,1);transition:all 0.3s cubic-bezier(0.25,0.8,0.25,1);}.card-1:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}.container-fluid{padding-left:1rem;padding-right:1rem;}.row>*{height:100%;}.svg-inline--fa.fa-w-16{width:1em;}.svg-inline--fa.fa-w-14{width:0.875em;}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-0.125em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9sYXlvdXRzL2RlZmF1bHQvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBcUJ1QixBQUdvQyxBQVVKLEFBV0YsQUFXQSxBQWFULEFBSytCLEFBTzFCLEFBT0gsQUFLVSxBQU1ELEFBTU4sQUFJQSxBQUlKLEFBSUcsQUFJSyxBQU9DLEFBSVAsQUFPQSxBQU1OLEFBUUcsQUFRQSxBQVFLLEFBSUUsQUFNcUQsQUFNdkMsQUFLZixBQUtOLEFBS0YsQUFJSSxBQUlPLFNBOURGLENBdURyQixFQW5JVyxBQW9GTSxBQVFBLEFBa0NqQixDQWxGQSxDQXpCdUIsQUFvSHZCLENBeEV1QixBQU9QLENBdEJoQixDQXBDcUQsQUF3QnJELEFBSUEsQUE0REEsQ0FxQnFCLENBakJOLEVBaElLLEFBV0EsQUFjcEIsQUFtRHdCLEFBdUZKLENBaEZwQixDQTlGb0IsQUFpRUMsSUEzRUQsQUFrSUMsQUFRQSxDQWhCSixDQU5JLEdBa0NvQixJQXpDbEIsQ0EwRHZCLEVBakprQixBQVdBLEFBd0pMLEVBOUtLLEFBdUNELENBMEJELENBc0JDLEFBeUJnQixFQTFIZixDQWtJSSxBQVFBLEVBdEJ0QixFQXFFbUIsS0FsS2tDLEFBV0QsQ0FnQmxDLEFBa0JsQixBQVFBLENBaEV1RCxBQWlHaEMsQ0FYWixHQWpHb0MsR0ErRC9DLENBMEZ1RCxDQXZCOUIsQUFRQSxDQXhDekIsQUF1RjBCLENBaklLLEFBNkYvQixFQVVBLEVBN0dhLEVBeUViLElBZEEsS0ExREEsTUFnRkEsQUFRQSxFQStDQSxNQWpJOEIsU0F0REksbUJBdURsQyx5QkFqQ2tDLE9BV0EsU0F0QkEsT0E0SWxDLHdGQXRKQSw0Q0FzQkEsT0FXQSxTQXRCQSIsImZpbGUiOiIvaG9tZS9hbnRvbnkvUHJvZ2V0dGkvSW5nbG9yaW91cyBDb2RlcnovaW5nbG9yaW91c2NvZGVyei5naXRodWIuaW8vbGF5b3V0cy9kZWZhdWx0L2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuXG5pbXBvcnQgd2FsbHBhcGVyIGZyb20gJ34vc3RhdGljL2ltYWdlcy9tZXRhbC13YWxscGFwZXIuanBnJ1xuaW1wb3J0IFRvb2xiYXIgZnJvbSAnLi90b29sYmFyJ1xuaW1wb3J0IEhlYWRlciBmcm9tICcuL2hlYWRlcidcbmltcG9ydCBGb290ZXIgZnJvbSAnLi9mb290ZXInXG5cbmV4cG9ydCBkZWZhdWx0ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPGRpdiBjbGFzc05hbWU9XCJsYXlvdXQgY29udGFpbmVyLWZsdWlkXCI+XG4gICAgPEhlYWQ+XG4gICAgICA8dGl0bGU+SW5nbG9yaW91cyBDb2Rlcno8L3RpdGxlPlxuICAgIDwvSGVhZD5cblxuICAgIDxUb29sYmFyIC8+XG5cbiAgICA8SGVhZGVyIC8+XG5cbiAgICA8bWFpbj57Y2hpbGRyZW59PC9tYWluPlxuXG4gICAgPEZvb3RlciAvPlxuXG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICBmb250LWZhbWlseTogJ0V0aG5vY2VudHJpYyc7XG4gICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgc3JjOiB1cmwoJy9zdGF0aWMvZm9udHMvZXRobm9jZW50cmljX3JnLnR0ZicpO1xuICAgICAgICB1bmljb2RlLXJhbmdlOiBVKzAwMDAtMDBGRiwgVSswMTMxLCBVKzAxNTItMDE1MywgVSswMkJCLTAyQkMsIFUrMDJDNixcbiAgICAgICAgICBVKzAyREEsIFUrMDJEQywgVSsyMDAwLTIwNkYsIFUrMjA3NCwgVSsyMEFDLCBVKzIxMjIsIFUrMjE5MSwgVSsyMTkzLFxuICAgICAgICAgIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbiAgICAgIH1cblxuICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnT3JiaXRyb24nO1xuICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICAgIHNyYzogbG9jYWwoJ09yYml0cm9uIFJlZ3VsYXInKSwgbG9jYWwoJ09yYml0cm9uLVJlZ3VsYXInKSxcbiAgICAgICAgICB1cmwoJy9zdGF0aWMvZm9udHMvb3JiaXRyb24ud29mZjInKSBmb3JtYXQoJ3dvZmYyJyk7XG4gICAgICAgIHVuaWNvZGUtcmFuZ2U6IFUrMDAwMC0wMEZGLCBVKzAxMzEsIFUrMDE1Mi0wMTUzLCBVKzAyQkItMDJCQywgVSswMkM2LFxuICAgICAgICAgIFUrMDJEQSwgVSswMkRDLCBVKzIwMDAtMjA2RiwgVSsyMDc0LCBVKzIwQUMsIFUrMjEyMiwgVSsyMTkxLCBVKzIxOTMsXG4gICAgICAgICAgVSsyMjEyLCBVKzIyMTUsIFUrRkVGRiwgVStGRkZEO1xuICAgICAgfVxuXG4gICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8nO1xuICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICAgIHNyYzogbG9jYWwoJ1JvYm90bycpLCBsb2NhbCgnUm9ib3RvLVJlZ3VsYXInKSxcbiAgICAgICAgICB1cmwoJy9zdGF0aWMvZm9udHMvcm9ib3RvLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpO1xuICAgICAgICB1bmljb2RlLXJhbmdlOiBVKzAwMDAtMDBGRiwgVSswMTMxLCBVKzAxNTItMDE1MywgVSswMkJCLTAyQkMsIFUrMDJDNixcbiAgICAgICAgICBVKzAyREEsIFUrMDJEQywgVSsyMDAwLTIwNkYsIFUrMjA3NCwgVSsyMEFDLCBVKzIxMjIsIFUrMjE5MSwgVSsyMTkzLFxuICAgICAgICAgIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbiAgICAgIH1cblxuICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnVWJ1bnR1JztcbiAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICBzcmM6IGxvY2FsKCdVYnVudHUgUmVndWxhcicpLCBsb2NhbCgnVWJ1bnR1LVJlZ3VsYXInKSxcbiAgICAgICAgICBybCgnL3N0YXRpYy9mb250cy91YnVudHUud29mZjInKSBmb3JtYXQoJ3dvZmYyJyk7XG4gICAgICAgIHVuaWNvZGUtcmFuZ2U6IFUrMDAwMC0wMEZGLCBVKzAxMzEsIFUrMDE1Mi0wMTUzLCBVKzAyQkItMDJCQywgVSswMkM2LFxuICAgICAgICAgIFUrMDJEQSwgVSswMkRDLCBVKzIwMDAtMjA2RiwgVSsyMDc0LCBVKzIwQUMsIFUrMjEyMiwgVSsyMTkxLCBVKzIxOTMsXG4gICAgICAgICAgVSsyMjEyLCBVKzIyMTUsIFUrRkVGRiwgVStGRkZEO1xuICAgICAgfVxuXG4gICAgICBodG1sLFxuICAgICAgYm9keSxcbiAgICAgICNfX25leHQge1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgIH1cblxuICAgICAgaHRtbCB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvJywgJ1VidW50dScsIHNhbnMtc2VyaWY7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgICAgICAgY29sb3I6ICNiYmI7XG4gICAgICB9XG5cbiAgICAgIGJvZHkge1xuICAgICAgICBiYWNrZ3JvdW5kOiBibGFjaztcbiAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCR7d2FsbHBhcGVyfSk7XG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb24teDogY2VudGVyO1xuICAgICAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IGZpeGVkO1xuICAgICAgfVxuXG4gICAgICBhIHtcbiAgICAgICAgY29sb3I6ICM0MjlhZWY7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgYTpob3ZlciB7XG4gICAgICAgIGZpbHRlcjogYnJpZ2h0bmVzcygxMjUlKTtcbiAgICAgIH1cblxuICAgICAgaDEsXG4gICAgICBoMixcbiAgICAgIGgzIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdPcmJpdHJvbic7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gICAgICAgIGNvbG9yOiAjOThjMzc5O1xuICAgICAgfVxuXG4gICAgICBoMSB7XG4gICAgICAgIGZvbnQtc2l6ZTogMS41cmVtO1xuICAgICAgfVxuXG4gICAgICBoMiB7XG4gICAgICAgIGZvbnQtc2l6ZTogMS4ycmVtO1xuICAgICAgfVxuXG4gICAgICBwIHtcbiAgICAgICAgbWFyZ2luLXRvcDogMDtcbiAgICAgIH1cblxuICAgICAgcDpsYXN0LWNoaWxkIHtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICAgIH1cblxuICAgICAgaW1nIHtcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICAgICAgICBtYXgtd2lkdGg6IDEwMCU7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgIH1cblxuICAgICAgaW5wdXRbdHlwZT0nY2hlY2tib3gnXSB7XG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4gICAgICB9XG5cbiAgICAgIHByZSB7XG4gICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgd2hpdGUtc3BhY2U6IHByZS13cmFwO1xuICAgICAgICB3b3JkLWJyZWFrOiBicmVhay1hbGw7XG4gICAgICAgIHdvcmQtd3JhcDogYnJlYWstd29yZDtcbiAgICAgIH1cblxuICAgICAgY29kZSB7XG4gICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgY29sb3I6ICNhYmIyYmY7XG4gICAgICAgIGJhY2tncm91bmQ6ICMyODJjMzQ7XG4gICAgICB9XG5cbiAgICAgIGJsb2NrcXVvdGUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XG4gICAgICAgIHBhZGRpbmc6IDAgMXJlbTtcbiAgICAgICAgYm9yZGVyLWxlZnQ6IDAuMjVyZW0gc29saWQgI2JiYjtcbiAgICAgICAgLy8gcXVvdGVzOiAn4oCcJyAn4oCdJyAn4oCYJyAn4oCZJztcbiAgICAgIH1cblxuICAgICAgYmxvY2txdW90ZSA+IHA6YmVmb3JlIHtcbiAgICAgICAgY29udGVudDogJ+KAnCc7XG4gICAgICAgIGZvbnQtc2l6ZTogMnJlbTtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDAuMXJlbTtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAwLjVyZW07XG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiAtMC41cmVtO1xuICAgICAgfVxuXG4gICAgICBibG9ja3F1b3RlID4gcDpsYXN0LW9mLXR5cGU6YWZ0ZXIge1xuICAgICAgICBjb250ZW50OiAn4oCdJztcbiAgICAgICAgZm9udC1zaXplOiAycmVtO1xuICAgICAgICBsaW5lLWhlaWdodDogMC4xcmVtO1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDAuNXJlbTtcbiAgICAgICAgdmVydGljYWwtYWxpZ246IC0wLjVyZW07XG4gICAgICB9XG5cbiAgICAgIC50ZXh0LXJpZ2h0IHtcbiAgICAgICAgdGV4dC1hbGlnbjogcmlnaHQ7XG4gICAgICB9XG5cbiAgICAgIC5jYXJkIHtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMXJlbTtcbiAgICAgICAgcGFkZGluZzogMXJlbTtcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSg0MCwgNDQsIDUyLCAwLjUpO1xuICAgICAgfVxuXG4gICAgICAuY2FyZC0xIHtcbiAgICAgICAgYm94LXNoYWRvdzogMCAxcHggM3B4IHJnYmEoMCwgMCwgMCwgMC4xMiksIDAgMXB4IDJweCByZ2JhKDAsIDAsIDAsIDAuMjQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4zcyBjdWJpYy1iZXppZXIoMC4yNSwgMC44LCAwLjI1LCAxKTtcbiAgICAgIH1cblxuICAgICAgLmNhcmQtMTpob3ZlciB7XG4gICAgICAgIGJveC1zaGFkb3c6IDAgMTRweCAyOHB4IHJnYmEoMCwgMCwgMCwgMC4yNSksXG4gICAgICAgICAgMCAxMHB4IDEwcHggcmdiYSgwLCAwLCAwLCAwLjIyKTtcbiAgICAgIH1cblxuICAgICAgLyogb3ZlcnJpZGUgb2YgZmxleGJveCBncmlkICovXG4gICAgICAuY29udGFpbmVyLWZsdWlkIHtcbiAgICAgICAgcGFkZGluZy1sZWZ0OiAxcmVtO1xuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxcmVtO1xuICAgICAgfVxuXG4gICAgICAucm93ID4gKiB7XG4gICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgIH1cblxuICAgICAgLyogY29waWVkIGZyb20gRm9udEF3ZXNvbWUncyBzdHlsZSB0byBwcmV2ZW50IEZPVUMgKi9cbiAgICAgIC5zdmctaW5saW5lLS1mYS5mYS13LTE2IHtcbiAgICAgICAgd2lkdGg6IDFlbTtcbiAgICAgIH1cblxuICAgICAgLnN2Zy1pbmxpbmUtLWZhLmZhLXctMTQge1xuICAgICAgICB3aWR0aDogMC44NzVlbTtcbiAgICAgIH1cblxuICAgICAgLnN2Zy1pbmxpbmUtLWZhIHtcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICBmb250LXNpemU6IGluaGVyaXQ7XG4gICAgICAgIGhlaWdodDogMWVtO1xuICAgICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgICAgdmVydGljYWwtYWxpZ246IC0wLjEyNWVtO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIC5sYXlvdXQge1xuICAgICAgICBtYXgtd2lkdGg6IDEwMjRweDtcbiAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiBhdXRvIGF1dG8gMWZyIGF1dG87XG4gICAgICB9XG5cbiAgICAgIG1haW4ge1xuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbilcbiJdfQ== */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/layouts/default/index.js */"),
+    styleId: "597983848",
+    css: "@font-face{font-family:'Ethnocentric';font-style:normal;font-weight:400;src:url('/static/fonts/ethnocentric_rg.ttf');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6, U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193, U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Orbitron';font-style:normal;font-weight:400;src:local('Orbitron:Regular'),local('Orbitron-Regular'), url('/static/fonts/orbitron.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6, U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193, U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),:url('/static/fonts/roboto.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6, U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193, U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu:Regular'),local('Ubuntu-Regular'), rl('/static/fonts/ubuntu.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6, U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193, U+2212,U+2215,U+FEFF,U+FFFD;}html,body,#__next{height:100%;margin:0;}html{font-family:'Roboto','Ubuntu',sans-serif;font-size:16px;line-height:1.5;color:#bbb;}body{background:black;background-image:url(".concat(_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a, ");background-position-x:center;background-attachment:fixed;}a{color:#429aef;-webkit-text-decoration:none;text-decoration:none;}a:hover{-webkit-filter:brightness(125%);filter:brightness(125%);}h1,h2,h3{font-family:'Orbitron';font-weight:normal;color:#98c379;}h1{font-size:1.5rem;}h2{font-size:1.2rem;}p{margin-top:0;}p:last-child{margin-bottom:0;}img{display:inline-block;vertical-align:middle;max-width:100%;margin:0;}input[type='checkbox']{vertical-align:middle;}pre{white-space:pre-wrap;word-break:break-all;word-wrap:break-word;}code{font-size:14px;color:#abb2bf;background:#282c34;}blockquote{margin:0;margin-bottom:1rem;padding:0 1rem;border-left:0.25rem solid #bbb;}blockquote>p:before{content:'\u201C';font-size:2rem;line-height:0.1rem;margin-right:0.5rem;vertical-align:-0.5rem;}blockquote>p:last-of-type:after{content:'\u201D';font-size:2rem;line-height:0.1rem;margin-right:0.5rem;vertical-align:-0.5rem;}.text-right{text-align:right;}.card{margin-bottom:1rem;padding:1rem;background-color:rgba(40,44,52,0.5);}.card-1{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);-webkit-transition:all 0.3s cubic-bezier(0.25,0.8,0.25,1);transition:all 0.3s cubic-bezier(0.25,0.8,0.25,1);}.card-1:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}.container-fluid{padding-left:1rem;padding-right:1rem;}.row>*{height:100%;}.svg-inline--fa.fa-w-16{width:1em;}.svg-inline--fa.fa-w-14{width:0.875em;}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-0.125em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9sYXlvdXRzL2RlZmF1bHQvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBeUJ1QixBQUdvQyxBQVVKLEFBV0YsQUFXQSxBQWFULEFBSytCLEFBTzFCLEFBT0gsQUFLVSxBQU1ELEFBTU4sQUFJQSxBQUlKLEFBSUcsQUFJSyxBQU9DLEFBSUQsQUFNTixBQU1OLEFBUUcsQUFRQSxBQVFLLEFBSUUsQUFNcUQsQUFNdkMsQUFLZixBQUtOLEFBS0YsQUFJSSxBQUlPLFNBOURGLENBdURyQixFQWxJVyxBQW1GTSxBQVFBLEFBa0NqQixDQWpGQSxDQXpCdUIsQUFtSHZCLENBakVnQixDQXJCaEIsQ0FwQ3FELEFBd0JyRCxBQUlBLEFBMkRBLENBcUJxQixDQWpCTixFQS9ISyxBQVdBLEFBY3BCLEFBbUR3QixBQVdELEFBMkVILENBL0VwQixDQTlGb0IsQUFpRUMsSUEzRUQsQUFpSUMsQUFRQSxDQWhCSixDQU5JLEdBa0NvQixLQWlCekMsRUFoSmtCLEFBV0EsQUF1SkwsRUE3S0ssQUF1Q0QsQ0EwQkQsQUFpQ08sQ0FYTixBQXdCZ0IsRUF6SGYsQ0FpSUksQUFRQSxFQXRCdEIsRUFxRW1CLEtBaktrQyxBQVdELENBZ0JsQyxBQWtCbEIsQUFRQSxDQWhFdUQsQ0FzRjVDLEdBakdvQyxFQTRHL0MsQ0E3Q0EsQ0F5RnVELENBdkI5QixBQVFBLENBdkN6QixBQXNGMEIsQ0FoSUssQUE0Ri9CLEVBVUEsRUE1R2EsRUF3RWIsU0F2RUEsTUErRUEsQUFRQSxFQStDQSxNQWhJOEIsU0F0REksbUJBdURsQyx5QkFqQ2tDLE9BV0EsU0F0QkEsT0EySWxDLHdGQXJKQSw0Q0FzQkEsT0FXQSxTQXRCQSIsImZpbGUiOiIvaG9tZS9hbnRvbnkvUHJvZ2V0dGkvSW5nbG9yaW91cyBDb2RlcnovaW5nbG9yaW91c2NvZGVyei5naXRodWIuaW8vbGF5b3V0cy9kZWZhdWx0L2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IE5leHRTZW8gZnJvbSAnbmV4dC1zZW8nXG5cbmltcG9ydCB3YWxscGFwZXIgZnJvbSAnfi9zdGF0aWMvaW1hZ2VzL21ldGFsLXdhbGxwYXBlci5qcGcnXG5pbXBvcnQgVG9vbGJhciBmcm9tICcuL3Rvb2xiYXInXG5pbXBvcnQgSGVhZGVyIGZyb20gJy4vaGVhZGVyJ1xuaW1wb3J0IEZvb3RlciBmcm9tICcuL2Zvb3RlcidcblxuZXhwb3J0IGRlZmF1bHQgKHsgcGF0aCwgdGl0bGUsIGRlc2NyaXB0aW9uLCBjaGlsZHJlbiB9KSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwibGF5b3V0IGNvbnRhaW5lci1mbHVpZFwiPlxuICAgIDxOZXh0U2VvXG4gICAgICBjb25maWc9e3tcbiAgICAgICAgY2Fub25pY2FsOiBgaHR0cHM6Ly93d3cuaW5nbG9yaW91c2NvZGVyei5pdC8ke3BhdGh9YCxcbiAgICAgICAgdGl0bGUsXG4gICAgICAgIGRlc2NyaXB0aW9uLFxuICAgICAgfX1cbiAgICAvPlxuXG4gICAgPFRvb2xiYXIgLz5cblxuICAgIDxIZWFkZXIgd2FsbHBhcGVyPXt3YWxscGFwZXJ9IC8+XG5cbiAgICA8bWFpbj57Y2hpbGRyZW59PC9tYWluPlxuXG4gICAgPEZvb3RlciAvPlxuXG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICBmb250LWZhbWlseTogJ0V0aG5vY2VudHJpYyc7XG4gICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgc3JjOiB1cmwoJy9zdGF0aWMvZm9udHMvZXRobm9jZW50cmljX3JnLnR0ZicpO1xuICAgICAgICB1bmljb2RlLXJhbmdlOiBVKzAwMDAtMDBGRiwgVSswMTMxLCBVKzAxNTItMDE1MywgVSswMkJCLTAyQkMsIFUrMDJDNixcbiAgICAgICAgICBVKzAyREEsIFUrMDJEQywgVSsyMDAwLTIwNkYsIFUrMjA3NCwgVSsyMEFDLCBVKzIxMjIsIFUrMjE5MSwgVSsyMTkzLFxuICAgICAgICAgIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbiAgICAgIH1cblxuICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnT3JiaXRyb24nO1xuICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICAgIHNyYzogbG9jYWwoJ09yYml0cm9uIFJlZ3VsYXInKSwgbG9jYWwoJ09yYml0cm9uLVJlZ3VsYXInKSxcbiAgICAgICAgICB1cmwoJy9zdGF0aWMvZm9udHMvb3JiaXRyb24ud29mZjInKSBmb3JtYXQoJ3dvZmYyJyk7XG4gICAgICAgIHVuaWNvZGUtcmFuZ2U6IFUrMDAwMC0wMEZGLCBVKzAxMzEsIFUrMDE1Mi0wMTUzLCBVKzAyQkItMDJCQywgVSswMkM2LFxuICAgICAgICAgIFUrMDJEQSwgVSswMkRDLCBVKzIwMDAtMjA2RiwgVSsyMDc0LCBVKzIwQUMsIFUrMjEyMiwgVSsyMTkxLCBVKzIxOTMsXG4gICAgICAgICAgVSsyMjEyLCBVKzIyMTUsIFUrRkVGRiwgVStGRkZEO1xuICAgICAgfVxuXG4gICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdSb2JvdG8nO1xuICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICAgIHNyYzogbG9jYWwoJ1JvYm90bycpLCBsb2NhbCgnUm9ib3RvLVJlZ3VsYXInKSxcbiAgICAgICAgICB1cmwoJy9zdGF0aWMvZm9udHMvcm9ib3RvLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpO1xuICAgICAgICB1bmljb2RlLXJhbmdlOiBVKzAwMDAtMDBGRiwgVSswMTMxLCBVKzAxNTItMDE1MywgVSswMkJCLTAyQkMsIFUrMDJDNixcbiAgICAgICAgICBVKzAyREEsIFUrMDJEQywgVSsyMDAwLTIwNkYsIFUrMjA3NCwgVSsyMEFDLCBVKzIxMjIsIFUrMjE5MSwgVSsyMTkzLFxuICAgICAgICAgIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbiAgICAgIH1cblxuICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnVWJ1bnR1JztcbiAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICBzcmM6IGxvY2FsKCdVYnVudHUgUmVndWxhcicpLCBsb2NhbCgnVWJ1bnR1LVJlZ3VsYXInKSxcbiAgICAgICAgICBybCgnL3N0YXRpYy9mb250cy91YnVudHUud29mZjInKSBmb3JtYXQoJ3dvZmYyJyk7XG4gICAgICAgIHVuaWNvZGUtcmFuZ2U6IFUrMDAwMC0wMEZGLCBVKzAxMzEsIFUrMDE1Mi0wMTUzLCBVKzAyQkItMDJCQywgVSswMkM2LFxuICAgICAgICAgIFUrMDJEQSwgVSswMkRDLCBVKzIwMDAtMjA2RiwgVSsyMDc0LCBVKzIwQUMsIFUrMjEyMiwgVSsyMTkxLCBVKzIxOTMsXG4gICAgICAgICAgVSsyMjEyLCBVKzIyMTUsIFUrRkVGRiwgVStGRkZEO1xuICAgICAgfVxuXG4gICAgICBodG1sLFxuICAgICAgYm9keSxcbiAgICAgICNfX25leHQge1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgIH1cblxuICAgICAgaHRtbCB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvJywgJ1VidW50dScsIHNhbnMtc2VyaWY7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgICAgICAgY29sb3I6ICNiYmI7XG4gICAgICB9XG5cbiAgICAgIGJvZHkge1xuICAgICAgICBiYWNrZ3JvdW5kOiBibGFjaztcbiAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCR7d2FsbHBhcGVyfSk7XG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb24teDogY2VudGVyO1xuICAgICAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IGZpeGVkO1xuICAgICAgfVxuXG4gICAgICBhIHtcbiAgICAgICAgY29sb3I6ICM0MjlhZWY7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgYTpob3ZlciB7XG4gICAgICAgIGZpbHRlcjogYnJpZ2h0bmVzcygxMjUlKTtcbiAgICAgIH1cblxuICAgICAgaDEsXG4gICAgICBoMixcbiAgICAgIGgzIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdPcmJpdHJvbic7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gICAgICAgIGNvbG9yOiAjOThjMzc5O1xuICAgICAgfVxuXG4gICAgICBoMSB7XG4gICAgICAgIGZvbnQtc2l6ZTogMS41cmVtO1xuICAgICAgfVxuXG4gICAgICBoMiB7XG4gICAgICAgIGZvbnQtc2l6ZTogMS4ycmVtO1xuICAgICAgfVxuXG4gICAgICBwIHtcbiAgICAgICAgbWFyZ2luLXRvcDogMDtcbiAgICAgIH1cblxuICAgICAgcDpsYXN0LWNoaWxkIHtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICAgIH1cblxuICAgICAgaW1nIHtcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICAgICAgICBtYXgtd2lkdGg6IDEwMCU7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgIH1cblxuICAgICAgaW5wdXRbdHlwZT0nY2hlY2tib3gnXSB7XG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4gICAgICB9XG5cbiAgICAgIHByZSB7XG4gICAgICAgIHdoaXRlLXNwYWNlOiBwcmUtd3JhcDtcbiAgICAgICAgd29yZC1icmVhazogYnJlYWstYWxsO1xuICAgICAgICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG4gICAgICB9XG5cbiAgICAgIGNvZGUge1xuICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIGNvbG9yOiAjYWJiMmJmO1xuICAgICAgICBiYWNrZ3JvdW5kOiAjMjgyYzM0O1xuICAgICAgfVxuXG4gICAgICBibG9ja3F1b3RlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xuICAgICAgICBwYWRkaW5nOiAwIDFyZW07XG4gICAgICAgIGJvcmRlci1sZWZ0OiAwLjI1cmVtIHNvbGlkICNiYmI7XG4gICAgICAgIC8vIHF1b3RlczogJ+KAnCcgJ+KAnScgJ+KAmCcgJ+KAmSc7XG4gICAgICB9XG5cbiAgICAgIGJsb2NrcXVvdGUgPiBwOmJlZm9yZSB7XG4gICAgICAgIGNvbnRlbnQ6ICfigJwnO1xuICAgICAgICBmb250LXNpemU6IDJyZW07XG4gICAgICAgIGxpbmUtaGVpZ2h0OiAwLjFyZW07XG4gICAgICAgIG1hcmdpbi1yaWdodDogMC41cmVtO1xuICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogLTAuNXJlbTtcbiAgICAgIH1cblxuICAgICAgYmxvY2txdW90ZSA+IHA6bGFzdC1vZi10eXBlOmFmdGVyIHtcbiAgICAgICAgY29udGVudDogJ+KAnSc7XG4gICAgICAgIGZvbnQtc2l6ZTogMnJlbTtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDAuMXJlbTtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAwLjVyZW07XG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiAtMC41cmVtO1xuICAgICAgfVxuXG4gICAgICAudGV4dC1yaWdodCB7XG4gICAgICAgIHRleHQtYWxpZ246IHJpZ2h0O1xuICAgICAgfVxuXG4gICAgICAuY2FyZCB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XG4gICAgICAgIHBhZGRpbmc6IDFyZW07XG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoNDAsIDQ0LCA1MiwgMC41KTtcbiAgICAgIH1cblxuICAgICAgLmNhcmQtMSB7XG4gICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCByZ2JhKDAsIDAsIDAsIDAuMTIpLCAwIDFweCAycHggcmdiYSgwLCAwLCAwLCAwLjI0KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuM3MgY3ViaWMtYmV6aWVyKDAuMjUsIDAuOCwgMC4yNSwgMSk7XG4gICAgICB9XG5cbiAgICAgIC5jYXJkLTE6aG92ZXIge1xuICAgICAgICBib3gtc2hhZG93OiAwIDE0cHggMjhweCByZ2JhKDAsIDAsIDAsIDAuMjUpLFxuICAgICAgICAgIDAgMTBweCAxMHB4IHJnYmEoMCwgMCwgMCwgMC4yMik7XG4gICAgICB9XG5cbiAgICAgIC8qIG92ZXJyaWRlIG9mIGZsZXhib3ggZ3JpZCAqL1xuICAgICAgLmNvbnRhaW5lci1mbHVpZCB7XG4gICAgICAgIHBhZGRpbmctbGVmdDogMXJlbTtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMXJlbTtcbiAgICAgIH1cblxuICAgICAgLnJvdyA+ICoge1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICB9XG5cbiAgICAgIC8qIGNvcGllZCBmcm9tIEZvbnRBd2Vzb21lJ3Mgc3R5bGUgdG8gcHJldmVudCBGT1VDICovXG4gICAgICAuc3ZnLWlubGluZS0tZmEuZmEtdy0xNiB7XG4gICAgICAgIHdpZHRoOiAxZW07XG4gICAgICB9XG5cbiAgICAgIC5zdmctaW5saW5lLS1mYS5mYS13LTE0IHtcbiAgICAgICAgd2lkdGg6IDAuODc1ZW07XG4gICAgICB9XG5cbiAgICAgIC5zdmctaW5saW5lLS1mYSB7XG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgZm9udC1zaXplOiBpbmhlcml0O1xuICAgICAgICBoZWlnaHQ6IDFlbTtcbiAgICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiAtMC4xMjVlbTtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAubGF5b3V0IHtcbiAgICAgICAgbWF4LXdpZHRoOiAxMDI0cHg7XG4gICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgIGdyaWQtdGVtcGxhdGUtcm93czogYXV0byBhdXRvIDFmciBhdXRvO1xuICAgICAgfVxuXG4gICAgICBtYWluIHtcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pXG4iXX0= */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/layouts/default/index.js */"),
     dynamic: [_static_images_metal_wallpaper_jpg__WEBPACK_IMPORTED_MODULE_3___default.a],
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "1556387584",
-    css: ".layout.jsx-1556387584{max-width:1024px;margin:0 auto;height:100%;display:grid;grid-template-rows:auto auto 1fr auto;}main.jsx-1556387584{position:relative;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9sYXlvdXRzL2RlZmF1bHQvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBdU5nQixBQUcwQixBQVFDLGlCQVBKLENBUWhCLGFBUGMsWUFDQyxhQUN5QixzQ0FDeEMiLCJmaWxlIjoiL2hvbWUvYW50b255L1Byb2dldHRpL0luZ2xvcmlvdXMgQ29kZXJ6L2luZ2xvcmlvdXNjb2RlcnouZ2l0aHViLmlvL2xheW91dHMvZGVmYXVsdC9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcblxuaW1wb3J0IHdhbGxwYXBlciBmcm9tICd+L3N0YXRpYy9pbWFnZXMvbWV0YWwtd2FsbHBhcGVyLmpwZydcbmltcG9ydCBUb29sYmFyIGZyb20gJy4vdG9vbGJhcidcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi9oZWFkZXInXG5pbXBvcnQgRm9vdGVyIGZyb20gJy4vZm9vdGVyJ1xuXG5leHBvcnQgZGVmYXVsdCAoeyBjaGlsZHJlbiB9KSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwibGF5b3V0IGNvbnRhaW5lci1mbHVpZFwiPlxuICAgIDxIZWFkPlxuICAgICAgPHRpdGxlPkluZ2xvcmlvdXMgQ29kZXJ6PC90aXRsZT5cbiAgICA8L0hlYWQ+XG5cbiAgICA8VG9vbGJhciAvPlxuXG4gICAgPEhlYWRlciAvPlxuXG4gICAgPG1haW4+e2NoaWxkcmVufTwvbWFpbj5cblxuICAgIDxGb290ZXIgLz5cblxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdFdGhub2NlbnRyaWMnO1xuICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICAgIHNyYzogdXJsKCcvc3RhdGljL2ZvbnRzL2V0aG5vY2VudHJpY19yZy50dGYnKTtcbiAgICAgICAgdW5pY29kZS1yYW5nZTogVSswMDAwLTAwRkYsIFUrMDEzMSwgVSswMTUyLTAxNTMsIFUrMDJCQi0wMkJDLCBVKzAyQzYsXG4gICAgICAgICAgVSswMkRBLCBVKzAyREMsIFUrMjAwMC0yMDZGLCBVKzIwNzQsIFUrMjBBQywgVSsyMTIyLCBVKzIxOTEsIFUrMjE5MyxcbiAgICAgICAgICBVKzIyMTIsIFUrMjIxNSwgVStGRUZGLCBVK0ZGRkQ7XG4gICAgICB9XG5cbiAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICBmb250LWZhbWlseTogJ09yYml0cm9uJztcbiAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICBzcmM6IGxvY2FsKCdPcmJpdHJvbiBSZWd1bGFyJyksIGxvY2FsKCdPcmJpdHJvbi1SZWd1bGFyJyksXG4gICAgICAgICAgdXJsKCcvc3RhdGljL2ZvbnRzL29yYml0cm9uLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpO1xuICAgICAgICB1bmljb2RlLXJhbmdlOiBVKzAwMDAtMDBGRiwgVSswMTMxLCBVKzAxNTItMDE1MywgVSswMkJCLTAyQkMsIFUrMDJDNixcbiAgICAgICAgICBVKzAyREEsIFUrMDJEQywgVSsyMDAwLTIwNkYsIFUrMjA3NCwgVSsyMEFDLCBVKzIxMjIsIFUrMjE5MSwgVSsyMTkzLFxuICAgICAgICAgIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbiAgICAgIH1cblxuICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvJztcbiAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICBzcmM6IGxvY2FsKCdSb2JvdG8nKSwgbG9jYWwoJ1JvYm90by1SZWd1bGFyJyksXG4gICAgICAgICAgdXJsKCcvc3RhdGljL2ZvbnRzL3JvYm90by53b2ZmMicpIGZvcm1hdCgnd29mZjInKTtcbiAgICAgICAgdW5pY29kZS1yYW5nZTogVSswMDAwLTAwRkYsIFUrMDEzMSwgVSswMTUyLTAxNTMsIFUrMDJCQi0wMkJDLCBVKzAyQzYsXG4gICAgICAgICAgVSswMkRBLCBVKzAyREMsIFUrMjAwMC0yMDZGLCBVKzIwNzQsIFUrMjBBQywgVSsyMTIyLCBVKzIxOTEsIFUrMjE5MyxcbiAgICAgICAgICBVKzIyMTIsIFUrMjIxNSwgVStGRUZGLCBVK0ZGRkQ7XG4gICAgICB9XG5cbiAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICBmb250LWZhbWlseTogJ1VidW50dSc7XG4gICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgc3JjOiBsb2NhbCgnVWJ1bnR1IFJlZ3VsYXInKSwgbG9jYWwoJ1VidW50dS1SZWd1bGFyJyksXG4gICAgICAgICAgcmwoJy9zdGF0aWMvZm9udHMvdWJ1bnR1LndvZmYyJykgZm9ybWF0KCd3b2ZmMicpO1xuICAgICAgICB1bmljb2RlLXJhbmdlOiBVKzAwMDAtMDBGRiwgVSswMTMxLCBVKzAxNTItMDE1MywgVSswMkJCLTAyQkMsIFUrMDJDNixcbiAgICAgICAgICBVKzAyREEsIFUrMDJEQywgVSsyMDAwLTIwNkYsIFUrMjA3NCwgVSsyMEFDLCBVKzIxMjIsIFUrMjE5MSwgVSsyMTkzLFxuICAgICAgICAgIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbiAgICAgIH1cblxuICAgICAgaHRtbCxcbiAgICAgIGJvZHksXG4gICAgICAjX19uZXh0IHtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICB9XG5cbiAgICAgIGh0bWwge1xuICAgICAgICBmb250LWZhbWlseTogJ1JvYm90bycsICdVYnVudHUnLCBzYW5zLXNlcmlmO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiAxLjU7XG4gICAgICAgIGNvbG9yOiAjYmJiO1xuICAgICAgfVxuXG4gICAgICBib2R5IHtcbiAgICAgICAgYmFja2dyb3VuZDogYmxhY2s7XG4gICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgke3dhbGxwYXBlcn0pO1xuICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uLXg6IGNlbnRlcjtcbiAgICAgICAgYmFja2dyb3VuZC1hdHRhY2htZW50OiBmaXhlZDtcbiAgICAgIH1cblxuICAgICAgYSB7XG4gICAgICAgIGNvbG9yOiAjNDI5YWVmO1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIGE6aG92ZXIge1xuICAgICAgICBmaWx0ZXI6IGJyaWdodG5lc3MoMTI1JSk7XG4gICAgICB9XG5cbiAgICAgIGgxLFxuICAgICAgaDIsXG4gICAgICBoMyB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnT3JiaXRyb24nO1xuICAgICAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICAgICAgICBjb2xvcjogIzk4YzM3OTtcbiAgICAgIH1cblxuICAgICAgaDEge1xuICAgICAgICBmb250LXNpemU6IDEuNXJlbTtcbiAgICAgIH1cblxuICAgICAgaDIge1xuICAgICAgICBmb250LXNpemU6IDEuMnJlbTtcbiAgICAgIH1cblxuICAgICAgcCB7XG4gICAgICAgIG1hcmdpbi10b3A6IDA7XG4gICAgICB9XG5cbiAgICAgIHA6bGFzdC1jaGlsZCB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgICB9XG5cbiAgICAgIGltZyB7XG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbiAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICB9XG5cbiAgICAgIGlucHV0W3R5cGU9J2NoZWNrYm94J10ge1xuICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICAgICAgfVxuXG4gICAgICBwcmUge1xuICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIHdoaXRlLXNwYWNlOiBwcmUtd3JhcDtcbiAgICAgICAgd29yZC1icmVhazogYnJlYWstYWxsO1xuICAgICAgICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG4gICAgICB9XG5cbiAgICAgIGNvZGUge1xuICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIGNvbG9yOiAjYWJiMmJmO1xuICAgICAgICBiYWNrZ3JvdW5kOiAjMjgyYzM0O1xuICAgICAgfVxuXG4gICAgICBibG9ja3F1b3RlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xuICAgICAgICBwYWRkaW5nOiAwIDFyZW07XG4gICAgICAgIGJvcmRlci1sZWZ0OiAwLjI1cmVtIHNvbGlkICNiYmI7XG4gICAgICAgIC8vIHF1b3RlczogJ+KAnCcgJ+KAnScgJ+KAmCcgJ+KAmSc7XG4gICAgICB9XG5cbiAgICAgIGJsb2NrcXVvdGUgPiBwOmJlZm9yZSB7XG4gICAgICAgIGNvbnRlbnQ6ICfigJwnO1xuICAgICAgICBmb250LXNpemU6IDJyZW07XG4gICAgICAgIGxpbmUtaGVpZ2h0OiAwLjFyZW07XG4gICAgICAgIG1hcmdpbi1yaWdodDogMC41cmVtO1xuICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogLTAuNXJlbTtcbiAgICAgIH1cblxuICAgICAgYmxvY2txdW90ZSA+IHA6bGFzdC1vZi10eXBlOmFmdGVyIHtcbiAgICAgICAgY29udGVudDogJ+KAnSc7XG4gICAgICAgIGZvbnQtc2l6ZTogMnJlbTtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDAuMXJlbTtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAwLjVyZW07XG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiAtMC41cmVtO1xuICAgICAgfVxuXG4gICAgICAudGV4dC1yaWdodCB7XG4gICAgICAgIHRleHQtYWxpZ246IHJpZ2h0O1xuICAgICAgfVxuXG4gICAgICAuY2FyZCB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XG4gICAgICAgIHBhZGRpbmc6IDFyZW07XG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoNDAsIDQ0LCA1MiwgMC41KTtcbiAgICAgIH1cblxuICAgICAgLmNhcmQtMSB7XG4gICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCByZ2JhKDAsIDAsIDAsIDAuMTIpLCAwIDFweCAycHggcmdiYSgwLCAwLCAwLCAwLjI0KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuM3MgY3ViaWMtYmV6aWVyKDAuMjUsIDAuOCwgMC4yNSwgMSk7XG4gICAgICB9XG5cbiAgICAgIC5jYXJkLTE6aG92ZXIge1xuICAgICAgICBib3gtc2hhZG93OiAwIDE0cHggMjhweCByZ2JhKDAsIDAsIDAsIDAuMjUpLFxuICAgICAgICAgIDAgMTBweCAxMHB4IHJnYmEoMCwgMCwgMCwgMC4yMik7XG4gICAgICB9XG5cbiAgICAgIC8qIG92ZXJyaWRlIG9mIGZsZXhib3ggZ3JpZCAqL1xuICAgICAgLmNvbnRhaW5lci1mbHVpZCB7XG4gICAgICAgIHBhZGRpbmctbGVmdDogMXJlbTtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMXJlbTtcbiAgICAgIH1cblxuICAgICAgLnJvdyA+ICoge1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICB9XG5cbiAgICAgIC8qIGNvcGllZCBmcm9tIEZvbnRBd2Vzb21lJ3Mgc3R5bGUgdG8gcHJldmVudCBGT1VDICovXG4gICAgICAuc3ZnLWlubGluZS0tZmEuZmEtdy0xNiB7XG4gICAgICAgIHdpZHRoOiAxZW07XG4gICAgICB9XG5cbiAgICAgIC5zdmctaW5saW5lLS1mYS5mYS13LTE0IHtcbiAgICAgICAgd2lkdGg6IDAuODc1ZW07XG4gICAgICB9XG5cbiAgICAgIC5zdmctaW5saW5lLS1mYSB7XG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgZm9udC1zaXplOiBpbmhlcml0O1xuICAgICAgICBoZWlnaHQ6IDFlbTtcbiAgICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICAgIHZlcnRpY2FsLWFsaWduOiAtMC4xMjVlbTtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAubGF5b3V0IHtcbiAgICAgICAgbWF4LXdpZHRoOiAxMDI0cHg7XG4gICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgIGdyaWQtdGVtcGxhdGUtcm93czogYXV0byBhdXRvIDFmciBhdXRvO1xuICAgICAgfVxuXG4gICAgICBtYWluIHtcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pXG4iXX0= */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/layouts/default/index.js */",
+    css: ".layout.jsx-1556387584{max-width:1024px;margin:0 auto;height:100%;display:grid;grid-template-rows:auto auto 1fr auto;}main.jsx-1556387584{position:relative;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9sYXlvdXRzL2RlZmF1bHQvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBME5nQixBQUcwQixBQVFDLGlCQVBKLENBUWhCLGFBUGMsWUFDQyxhQUN5QixzQ0FDeEMiLCJmaWxlIjoiL2hvbWUvYW50b255L1Byb2dldHRpL0luZ2xvcmlvdXMgQ29kZXJ6L2luZ2xvcmlvdXNjb2RlcnouZ2l0aHViLmlvL2xheW91dHMvZGVmYXVsdC9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBOZXh0U2VvIGZyb20gJ25leHQtc2VvJ1xuXG5pbXBvcnQgd2FsbHBhcGVyIGZyb20gJ34vc3RhdGljL2ltYWdlcy9tZXRhbC13YWxscGFwZXIuanBnJ1xuaW1wb3J0IFRvb2xiYXIgZnJvbSAnLi90b29sYmFyJ1xuaW1wb3J0IEhlYWRlciBmcm9tICcuL2hlYWRlcidcbmltcG9ydCBGb290ZXIgZnJvbSAnLi9mb290ZXInXG5cbmV4cG9ydCBkZWZhdWx0ICh7IHBhdGgsIHRpdGxlLCBkZXNjcmlwdGlvbiwgY2hpbGRyZW4gfSkgPT4gKFxuICA8ZGl2IGNsYXNzTmFtZT1cImxheW91dCBjb250YWluZXItZmx1aWRcIj5cbiAgICA8TmV4dFNlb1xuICAgICAgY29uZmlnPXt7XG4gICAgICAgIGNhbm9uaWNhbDogYGh0dHBzOi8vd3d3LmluZ2xvcmlvdXNjb2RlcnouaXQvJHtwYXRofWAsXG4gICAgICAgIHRpdGxlLFxuICAgICAgICBkZXNjcmlwdGlvbixcbiAgICAgIH19XG4gICAgLz5cblxuICAgIDxUb29sYmFyIC8+XG5cbiAgICA8SGVhZGVyIHdhbGxwYXBlcj17d2FsbHBhcGVyfSAvPlxuXG4gICAgPG1haW4+e2NoaWxkcmVufTwvbWFpbj5cblxuICAgIDxGb290ZXIgLz5cblxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgZm9udC1mYW1pbHk6ICdFdGhub2NlbnRyaWMnO1xuICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICAgIHNyYzogdXJsKCcvc3RhdGljL2ZvbnRzL2V0aG5vY2VudHJpY19yZy50dGYnKTtcbiAgICAgICAgdW5pY29kZS1yYW5nZTogVSswMDAwLTAwRkYsIFUrMDEzMSwgVSswMTUyLTAxNTMsIFUrMDJCQi0wMkJDLCBVKzAyQzYsXG4gICAgICAgICAgVSswMkRBLCBVKzAyREMsIFUrMjAwMC0yMDZGLCBVKzIwNzQsIFUrMjBBQywgVSsyMTIyLCBVKzIxOTEsIFUrMjE5MyxcbiAgICAgICAgICBVKzIyMTIsIFUrMjIxNSwgVStGRUZGLCBVK0ZGRkQ7XG4gICAgICB9XG5cbiAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICBmb250LWZhbWlseTogJ09yYml0cm9uJztcbiAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICBzcmM6IGxvY2FsKCdPcmJpdHJvbiBSZWd1bGFyJyksIGxvY2FsKCdPcmJpdHJvbi1SZWd1bGFyJyksXG4gICAgICAgICAgdXJsKCcvc3RhdGljL2ZvbnRzL29yYml0cm9uLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpO1xuICAgICAgICB1bmljb2RlLXJhbmdlOiBVKzAwMDAtMDBGRiwgVSswMTMxLCBVKzAxNTItMDE1MywgVSswMkJCLTAyQkMsIFUrMDJDNixcbiAgICAgICAgICBVKzAyREEsIFUrMDJEQywgVSsyMDAwLTIwNkYsIFUrMjA3NCwgVSsyMEFDLCBVKzIxMjIsIFUrMjE5MSwgVSsyMTkzLFxuICAgICAgICAgIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbiAgICAgIH1cblxuICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvJztcbiAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICBzcmM6IGxvY2FsKCdSb2JvdG8nKSwgbG9jYWwoJ1JvYm90by1SZWd1bGFyJyksXG4gICAgICAgICAgdXJsKCcvc3RhdGljL2ZvbnRzL3JvYm90by53b2ZmMicpIGZvcm1hdCgnd29mZjInKTtcbiAgICAgICAgdW5pY29kZS1yYW5nZTogVSswMDAwLTAwRkYsIFUrMDEzMSwgVSswMTUyLTAxNTMsIFUrMDJCQi0wMkJDLCBVKzAyQzYsXG4gICAgICAgICAgVSswMkRBLCBVKzAyREMsIFUrMjAwMC0yMDZGLCBVKzIwNzQsIFUrMjBBQywgVSsyMTIyLCBVKzIxOTEsIFUrMjE5MyxcbiAgICAgICAgICBVKzIyMTIsIFUrMjIxNSwgVStGRUZGLCBVK0ZGRkQ7XG4gICAgICB9XG5cbiAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICBmb250LWZhbWlseTogJ1VidW50dSc7XG4gICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgc3JjOiBsb2NhbCgnVWJ1bnR1IFJlZ3VsYXInKSwgbG9jYWwoJ1VidW50dS1SZWd1bGFyJyksXG4gICAgICAgICAgcmwoJy9zdGF0aWMvZm9udHMvdWJ1bnR1LndvZmYyJykgZm9ybWF0KCd3b2ZmMicpO1xuICAgICAgICB1bmljb2RlLXJhbmdlOiBVKzAwMDAtMDBGRiwgVSswMTMxLCBVKzAxNTItMDE1MywgVSswMkJCLTAyQkMsIFUrMDJDNixcbiAgICAgICAgICBVKzAyREEsIFUrMDJEQywgVSsyMDAwLTIwNkYsIFUrMjA3NCwgVSsyMEFDLCBVKzIxMjIsIFUrMjE5MSwgVSsyMTkzLFxuICAgICAgICAgIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbiAgICAgIH1cblxuICAgICAgaHRtbCxcbiAgICAgIGJvZHksXG4gICAgICAjX19uZXh0IHtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICB9XG5cbiAgICAgIGh0bWwge1xuICAgICAgICBmb250LWZhbWlseTogJ1JvYm90bycsICdVYnVudHUnLCBzYW5zLXNlcmlmO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiAxLjU7XG4gICAgICAgIGNvbG9yOiAjYmJiO1xuICAgICAgfVxuXG4gICAgICBib2R5IHtcbiAgICAgICAgYmFja2dyb3VuZDogYmxhY2s7XG4gICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgke3dhbGxwYXBlcn0pO1xuICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uLXg6IGNlbnRlcjtcbiAgICAgICAgYmFja2dyb3VuZC1hdHRhY2htZW50OiBmaXhlZDtcbiAgICAgIH1cblxuICAgICAgYSB7XG4gICAgICAgIGNvbG9yOiAjNDI5YWVmO1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIGE6aG92ZXIge1xuICAgICAgICBmaWx0ZXI6IGJyaWdodG5lc3MoMTI1JSk7XG4gICAgICB9XG5cbiAgICAgIGgxLFxuICAgICAgaDIsXG4gICAgICBoMyB7XG4gICAgICAgIGZvbnQtZmFtaWx5OiAnT3JiaXRyb24nO1xuICAgICAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICAgICAgICBjb2xvcjogIzk4YzM3OTtcbiAgICAgIH1cblxuICAgICAgaDEge1xuICAgICAgICBmb250LXNpemU6IDEuNXJlbTtcbiAgICAgIH1cblxuICAgICAgaDIge1xuICAgICAgICBmb250LXNpemU6IDEuMnJlbTtcbiAgICAgIH1cblxuICAgICAgcCB7XG4gICAgICAgIG1hcmdpbi10b3A6IDA7XG4gICAgICB9XG5cbiAgICAgIHA6bGFzdC1jaGlsZCB7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgICB9XG5cbiAgICAgIGltZyB7XG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbiAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICB9XG5cbiAgICAgIGlucHV0W3R5cGU9J2NoZWNrYm94J10ge1xuICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICAgICAgfVxuXG4gICAgICBwcmUge1xuICAgICAgICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7XG4gICAgICAgIHdvcmQtYnJlYWs6IGJyZWFrLWFsbDtcbiAgICAgICAgd29yZC13cmFwOiBicmVhay13b3JkO1xuICAgICAgfVxuXG4gICAgICBjb2RlIHtcbiAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICBjb2xvcjogI2FiYjJiZjtcbiAgICAgICAgYmFja2dyb3VuZDogIzI4MmMzNDtcbiAgICAgIH1cblxuICAgICAgYmxvY2txdW90ZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMXJlbTtcbiAgICAgICAgcGFkZGluZzogMCAxcmVtO1xuICAgICAgICBib3JkZXItbGVmdDogMC4yNXJlbSBzb2xpZCAjYmJiO1xuICAgICAgICAvLyBxdW90ZXM6ICfigJwnICfigJ0nICfigJgnICfigJknO1xuICAgICAgfVxuXG4gICAgICBibG9ja3F1b3RlID4gcDpiZWZvcmUge1xuICAgICAgICBjb250ZW50OiAn4oCcJztcbiAgICAgICAgZm9udC1zaXplOiAycmVtO1xuICAgICAgICBsaW5lLWhlaWdodDogMC4xcmVtO1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDAuNXJlbTtcbiAgICAgICAgdmVydGljYWwtYWxpZ246IC0wLjVyZW07XG4gICAgICB9XG5cbiAgICAgIGJsb2NrcXVvdGUgPiBwOmxhc3Qtb2YtdHlwZTphZnRlciB7XG4gICAgICAgIGNvbnRlbnQ6ICfigJ0nO1xuICAgICAgICBmb250LXNpemU6IDJyZW07XG4gICAgICAgIGxpbmUtaGVpZ2h0OiAwLjFyZW07XG4gICAgICAgIG1hcmdpbi1yaWdodDogMC41cmVtO1xuICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogLTAuNXJlbTtcbiAgICAgIH1cblxuICAgICAgLnRleHQtcmlnaHQge1xuICAgICAgICB0ZXh0LWFsaWduOiByaWdodDtcbiAgICAgIH1cblxuICAgICAgLmNhcmQge1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xuICAgICAgICBwYWRkaW5nOiAxcmVtO1xuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDQwLCA0NCwgNTIsIDAuNSk7XG4gICAgICB9XG5cbiAgICAgIC5jYXJkLTEge1xuICAgICAgICBib3gtc2hhZG93OiAwIDFweCAzcHggcmdiYSgwLCAwLCAwLCAwLjEyKSwgMCAxcHggMnB4IHJnYmEoMCwgMCwgMCwgMC4yNCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjNzIGN1YmljLWJlemllcigwLjI1LCAwLjgsIDAuMjUsIDEpO1xuICAgICAgfVxuXG4gICAgICAuY2FyZC0xOmhvdmVyIHtcbiAgICAgICAgYm94LXNoYWRvdzogMCAxNHB4IDI4cHggcmdiYSgwLCAwLCAwLCAwLjI1KSxcbiAgICAgICAgICAwIDEwcHggMTBweCByZ2JhKDAsIDAsIDAsIDAuMjIpO1xuICAgICAgfVxuXG4gICAgICAvKiBvdmVycmlkZSBvZiBmbGV4Ym94IGdyaWQgKi9cbiAgICAgIC5jb250YWluZXItZmx1aWQge1xuICAgICAgICBwYWRkaW5nLWxlZnQ6IDFyZW07XG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDFyZW07XG4gICAgICB9XG5cbiAgICAgIC5yb3cgPiAqIHtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgfVxuXG4gICAgICAvKiBjb3BpZWQgZnJvbSBGb250QXdlc29tZSdzIHN0eWxlIHRvIHByZXZlbnQgRk9VQyAqL1xuICAgICAgLnN2Zy1pbmxpbmUtLWZhLmZhLXctMTYge1xuICAgICAgICB3aWR0aDogMWVtO1xuICAgICAgfVxuXG4gICAgICAuc3ZnLWlubGluZS0tZmEuZmEtdy0xNCB7XG4gICAgICAgIHdpZHRoOiAwLjg3NWVtO1xuICAgICAgfVxuXG4gICAgICAuc3ZnLWlubGluZS0tZmEge1xuICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgIGZvbnQtc2l6ZTogaW5oZXJpdDtcbiAgICAgICAgaGVpZ2h0OiAxZW07XG4gICAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogLTAuMTI1ZW07XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuXG4gICAgPHN0eWxlIGpzeD57YFxuICAgICAgLmxheW91dCB7XG4gICAgICAgIG1heC13aWR0aDogMTAyNHB4O1xuICAgICAgICBtYXJnaW46IDAgYXV0bztcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICBkaXNwbGF5OiBncmlkO1xuICAgICAgICBncmlkLXRlbXBsYXRlLXJvd3M6IGF1dG8gYXV0byAxZnIgYXV0bztcbiAgICAgIH1cblxuICAgICAgbWFpbiB7XG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKVxuIl19 */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/layouts/default/index.js */",
     __self: this
   }));
 });
@@ -1077,14 +1111,14 @@ var changeLanguage = function changeLanguage(language) {
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2743404314" + " " + "toolbar",
+    className: "jsx-2522996044" + " " + "toolbar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2743404314" + " " + "social",
+    className: "jsx-2522996044",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -1155,29 +1189,22 @@ var changeLanguage = function changeLanguage(language) {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2743404314" + " " + "languages",
+    className: "jsx-2522996044",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_button__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    onClick: changeLanguage('it'),
+    to: "/privacy-policy",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
-  }, "it"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_button__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    onClick: changeLanguage('en'),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "en")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "2743404314",
-    css: ".toolbar.jsx-2743404314{padding:0.5rem 0;}.toolbar.jsx-2743404314>.social.jsx-2743404314{float:left;}.toolbar.jsx-2743404314>.languages.jsx-2743404314{float:right;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9sYXlvdXRzL2RlZmF1bHQvdG9vbGJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrRGdCLEFBRzBCLEFBSU4sQUFJQyxXQUhkLENBSUEsS0FSQSIsImZpbGUiOiIvaG9tZS9hbnRvbnkvUHJvZ2V0dGkvSW5nbG9yaW91cyBDb2RlcnovaW5nbG9yaW91c2NvZGVyei5naXRodWIuaW8vbGF5b3V0cy9kZWZhdWx0L3Rvb2xiYXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBGb250QXdlc29tZUljb24gfSBmcm9tICdAZm9ydGF3ZXNvbWUvcmVhY3QtZm9udGF3ZXNvbWUnXG5pbXBvcnQge1xuICBmYUdpdGh1YixcbiAgZmFJbnN0YWdyYW0sXG4gIGZhTGlua2VkaW4sXG4gIGZhRmFjZWJvb2ssXG59IGZyb20gJ0Bmb3J0YXdlc29tZS9mcmVlLWJyYW5kcy1zdmctaWNvbnMnXG5cbmltcG9ydCBpMThuIGZyb20gJ34vdXRpbHMvaTE4bidcbmltcG9ydCBCdXR0b24gZnJvbSAnfi9jb21wb25lbnRzL2J1dHRvbidcblxuY29uc3QgY2hhbmdlTGFuZ3VhZ2UgPSBsYW5ndWFnZSA9PiBldmVudCA9PiB7XG4gIGV2ZW50LnByZXZlbnREZWZhdWx0KClcbiAgaTE4bi5jaGFuZ2VMYW5ndWFnZShsYW5ndWFnZSlcbn1cblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxuICA8ZGl2IGNsYXNzTmFtZT1cInRvb2xiYXJcIj5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cInNvY2lhbFwiPlxuICAgICAgPEJ1dHRvblxuICAgICAgICBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL0luZ2xvcmlvdXNDb2RlcnovXCJcbiAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiPlxuICAgICAgICA8Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhR2l0aHVifSAvPlxuICAgICAgPC9CdXR0b24+XG4gICAgICA8QnV0dG9uXG4gICAgICAgIGhyZWY9XCJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL2luZ2xvcmlvdXNjb2RlcnovXCJcbiAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiPlxuICAgICAgICA8Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhSW5zdGFncmFtfSAvPlxuICAgICAgPC9CdXR0b24+XG4gICAgICA8QnV0dG9uXG4gICAgICAgIGhyZWY9XCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS9pbmdsb3Jpb3VzLWNvZGVyei9cIlxuICAgICAgICB0YXJnZXQ9XCJfYmxhbmtcIlxuICAgICAgICByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCI+XG4gICAgICAgIDxGb250QXdlc29tZUljb24gaWNvbj17ZmFMaW5rZWRpbn0gLz5cbiAgICAgIDwvQnV0dG9uPlxuICAgICAgPEJ1dHRvblxuICAgICAgICBocmVmPVwiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0luZ2xvcmlvdXNDb2RlcnovXCJcbiAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiPlxuICAgICAgICA8Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhRmFjZWJvb2t9IC8+XG4gICAgICA8L0J1dHRvbj5cbiAgICA8L2Rpdj5cblxuICAgIDxkaXYgY2xhc3NOYW1lPVwibGFuZ3VhZ2VzXCI+XG4gICAgICA8QnV0dG9uIG9uQ2xpY2s9e2NoYW5nZUxhbmd1YWdlKCdpdCcpfT5pdDwvQnV0dG9uPlxuICAgICAgPEJ1dHRvbiBvbkNsaWNrPXtjaGFuZ2VMYW5ndWFnZSgnZW4nKX0+ZW48L0J1dHRvbj5cbiAgICA8L2Rpdj5cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIC50b29sYmFyIHtcbiAgICAgICAgcGFkZGluZzogMC41cmVtIDA7XG4gICAgICB9XG5cbiAgICAgIC50b29sYmFyID4gLnNvY2lhbCB7XG4gICAgICAgIGZsb2F0OiBsZWZ0O1xuICAgICAgfVxuXG4gICAgICAudG9vbGJhciA+IC5sYW5ndWFnZXMge1xuICAgICAgICBmbG9hdDogcmlnaHQ7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbilcbiJdfQ== */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/layouts/default/toolbar.js */",
+  }, "Privacy")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "2522996044",
+    css: ".toolbar.jsx-2522996044{padding:0.5rem 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.toolbar.jsx-2522996044>div.jsx-2522996044{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9sYXlvdXRzL2RlZmF1bHQvdG9vbGJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwRGdCLEFBRzBCLEFBTUosaUJBTEEseURBTWYsaUJBTGdDLG1IQUNoQyIsImZpbGUiOiIvaG9tZS9hbnRvbnkvUHJvZ2V0dGkvSW5nbG9yaW91cyBDb2RlcnovaW5nbG9yaW91c2NvZGVyei5naXRodWIuaW8vbGF5b3V0cy9kZWZhdWx0L3Rvb2xiYXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBGb250QXdlc29tZUljb24gfSBmcm9tICdAZm9ydGF3ZXNvbWUvcmVhY3QtZm9udGF3ZXNvbWUnXG5pbXBvcnQge1xuICBmYUdpdGh1YixcbiAgZmFJbnN0YWdyYW0sXG4gIGZhTGlua2VkaW4sXG4gIGZhRmFjZWJvb2ssXG59IGZyb20gJ0Bmb3J0YXdlc29tZS9mcmVlLWJyYW5kcy1zdmctaWNvbnMnXG5cbmltcG9ydCBpMThuIGZyb20gJ34vdXRpbHMvaTE4bidcbmltcG9ydCBCdXR0b24gZnJvbSAnfi9jb21wb25lbnRzL2J1dHRvbidcblxuY29uc3QgY2hhbmdlTGFuZ3VhZ2UgPSBsYW5ndWFnZSA9PiBldmVudCA9PiB7XG4gIGV2ZW50LnByZXZlbnREZWZhdWx0KClcbiAgaTE4bi5jaGFuZ2VMYW5ndWFnZShsYW5ndWFnZSlcbn1cblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxuICA8ZGl2IGNsYXNzTmFtZT1cInRvb2xiYXJcIj5cbiAgICA8ZGl2PlxuICAgICAgPEJ1dHRvblxuICAgICAgICBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL0luZ2xvcmlvdXNDb2RlcnovXCJcbiAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiPlxuICAgICAgICA8Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhR2l0aHVifSAvPlxuICAgICAgPC9CdXR0b24+XG4gICAgICA8QnV0dG9uXG4gICAgICAgIGhyZWY9XCJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL2luZ2xvcmlvdXNjb2RlcnovXCJcbiAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiPlxuICAgICAgICA8Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhSW5zdGFncmFtfSAvPlxuICAgICAgPC9CdXR0b24+XG4gICAgICA8QnV0dG9uXG4gICAgICAgIGhyZWY9XCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS9pbmdsb3Jpb3VzLWNvZGVyei9cIlxuICAgICAgICB0YXJnZXQ9XCJfYmxhbmtcIlxuICAgICAgICByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCI+XG4gICAgICAgIDxGb250QXdlc29tZUljb24gaWNvbj17ZmFMaW5rZWRpbn0gLz5cbiAgICAgIDwvQnV0dG9uPlxuICAgICAgPEJ1dHRvblxuICAgICAgICBocmVmPVwiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0luZ2xvcmlvdXNDb2RlcnovXCJcbiAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiPlxuICAgICAgICA8Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhRmFjZWJvb2t9IC8+XG4gICAgICA8L0J1dHRvbj5cbiAgICA8L2Rpdj5cblxuICAgIDxkaXY+XG4gICAgICA8QnV0dG9uIHRvPVwiL3ByaXZhY3ktcG9saWN5XCI+UHJpdmFjeTwvQnV0dG9uPlxuICAgIDwvZGl2PlxuXG4gICAgey8qIDxkaXY+XG4gICAgICA8QnV0dG9uIHRvPVwiI1wiIG9uQ2xpY2s9e2NoYW5nZUxhbmd1YWdlKCdpdCcpfT5cbiAgICAgICAgaXRcbiAgICAgIDwvQnV0dG9uPlxuICAgICAgPEJ1dHRvbiB0bz1cIiNcIiBvbkNsaWNrPXtjaGFuZ2VMYW5ndWFnZSgnZW4nKX0+XG4gICAgICAgIGVuXG4gICAgICA8L0J1dHRvbj5cbiAgICA8L2Rpdj4gKi99XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAudG9vbGJhciB7XG4gICAgICAgIHBhZGRpbmc6IDAuNXJlbSAwO1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gICAgICB9XG5cbiAgICAgIC50b29sYmFyID4gZGl2IHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKVxuIl19 */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/layouts/default/toolbar.js */",
     __self: this
   }));
 });
@@ -12881,6 +12908,678 @@ function escape(data) {
 
 /***/ }),
 
+/***/ "./node_modules/next-seo/dist/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/next-seo/dist/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ProductJsonLd = exports.CourseJsonLd = exports.BlogJsonLd = exports.ArticleJsonLd = undefined;
+
+var _defaultSEO = __webpack_require__(/*! ./meta/defaultSEO */ "./node_modules/next-seo/dist/meta/defaultSEO.js");
+
+var _defaultSEO2 = _interopRequireDefault(_defaultSEO);
+
+var _article = __webpack_require__(/*! ./jsonld/article */ "./node_modules/next-seo/dist/jsonld/article.js");
+
+var _article2 = _interopRequireDefault(_article);
+
+var _blog = __webpack_require__(/*! ./jsonld/blog */ "./node_modules/next-seo/dist/jsonld/blog.js");
+
+var _blog2 = _interopRequireDefault(_blog);
+
+var _course = __webpack_require__(/*! ./jsonld/course */ "./node_modules/next-seo/dist/jsonld/course.js");
+
+var _course2 = _interopRequireDefault(_course);
+
+var _product = __webpack_require__(/*! ./jsonld/product */ "./node_modules/next-seo/dist/jsonld/product.js");
+
+var _product2 = _interopRequireDefault(_product);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _defaultSEO2.default;
+exports.ArticleJsonLd = _article2.default;
+exports.BlogJsonLd = _blog2.default;
+exports.CourseJsonLd = _course2.default;
+exports.ProductJsonLd = _product2.default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/dist/jsonld/article.js":
+/*!******************************************************!*\
+  !*** ./node_modules/next-seo/dist/jsonld/article.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _head = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
+
+var _head2 = _interopRequireDefault(_head);
+
+var _markup = __webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/dist/utils/markup.js");
+
+var _markup2 = _interopRequireDefault(_markup);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ArticleJsonLd = function ArticleJsonLd(_ref) {
+  var url = _ref.url,
+      title = _ref.title,
+      _ref$images = _ref.images,
+      images = _ref$images === undefined ? [] : _ref$images,
+      datePublished = _ref.datePublished,
+      _ref$dateModified = _ref.dateModified,
+      dateModified = _ref$dateModified === undefined ? null : _ref$dateModified,
+      authorName = _ref.authorName,
+      description = _ref.description,
+      publisherName = _ref.publisherName,
+      publisherLogo = _ref.publisherLogo;
+
+  var jslonld = '{\n    "@context": "http://schema.org",\n    "@type": "Article",\n    "mainEntityOfPage": {\n      "@type": "WebPage",\n      "@id": "' + url + '"\n    },\n    "headline": "' + title + '",\n    "image": [\n      ' + images.map(function (image) {
+    return '"' + image + '"';
+  }) + '\n     ],\n    "datePublished": "' + datePublished + '",\n    "dateModified": "' + (dateModified || datePublished) + '",\n    "author": {\n      "@type": "Person",\n      "name": "' + authorName + '"\n    },\n    "publisher": {\n      "@type": "Organization",\n      "name": "' + publisherName + '",\n      "logo": {\n        "@type": "ImageObject",\n        "url": "' + publisherLogo + '"\n      }\n    },\n    "description": "' + description + '"\n  }';
+
+  return _react2.default.createElement(
+    _head2.default,
+    null,
+    _react2.default.createElement('script', {
+      type: 'application/ld+json',
+      dangerouslySetInnerHTML: (0, _markup2.default)(jslonld),
+      key: 'jsonld-article'
+    })
+  );
+};
+
+ArticleJsonLd.defaultProps = {
+  dateModified: null
+};
+
+ArticleJsonLd.propTypes = {
+  url: _propTypes2.default.string.isRequired,
+  title: _propTypes2.default.string.isRequired,
+  images: _propTypes2.default.array.isRequired,
+  datePublished: _propTypes2.default.string.isRequired,
+  dateModified: _propTypes2.default.string,
+  authorName: _propTypes2.default.string.isRequired,
+  publisherName: _propTypes2.default.string.isRequired,
+  publisherLogo: _propTypes2.default.string.isRequired,
+  description: _propTypes2.default.string.isRequired
+};
+
+exports.default = ArticleJsonLd;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/dist/jsonld/blog.js":
+/*!***************************************************!*\
+  !*** ./node_modules/next-seo/dist/jsonld/blog.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _head = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
+
+var _head2 = _interopRequireDefault(_head);
+
+var _markup = __webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/dist/utils/markup.js");
+
+var _markup2 = _interopRequireDefault(_markup);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var BlogJsonLd = function BlogJsonLd(_ref) {
+  var url = _ref.url,
+      title = _ref.title,
+      _ref$images = _ref.images,
+      images = _ref$images === undefined ? [] : _ref$images,
+      datePublished = _ref.datePublished,
+      _ref$dateModified = _ref.dateModified,
+      dateModified = _ref$dateModified === undefined ? null : _ref$dateModified,
+      authorName = _ref.authorName,
+      description = _ref.description;
+
+  var jslonld = '{\n    "@context": "http://schema.org",\n    "@type": "Blog",\n    "mainEntityOfPage": {\n      "@type": "WebPage",\n      "@id": "' + url + '"\n    },\n    "headline": "' + title + '",\n    "image": [\n      ' + images.map(function (image) {
+    return '"' + image + '"';
+  }) + '\n     ],\n    "datePublished": "' + datePublished + '",\n    "dateModified": "' + (dateModified || datePublished) + '",\n    "author": {\n      "@type": "Person",\n      "name": "' + authorName + '"\n    },\n    "description": "' + description + '"\n  }';
+
+  return _react2.default.createElement(
+    _head2.default,
+    null,
+    _react2.default.createElement('script', {
+      type: 'application/ld+json',
+      dangerouslySetInnerHTML: (0, _markup2.default)(jslonld),
+      key: 'jsonld-blog'
+    })
+  );
+};
+
+BlogJsonLd.defaultProps = {
+  dateModified: null
+};
+
+BlogJsonLd.propTypes = {
+  url: _propTypes2.default.string.isRequired,
+  title: _propTypes2.default.string.isRequired,
+  images: _propTypes2.default.array.isRequired,
+  datePublished: _propTypes2.default.string.isRequired,
+  dateModified: _propTypes2.default.string,
+  authorName: _propTypes2.default.string.isRequired,
+  description: _propTypes2.default.string.isRequired
+};
+
+exports.default = BlogJsonLd;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/dist/jsonld/course.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/next-seo/dist/jsonld/course.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _head = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
+
+var _head2 = _interopRequireDefault(_head);
+
+var _markup = __webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/dist/utils/markup.js");
+
+var _markup2 = _interopRequireDefault(_markup);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CourseJsonLd = function CourseJsonLd(_ref) {
+  var courseName = _ref.courseName,
+      description = _ref.description,
+      providerName = _ref.providerName,
+      providerUrl = _ref.providerUrl;
+
+  var jslonld = '{\n    "@context": "http://schema.org",\n    "@type": "Course",\n    "name": "' + courseName + '",\n    "description": "' + description + '",\n    "provider": {\n      "@type": "Organization",\n      "name": "' + providerName + '"' + (providerUrl ? ',\n      "sameAs": "' + providerUrl + '"' : '') + '\n    }\n  }';
+
+  return _react2.default.createElement(
+    _head2.default,
+    null,
+    _react2.default.createElement('script', {
+      type: 'application/ld+json',
+      dangerouslySetInnerHTML: (0, _markup2.default)(jslonld),
+      key: 'jsonld-course'
+    })
+  );
+};
+
+CourseJsonLd.defaultProps = {
+  providerUrl: null
+};
+
+CourseJsonLd.propTypes = {
+  courseName: _propTypes2.default.string.isRequired,
+  providerName: _propTypes2.default.string.isRequired,
+  providerUrl: _propTypes2.default.string,
+  description: _propTypes2.default.string.isRequired
+};
+
+exports.default = CourseJsonLd;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/dist/jsonld/product.js":
+/*!******************************************************!*\
+  !*** ./node_modules/next-seo/dist/jsonld/product.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _head = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
+
+var _head2 = _interopRequireDefault(_head);
+
+var _markup = __webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/dist/utils/markup.js");
+
+var _markup2 = _interopRequireDefault(_markup);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var buildImages = function buildImages(images) {
+  return images.length ? '"image": [' + images.map(function (image) {
+    return '"' + image + '"';
+  }) + '],' : '';
+};
+
+var buildBrand = function buildBrand(brand) {
+  return '\n  "brand": {\n      "@type": "Thing",\n      "name": "' + brand + '"\n    },\n';
+};
+
+var buildReviewRating = function buildReviewRating(rating) {
+  return rating ? '"reviewRating": {\n          "@type": "Rating",\n          ' + (rating.bestRating ? '"bestRating": "' + rating.bestRating + '",' : '') + '\n          ' + (rating.worstRating ? '"worstRating": "' + rating.worstRating + '",' : '') + '\n          "ratingValue": "' + rating.ratingValue + '"\n        },' : '';
+};
+
+var buildReviews = function buildReviews(reviews) {
+  return '\n"review": [\n  ' + reviews.map(function (review) {
+    return '{\n      "@type": "Review",\n      ' + (review.datePublished ? '"datePublished": "' + review.datePublished + '",' : '') + '\n      ' + (review.reviewBody ? '"reviewBody": "' + review.reviewBody + '",' : '') + '\n      ' + (review.name ? '"name": "' + review.name + '",' : '') + '\n      ' + buildReviewRating(review.reviewRating) + '\n      "author": "' + review.author + '"\n  }';
+  }) + '],';
+};
+
+var buildAggregateRating = function buildAggregateRating(aggregateRating) {
+  return '\n  "aggregateRating": {\n      "@type": "AggregateRating",\n      "ratingValue": "' + aggregateRating.ratingValue + '",\n      "reviewCount": "' + aggregateRating.reviewCount + '"\n    },\n';
+};
+
+// TODO: Docs for offers itemCondition & availability
+// TODO: Seller type, make dynamic
+var buildOffers = function buildOffers(offers) {
+  return '\n  "offers": {\n    "@type": "Offer",\n    "priceCurrency": "' + offers.priceCurrency + '",\n    ' + (offers.priceValidUntil ? '"priceValidUntil": "' + offers.priceValidUntil + '",' : '') + '\n    ' + (offers.itemCondition ? '"itemCondition": "' + offers.itemCondition + '",' : '') + '\n    ' + (offers.availability ? '"availability": "' + offers.availability + '",' : '') + '\n    ' + (offers.seller ? '\n      "seller": {\n      "@type": "Organization",\n      "name": "' + offers.seller.name + '"\n    },\n    ' : '') + '\n    "price": "' + offers.price + '"\n  },\n';
+};
+
+var ProductJsonLd = function ProductJsonLd(_ref) {
+  var productName = _ref.productName,
+      _ref$images = _ref.images,
+      images = _ref$images === undefined ? [] : _ref$images,
+      description = _ref.description,
+      sku = _ref.sku,
+      gtin8 = _ref.gtin8,
+      gtin13 = _ref.gtin13,
+      gtin14 = _ref.gtin14,
+      mpn = _ref.mpn,
+      brand = _ref.brand,
+      _ref$reviews = _ref.reviews,
+      reviews = _ref$reviews === undefined ? [] : _ref$reviews,
+      aggregateRating = _ref.aggregateRating,
+      offers = _ref.offers;
+
+  var jslonld = '{\n    "@context": "http://schema.org/",\n    "@type": "Product",\n    ' + buildImages(images) + '\n    ' + (description ? '"description": "' + description + '",' : '') + '\n    ' + (mpn ? '"mpn": "' + mpn + '",' : '') + '\n    ' + (sku ? '"sku": "' + sku + '",' : '') + '\n    ' + (gtin8 ? '"gtin8": "' + gtin8 + '",' : '') + '\n    ' + (gtin13 ? '"gtin13": "' + gtin13 + '",' : '') + '\n    ' + (gtin14 ? '"gtin14": "' + gtin14 + '",' : '') + '\n    ' + (brand ? buildBrand(brand) : '') + '\n    ' + (reviews.length ? buildReviews(reviews) : '') + '\n    ' + (aggregateRating ? buildAggregateRating(aggregateRating) : '') + '\n    ' + (offers ? buildOffers(offers) : '') + '\n    "name": "' + productName + '"\n  }';
+
+  return _react2.default.createElement(
+    _head2.default,
+    null,
+    _react2.default.createElement('script', {
+      type: 'application/ld+json',
+      dangerouslySetInnerHTML: (0, _markup2.default)(jslonld),
+      key: 'jsonld-product'
+    })
+  );
+};
+
+ProductJsonLd.defaultProps = {
+  images: [],
+  description: null,
+  brand: null,
+  reviews: [],
+  aggregateRating: null,
+  offers: null,
+  sku: null,
+  gtin8: null,
+  gtin13: null,
+  gtin14: null,
+  mpn: null
+};
+
+ProductJsonLd.propTypes = {
+  productName: _propTypes2.default.string.isRequired,
+  images: _propTypes2.default.arrayOf(_propTypes2.default.string),
+  description: _propTypes2.default.string,
+  brand: _propTypes2.default.string,
+  reviews: _propTypes2.default.arrayOf(_propTypes2.default.shape({
+    author: _propTypes2.default.string.isRequired,
+    datePublished: _propTypes2.default.string,
+    reviewBody: _propTypes2.default.string,
+    name: _propTypes2.default.string,
+    reviewRating: _propTypes2.default.shape({
+      bestRating: _propTypes2.default.string,
+      ratingValue: _propTypes2.default.string.isRequired,
+      worstRating: _propTypes2.default.string
+    })
+  })),
+  aggregateRating: _propTypes2.default.shape({
+    ratingValue: _propTypes2.default.string.isRequired,
+    reviewCount: _propTypes2.default.string.isRequired
+  }),
+  offers: _propTypes2.default.shape({
+    price: _propTypes2.default.string.isRequired,
+    priceCurrency: _propTypes2.default.string.isRequired,
+    priceValidUntil: _propTypes2.default.string,
+    itemCondition: _propTypes2.default.string,
+    availability: _propTypes2.default.string,
+    seller: _propTypes2.default.shape({
+      name: _propTypes2.default.string.isRequired
+    })
+  }),
+  sku: _propTypes2.default.string,
+  gtin8: _propTypes2.default.string,
+  gtin13: _propTypes2.default.string,
+  gtin14: _propTypes2.default.string,
+  mpn: _propTypes2.default.string
+};
+
+exports.default = ProductJsonLd;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/dist/meta/buildTags.js":
+/*!******************************************************!*\
+  !*** ./node_modules/next-seo/dist/meta/buildTags.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var defaults = {
+  templateTitle: null,
+  openGraph: {
+    defaultImageHeight: null,
+    defaultImageWidth: null
+  }
+};
+
+var buildTags = function buildTags(config) {
+  var tagsToRender = [];
+
+  if (config.titleTemplate) {
+    defaults.templateTitle = config.titleTemplate;
+  }
+
+  if (config.title) {
+    var updatedTitle = config.title;
+    if (defaults.templateTitle) {
+      updatedTitle = defaults.templateTitle.replace(/%s/g, function () {
+        return updatedTitle;
+      });
+    }
+    tagsToRender.push(_react2.default.createElement(
+      "title",
+      { key: "title" },
+      updatedTitle
+    ));
+  }
+
+  if (!config.noindex) {
+    tagsToRender.push(_react2.default.createElement("meta", { key: "robots", name: "robots", content: "index,follow" }));
+    tagsToRender.push(_react2.default.createElement("meta", { key: "googlebot", name: "googlebot", content: "index,follow" }));
+  } else {
+    tagsToRender.push(_react2.default.createElement("meta", { key: "robots", name: "robots", content: "noindex,nofollow" }));
+    tagsToRender.push(_react2.default.createElement("meta", { key: "googlebot", name: "googlebot", content: "noindex,nofollow" }));
+  }
+
+  if (config.description) {
+    tagsToRender.push(_react2.default.createElement("meta", { key: "description", name: "description", content: config.description }));
+  }
+
+  if (config.hasOwnProperty('twitter')) {
+    if (config.twitter.cardType) {
+      tagsToRender.push(_react2.default.createElement("meta", { key: "twitter:card", name: "twitter:card", content: config.twitter.cardType }));
+    }
+
+    if (config.twitter.site) {
+      tagsToRender.push(_react2.default.createElement("meta", { key: "twitter:site", name: "twitter:site", content: config.twitter.site }));
+    }
+
+    if (config.twitter.handle) {
+      tagsToRender.push(_react2.default.createElement("meta", { key: "twitter:creator", name: "twitter:creator", content: config.twitter.handle }));
+    }
+  }
+
+  if (config.hasOwnProperty('openGraph')) {
+    if (config.openGraph.url) {
+      tagsToRender.push(_react2.default.createElement("meta", { key: "og:url", property: "og:url", content: config.openGraph.url }));
+    }
+
+    if (config.openGraph.type) {
+      tagsToRender.push(_react2.default.createElement("meta", { key: "og:type", property: "og:type", content: config.openGraph.type }));
+    }
+
+    if (config.openGraph.title) {
+      tagsToRender.push(_react2.default.createElement("meta", { key: "og:title", property: "og:title", content: config.openGraph.title }));
+    }
+
+    if (config.openGraph.description) {
+      tagsToRender.push(_react2.default.createElement("meta", {
+        key: "og:description",
+        property: "og:description",
+        content: config.openGraph.description
+      }));
+    }
+
+    if (config.openGraph.images && config.openGraph.images.length) {
+      config.openGraph.images.forEach(function (image, index) {
+        tagsToRender.push(_react2.default.createElement("meta", { key: "og:image:0" + index, property: "og:image", content: image.url }));
+
+        if (image.alt) {
+          tagsToRender.push(_react2.default.createElement("meta", { key: "og:image:alt0" + index, property: "og:image:alt", content: image.alt }));
+        }
+
+        if (image.width) {
+          tagsToRender.push(_react2.default.createElement("meta", {
+            key: "og:image:width0" + index,
+            property: "og:image:width",
+            content: image.width
+          }));
+        } else if (defaults.openGraph.defaultImageWidth || config.openGraph.defaultImageWidth) {
+          if (config.openGraph.defaultImageWidth) {
+            defaults.openGraph.defaultImageWidth = config.openGraph.defaultImageWidth;
+          }
+          tagsToRender.push(_react2.default.createElement("meta", {
+            key: "og:image:width0" + index,
+            property: "og:image:width",
+            content: defaults.openGraph.defaultImageWidth
+          }));
+        }
+
+        if (image.height) {
+          tagsToRender.push(_react2.default.createElement("meta", {
+            key: "og:image:height" + index,
+            property: "og:image:height",
+            content: image.height
+          }));
+        } else if (defaults.openGraph.defaultImageHeight || config.openGraph.defaultImageHeight) {
+          if (config.openGraph.defaultImageHeight) {
+            defaults.openGraph.defaultImageHeight = config.openGraph.defaultImageHeight;
+          }
+          tagsToRender.push(_react2.default.createElement("meta", {
+            key: "og:image:height" + index,
+            property: "og:image:height",
+            content: defaults.openGraph.defaultImageHeight
+          }));
+        }
+      });
+    }
+
+    if (config.openGraph.locale) {
+      tagsToRender.push(_react2.default.createElement("meta", { key: "og:locale", property: "og:locale", content: config.openGraph.locale }));
+    }
+
+    if (config.openGraph.site_name) {
+      tagsToRender.push(_react2.default.createElement("meta", { key: "og:site_name", property: "og:site_name", content: config.openGraph.site_name }));
+    }
+  }
+
+  if (config.canonical) {
+    tagsToRender.push(_react2.default.createElement("link", { rel: "canonical", href: config.canonical, key: "canonical" }));
+  }
+
+  return tagsToRender;
+};
+
+exports.default = buildTags;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/dist/meta/defaultSEO.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/next-seo/dist/meta/defaultSEO.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _head = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
+
+var _head2 = _interopRequireDefault(_head);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _buildTags = __webpack_require__(/*! ./buildTags */ "./node_modules/next-seo/dist/meta/buildTags.js");
+
+var _buildTags2 = _interopRequireDefault(_buildTags);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var DefaultSeo = function (_React$Component) {
+  _inherits(DefaultSeo, _React$Component);
+
+  function DefaultSeo(props) {
+    _classCallCheck(this, DefaultSeo);
+
+    var _this = _possibleConstructorReturn(this, (DefaultSeo.__proto__ || Object.getPrototypeOf(DefaultSeo)).call(this, props));
+
+    if (!props.config) {
+      throw new Error('[next-seo] You must supply an SEO configuration');
+    }
+    return _this;
+  }
+
+  _createClass(DefaultSeo, [{
+    key: 'render',
+    value: function render() {
+      var config = this.props.config;
+
+      return _react2.default.createElement(
+        _head2.default,
+        null,
+        (0, _buildTags2.default)(config)
+      );
+    }
+  }]);
+
+  return DefaultSeo;
+}(_react2.default.Component);
+
+DefaultSeo.propTypes = {
+  config: _propTypes2.default.object.isRequired
+};
+
+exports.default = DefaultSeo;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/dist/utils/markup.js":
+/*!****************************************************!*\
+  !*** ./node_modules/next-seo/dist/utils/markup.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var markup = function markup(jsonld) {
+  return { __html: jsonld };
+};
+
+exports.default = markup;
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/lib/EventEmitter.js":
 /*!****************************************************!*\
   !*** ./node_modules/next/dist/lib/EventEmitter.js ***!
@@ -21371,40 +22070,40 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/index.js";
 
 
- // import Logo from '~/components/logo'
-// import Chat from '~/components/chat'
 
- // const LOGO_SIZE = 320
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_i18next__WEBPACK_IMPORTED_MODULE_3__["withI18n"])()(function (_ref) {
   var t = _ref.t;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_layouts_default__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    path: "",
+    title: "",
+    description: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
-    className: "jsx-2256959300" + " " + "card card-1",
+    className: "jsx-1224381762" + " " + "card card-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-2256959300",
+    className: "jsx-1224381762",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 7
     },
     __self: this
   }, t('A fistful of heroes striving to create a better world through better software.'))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "624245259",
-    css: ".rsc,.rsc>.rsc-container{height:100%;}.rsc>.rsc-container>.rsc-content{height:calc(100% - 51.5px - 8px);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQnVCLEFBSXFCLEFBSXFCLFlBSG5DLHFCQUlBIiwiZmlsZSI6Ii9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9wYWdlcy9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnfi9sYXlvdXRzL2RlZmF1bHQnXG4vLyBpbXBvcnQgTG9nbyBmcm9tICd+L2NvbXBvbmVudHMvbG9nbydcbi8vIGltcG9ydCBDaGF0IGZyb20gJ34vY29tcG9uZW50cy9jaGF0J1xuaW1wb3J0IHsgd2l0aEkxOG4gfSBmcm9tICdyZWFjdC1pMThuZXh0J1xuXG4vLyBjb25zdCBMT0dPX1NJWkUgPSAzMjBcblxuZXhwb3J0IGRlZmF1bHQgd2l0aEkxOG4oKSgoeyB0IH0pID0+IChcbiAgPExheW91dD5cbiAgICA8YXJ0aWNsZSBjbGFzc05hbWU9XCJjYXJkIGNhcmQtMVwiPlxuICAgICAgPGgxPlxuICAgICAgICB7dChcbiAgICAgICAgICAnQSBmaXN0ZnVsIG9mIGhlcm9lcyBzdHJpdmluZyB0byBjcmVhdGUgYSBiZXR0ZXIgd29ybGQgdGhyb3VnaCBiZXR0ZXIgc29mdHdhcmUuJyxcbiAgICAgICAgKX1cbiAgICAgIDwvaDE+XG4gICAgPC9hcnRpY2xlPlxuXG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIC5yc2MsXG4gICAgICAucnNjID4gLnJzYy1jb250YWluZXIge1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICB9XG5cbiAgICAgIC5yc2MgPiAucnNjLWNvbnRhaW5lciA+IC5yc2MtY29udGVudCB7XG4gICAgICAgIGhlaWdodDogY2FsYygxMDAlIC0gNTEuNXB4IC0gOHB4KTtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICBhcnRpY2xlIHtcbiAgICAgICAgd2lkdGg6IDc1JTtcbiAgICAgICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgfVxuXG4gICAgICBAbWVkaWEgKG1pbi13aWR0aDogNjQxcHgpIHtcbiAgICAgICAgYXJ0aWNsZSB7XG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgIHRvcDogNTAlO1xuICAgICAgICAgIGxlZnQ6IDUwJTtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9MYXlvdXQ+XG4pKVxuIl19 */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/index.js */",
+    css: ".rsc,.rsc>.rsc-container{height:100%;}.rsc>.rsc-container>.rsc-content{height:calc(100% - 51.5px - 8px);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFhdUIsQUFJcUIsQUFJcUIsWUFIbkMscUJBSUEiLCJmaWxlIjoiL2hvbWUvYW50b255L1Byb2dldHRpL0luZ2xvcmlvdXMgQ29kZXJ6L2luZ2xvcmlvdXNjb2RlcnouZ2l0aHViLmlvL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICd+L2xheW91dHMvZGVmYXVsdCdcbmltcG9ydCB7IHdpdGhJMThuIH0gZnJvbSAncmVhY3QtaTE4bmV4dCdcblxuZXhwb3J0IGRlZmF1bHQgd2l0aEkxOG4oKSgoeyB0IH0pID0+IChcbiAgPExheW91dCBwYXRoPVwiXCIgdGl0bGU9XCJcIiBkZXNjcmlwdGlvbj1cIlwiPlxuICAgIDxhcnRpY2xlIGNsYXNzTmFtZT1cImNhcmQgY2FyZC0xXCI+XG4gICAgICA8aDE+XG4gICAgICAgIHt0KFxuICAgICAgICAgICdBIGZpc3RmdWwgb2YgaGVyb2VzIHN0cml2aW5nIHRvIGNyZWF0ZSBhIGJldHRlciB3b3JsZCB0aHJvdWdoIGJldHRlciBzb2Z0d2FyZS4nLFxuICAgICAgICApfVxuICAgICAgPC9oMT5cbiAgICA8L2FydGljbGU+XG5cbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgLnJzYyxcbiAgICAgIC5yc2MgPiAucnNjLWNvbnRhaW5lciB7XG4gICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgIH1cblxuICAgICAgLnJzYyA+IC5yc2MtY29udGFpbmVyID4gLnJzYy1jb250ZW50IHtcbiAgICAgICAgaGVpZ2h0OiBjYWxjKDEwMCUgLSA1MS41cHggLSA4cHgpO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIGFydGljbGUge1xuICAgICAgICB3aWR0aDogNzUlO1xuICAgICAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICB9XG5cbiAgICAgIEBtZWRpYSAobWluLXdpZHRoOiA2NDFweCkge1xuICAgICAgICBhcnRpY2xlIHtcbiAgICAgICAgICBtYXJnaW4tdG9wOiAxMHJlbTtcbiAgICAgICAgICAvLyBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgLy8gdG9wOiA1MCU7XG4gICAgICAgICAgLy8gbGVmdDogNTAlO1xuICAgICAgICAgIC8vIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgICAgICB9XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L0xheW91dD5cbikpXG4iXX0= */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/index.js */",
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "520017190",
-    css: "article.jsx-2256959300{width:75%;margin-left:auto;margin-right:auto;text-align:center;}@media (min-width:641px){article.jsx-2256959300{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0QmdCLEFBR21CLEFBUVUsVUFQSCxRQVFQLFFBQ0MsQ0FSTyxRQVNnQixVQVJoQixrQkFDcEIsNkVBUUUiLCJmaWxlIjoiL2hvbWUvYW50b255L1Byb2dldHRpL0luZ2xvcmlvdXMgQ29kZXJ6L2luZ2xvcmlvdXNjb2RlcnouZ2l0aHViLmlvL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICd+L2xheW91dHMvZGVmYXVsdCdcbi8vIGltcG9ydCBMb2dvIGZyb20gJ34vY29tcG9uZW50cy9sb2dvJ1xuLy8gaW1wb3J0IENoYXQgZnJvbSAnfi9jb21wb25lbnRzL2NoYXQnXG5pbXBvcnQgeyB3aXRoSTE4biB9IGZyb20gJ3JlYWN0LWkxOG5leHQnXG5cbi8vIGNvbnN0IExPR09fU0laRSA9IDMyMFxuXG5leHBvcnQgZGVmYXVsdCB3aXRoSTE4bigpKCh7IHQgfSkgPT4gKFxuICA8TGF5b3V0PlxuICAgIDxhcnRpY2xlIGNsYXNzTmFtZT1cImNhcmQgY2FyZC0xXCI+XG4gICAgICA8aDE+XG4gICAgICAgIHt0KFxuICAgICAgICAgICdBIGZpc3RmdWwgb2YgaGVyb2VzIHN0cml2aW5nIHRvIGNyZWF0ZSBhIGJldHRlciB3b3JsZCB0aHJvdWdoIGJldHRlciBzb2Z0d2FyZS4nLFxuICAgICAgICApfVxuICAgICAgPC9oMT5cbiAgICA8L2FydGljbGU+XG5cbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgLnJzYyxcbiAgICAgIC5yc2MgPiAucnNjLWNvbnRhaW5lciB7XG4gICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgIH1cblxuICAgICAgLnJzYyA+IC5yc2MtY29udGFpbmVyID4gLnJzYy1jb250ZW50IHtcbiAgICAgICAgaGVpZ2h0OiBjYWxjKDEwMCUgLSA1MS41cHggLSA4cHgpO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIGFydGljbGUge1xuICAgICAgICB3aWR0aDogNzUlO1xuICAgICAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICB9XG5cbiAgICAgIEBtZWRpYSAobWluLXdpZHRoOiA2NDFweCkge1xuICAgICAgICBhcnRpY2xlIHtcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgdG9wOiA1MCU7XG4gICAgICAgICAgbGVmdDogNTAlO1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgICAgICB9XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L0xheW91dD5cbikpXG4iXX0= */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/index.js */",
+    styleId: "2596041952",
+    css: "article.jsx-1224381762{width:75%;margin-left:auto;margin-right:auto;text-align:center;}@media (min-width:641px){article.jsx-1224381762{margin-top:10rem;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FudG9ueS9Qcm9nZXR0aS9Jbmdsb3Jpb3VzIENvZGVyei9pbmdsb3Jpb3VzY29kZXJ6LmdpdGh1Yi5pby9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3QmdCLEFBR21CLEFBUVMsVUFQRixPQVlqQixVQVhrQixrQkFDQSxrQkFDcEIiLCJmaWxlIjoiL2hvbWUvYW50b255L1Byb2dldHRpL0luZ2xvcmlvdXMgQ29kZXJ6L2luZ2xvcmlvdXNjb2RlcnouZ2l0aHViLmlvL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICd+L2xheW91dHMvZGVmYXVsdCdcbmltcG9ydCB7IHdpdGhJMThuIH0gZnJvbSAncmVhY3QtaTE4bmV4dCdcblxuZXhwb3J0IGRlZmF1bHQgd2l0aEkxOG4oKSgoeyB0IH0pID0+IChcbiAgPExheW91dCBwYXRoPVwiXCIgdGl0bGU9XCJcIiBkZXNjcmlwdGlvbj1cIlwiPlxuICAgIDxhcnRpY2xlIGNsYXNzTmFtZT1cImNhcmQgY2FyZC0xXCI+XG4gICAgICA8aDE+XG4gICAgICAgIHt0KFxuICAgICAgICAgICdBIGZpc3RmdWwgb2YgaGVyb2VzIHN0cml2aW5nIHRvIGNyZWF0ZSBhIGJldHRlciB3b3JsZCB0aHJvdWdoIGJldHRlciBzb2Z0d2FyZS4nLFxuICAgICAgICApfVxuICAgICAgPC9oMT5cbiAgICA8L2FydGljbGU+XG5cbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgLnJzYyxcbiAgICAgIC5yc2MgPiAucnNjLWNvbnRhaW5lciB7XG4gICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgIH1cblxuICAgICAgLnJzYyA+IC5yc2MtY29udGFpbmVyID4gLnJzYy1jb250ZW50IHtcbiAgICAgICAgaGVpZ2h0OiBjYWxjKDEwMCUgLSA1MS41cHggLSA4cHgpO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cblxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIGFydGljbGUge1xuICAgICAgICB3aWR0aDogNzUlO1xuICAgICAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICB9XG5cbiAgICAgIEBtZWRpYSAobWluLXdpZHRoOiA2NDFweCkge1xuICAgICAgICBhcnRpY2xlIHtcbiAgICAgICAgICBtYXJnaW4tdG9wOiAxMHJlbTtcbiAgICAgICAgICAvLyBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgLy8gdG9wOiA1MCU7XG4gICAgICAgICAgLy8gbGVmdDogNTAlO1xuICAgICAgICAgIC8vIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgICAgICB9XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L0xheW91dD5cbikpXG4iXX0= */\n/*@ sourceURL=/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/index.js */",
     __self: this
   }));
 }));
@@ -21459,7 +22158,7 @@ module.exports = "/_next/static/images/metal-wallpaper-a0ee1e687bf7d1b4d8fcb52b1
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ({"G":"G", "I":"I", "L":"L", "F":"F", "it":"it", "en":"en", "A fistful of heroes striving to create a better world through better software.":"A fistful of heroes striving to create a better world through better software.", "Why":"Why", "Who":"Who", "How":"How", "What":"What", "When":"When", "Where":"Where", "How Much":"How Much", "Logo":"Logo", "Blog":"Blog", "Github":"Github", "<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.":"<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.", "Ask me anything...":"Ask me anything...", "Knock knock.":"Knock knock.", "Hey it's me, ICBot. You followed the white rabbit and found us. Good for you.":"Hey it's me, ICBot. You followed the white rabbit and found us. Good for you.", "Feel free to ask me anything about Inglorious Coderz.":"Feel free to ask me anything about Inglorious Coderz.", "I said you could ask, not that I would answer :P":"I said you could ask, not that I would answer :P", "Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!":"Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!", "Want to know anything else?":"Want to know anything else?", "<0>What</0><1>There's no better explanation of what we do than some real use case scenarios.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> wanted to create the best invoice management system. They wanted to start with the best architecture, with the best technologies, so they hired the best people.</0><1>Four developers, one of wich was an IC, met at the Inglorious Headquarters for a total of 29 days. Together in this short period of time they:</1><2><0>defined the product (features, UX)</0><1>defined the project (technology stack, planning)</1><2>laid out an MVP</2></2><3>Two devs created the back end in <2>.NET Core</2>, while the other two developed the front end in <5>Core UI</5> for <8>React</8>. To date, the customer is continuing to develop independently, and the result looks very promising.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> is the perfect solution for your home deliveries. The key concepts are:</0><1><0>You get your package delivered at home whenever you want</0><1>You book your appointment from mobile or desktop in a simple and pleasant way</1></1><2>This is why they asked us to implement this responsive, performant, highly customizable, multi-touch <2>React</2> component. It's very difficult to build simple things, so they chose to leave the task to us. After 9 days of constant feedback the component was delivered fully tested and bug-free, along with a <5>Storybook</5> playground.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>This is actually a failure case. But, as you may know, failures are as important, if not more, than success cases.</0><1><0>PrivateGriffe</0> was suffering from performance issues on their new <4>React</4> front end and also for a bloated <7>Spring</7> back end. We solved the most crucial performance issues and gathered a task force that re-created from scratch the back end server with <10>Loopback 3</10> and the backoffice panel with <13>Core UI</13> for <16>React</16>.</1><2>Unfortunately the team performed slower than planned and the client argued with the supplier responsible for the front end, so development stopped and employees quit the company.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> wanted to hire us for a project that had to last six months. We told that they needed us for a lot less. They decided to go with two weeks for a start. After one week the project was ready for production.</0><1>Lanieri Backoffice Platform is a <2>Vue.js</2> web application backed by an <5>Express</5>/<7>MongoDB</7> server with authentication, file upload, and communication both REST and realtime. The project was then passed to the client's devs who easily continued working on it.</1><2>The client is so satisfied with the outcome that we are being asked to build a more generic framework based on the features of this project and others.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Inglorious Coderz do not always make websites. But when they do, they build them from scratch.</0><1><0>GiadaJoeyCazzola.com</0> is a responsive and SEO-friendly progressive webapp generated with <4>Nuxt</4>. Although it doesn't allow the user to publish their own content (which could also be considered a feature, because it ensures content correctness), the UX is completely custom and the performance achieved is far better than any CMS-generated website.</1></1></11><12>Tazebao</12><13><0></0><1><0>To create the best school management system, <2>CNOS-FAP</2> needed someone who could solve the most complex algorithms, guide the architecture, and give best practices on code quality.</0><1>The result is an ecosystem of different pieces of software, such as a desktop webapp in <2>Vue.js</2>, a mobile electronic register in <5>Framework7</5>, a <8>Loopback 3</8> server, and a <10>Dialogflow</10> bot.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Inglorious Coderz are damn good at developing software but also at communicating software. That's why 50% of our activity consists in teaching, training, mentoring, coaching, and public speaking in general.</0><1>Clients such as <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7>, and <10>forma-re-te</10> rely on us to provide the best training experience.</1><2>Every lesson is a show: students manage to grasp the most difficult concepts explained in a super-easy and fun way. During our courses we build a complete project step-by-step from the ground up, and every step is backed by strong theoretical concepts.</2></1></15>":"<0>What</0><1>There's no better explanation of what we do than some real use case scenarios.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> wanted to create the best invoice management system. They wanted to start with the best architecture, with the best technologies, so they hired the best people.</0><1>Four developers, one of wich was an IC, met at the Inglorious Headquarters for a total of 29 days. Together in this short period of time they:</1><2><0>defined the product (features, UX)</0><1>defined the project (technology stack, planning)</1><2>laid out an MVP</2></2><3>Two devs created the back end in <2>.NET Core</2>, while the other two developed the front end in <5>Core UI</5> for <8>React</8>. To date, the customer is continuing to develop independently, and the result looks very promising.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> is the perfect solution for your home deliveries. The key concepts are:</0><1><0>You get your package delivered at home whenever you want</0><1>You book your appointment from mobile or desktop in a simple and pleasant way</1></1><2>This is why they asked us to implement this responsive, performant, highly customizable, multi-touch <2>React</2> component. It's very difficult to build simple things, so they chose to leave the task to us. After 9 days of constant feedback the component was delivered fully tested and bug-free, along with a <5>Storybook</5> playground.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>This is actually a failure case. But, as you may know, failures are as important, if not more, than success cases.</0><1><0>PrivateGriffe</0> was suffering from performance issues on their new <4>React</4> front end and also for a bloated <7>Spring</7> back end. We solved the most crucial performance issues and gathered a task force that re-created from scratch the back end server with <10>Loopback 3</10> and the backoffice panel with <13>Core UI</13> for <16>React</16>.</1><2>Unfortunately the team performed slower than planned and the client argued with the supplier responsible for the front end, so development stopped and employees quit the company.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> wanted to hire us for a project that had to last six months. We told that they needed us for a lot less. They decided to go with two weeks for a start. After one week the project was ready for production.</0><1>Lanieri Backoffice Platform is a <2>Vue.js</2> web application backed by an <5>Express</5>/<7>MongoDB</7> server with authentication, file upload, and communication both REST and realtime. The project was then passed to the client's devs who easily continued working on it.</1><2>The client is so satisfied with the outcome that we are being asked to build a more generic framework based on the features of this project and others.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Inglorious Coderz do not always make websites. But when they do, they build them from scratch.</0><1><0>GiadaJoeyCazzola.com</0> is a responsive and SEO-friendly progressive webapp generated with <4>Nuxt</4>. Although it doesn't allow the user to publish their own content (which could also be considered a feature, because it ensures content correctness), the UX is completely custom and the performance achieved is far better than any CMS-generated website.</1></1></11><12>Tazebao</12><13><0></0><1><0>To create the best school management system, <2>CNOS-FAP</2> needed someone who could solve the most complex algorithms, guide the architecture, and give best practices on code quality.</0><1>The result is an ecosystem of different pieces of software, such as a desktop webapp in <2>Vue.js</2>, a mobile electronic register in <5>Framework7</5>, a <8>Loopback 3</8> server, and a <10>Dialogflow</10> bot.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Inglorious Coderz are damn good at developing software but also at communicating software. That's why 50% of our activity consists in teaching, training, mentoring, coaching, and public speaking in general.</0><1>Clients such as <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7>, and <10>forma-re-te</10> rely on us to provide the best training experience.</1><2>Every lesson is a show: students manage to grasp the most difficult concepts explained in a super-easy and fun way. During our courses we build a complete project step-by-step from the ground up, and every step is backed by strong theoretical concepts.</2></1></15>", "<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>":"<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>", "read more›":"read more›"});
+module.exports = ({"G":"G", "I":"I", "L":"L", "F":"F", "Privacy":"Privacy", "it":"it", "en":"en", "A fistful of heroes striving to create a better world through better software.":"A fistful of heroes striving to create a better world through better software.", "Why":"Why", "Who":"Who", "How":"How", "What":"What", "When":"When", "Where":"Where", "How Much":"How Much", "Logo":"Logo", "Blog":"Blog", "Github":"Github", "<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.":"<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.", "Ask me anything...":"Ask me anything...", "Knock knock.":"Knock knock.", "Hey it's me, ICBot. You followed the white rabbit and found us. Good for you.":"Hey it's me, ICBot. You followed the white rabbit and found us. Good for you.", "Feel free to ask me anything about Inglorious Coderz.":"Feel free to ask me anything about Inglorious Coderz.", "I said you could ask, not that I would answer :P":"I said you could ask, not that I would answer :P", "Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!":"Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!", "Want to know anything else?":"Want to know anything else?", "<0>What</0><1>There's no better explanation of what we do than some real use case scenarios.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> wanted to create the best invoice management system. They wanted to start with the best architecture, with the best technologies, so they hired the best people.</0><1>Four developers, one of wich was an IC, met at the Inglorious Headquarters for a total of 29 days. Together in this short period of time they:</1><2><0>defined the product (features, UX)</0><1>defined the project (technology stack, planning)</1><2>laid out an MVP</2></2><3>Two devs created the back end in <2>.NET Core</2>, while the other two developed the front end in <5>Core UI</5> for <8>React</8>. To date, the customer is continuing to develop independently, and the result looks very promising.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> is the perfect solution for your home deliveries. The key concepts are:</0><1><0>You get your package delivered at home whenever you want</0><1>You book your appointment from mobile or desktop in a simple and pleasant way</1></1><2>This is why they asked us to implement this responsive, performant, highly customizable, multi-touch <2>React</2> component. It's very difficult to build simple things, so they chose to leave the task to us. After 9 days of constant feedback the component was delivered fully tested and bug-free, along with a <5>Storybook</5> playground.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>This is actually a failure case. But, as you may know, failures are as important, if not more, than success cases.</0><1><0>PrivateGriffe</0> was suffering from performance issues on their new <4>React</4> front end and also for a bloated <7>Spring</7> back end. We solved the most crucial performance issues and gathered a task force that re-created from scratch the back end server with <10>Loopback 3</10> and the backoffice panel with <13>Core UI</13> for <16>React</16>.</1><2>Unfortunately the team performed slower than planned and the client argued with the supplier responsible for the front end, so development stopped and employees quit the company.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> wanted to hire us for a project that had to last six months. We told that they needed us for a lot less. They decided to go with two weeks for a start. After one week the project was ready for production.</0><1>Lanieri Backoffice Platform is a <2>Vue.js</2> web application backed by an <5>Express</5>/<7>MongoDB</7> server with authentication, file upload, and communication both REST and realtime. The project was then passed to the client's devs who easily continued working on it.</1><2>The client is so satisfied with the outcome that we are being asked to build a more generic framework based on the features of this project and others.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Inglorious Coderz do not always make websites. But when they do, they build them from scratch.</0><1><0>GiadaJoeyCazzola.com</0> is a responsive and SEO-friendly progressive webapp generated with <4>Nuxt</4>. Although it doesn't allow the user to publish their own content (which could also be considered a feature, because it ensures content correctness), the UX is completely custom and the performance achieved is far better than any CMS-generated website.</1></1></11><12>Tazebao</12><13><0></0><1><0>To create the best school management system, <2>CNOS-FAP</2> needed someone who could solve the most complex algorithms, guide the architecture, and give best practices on code quality.</0><1>The result is an ecosystem of different pieces of software, such as a desktop webapp in <2>Vue.js</2>, a mobile electronic register in <5>Framework7</5>, a <8>Loopback 3</8> server, and a <10>Dialogflow</10> bot.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Inglorious Coderz are damn good at developing software but also at communicating software. That's why 50% of our activity consists in teaching, training, mentoring, coaching, and public speaking in general.</0><1>Clients such as <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7>, and <10>forma-re-te</10> rely on us to provide the best training experience.</1><2>Every lesson is a show: students manage to grasp the most difficult concepts explained in a super-easy and fun way. During our courses we build a complete project step-by-step from the ground up, and every step is backed by strong theoretical concepts.</2></1></15>":"<0>What</0><1>There's no better explanation of what we do than some real use case scenarios.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> wanted to create the best invoice management system. They wanted to start with the best architecture, with the best technologies, so they hired the best people.</0><1>Four developers, one of wich was an IC, met at the Inglorious Headquarters for a total of 29 days. Together in this short period of time they:</1><2><0>defined the product (features, UX)</0><1>defined the project (technology stack, planning)</1><2>laid out an MVP</2></2><3>Two devs created the back end in <2>.NET Core</2>, while the other two developed the front end in <5>Core UI</5> for <8>React</8>. To date, the customer is continuing to develop independently, and the result looks very promising.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> is the perfect solution for your home deliveries. The key concepts are:</0><1><0>You get your package delivered at home whenever you want</0><1>You book your appointment from mobile or desktop in a simple and pleasant way</1></1><2>This is why they asked us to implement this responsive, performant, highly customizable, multi-touch <2>React</2> component. It's very difficult to build simple things, so they chose to leave the task to us. After 9 days of constant feedback the component was delivered fully tested and bug-free, along with a <5>Storybook</5> playground.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>This is actually a failure case. But, as you may know, failures are as important, if not more, than success cases.</0><1><0>PrivateGriffe</0> was suffering from performance issues on their new <4>React</4> front end and also for a bloated <7>Spring</7> back end. We solved the most crucial performance issues and gathered a task force that re-created from scratch the back end server with <10>Loopback 3</10> and the backoffice panel with <13>Core UI</13> for <16>React</16>.</1><2>Unfortunately the team performed slower than planned and the client argued with the supplier responsible for the front end, so development stopped and employees quit the company.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> wanted to hire us for a project that had to last six months. We told that they needed us for a lot less. They decided to go with two weeks for a start. After one week the project was ready for production.</0><1>Lanieri Backoffice Platform is a <2>Vue.js</2> web application backed by an <5>Express</5>/<7>MongoDB</7> server with authentication, file upload, and communication both REST and realtime. The project was then passed to the client's devs who easily continued working on it.</1><2>The client is so satisfied with the outcome that we are being asked to build a more generic framework based on the features of this project and others.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Inglorious Coderz do not always make websites. But when they do, they build them from scratch.</0><1><0>GiadaJoeyCazzola.com</0> is a responsive and SEO-friendly progressive webapp generated with <4>Nuxt</4>. Although it doesn't allow the user to publish their own content (which could also be considered a feature, because it ensures content correctness), the UX is completely custom and the performance achieved is far better than any CMS-generated website.</1></1></11><12>Tazebao</12><13><0></0><1><0>To create the best school management system, <2>CNOS-FAP</2> needed someone who could solve the most complex algorithms, guide the architecture, and give best practices on code quality.</0><1>The result is an ecosystem of different pieces of software, such as a desktop webapp in <2>Vue.js</2>, a mobile electronic register in <5>Framework7</5>, a <8>Loopback 3</8> server, and a <10>Dialogflow</10> bot.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Inglorious Coderz are damn good at developing software but also at communicating software. That's why 50% of our activity consists in teaching, training, mentoring, coaching, and public speaking in general.</0><1>Clients such as <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7>, and <10>forma-re-te</10> rely on us to provide the best training experience.</1><2>Every lesson is a show: students manage to grasp the most difficult concepts explained in a super-easy and fun way. During our courses we build a complete project step-by-step from the ground up, and every step is backed by strong theoretical concepts.</2></1></15>", "<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>":"<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>", "read more›":"read more›"});
 
 /***/ }),
 
@@ -21470,7 +22169,31 @@ module.exports = ({"G":"G", "I":"I", "L":"L", "F":"F", "it":"it", "en":"en", "A 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ({"G":"G", "I":"I", "L":"L", "F":"F", "it":"it", "en":"en", "A fistful of heroes striving to create a better world through better software.":"Un manipolo di eroi che tenta di creare un mondo migliore attraverso software migliore.", "Why":"Perché", "Who":"Chi", "How":"Come", "What":"Cosa", "When":"Quando", "Where":"Dove", "How Much":"Quanto", "Logo":"Logo", "Blog":"Blog", "Github":"Github", "<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.":"<0><0></0></0> Il sito degli <4>Inglorious Coderz</4> è distribuito con Licenza Pubblica <8>Creative Commons Attribuzione-Non commerciale-NonOpereDerivate 4.0 Internazionale</8>.", "Ask me anything...":"Chiedimi qualcosa...", "Knock knock.":"Toc toc.", "Hey it's me, ICBot. You followed the white rabbit and found us. Good for you.":"Ehi sono io, ICBot. Hai seguito il bianconiglio e ci hai trovati. Buon per te.", "Feel free to ask me anything about Inglorious Coderz.":"Puoi chiedermi quello che vuoi sugli Inglorious Coderz.", "I said you could ask, not that I would answer :P":"Ho detto che potevi chiedere, non che avrei risposto :P", "Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!":"Scherzi a parte, un giorno sarò in grado di dirti qualcosa di significativo, ma al momento non ho nessuna IA dietro. Quindi nel frattempo dai un'occhiata in giro!", "Want to know anything else?":"Vuoi sapere altro?", "<0>What</0><1>There's no better explanation of what we do than some real use case scenarios.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> wanted to create the best invoice management system. They wanted to start with the best architecture, with the best technologies, so they hired the best people.</0><1>Four developers, one of wich was an IC, met at the Inglorious Headquarters for a total of 29 days. Together in this short period of time they:</1><2><0>defined the product (features, UX)</0><1>defined the project (technology stack, planning)</1><2>laid out an MVP</2></2><3>Two devs created the back end in <2>.NET Core</2>, while the other two developed the front end in <5>Core UI</5> for <8>React</8>. To date, the customer is continuing to develop independently, and the result looks very promising.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> is the perfect solution for your home deliveries. The key concepts are:</0><1><0>You get your package delivered at home whenever you want</0><1>You book your appointment from mobile or desktop in a simple and pleasant way</1></1><2>This is why they asked us to implement this responsive, performant, highly customizable, multi-touch <2>React</2> component. It's very difficult to build simple things, so they chose to leave the task to us. After 9 days of constant feedback the component was delivered fully tested and bug-free, along with a <5>Storybook</5> playground.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>This is actually a failure case. But, as you may know, failures are as important, if not more, than success cases.</0><1><0>PrivateGriffe</0> was suffering from performance issues on their new <4>React</4> front end and also for a bloated <7>Spring</7> back end. We solved the most crucial performance issues and gathered a task force that re-created from scratch the back end server with <10>Loopback 3</10> and the backoffice panel with <13>Core UI</13> for <16>React</16>.</1><2>Unfortunately the team performed slower than planned and the client argued with the supplier responsible for the front end, so development stopped and employees quit the company.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> wanted to hire us for a project that had to last six months. We told that they needed us for a lot less. They decided to go with two weeks for a start. After one week the project was ready for production.</0><1>Lanieri Backoffice Platform is a <2>Vue.js</2> web application backed by an <5>Express</5>/<7>MongoDB</7> server with authentication, file upload, and communication both REST and realtime. The project was then passed to the client's devs who easily continued working on it.</1><2>The client is so satisfied with the outcome that we are being asked to build a more generic framework based on the features of this project and others.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Inglorious Coderz do not always make websites. But when they do, they build them from scratch.</0><1><0>GiadaJoeyCazzola.com</0> is a responsive and SEO-friendly progressive webapp generated with <4>Nuxt</4>. Although it doesn't allow the user to publish their own content (which could also be considered a feature, because it ensures content correctness), the UX is completely custom and the performance achieved is far better than any CMS-generated website.</1></1></11><12>Tazebao</12><13><0></0><1><0>To create the best school management system, <2>CNOS-FAP</2> needed someone who could solve the most complex algorithms, guide the architecture, and give best practices on code quality.</0><1>The result is an ecosystem of different pieces of software, such as a desktop webapp in <2>Vue.js</2>, a mobile electronic register in <5>Framework7</5>, a <8>Loopback 3</8> server, and a <10>Dialogflow</10> bot.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Inglorious Coderz are damn good at developing software but also at communicating software. That's why 50% of our activity consists in teaching, training, mentoring, coaching, and public speaking in general.</0><1>Clients such as <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7>, and <10>forma-re-te</10> rely on us to provide the best training experience.</1><2>Every lesson is a show: students manage to grasp the most difficult concepts explained in a super-easy and fun way. During our courses we build a complete project step-by-step from the ground up, and every step is backed by strong theoretical concepts.</2></1></15>":"<0>Cosa</0><1>Per spiegare ciò che facciamo non c'è modo migliore che descrivere alcuni casi d'uso reali.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> intendeva creare il miglior sistema di gestione delle fatture. Volevano iniziare con la migliore architettura, con le migliori tecnologie, così hanno assunto le persone migliori.</0><1>Quattro sviluppatori, uno dei quali era un IC, si sono incontrati presso gli Inglorious Headquarters per un totale di 29 giorni. Insieme in questo breve lasso di tempo hanno:</1><2><0>definito il prodotto (feature, UX)</0><1>definito il progetto (stack tecnologico, pianificazione)</1><2>realizzato un MVP</2></2><3>Due sviluppatori hanno creato il back-end in <2>.NET Core</2>, mentre gli altri due hanno sviluppato il front-end in <5>Core UI</5> per <8>React</8>. Ad oggi il Cliente sta continuando gli sviluppi in modo autonomo, e il risultato sembra molto promettente.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> è la soluzione perfetta per le tue consegne a domicilio. I concetti chiave sono:</0><1><0>Ricevi il pacco consegnato a casa quando vuoi</0><1>Prenoti l'appuntamento da mobile o da desktop in modo semplice e divertente</1></1><2>Questo è il motivo per cui ci hanno chiesto di implementare questo componente <2>React</2> responsive, performante, altamente personalizzabile e multi-touch. È molto difficile costruire cose semplici, quindi hanno scelto di lasciare il compito a noi. Dopo 9 giorni di feedback costante, il componente è stato consegnato completamente testato e privo di bug, insieme a un playground realizzato con <5>Storybook</5>.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>Questo è in realtà un caso di fallimento. Ma si sa, i fallimenti sono altrettanto importanti, se non di più, dei casi di successo.</0><1><0>PrivateGriffe</0> ha sofferto di problemi di prestazioni sul suo nuovo front-end <4>React</4> e anche di un back-end <7>Spring</7> rigonfio di codice legacy. Abbiamo risolto immediatamente i problemi di prestazioni più importanti, dopodiché abbiamo riunito una task force che ha ricreato da zero il server di back-end con <10>Loopback 3</10> e il pannello di backoffice con <13>Core UI</13> per <16>React</16>.</1><2>Purtroppo il team ha performato più lentamente del previsto e il Cliente ha discusso con il fornitore responsabile del front-end, quindi lo sviluppo si è interrotto e i dipendenti hanno lasciato la società.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> voleva assumerci per un progetto che doveva durare sei mesi. Abbiamo assicurato che avrebbero avuto bisogno di noi per molto meno tempo. Hanno deciso di cominciare con due settimane. Dopo una settimana il progetto era pronto per andare online.</0><1>Lanieri Backoffice Platform è un'applicazione web <2>Vue.js</2> supportata da un server <5>Express</5>/<7>MongoDB</7> con autenticazione, caricamento file e comunicazione sia REST che real-time. Il progetto è stato poi passato in carico agli sviluppatori del Cliente che hanno continuato a lavorarci senza problemi.</1><2>Il Cliente è così soddisfatto del risultato che recentemente ci è stato chiesto di costruire un framework più generico basato sulle feature di questo progetto e di altri.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Gli Inglorious Coderz non sempre creano siti web. Ma quando lo fanno, li costruiscono da zero.</0><1><0>GiadaJoeyCazzola.com</0> è una progressive webapp responsive e SEO-friendly generata con <4>Nuxt</4>. Sebbene non consenta all'utente di pubblicare i propri contenuti (che potrebbe anche essere considerato una feature, poiché garantisce la correttezza dei contenuti), la UX è completamente personalizzata e le prestazioni raggiunte sono di gran lunga migliori rispetto a qualsiasi sito web generato da CMS.</1></1></11><12>Tazebao</12><13><0></0><1><0>Per creare il miglior sistema di gestione per i propri istituti formativi, <2>CNOS-FAP</2> avevo bisogno di qualcuno che potesse risolvere gli algoritmi più complessi, guidare l'architettura e fornire delle best practice sulla qualità del codice.</0><1>Il risultato è un ecosistema di diversi software, come una webapp desktop in <2>Vue.js</2> per la segreteria, un registro elettronico mobile in <5>Framework7</5>, un server <8>Loopback 3</8> e un bot <10>Dialogflow</10>.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Gli Inglorious Coderz sono dannatamente bravi nello sviluppo del software ma anche nella comunicazione del software. Ecco perché il 50% della nostra attività consiste nell'insegnamento, formazione, tutoraggio, coaching e public speaking in generale.</0><1>Clienti come <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7> e <10>forma-re-te</10> si affidano a noi per fornire la migliore esperienza di formazione.</1><2>Ogni lezione è uno spettacolo: gli studenti gestiscono per cogliere i concetti più difficili spiegati in modo super-facile e divertente. Durante i nostri corsi costruiamo un progetto completo passo dopo passo da zero, e ogni fase è supportata da forti concetti teorici.</2></1></15>", "<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>":"<0>Quando</0><1>In ogni fase del ciclo di vita della tua azienda, gli Inglorious Coderz sono lì per essere i tuoi perfetti alleati tecnologici.</1><2>Startup</2><3>Un'idea fantastica è il punto di partenza per la tua attività, ma poi devi costruire il prodotto vero e proprio. È a questo punto che ti rendi conto che stai davvero mettendo il tuo futuro nelle mani di qualcun altro. Assicurati solo che la persona su cui stai facendo affidamento sia in grado di sviluppare una solida base per il tuo prodotto. Gli Inglorious Coderz possono aiutarti in molti modi, dalla valutazione delle abilità del tuo CTO al mentoring dei tuoi sviluppatori, fino ad assumere il ruolo del tuo primo CTO.</3><4>Piccole imprese</4><5>In qualità di piccola impresa sai che hai bisogno di una presenza online. Inoltre, ti ritrovi a perdere troppo tempo facendo piccoli compiti a mano ogni giorno? È un segnale che hai bisogno di un po' di automazione nella tua vita lavorativa. Gli Inglorious Coderz sono in grado di fornirti soluzioni costruite da zero in modo che siano adattate alle tue esigenze e solo alle tue. I siti web sono incredibilmente veloci perché non si basano su CMS come Wordpress e hanno un design unico perché non sono costruiti da template. Software di gestione, app mobile e applicazioni web fanno esattamente ciò di cui hai bisogno, ma meglio.</5><6>Grandi aziende</6><7>Essendo nel settore già da un po', sai già come funziona la consulenza IT: ti ritrovi a pagare per un senior per ottenere un junior che ha mentito sul suo CV. Non sarebbe meglio assumere persone e mantenere il know-how all'interno? Decisamente. Ma poi, chi li addestrerà? Chi darà loro le best practice e gli standard da seguire? Chi affronterà quei problemi difficili che i tuoi sviluppatori non riescono o non hanno tempo di risolvere? La risposta a tutti e tre è: Inglorious Coderz.</7>", "read more›":"continua›"});
+module.exports = ({"G":"G", "I":"I", "L":"L", "F":"F", "Privacy":"Privacy", "it":"it", "en":"en", "A fistful of heroes striving to create a better world through better software.":"Un manipolo di eroi che tenta di creare un mondo migliore attraverso software migliore.", "Why":"Perché", "Who":"Chi", "How":"Come", "What":"Cosa", "When":"Quando", "Where":"Dove", "How Much":"Quanto", "Logo":"Logo", "Blog":"Blog", "Github":"Github", "<0><0></0></0> The <4>Inglorious Coderz</4> website is distributed with <8>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</8> Public License.":"<0><0></0></0> Il sito degli <4>Inglorious Coderz</4> è distribuito con Licenza Pubblica <8>Creative Commons Attribuzione-Non commerciale-NonOpereDerivate 4.0 Internazionale</8>.", "Ask me anything...":"Chiedimi qualcosa...", "Knock knock.":"Toc toc.", "Hey it's me, ICBot. You followed the white rabbit and found us. Good for you.":"Ehi sono io, ICBot. Hai seguito il bianconiglio e ci hai trovati. Buon per te.", "Feel free to ask me anything about Inglorious Coderz.":"Puoi chiedermi quello che vuoi sugli Inglorious Coderz.", "I said you could ask, not that I would answer :P":"Ho detto che potevi chiedere, non che avrei risposto :P", "Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!":"Scherzi a parte, un giorno sarò in grado di dirti qualcosa di significativo, ma al momento non ho nessuna IA dietro. Quindi nel frattempo dai un'occhiata in giro!", "Want to know anything else?":"Vuoi sapere altro?", "<0>What</0><1>There's no better explanation of what we do than some real use case scenarios.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> wanted to create the best invoice management system. They wanted to start with the best architecture, with the best technologies, so they hired the best people.</0><1>Four developers, one of wich was an IC, met at the Inglorious Headquarters for a total of 29 days. Together in this short period of time they:</1><2><0>defined the product (features, UX)</0><1>defined the project (technology stack, planning)</1><2>laid out an MVP</2></2><3>Two devs created the back end in <2>.NET Core</2>, while the other two developed the front end in <5>Core UI</5> for <8>React</8>. To date, the customer is continuing to develop independently, and the result looks very promising.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> is the perfect solution for your home deliveries. The key concepts are:</0><1><0>You get your package delivered at home whenever you want</0><1>You book your appointment from mobile or desktop in a simple and pleasant way</1></1><2>This is why they asked us to implement this responsive, performant, highly customizable, multi-touch <2>React</2> component. It's very difficult to build simple things, so they chose to leave the task to us. After 9 days of constant feedback the component was delivered fully tested and bug-free, along with a <5>Storybook</5> playground.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>This is actually a failure case. But, as you may know, failures are as important, if not more, than success cases.</0><1><0>PrivateGriffe</0> was suffering from performance issues on their new <4>React</4> front end and also for a bloated <7>Spring</7> back end. We solved the most crucial performance issues and gathered a task force that re-created from scratch the back end server with <10>Loopback 3</10> and the backoffice panel with <13>Core UI</13> for <16>React</16>.</1><2>Unfortunately the team performed slower than planned and the client argued with the supplier responsible for the front end, so development stopped and employees quit the company.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> wanted to hire us for a project that had to last six months. We told that they needed us for a lot less. They decided to go with two weeks for a start. After one week the project was ready for production.</0><1>Lanieri Backoffice Platform is a <2>Vue.js</2> web application backed by an <5>Express</5>/<7>MongoDB</7> server with authentication, file upload, and communication both REST and realtime. The project was then passed to the client's devs who easily continued working on it.</1><2>The client is so satisfied with the outcome that we are being asked to build a more generic framework based on the features of this project and others.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Inglorious Coderz do not always make websites. But when they do, they build them from scratch.</0><1><0>GiadaJoeyCazzola.com</0> is a responsive and SEO-friendly progressive webapp generated with <4>Nuxt</4>. Although it doesn't allow the user to publish their own content (which could also be considered a feature, because it ensures content correctness), the UX is completely custom and the performance achieved is far better than any CMS-generated website.</1></1></11><12>Tazebao</12><13><0></0><1><0>To create the best school management system, <2>CNOS-FAP</2> needed someone who could solve the most complex algorithms, guide the architecture, and give best practices on code quality.</0><1>The result is an ecosystem of different pieces of software, such as a desktop webapp in <2>Vue.js</2>, a mobile electronic register in <5>Framework7</5>, a <8>Loopback 3</8> server, and a <10>Dialogflow</10> bot.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Inglorious Coderz are damn good at developing software but also at communicating software. That's why 50% of our activity consists in teaching, training, mentoring, coaching, and public speaking in general.</0><1>Clients such as <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7>, and <10>forma-re-te</10> rely on us to provide the best training experience.</1><2>Every lesson is a show: students manage to grasp the most difficult concepts explained in a super-easy and fun way. During our courses we build a complete project step-by-step from the ground up, and every step is backed by strong theoretical concepts.</2></1></15>":"<0>Cosa</0><1>Per spiegare ciò che facciamo non c'è modo migliore che descrivere alcuni casi d'uso reali.</1><2>Fattutto</2><3><0></0><1><0><0>Sistemi ICT</0> intendeva creare il miglior sistema di gestione delle fatture. Volevano iniziare con la migliore architettura, con le migliori tecnologie, così hanno assunto le persone migliori.</0><1>Quattro sviluppatori, uno dei quali era un IC, si sono incontrati presso gli Inglorious Headquarters per un totale di 29 giorni. Insieme in questo breve lasso di tempo hanno:</1><2><0>definito il prodotto (feature, UX)</0><1>definito il progetto (stack tecnologico, pianificazione)</1><2>realizzato un MVP</2></2><3>Due sviluppatori hanno creato il back-end in <2>.NET Core</2>, mentre gli altri due hanno sviluppato il front-end in <5>Core UI</5> per <8>React</8>. Ad oggi il Cliente sta continuando gli sviluppi in modo autonomo, e il risultato sembra molto promettente.</3></1></3><4>Appointment Selector</4><5><0></0><1><0><0>Milkman</0> è la soluzione perfetta per le tue consegne a domicilio. I concetti chiave sono:</0><1><0>Ricevi il pacco consegnato a casa quando vuoi</0><1>Prenoti l'appuntamento da mobile o da desktop in modo semplice e divertente</1></1><2>Questo è il motivo per cui ci hanno chiesto di implementare questo componente <2>React</2> responsive, performante, altamente personalizzabile e multi-touch. È molto difficile costruire cose semplici, quindi hanno scelto di lasciare il compito a noi. Dopo 9 giorni di feedback costante, il componente è stato consegnato completamente testato e privo di bug, insieme a un playground realizzato con <5>Storybook</5>.</2></1></5><6>PrivateGriffe</6><7><0></0><1><0>Questo è in realtà un caso di fallimento. Ma si sa, i fallimenti sono altrettanto importanti, se non di più, dei casi di successo.</0><1><0>PrivateGriffe</0> ha sofferto di problemi di prestazioni sul suo nuovo front-end <4>React</4> e anche di un back-end <7>Spring</7> rigonfio di codice legacy. Abbiamo risolto immediatamente i problemi di prestazioni più importanti, dopodiché abbiamo riunito una task force che ha ricreato da zero il server di back-end con <10>Loopback 3</10> e il pannello di backoffice con <13>Core UI</13> per <16>React</16>.</1><2>Purtroppo il team ha performato più lentamente del previsto e il Cliente ha discusso con il fornitore responsabile del front-end, quindi lo sviluppo si è interrotto e i dipendenti hanno lasciato la società.</2></1></7><8>Lanieri BO Platform</8><9><0></0><1><0><0>Protocube</0> voleva assumerci per un progetto che doveva durare sei mesi. Abbiamo assicurato che avrebbero avuto bisogno di noi per molto meno tempo. Hanno deciso di cominciare con due settimane. Dopo una settimana il progetto era pronto per andare online.</0><1>Lanieri Backoffice Platform è un'applicazione web <2>Vue.js</2> supportata da un server <5>Express</5>/<7>MongoDB</7> con autenticazione, caricamento file e comunicazione sia REST che real-time. Il progetto è stato poi passato in carico agli sviluppatori del Cliente che hanno continuato a lavorarci senza problemi.</1><2>Il Cliente è così soddisfatto del risultato che recentemente ci è stato chiesto di costruire un framework più generico basato sulle feature di questo progetto e di altri.</2></1></9><10>GiadaJoeyCazzola.com</10><11><0></0><1><0>Gli Inglorious Coderz non sempre creano siti web. Ma quando lo fanno, li costruiscono da zero.</0><1><0>GiadaJoeyCazzola.com</0> è una progressive webapp responsive e SEO-friendly generata con <4>Nuxt</4>. Sebbene non consenta all'utente di pubblicare i propri contenuti (che potrebbe anche essere considerato una feature, poiché garantisce la correttezza dei contenuti), la UX è completamente personalizzata e le prestazioni raggiunte sono di gran lunga migliori rispetto a qualsiasi sito web generato da CMS.</1></1></11><12>Tazebao</12><13><0></0><1><0>Per creare il miglior sistema di gestione per i propri istituti formativi, <2>CNOS-FAP</2> avevo bisogno di qualcuno che potesse risolvere gli algoritmi più complessi, guidare l'architettura e fornire delle best practice sulla qualità del codice.</0><1>Il risultato è un ecosistema di diversi software, come una webapp desktop in <2>Vue.js</2> per la segreteria, un registro elettronico mobile in <5>Framework7</5>, un server <8>Loopback 3</8> e un bot <10>Dialogflow</10>.</1></1></13><14>Public Speaking</14><15><0></0><1><0>Gli Inglorious Coderz sono dannatamente bravi nello sviluppo del software ma anche nella comunicazione del software. Ecco perché il 50% della nostra attività consiste nell'insegnamento, formazione, tutoraggio, coaching e public speaking in generale.</0><1>Clienti come <2>Codemotion</2>, <5>European Innovation Academy</5>, <7>Vulog</7> e <10>forma-re-te</10> si affidano a noi per fornire la migliore esperienza di formazione.</1><2>Ogni lezione è uno spettacolo: gli studenti gestiscono per cogliere i concetti più difficili spiegati in modo super-facile e divertente. Durante i nostri corsi costruiamo un progetto completo passo dopo passo da zero, e ogni fase è supportata da forti concetti teorici.</2></1></15>", "<0>When</0><1>In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.</1><2>Startups</2><3>An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product. Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO.</3><4>Small businesses</4><5>As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life. Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better.</5><6>Big companies</6><7>Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on her/his CV. Wouldn't it be better to hire people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve? The answer to all three is: Inglorious Coderz.</7>":"<0>Quando</0><1>In ogni fase del ciclo di vita della tua azienda, gli Inglorious Coderz sono lì per essere i tuoi perfetti alleati tecnologici.</1><2>Startup</2><3>Un'idea fantastica è il punto di partenza per la tua attività, ma poi devi costruire il prodotto vero e proprio. È a questo punto che ti rendi conto che stai davvero mettendo il tuo futuro nelle mani di qualcun altro. Assicurati solo che la persona su cui stai facendo affidamento sia in grado di sviluppare una solida base per il tuo prodotto. Gli Inglorious Coderz possono aiutarti in molti modi, dalla valutazione delle abilità del tuo CTO al mentoring dei tuoi sviluppatori, fino ad assumere il ruolo del tuo primo CTO.</3><4>Piccole imprese</4><5>In qualità di piccola impresa sai che hai bisogno di una presenza online. Inoltre, ti ritrovi a perdere troppo tempo facendo piccoli compiti a mano ogni giorno? È un segnale che hai bisogno di un po' di automazione nella tua vita lavorativa. Gli Inglorious Coderz sono in grado di fornirti soluzioni costruite da zero in modo che siano adattate alle tue esigenze e solo alle tue. I siti web sono incredibilmente veloci perché non si basano su CMS come Wordpress e hanno un design unico perché non sono costruiti da template. Software di gestione, app mobile e applicazioni web fanno esattamente ciò di cui hai bisogno, ma meglio.</5><6>Grandi aziende</6><7>Essendo nel settore già da un po', sai già come funziona la consulenza IT: ti ritrovi a pagare per un senior per ottenere un junior che ha mentito sul suo CV. Non sarebbe meglio assumere persone e mantenere il know-how all'interno? Decisamente. Ma poi, chi li addestrerà? Chi darà loro le best practice e gli standard da seguire? Chi affronterà quei problemi difficili che i tuoi sviluppatori non riescono o non hanno tempo di risolvere? La risposta a tutti e tre è: Inglorious Coderz.</7>", "read more›":"continua›"});
+
+/***/ }),
+
+/***/ "./utils/compose.js":
+/*!**************************!*\
+  !*** ./utils/compose.js ***!
+  \**************************/
+/*! exports provided: compose */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "compose", function() { return compose; });
+var compose = function compose() {
+  for (var _len = arguments.length, fns = new Array(_len), _key = 0; _key < _len; _key++) {
+    fns[_key] = arguments[_key];
+  }
+
+  return function (x) {
+    return fns.reduceRight(function (acc, fn) {
+      return fn(acc);
+    }, x);
+  };
+};
 
 /***/ }),
 
@@ -21496,7 +22219,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-i18next__WEBPACK_IMPORTED_MODULE_0__["default"].use(i18next_browser_languagedetector__WEBPACK_IMPORTED_MODULE_1___default.a).use(react_i18next__WEBPACK_IMPORTED_MODULE_2__["reactI18nextModule"]).init({
+i18next__WEBPACK_IMPORTED_MODULE_0__["default"] // .use(detector)
+.use(react_i18next__WEBPACK_IMPORTED_MODULE_2__["reactI18nextModule"]).init({
   resources: {
     en: {
       translation: _static_locales_en_translation_yml__WEBPACK_IMPORTED_MODULE_3___default.a
@@ -21509,14 +22233,14 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"].use(i18next_browser_languagedete
   keySeparator: false,
   interpolation: {
     escapeValue: false
-  },
-  debug: "development" === 'development'
+  } // debug: process.env.NODE_ENV === 'development',
+
 });
 /* harmony default export */ __webpack_exports__["default"] = (i18next__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -21541,5 +22265,5 @@ module.exports = dll_e8427f5b250f425a56e7;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js"]]]));;
+},[[5,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map
