@@ -7,6 +7,7 @@
     "build": "NODE_ENV=production nextein build",
     "start": "nextein start",
     "export": "NODE_ENV=production nextein build && nextein export",
+    "postexport": "copyfiles .nojekyll 404.html CNAME google879d0b279de406d9.html service-worker.js out",
     "deploy": "git subtree push --prefix out origin master"
   },
   "keywords": [],
@@ -36,6 +37,7 @@
   "devDependencies": {
     "@zeit/next-css": "^1.0.1",
     "babel-plugin-root-import": "^6.1.0",
+    "copyfiles": "^2.1.0",
     "dotenv-load": "^1.1.0",
     "next": "^7.0.1",
     "next-compose-plugins": "^2.1.1",
