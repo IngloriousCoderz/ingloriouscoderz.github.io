@@ -4,7 +4,7 @@ import Layout from '~/layouts/default'
 import Row from '~/components/row'
 import Logo from '~/components/logo'
 
-const availableLetters = [
+const availableImages = [
   'A',
   'B',
   'C',
@@ -35,42 +35,32 @@ const availableLetters = [
 
 export default class extends PureComponent {
   state = {
-    first: { letter: 'A', reverse: false, eye: true },
-    second: { letter: 'A', reverse: false, eye: true },
+    faces: [
+      { image: 'A', reverse: false, eye: true },
+      { image: 'A', reverse: false, eye: true },
+    ],
   }
 
-  changeLetter = which => event => {
-    const letter = event.target.value
-    this.setState(prevState => ({
-      [which]: {
-        ...prevState[which],
-        letter,
-      },
+  changeFeature = feature => which => event => {
+    const { checked, value } = event.target
+    const isCheckbox = value === 'on'
+
+    this.setState(({ faces }) => ({
+      faces: faces.map((face, index) =>
+        index === which
+          ? { ...face, [feature]: isCheckbox ? checked : value }
+          : face,
+      ),
     }))
   }
 
-  changeReverse = which => event => {
-    const reverse = event.target.checked
-    this.setState(prevState => ({
-      [which]: {
-        ...prevState[which],
-        reverse,
-      },
-    }))
-  }
-
-  changeEye = which => event => {
-    const eye = event.target.checked
-    this.setState(prevState => ({
-      [which]: {
-        ...prevState[which],
-        eye,
-      },
-    }))
-  }
+  changeLetter = this.changeFeature('image')
+  changeReverse = this.changeFeature('reverse')
+  changeEye = this.changeFeature('eye')
 
   render() {
-    const { first, second } = this.state
+    const { faces } = this.state
+    const [left, right] = faces
 
     return (
       <Layout>
@@ -86,15 +76,15 @@ export default class extends PureComponent {
               <form>
                 <Row>
                   <div className="col-xs-6">
-                    <label>First letter:</label>
+                    <label>First image:</label>
                   </div>
                   <div className="col-xs-6">
                     <select
                       autoFocus
-                      value={first.letter}
-                      onChange={this.changeLetter('first')}>
-                      {availableLetters.map(letter => (
-                        <option key={letter}>{letter}</option>
+                      value={left.image}
+                      onChange={this.changeLetter(0)}>
+                      {availableImages.map(image => (
+                        <option key={image}>{image}</option>
                       ))}
                     </select>
                   </div>
@@ -105,8 +95,8 @@ export default class extends PureComponent {
                   <div className="col-xs-6">
                     <input
                       type="checkbox"
-                      checked={first.reverse}
-                      onChange={this.changeReverse('first')}
+                      checked={left.reverse}
+                      onChange={this.changeReverse(0)}
                     />
                   </div>
 
@@ -116,22 +106,20 @@ export default class extends PureComponent {
                   <div className="col-xs-6">
                     <input
                       type="checkbox"
-                      checked={first.eye}
-                      onChange={this.changeEye('first')}
+                      checked={left.eye}
+                      onChange={this.changeEye(0)}
                     />
                   </div>
                 </Row>
 
                 <Row>
                   <div className="col-xs-6">
-                    <label>Second letter:</label>
+                    <label>Second image:</label>
                   </div>
                   <div className="col-xs-6">
-                    <select
-                      value={second.letter}
-                      onChange={this.changeLetter('second')}>
-                      {availableLetters.map(letter => (
-                        <option key={letter}>{letter}</option>
+                    <select value={right.image} onChange={this.changeLetter(1)}>
+                      {availableImages.map(image => (
+                        <option key={image}>{image}</option>
                       ))}
                     </select>
                   </div>
@@ -142,8 +130,8 @@ export default class extends PureComponent {
                   <div className="col-xs-6">
                     <input
                       type="checkbox"
-                      checked={second.reverse}
-                      onChange={this.changeReverse('second')}
+                      checked={right.reverse}
+                      onChange={this.changeReverse(1)}
                     />
                   </div>
 
@@ -153,8 +141,8 @@ export default class extends PureComponent {
                   <div className="col-xs-6">
                     <input
                       type="checkbox"
-                      checked={second.eye}
-                      onChange={this.changeEye('second')}
+                      checked={right.eye}
+                      onChange={this.changeEye(1)}
                     />
                   </div>
                 </Row>
@@ -164,12 +152,7 @@ export default class extends PureComponent {
 
           <div className="col-xs-12 col-md-8">
             <section className="card card-1">
-              <Logo
-                size={280}
-                letters={[first.letter, second.letter]}
-                reverse={[first.reverse, second.reverse]}
-                eyes={[first.eye, second.eye]}
-              />
+              <Logo size={280} faces={faces} />
             </section>
           </div>
         </Row>
