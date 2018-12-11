@@ -10,7 +10,7 @@ import '~/static/styles/style.css'
 import SEO from '~/next-seo.config'
 
 const enhance = compose(
-  withGA(process.env.NEXT_STATIC_GA_TRACKING_ID, Router),
+  // withGA(process.env.NEXT_STATIC_GA_TRACKING_ID, Router),
   withNamespaces(),
 )
 
