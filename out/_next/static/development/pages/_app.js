@@ -10,8 +10,7 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
-  noindex: true,
-  // TODO: remove when ready for production
+  // noindex: true, // TODO: remove when ready for production
   // override on each page
   title: '',
   description: 'A fistful of heroes striving to create a better world through better software.',
@@ -13494,7 +13493,6 @@ var withGA = function withGA(code, Router) {
               clientId: localStorage.getItem(GA_LOCAL_STORAGE_KEY)
             });
             ga(function (tracker) {
-              console.log(tracker);
               localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'));
             });
             window._ga_initialized = true;
@@ -13515,7 +13513,7 @@ var withGA = function withGA(code, Router) {
             return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Enhanced, _extends({}, this.props, {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 65
+                lineNumber: 64
               },
               __self: this
             }));
