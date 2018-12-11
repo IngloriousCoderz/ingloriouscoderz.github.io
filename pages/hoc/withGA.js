@@ -5,7 +5,10 @@ const GA_LOCAL_STORAGE_KEY = 'ga:clientId'
 
 export const withGA = (code, Router) => Enhanced =>
   class extends Component {
-    pageview = () => ga('send', 'pageview')
+    pageview = () => {
+      const { pathname, search } = location
+      ga('send', 'pageview', pathname + search)
+    }
 
     static async getInitialProps(...args) {
       const getEnhancedInitialProps = Enhanced.getInitialProps
@@ -42,7 +45,6 @@ export const withGA = (code, Router) => Enhanced =>
       })
 
       ga(tracker => {
-        console.log(tracker)
         localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'))
       })
 
