@@ -1,6 +1,7 @@
 {
   "name": "Inglorious Coderz",
   "short_name": "IC",
+  "start_url": "/",
   "icons": [
     {
       "src": "/static/icons/android-chrome-192x192.png",
