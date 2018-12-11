@@ -6,7 +6,7 @@ import { withNamespaces } from 'react-i18next'
 
 import { compose } from '~/utils/compose'
 import 'flexboxgrid'
-import '~/static/style.css'
+import '~/static/styles/style.css'
 import SEO from '~/next-seo.config'
 
 const enhance = compose(

@@ -45,6 +45,7 @@ export default class extends Document {
             content="RFVNvxmtxJpN5XtPqm_lrA2jrphy-Sn_fy3XyekO-2E"
           />
 
+          <link href="/static/styles/mapbox-gl.css" rel="stylesheet" />
           <script src="/static/scripts/gh-spa-redirect.js" />
         </Head>
         <body>

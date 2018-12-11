@@ -30,16 +30,16 @@ export default () => (
         <FontAwesomeIcon icon={faInstagram} />
       </Button>
       <Button
-        href="https://www.linkedin.com/company/inglorious-coderz/"
-        target="_blank"
-        rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faLinkedin} />
-      </Button>
-      <Button
         href="https://www.facebook.com/IngloriousCoderz/"
         target="_blank"
         rel="noopener noreferrer">
         <FontAwesomeIcon icon={faFacebook} />
+      </Button>
+      <Button
+        href="https://www.linkedin.com/company/inglorious-coderz/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faLinkedin} />
       </Button>
     </div>
 
