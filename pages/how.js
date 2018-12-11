@@ -22,11 +22,11 @@ export default () => (
           </footer>
         </blockquote>
 
-        <p>Much more important of what we do is how we do it.</p>
+        <p>Much more important than what we do is how we do it.</p>
 
         <p>
           An Inglorious Coder to be defined as such must conform to a series of
-          parameters. Fortunately, these criteria are quite sensible to most
+          parameters. Fortunately, these criteria are quite relatable to most
           people, but those who want to be considered an IC have to demonstrate
           that they not only agree with them, but apply them in everyday life.
         </p>
@@ -43,7 +43,7 @@ export default () => (
 
         <Column>
           <Card title="Pack Animal">
-            The skill of an IC is not compensated for by his sociopathy. An
+            The skill of an IC is not counterbalanced by his sociopathy. An
             Inglorious Coder is communicative: he knows how to speak English as
             well as machine language, he knows how to assert his opinions, he
             can transmit knowledge.

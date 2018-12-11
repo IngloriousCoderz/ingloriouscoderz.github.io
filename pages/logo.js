@@ -150,7 +150,7 @@ export default class extends PureComponent {
 
           <div className="col-xs-12 col-md-8">
             <section className="card card-1 logo-container">
-              <Logo size={280} faces={faces} />
+              <Logo size={280} faces={faces} preventScroll={true} />
             </section>
           </div>
         </Row>

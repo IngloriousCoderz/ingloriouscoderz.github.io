@@ -11,7 +11,12 @@ class LogoContainer extends PureComponent {
   logo = React.createRef()
 
   onMove = event => {
-    const { pageX, pageY } = event
+    const { preventScroll } = this.props
+    const { target, pageX, pageY } = event.touches ? event.touches[0] : event
+
+    if (preventScroll && closestAncestor(target, 'logo')) {
+      event.preventDefault()
+    }
 
     const x = saturate(pageX - this.center.x, MAX_HEAD_TILT_X)
     const y = saturate(pageY - this.center.y, MAX_HEAD_TILT_Y)
@@ -20,17 +25,23 @@ class LogoContainer extends PureComponent {
   }
 
   componentDidMount() {
-    const { x, width, y, height } = this.logo.current.getBoundingClientRect()
+    const { preventScroll } = this.props
+
+    const { x, y, width, height } = this.logo.current.getBoundingClientRect()
+
     this.center = {
-      x: x + width / 2,
-      y: y + height / 2,
+      x: window.pageXOffset + x + width / 2,
+      y: window.pageYOffset + y + height / 2,
     }
 
-    document.addEventListener('mousemove', this.onMove)
+    this.moveEvent = isTouchDevice() ? 'touchmove' : 'mousemove'
+    document.addEventListener(this.moveEvent, this.onMove, {
+      passive: !preventScroll,
+    })
   }
 
   componentWillUnmount() {
-    document.removeEventListener('mousemove', this.onMove)
+    document.removeEventListener(this.moveEvent, this.onMove)
   }
 
   render() {
@@ -46,12 +57,50 @@ LogoContainer.defaultProps = {
     { image: 'I', reverse: false, eye: true },
     { image: 'C', reverse: false, eye: false },
   ],
+  preventScroll: false,
 }
 
 export default LogoContainer
+
+function isTouchDevice() {
+  if (
+    'ontouchstart' in window ||
+    (window.DocumentTouch && document instanceof DocumentTouch)
+  ) {
+    return true
+  }
+
+  // include the 'heartz' as a way to have a non matching mediaQuery to help terminate the join
+  // https://git.io/vznFH
+  const prefixes = ' -webkit- -moz- -o- -ms- '.split(' ')
+  var query = ['(', prefixes.join('touch-enabled),('), 'heartz', ')'].join('')
+  return window.matchMedia(query).matches
+}
 
 function saturate(num, limit) {
   if (num < -limit) return -limit
   if (num > limit) return limit
   return num
+}
+
+function closestAncestor(el, className) {
+  const limit = 4
+  let i = 0
+  let closest = el
+  while (closest && i < limit) {
+    if (
+      closest.className == null ||
+      typeof closest.className.split !== 'function'
+    ) {
+      return null
+    }
+
+    const classes = closest.className.split(' ')
+    if (classes.includes(className)) {
+      return closest
+    }
+
+    closest = closest.parentNode
+    i++
+  }
 }
