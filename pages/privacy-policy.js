@@ -3,7 +3,10 @@ import Layout from '~/layouts/default'
 import ExtLink from '~/components/ext-link'
 
 export default () => (
-  <Layout path="/privacy-policy" title="Privacy Policy" description="">
+  <Layout
+    path="/privacy-policy"
+    title="Privacy Policy"
+    description="How we treat your personal data.">
     <article className="card card-1">
       <h1>Privacy Policy</h1>
 

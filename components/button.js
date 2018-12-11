@@ -2,7 +2,7 @@ import Link from '~/components/link'
 import { withI18n } from 'react-i18next'
 
 export default withI18n()(
-  ({ t, id, to, href, target, rel, onClick, title, children }) => {
+  ({ t, id, to, href, target, rel, onClick, title, ariaLabel, children }) => {
     const Component = target || onClick ? 'a' : Link
     return (
       <Component
@@ -10,6 +10,7 @@ export default withI18n()(
         target={target}
         rel={rel}
         onClick={onClick}
+        aria-label={ariaLabel}
         className="button">
         {children && typeof children !== 'string'
           ? children

@@ -6,7 +6,7 @@ import Column from '~/components/column'
 import Card from '~/components/card'
 
 export default () => (
-  <Layout path="how" title="How" description="">
+  <Layout path="how" title="How" description="The way we work, the way we are.">
     <Trans>
       <article className="card card-1">
         <h1>How</h1>
@@ -29,6 +29,12 @@ export default () => (
           parameters. Fortunately, these criteria are quite relatable to most
           people, but those who want to be considered an IC have to demonstrate
           that they not only agree with them, but apply them in everyday life.
+        </p>
+
+        <p>
+          If you agree with all these points, apply them daily, or you're just
+          curious on how we work then feel free to{' '}
+          <a href="mailto:antony.mistretta@gmail.com">contact us</a>.
         </p>
       </article>
 
@@ -157,14 +163,6 @@ export default () => (
           </Card>
         </Column>
       </Row>
-
-      <section className="card card-1">
-        <p>
-          If you agree with all these points, apply them daily, or just like how
-          we work then feel free to{' '}
-          <a href="mailto:antony.mistretta@gmail.com">contact us</a>.
-        </p>
-      </section>
     </Trans>
   </Layout>
 )

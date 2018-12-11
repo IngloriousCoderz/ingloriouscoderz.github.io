@@ -7,12 +7,18 @@ import Column from '~/components/column'
 import Card from '~/components/card'
 
 export default () => (
-  <Layout path="what" title="What" description="">
+  <Layout
+    path="what"
+    title="What"
+    description="Which activities we are involved in.">
     <Trans>
       <section className="card card-1">
         <h1>What</h1>
 
-        <p>There are many activities involved. Have a look at what we do:</p>
+        <p>
+          Inglorious Coderz are involved in many activities. Have a look at some
+          of them:
+        </p>
       </section>
 
       <Row>

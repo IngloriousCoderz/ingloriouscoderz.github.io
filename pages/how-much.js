@@ -6,7 +6,10 @@ import Column from '~/components/column'
 import Card from '~/components/card'
 
 export default () => (
-  <Layout path="how-much" title="How Much" description="">
+  <Layout
+    path="how-much"
+    title="How Much"
+    description="Let's talk about money.">
     <Trans>
       <article className="card card-1">
         <h1>How Much</h1>

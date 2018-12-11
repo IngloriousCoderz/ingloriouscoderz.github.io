@@ -19,24 +19,28 @@ export default () => (
     <div>
       <Button
         href="https://github.com/IngloriousCoderz/"
+        ariaLabel="Github"
         target="_blank"
         rel="noopener noreferrer">
         <FontAwesomeIcon icon={faGithub} />
       </Button>
       <Button
         href="https://www.instagram.com/ingloriouscoderz/"
+        ariaLabel="Instagram"
         target="_blank"
         rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} />
       </Button>
       <Button
         href="https://www.facebook.com/IngloriousCoderz/"
+        ariaLabel="Facebook"
         target="_blank"
         rel="noopener noreferrer">
         <FontAwesomeIcon icon={faFacebook} />
       </Button>
       <Button
         href="https://www.linkedin.com/company/inglorious-coderz/"
+        ariaLabel="LinkedIn"
         target="_blank"
         rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedin} />

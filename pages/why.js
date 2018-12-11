@@ -1,7 +1,10 @@
 import Layout from '~/layouts/default'
 
 export default () => (
-  <Layout path="why" title="Why" description="">
+  <Layout
+    path="why"
+    title="Why"
+    description="Yet another software house. Or is it?">
     <article className="card card-1">
       <h1>Why</h1>
 

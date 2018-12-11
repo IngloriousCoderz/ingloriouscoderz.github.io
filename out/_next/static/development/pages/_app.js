@@ -4441,7 +4441,7 @@ __webpack_require__.r(__webpack_exports__);
   noindex: true,
   // TODO: remove when ready for production
   // override on each page
-  title: 'Home',
+  title: '',
   description: 'A fistful of heroes striving to create a better world through better software.',
   canonical: 'https://www.ingloriouscoderz.it',
   titleTemplate: "%s | Inglorious Coderz",
@@ -17671,8 +17671,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_compose__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/compose */ "./utils/compose.js");
 /* harmony import */ var flexboxgrid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! flexboxgrid */ "./node_modules/flexboxgrid/dist/flexboxgrid.css");
 /* harmony import */ var flexboxgrid__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(flexboxgrid__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _static_style_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../static/style.css */ "./static/style.css");
-/* harmony import */ var _static_style_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_static_style_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _static_styles_style_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../static/styles/style.css */ "./static/styles/style.css");
+/* harmony import */ var _static_styles_style_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_static_styles_style_css__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _next_seo_config__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../next-seo.config */ "./next-seo.config.js");
 
 var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/_app.js";
@@ -17725,14 +17725,14 @@ function (_App) {
 
   _createClass(_class, [{
     key: "componentDidMount",
-    value: function componentDidMount() {
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/service-worker.js').then(function () {
-          return console.log('service worker registered.');
-        }).catch(function (err) {
-          return console.warn('service worker registration failed.', err.message);
-        });
-      }
+    value: function componentDidMount() {// if ('serviceWorker' in navigator) {
+      //   navigator.serviceWorker
+      //     .register('/service-worker.js')
+      //     .then(() => console.log('service worker registered.'))
+      //     .catch(err =>
+      //       console.warn('service worker registration failed.', err.message),
+      //     )
+      // }
     }
   }, {
     key: "render",

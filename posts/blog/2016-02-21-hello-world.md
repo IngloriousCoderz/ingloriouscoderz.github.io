@@ -1,5 +1,6 @@
 ---
 title: Hello world!
+description: La nostra prima impronta sul web.
 author: IceOnFire
 ---
 
@@ -11,3 +12,5 @@ function sayHello(who) {
 }
 sayHello('world')
 ```
+
+    # IceOnFire

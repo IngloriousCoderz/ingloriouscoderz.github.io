@@ -1,5 +1,6 @@
 ---
 title: Il Vaso di PIVA
+description: Il primo impatto che abbiamo avuto aprendo una partita IVA.
 author: IceOnFire
 ---
 

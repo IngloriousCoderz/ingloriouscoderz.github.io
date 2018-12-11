@@ -9,7 +9,10 @@ import ExtLink from '~/components/ext-link'
 const Map = dynamic(() => import('./map'), { ssr: false })
 
 export default () => (
-  <Layout path="where" title="Where" description="">
+  <Layout
+    path="where"
+    title="Where"
+    description="Places where you can find us, online or IRL.">
     <article className="card card-1">
       <h1>Where</h1>
 
@@ -22,7 +25,11 @@ export default () => (
         <Map />
       </div>
 
-      <p>You can find us online too:</p>
+      <p>
+        If you want to contact us just drop a mail{' '}
+        <ExtLink to="mailto:antony.mistretta@gmail.com">here</ExtLink>. You can
+        find us online too:
+      </p>
     </article>
 
     <Row>

@@ -1,5 +1,6 @@
 ---
 title: Pokémon Go e la Teoria degli Effetti Collaterali
+description: Il segreto per una startup di successo sta nel pianificare tutte le conseguenze?
 author: IceOnFire
 ---
 
@@ -47,6 +48,4 @@ Non funziona, non se la fila nessuno. Allora faccio una partnership con Nintendo
 
 E di lì a poco, in mezzo alle cronache di gente così fissata o distratta da farsi male (ma questo succedeva già ai tempi degli SMS), si leggono anche storie di amicizie nate cercando Pokémon in giro, di ragazzi che si staccano dalla console per passare molto più tempo a giocare fuori e socializzare, di gente che trova il pretesto per fare un po' di movimento e tenersi in forma, di bambini autistici che riescono ad avere interazioni con altri bambini. Non male come Effetto Collaterale&trade;, eh?
 
-```
-# IceOnFire
-```
+    # IceOnFire

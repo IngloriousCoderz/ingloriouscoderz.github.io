@@ -14,12 +14,15 @@ const enhance = compose(
   withI18n(),
 )
 export default enhance(({ posts, t }) => (
-  <Layout path="blog" title="Blog" description="">
+  <Layout
+    path="blog"
+    title="Blog"
+    description="A place where we share our knowledge.">
     <article className="card card-1">
       <h1>Blog</h1>
       <p>
-        This is where we share some of our experiences with software and
-        entrepreneurship in general. Italian only for now, sorry :)
+        This is where the community shares some of their experiences with
+        software and entrepreneurship in general. Italian only for now, sorry :)
       </p>
     </article>
 

@@ -63,7 +63,10 @@ export default class extends PureComponent {
     const [left, right] = faces
 
     return (
-      <Layout path="logo" title="Logo" description="">
+      <Layout
+        path="logo"
+        title="Logo"
+        description="Play with our 3D logo and customize it to your liking!">
         <Row>
           <div className="col-xs-12 col-md-4">
             <section className="card card-1">

@@ -29,7 +29,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1544112613715");
+            injectCss(link, link.href.split("?")[0] + "?unix=1544550604042");
           });
       }
     }
@@ -37,10 +37,10 @@
 
 /***/ }),
 
-/***/ "./static/style.css":
-/*!**************************!*\
-  !*** ./static/style.css ***!
-  \**************************/
+/***/ "./static/styles/style.css":
+/*!*********************************!*\
+  !*** ./static/styles/style.css ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -66,7 +66,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1544112613710");
+            injectCss(link, link.href.split("?")[0] + "?unix=1544550604022");
           });
       }
     }

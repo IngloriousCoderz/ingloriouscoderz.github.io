@@ -4,7 +4,10 @@ import Layout from '~/layouts/default'
 import ExtLink from '~/components/ext-link'
 
 export default () => (
-  <Layout path="what/community" title="Community" description="">
+  <Layout
+    path="what/community"
+    title="Community"
+    description="A club restricted to code enthusiasts.">
     <article className="card card-1">
       <Trans>
         <h1>Community</h1>

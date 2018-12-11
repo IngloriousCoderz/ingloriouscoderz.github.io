@@ -9,7 +9,7 @@ export default () => (
   <Layout
     path="when"
     title="When"
-    description="In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.">
+    description="No matter how big or small you are, we'll grow with you.">
     <Trans>
       <article className="card card-1">
         <h1>When</h1>

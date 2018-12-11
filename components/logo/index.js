@@ -12,7 +12,8 @@ class LogoContainer extends PureComponent {
 
   onMove = event => {
     const { preventScroll } = this.props
-    const { target, pageX, pageY } = event.touches ? event.touches[0] : event
+    const { target, pageX, pageY } =
+      this.moveEvent === 'touchmove' ? event.touches[0] : event
 
     if (preventScroll && closestAncestor(target, 'logo')) {
       event.preventDefault()

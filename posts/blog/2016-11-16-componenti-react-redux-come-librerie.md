@@ -1,5 +1,6 @@
 ---
 title: Componenti react/redux come librerie
+description: Qualche trucchetto per creare una libreria con Redux, violando la Singola Sorgente di Verità.
 author: IceOnFire
 ---
 
@@ -129,6 +130,4 @@ Se si usa [`redux-devtools-extension`](https://github.com/zalmoxisus/redux-devto
 
 Speriamo che un giorno Facebook cerchi di rendere la vita più semplice non solo agli sviluppatori di app ma anche ai produttori di librerie. Nel frattempo non possiamo far altro che apprezzare l'enorme sforzo che già stanno facendo e magari contribuire, documentando best practice o creare noi stessi una `create-react-lib`!
 
-```
-# IceOnFire
-```
+    # IceOnFire

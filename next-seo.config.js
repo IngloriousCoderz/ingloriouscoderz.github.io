@@ -2,7 +2,7 @@ export default {
   noindex: true, // TODO: remove when ready for production
 
   // override on each page
-  title: 'Home',
+  title: '',
   description:
     'A fistful of heroes striving to create a better world through better software.',
   canonical: 'https://www.ingloriouscoderz.it',

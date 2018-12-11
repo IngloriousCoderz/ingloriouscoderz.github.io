@@ -1,5 +1,6 @@
 ---
 title: Resistere alla tentazione del procedurale in Redux
+description: Non è facile disimparare, ma si può e si deve.
 author: IceOnFire
 ---
 
@@ -163,6 +164,4 @@ A questo punto possiamo completamente fare a meno della saga `initGrid`: l'inizi
 
 Per dubbi, domande, obiezioni o sdegno non esitate a contattarmi. Un giorno magari implementerò anche un meccanismo di commenti, nel frattempo insultatemi in privato :)
 
-```
-# IceOnFire
-```
+    # IceOnFire

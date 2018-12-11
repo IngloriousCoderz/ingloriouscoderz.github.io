@@ -1,5 +1,6 @@
 ---
 title: Loopback 4 è un porting di Spring Boot
+description: IBM ha rovinato un bellissimo prodotto, è ora di cercare altrove.
 author: IceOnFire
 ---
 

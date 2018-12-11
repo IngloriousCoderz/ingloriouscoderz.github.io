@@ -1,5 +1,7 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 
+import i18n from '~/utils/i18n'
+
 export default class extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
@@ -8,12 +10,12 @@ export default class extends Document {
 
   render() {
     return (
-      <html>
+      <html lang={i18n.language}>
         <Head>
           <meta charSet="utf-8" />
           <meta
             name="viewport"
-            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+            content="width=device-width, initial-scale=1.0, maximum-scale=5.0" // NOTE: maximum-scale=1.0 and user-scalable=no" disabled for better accessibility
           />
           <link
             rel="apple-touch-icon"

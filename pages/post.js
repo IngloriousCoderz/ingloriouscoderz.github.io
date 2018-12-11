@@ -9,7 +9,7 @@ export default withPost(({ post }) => (
   <Layout
     path={`blog/${post.data.name}`}
     title={post.data.title}
-    description="">
+    description={post.data.description}>
     <article className="card card-1">
       <h1>{post.data.title}</h1>
 

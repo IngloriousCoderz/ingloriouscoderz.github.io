@@ -9,6 +9,9 @@ i18n
   // .use(detector)
   .use(reactI18nextModule)
   .init({
+    lng: 'en',
+    // debug: process.env.NODE_ENV === 'development',
+
     resources: {
       en: { translation: en },
       it: { translation: it },
@@ -17,8 +20,6 @@ i18n
     nsSeparator: false,
     keySeparator: false,
     interpolation: { escapeValue: false },
-
-    // debug: process.env.NODE_ENV === 'development',
   })
 
 export default i18n

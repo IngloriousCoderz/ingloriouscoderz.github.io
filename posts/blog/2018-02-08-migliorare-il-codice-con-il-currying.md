@@ -1,5 +1,6 @@
 ---
 title: Migliorare il codice con il currying
+description: La programmazione funzionale sta tornando in auge, e ha i suoi buoni motivi.
 author: Giosk
 ---
 
@@ -75,6 +76,4 @@ Un salto di qualità notevole dopo la prima versione!
 
 Spero con questo piccolo post di aver aiutato qualcuno o anche semplicemente spronato al REFACTORING, cosa che noi Inglorious Coders diciamo di fare sempre!
 
-```
-# Giosk
-```
+    # Giosk
