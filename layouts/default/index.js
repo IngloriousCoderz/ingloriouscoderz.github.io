@@ -31,6 +31,7 @@ export default ({ path, title, description, children }) => (
     <style jsx global>{`
       @font-face {
         font-family: 'Ethnocentric';
+        font-display: auto;
         font-style: normal;
         font-weight: 400;
         src: url('/static/fonts/ethnocentric_rg.ttf');
@@ -41,6 +42,7 @@ export default ({ path, title, description, children }) => (
 
       @font-face {
         font-family: 'Orbitron';
+        font-display: auto;
         font-style: normal;
         font-weight: 400;
         src: local('Orbitron Regular'), local('Orbitron-Regular'),
@@ -52,6 +54,7 @@ export default ({ path, title, description, children }) => (
 
       @font-face {
         font-family: 'Roboto';
+        font-display: auto;
         font-style: normal;
         font-weight: 400;
         src: local('Roboto'), local('Roboto-Regular'),
@@ -61,16 +64,18 @@ export default ({ path, title, description, children }) => (
           U+2212, U+2215, U+FEFF, U+FFFD;
       }
 
-      @font-face {
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
-          rl('/static/fonts/ubuntu.woff2') format('woff2');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-          U+2212, U+2215, U+FEFF, U+FFFD;
-      }
+      // NOTE: I prefer Roboto for now
+      // @font-face {
+      //   font-family: 'Ubuntu';
+      //   font-display: auto;
+      //   font-style: normal;
+      //   font-weight: 400;
+      //   src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+      //     rl('/static/fonts/ubuntu.woff2') format('woff2');
+      //   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+      //     U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+      //     U+2212, U+2215, U+FEFF, U+FFFD;
+      // }
 
       /* get rid of that ugly Firefox outline around links and buttons */
       :focus {
