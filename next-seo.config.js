@@ -1,5 +1,5 @@
 export default {
-  noindex: true, // TODO: remove when ready for production
+  // noindex: true, // TODO: remove when ready for production
 
   // override on each page
   title: '',
