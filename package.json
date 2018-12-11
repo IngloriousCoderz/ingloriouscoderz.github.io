@@ -6,8 +6,10 @@
     "dev": "nextein",
     "build": "NODE_ENV=production nextein build",
     "start": "nextein start",
-    "export": "NODE_ENV=production nextein build && nextein export",
-    "postexport": "cp .nojekyll 404.html CNAME google879d0b279de406d9.html service-worker.js out",
+    "export": "npm run build && nextein export",
+    "postexport": "npm run copy:sw && npm run copy:root",
+    "copy:sw": "cp .next/service-worker.js out",
+    "copy:root": "cp .nojekyll 404.html CNAME google879d0b279de406d9.html out",
     "deploy": "git subtree push --prefix out origin master"
   },
   "keywords": [],
