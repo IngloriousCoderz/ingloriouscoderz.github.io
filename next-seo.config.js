@@ -20,7 +20,8 @@ export default {
     // Multiple Open Graph images is only available in version `7.0.0-canary.0`+ of next (see note top of README.md)
     images: [
       {
-        url: 'https://www.ingloriouscoderz.it/static/images/metal-800x600png',
+        url:
+          'https://www.ingloriouscoderz.it/static/images/backgrounds/metal-800x600.png',
         width: 800,
         height: 600,
         alt: 'Inglorious Coderz',

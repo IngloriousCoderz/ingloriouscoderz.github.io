@@ -38,6 +38,7 @@ module.exports = compose(
       '/how-much': { page: '/how-much' },
       '/logo': { page: '/logo' },
       '/blog': { page: '/blog' },
+      '/privacy-policy': { page: '/privacy-policy' },
     }),
 
     webpack(config) {

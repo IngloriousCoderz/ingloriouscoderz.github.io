@@ -46,6 +46,7 @@ export default class extends Document {
             name="google-site-verification"
             content="RFVNvxmtxJpN5XtPqm_lrA2jrphy-Sn_fy3XyekO-2E"
           />
+          <meta property="fb:app_id" content="1677017469210661" />
 
           <link href="/static/styles/mapbox-gl.css" rel="stylesheet" />
           <script src="/static/scripts/gh-spa-redirect.js" />
