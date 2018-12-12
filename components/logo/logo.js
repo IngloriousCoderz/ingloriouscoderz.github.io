@@ -5,6 +5,9 @@ const enhance = compose(
   React.forwardRef,
 )
 
+const MINUS_FORTY_DEGREES = degreesToRadians(-40)
+const MINUS_FORTY_FIVE_DEGREES = degreesToRadians(-45)
+
 export default enhance(({ size, faces, x, y }, ref) => {
   const [left, right] = faces
 
@@ -36,8 +39,8 @@ export default enhance(({ size, faces, x, y }, ref) => {
           height: ${size}px;
           transform-style: preserve-3d;
           transform: scaleY(1.2) translateZ(${-size}px)
-            rotateX(${degreesToRadians(-40) - 0.001 * y}rad)
-            rotateY(${degreesToRadians(-45) + 0.001 * x}rad);
+            rotateX(${MINUS_FORTY_DEGREES - 0.001 * y}rad)
+            rotateY(${MINUS_FORTY_FIVE_DEGREES + 0.001 * x}rad);
           transition: ease-out 0.2s;
         }
 
