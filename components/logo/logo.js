@@ -36,8 +36,8 @@ export default enhance(({ size, faces, x, y }, ref) => {
           height: ${size}px;
           transform-style: preserve-3d;
           transform: scaleY(1.2) translateZ(${-size}px)
-            rotateX(calc(-40deg - 0.001 * ${y}rad))
-            rotateY(calc(-45deg + 0.001 * ${x}rad));
+            rotateX(${degreesToRadians(-40) - 0.001 * y}rad)
+            rotateY(${degreesToRadians(-45) + 0.001 * x}rad);
           transition: ease-out 0.2s;
         }
 
@@ -75,3 +75,7 @@ export default enhance(({ size, faces, x, y }, ref) => {
     </div>
   )
 })
+
+function degreesToRadians(degrees) {
+  return (degrees * Math.PI) / 180
+}

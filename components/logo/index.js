@@ -28,11 +28,16 @@ class LogoContainer extends PureComponent {
   componentDidMount() {
     const { preventScroll } = this.props
 
-    const { x, y, width, height } = this.logo.current.getBoundingClientRect()
+    const {
+      left,
+      top,
+      width,
+      height,
+    } = this.logo.current.getBoundingClientRect()
 
     this.center = {
-      x: window.pageXOffset + x + width / 2,
-      y: window.pageYOffset + y + height / 2,
+      x: window.pageXOffset + left + width / 2,
+      y: window.pageYOffset + top + height / 2,
     }
 
     this.moveEvent = isTouchDevice() ? 'touchmove' : 'mousemove'
