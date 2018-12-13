@@ -50,7 +50,7 @@ export default () => (
             <p>
               If you want a standard solution you can ask a standard consultant.
               If instead you dream big and want your project to rock, then you
-              found the right guys for the job.
+              found the right people for the job.
             </p>
           </Card>
         </Column>

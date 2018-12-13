@@ -42,17 +42,17 @@ export default () => (
         <Column>
           <Card title="Lone Wolf">
             An IC is autonomous, works without depending on anyone and does not
-            wait for orders or instructions. He is a reliable person: when left
-            alone with a problem, he always returns a solution.
+            wait for orders or instructions. They are reliable: when left alone
+            with a problem, they always return a solution.
           </Card>
         </Column>
 
         <Column>
           <Card title="Pack Animal">
-            The skill of an IC is not counterbalanced by his sociopathy. An
-            Inglorious Coder is communicative: he knows how to speak English as
-            well as machine language, he knows how to assert his opinions, he
-            can transmit knowledge.
+            The skill of an IC is not counterbalanced by their sociopathy. An
+            Inglorious Coder is communicative: they know how to speak English as
+            well as machine language, they know how to assert their opinions,
+            they know how to transmit knowledge.
           </Card>
         </Column>
 
@@ -67,33 +67,33 @@ export default () => (
         <Column>
           <Card title="Crazy Dog">
             Dear old Steve Jobs quoted it many times: if you are not hungry and
-            foolish you won't make a difference. An IC is passionate about his
-            work, he makes it an art and puts all his creativity in it.
+            foolish you won't make a difference. An IC is passionate about tjeir
+            work, they make it an art and put all their creativity in it.
           </Card>
         </Column>
 
         <Column>
           <Card title="Ambitious">
-            We leave the modesty to the mediocre. An Inglorious Coder knows his
-            strengths and does not hide them, rather he uses them as an integral
-            part of his arsenal.
+            We leave the modesty to the mediocre. An Inglorious Coder knows
+            their strengths and does not hide them, rather they use them as an
+            integral part of their arsenal.
           </Card>
         </Column>
 
         <Column>
           <Card title="Humble">
-            An IC does not complain, he performs. He turns frustration into
+            An IC does not complain, they perform. Tbey turn frustration into
             automation, lack of knowledge into self-training, constant change
             into abstractions. Along with strengths an Inglorious Coder knows
-            his weaknesses and tries to overcome them, with all the support
+            their weaknesses and tries to overcome them, with all the support
             possible from more skilled people.
           </Card>
         </Column>
 
         <Column>
           <Card title="Lightning Fast">
-            As a good hacker an Inglorious Coder learns and acts fast: he
-            quickly finds the most relevant information and applies it to the
+            As a good hacker an Inglorious Coder learns and acts fast: they
+            quickly find the most relevant information and applies it to the
             context.
           </Card>
         </Column>
@@ -111,16 +111,16 @@ export default () => (
             An IC is result-oriented, and goes straight towards the goal even at
             the cost of going against unnecessary rules, bureaucracy,
             documentation, meetings, planning. Everything that acts as a barrier
-            to his freedom of expression is immediately bypassed.
+            to their freedom of expression is immediately bypassed.
           </Card>
         </Column>
 
         <Column>
           <Card title="Solid">
             Freedom must have a limit, and this limitation is legality and
-            ethics. An Inglorious Coder does not look for easy money, he does
-            not evade tax, he does not deceit anybody. He is absolutely
-            transparent to anyone, law-abiding, and honest to the bone.
+            ethics. An Inglorious Coder does not look for easy money, does not
+            evade tax, does not deceit anybody. They are absolutely transparent
+            to anyone, law-abiding, and honest to the bone.
           </Card>
         </Column>
 
@@ -137,7 +137,7 @@ export default () => (
             The impossible triangle "Fast, Good, Cheap" has a solution, and it
             is "Simplicity". An IC reduces any complex problem to a simple
             solution and then refactors it continuously to make it even simpler,
-            because he knows that a simple code is of higher quality than
+            because they know that a simple code is of higher quality than
             complex code, is faster to implement and cheaper to maintain on the
             long run.
           </Card>
@@ -145,9 +145,9 @@ export default () => (
 
         <Column>
           <Card title="Extreme">
-            An Inglorious Coder does not compromise. He does not submit to the
-            most fashionable but less suitable technology, he does not perceive
-            sums in black, he does not give up on quality and passion. Money is
+            An Inglorious Coder does not compromise. They does not submit to the
+            most fashionable but less suitable technology, they do not perceive
+            sums in black, they do not give up on quality and passion. Money is
             not the primary goal, it is a side effect of a well done job.
           </Card>
         </Column>
@@ -156,10 +156,10 @@ export default () => (
           <Card title="Liquid">
             Inflexible in some cases, but completely flexible on others, an IC
             knows that in any kind of selection those who adapt better will
-            survive. That's why he is able to fully understand and take care of
-            a problem as if it were his, he accepts insuperable limits and gets
-            the most profit possible from the situation, he embraces change and
-            uses it as a weapon in his favour.
+            survive. That's why they are able to fully understand and take care
+            of a problem as if it were theirs, they accept insuperable limits
+            and get the most profit possible from the situation, they embrace
+            change and uses it as a weapon in their favour.
           </Card>
         </Column>
       </Row>

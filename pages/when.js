@@ -62,10 +62,10 @@ export default () => (
             <p>
               Being in the industry for a while, you already know how IT
               consulting works: you pay for a senior and you get a junior that
-              lied on her/his CV. Wouldn't it be better to employ people and
-              keep the know-how in-house? Definitely. But then, who is going to
-              train them? Who is going to give them best practices and standards
-              to follow? Who is going to address those hard problems that they
+              lied on their CV. Wouldn't it be better to employ people and keep
+              the know-how in-house? Definitely. But then, who is going to train
+              them? Who is going to give them best practices and standards to
+              follow? Who is going to address those hard problems that they
               cannot solve?
             </p>
             <p>The answer to all three is: Inglorious Coderz.</p>

@@ -27,7 +27,7 @@ export default () => (
         <ExtLink to="https://analytics.google.com/analytics/web/">
           Google Analytics
         </ExtLink>
-        . This allows us to provide a better service to you guys out there: if
+        . This allows us to provide a better service to you folks out there: if
         many visitors come from France then we will try to provide a translation
         in French; if many visitors browse from desktop then we will stop trying
         so much to make the site mobile-friendly.
