@@ -52,8 +52,10 @@ export default () => (
               , while the other two developed the front end in{' '}
               <ExtLink to="https://coreui.io/react/">Core UI</ExtLink> for{' '}
               <ExtLink to="https://reactjs.org/">React</ExtLink>. To date, the
-              customer is continuing to develop independently, and the result
-              looks very promising.
+              customer is continuing to develop independently and the result,
+              which you can already try{' '}
+              <ExtLink to="https://app.fattutto.com/">here</ExtLink>, looks very
+              promising.
             </p>
           </Card>
         </Column>
@@ -96,9 +98,7 @@ export default () => (
             </p>
             <p>
               The startup company{' '}
-              <ExtLink to="https://it.privategriffe.com/">
-                PrivateGriffe
-              </ExtLink>{' '}
+              <ExtLink to="https://privategriffe.com/">PrivateGriffe</ExtLink>{' '}
               was on the edge of default due to severe performance issues on
               their new <ExtLink to="https://reactjs.org/">React</ExtLink> front
               end and also for a heavily bloated{' '}
