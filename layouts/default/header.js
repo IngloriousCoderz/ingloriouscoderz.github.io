@@ -55,7 +55,7 @@ export default ({ wallpaper }) => (
         font-size: 2rem;
       }
 
-      @media (max-width: 640px) {
+      @media (max-width: 575.98px) {
         header > h1 {
           font-size: 1rem;
         }
@@ -82,7 +82,7 @@ export default ({ wallpaper }) => (
         text-align: center;
       }
 
-      @media (max-width: 640px) {
+      @media (max-width: 575.98px) {
         .shade {
           margin: -0.75rem 0 0;
           height: 1rem;

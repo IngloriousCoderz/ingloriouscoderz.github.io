@@ -25,19 +25,8 @@ export default withI18n()(({ t }) => (
     <style jsx>{`
       article {
         width: 75%;
-        margin-left: auto;
-        margin-right: auto;
+        align-self: center;
         text-align: center;
-      }
-
-      @media (min-width: 641px) {
-        article {
-          margin-top: 10rem;
-          // position: absolute;
-          // top: 50%;
-          // left: 50%;
-          // transform: translate(-50%, -50%);
-        }
       }
     `}</style>
   </Layout>

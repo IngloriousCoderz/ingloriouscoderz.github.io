@@ -244,7 +244,9 @@ export default ({ path, title, description, children }) => (
       }
 
       main {
-        position: relative;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
       }
     `}</style>
   </div>

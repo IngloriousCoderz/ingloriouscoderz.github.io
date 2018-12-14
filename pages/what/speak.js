@@ -9,7 +9,7 @@ import ExtLink from '~/components/ext-link'
 export default () => (
   <Layout path="what/speak" title="Speak" description="Let's talk about code.">
     <Trans>
-      <section className="card card-1">
+      <article className="card card-1">
         <h1>Speak</h1>
 
         <p>
@@ -18,7 +18,7 @@ export default () => (
           teaching, training, mentoring, coaching, and public speaking in
           general.
         </p>
-      </section>
+      </article>
 
       <Row>
         <Column max={3}>

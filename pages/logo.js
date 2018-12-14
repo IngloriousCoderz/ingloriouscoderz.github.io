@@ -69,7 +69,7 @@ export default class extends PureComponent {
         description="Play with our 3D logo and customize it to your liking!">
         <Row>
           <div className="col-xs-12 col-md-4">
-            <section className="card card-1">
+            <article className="card card-1">
               <h1>Create your own Inglorious logo!</h1>
 
               <p>Simply play with the parameters below and see it live!</p>
@@ -148,7 +148,7 @@ export default class extends PureComponent {
                   </div>
                 </Row>
               </form>
-            </section>
+            </article>
           </div>
 
           <div className="col-xs-12 col-md-8">

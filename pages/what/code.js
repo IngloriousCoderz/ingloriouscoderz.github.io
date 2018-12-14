@@ -12,7 +12,7 @@ export default () => (
     title="Code"
     description="We build code like craftsmen.">
     <Trans>
-      <section className="card card-1">
+      <article className="card card-1">
         <h1>Code</h1>
 
         <p>
@@ -21,7 +21,7 @@ export default () => (
           project is treated like a creature we raise and nurture until it is
           able to go on its own.
         </p>
-      </section>
+      </article>
 
       <Row>
         <Column max={3}>

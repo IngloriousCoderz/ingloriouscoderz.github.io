@@ -12,7 +12,7 @@ export default () => (
     title="Volunteer"
     description="The world is not going to get better with just code.">
     <Trans>
-      <section className="card card-1">
+      <article className="card card-1">
         <h1>Volunteer</h1>
         <p>
           The purpose of Inglorious Coderz is to build a better world. But let's
@@ -20,7 +20,7 @@ export default () => (
           in line when dealing with volunteering. Part of the money we earn is
           not just spent on charity, it allows us to take action directly.
         </p>
-      </section>
+      </article>
 
       <Row>
         <Column max={2}>
