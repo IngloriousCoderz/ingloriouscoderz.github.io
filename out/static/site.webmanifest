@@ -1,7 +1,7 @@
 {
   "name": "Inglorious Coderz",
   "short_name": "IC",
-  "start_url": ".",
+  "start_url": "/",
   "icons": [
     {
       "src": "/static/icons/favicon-16x16.png",
