@@ -48,7 +48,6 @@ export default class extends Document {
           />
           <meta property="fb:app_id" content="1677017469210661" />
 
-          <link href="/static/styles/mapbox-gl.css" rel="stylesheet" />
           <script src="/static/scripts/gh-spa-redirect.js" />
         </Head>
         <body>

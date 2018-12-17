@@ -167,7 +167,6 @@ export default ({ path, title, description, children }) => (
         margin-bottom: 1rem;
         padding: 0 1rem;
         border-left: 0.25rem solid #bbb;
-        // quotes: '“' '”' '‘' '’';
       }
 
       blockquote > p:before {
@@ -231,6 +230,15 @@ export default ({ path, title, description, children }) => (
         height: 1em;
         overflow: visible;
         vertical-align: -0.125em;
+      }
+
+      /* needed to position correctly markers on map */
+      .mapboxgl-map {
+        position: relative;
+      }
+
+      .mapboxgl-marker {
+        position: absolute;
       }
     `}</style>
 

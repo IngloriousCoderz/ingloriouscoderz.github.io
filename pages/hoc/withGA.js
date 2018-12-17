@@ -18,7 +18,7 @@ export const withGA = (code, Router) => Enhanced =>
     }
 
     componentDidMount() {
-      if (window._ga_initialized) return
+      if (!IS_BROWSER || window._ga_initialized) return
       ;(function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r
         ;(i[r] =

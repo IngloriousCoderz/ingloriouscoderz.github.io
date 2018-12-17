@@ -10,13 +10,13 @@ export const withSW = Enhanced =>
     }
 
     async componentDidMount() {
-      if ('serviceWorker' in navigator) {
-        try {
-          await navigator.serviceWorker.register('/service-worker.js')
-          console.log('service worker registered.')
-        } catch (error) {
-          console.warn('service worker registration failed.', error.message)
-        }
+      if (!'serviceWorker' in navigator) return
+
+      try {
+        await navigator.serviceWorker.register('/service-worker.js')
+        console.log('service worker registered.')
+      } catch (error) {
+        console.warn('service worker registration failed.', error.message)
       }
     }
 

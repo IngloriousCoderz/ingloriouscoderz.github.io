@@ -4,9 +4,7 @@ import ReactMapboxGl, {
   RotationControl,
   ZoomControl,
 } from 'react-mapbox-gl'
-
-// NOTE: doesn't work, needed to add it in document
-// import 'mapbox-gl/dist/mapbox-gl.css'
+import 'mapbox-gl/dist/mapbox-gl.css'
 
 const Map = ReactMapboxGl({ accessToken: process.env.NEXT_STATIC_MAPBOX_TOKEN })
 
@@ -17,6 +15,7 @@ const mapStyle = { width: '100%', height: '100%' }
 export default () => (
   <Map
     style="mapbox://styles/mapbox/streets-v8"
+    injectCSS={false}
     containerStyle={mapStyle}
     center={INGLORIOUS_HQ_COORDS}
     zoom={[14]}>
