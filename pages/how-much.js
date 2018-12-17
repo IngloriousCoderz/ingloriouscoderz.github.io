@@ -86,14 +86,14 @@ export default () => (
           <Card title="Less Is More">
             <p>
               If you think you'll have to pay all that money for six months of
-              work, don't be afraid: it won't be six months. Experience taught
-              us that you will need us for much less time, at the end of which
-              you will have a stable, durable and maintainable piece of
-              software.
+              work, don't be afraid: experience taught us that you will need us
+              for much less thant six months, at the end of which you will have
+              a stable, durable and maintainable piece of software.
             </p>
             <p>
               On the other hand, you know how they say: you buy cheap, you buy
-              twice. Too many clients bought cheap before turning to us.
+              twice. Too many clients already bought cheap before turning to us,
+              don't be one of them.
             </p>
           </Card>
         </Column>
@@ -108,8 +108,8 @@ export default () => (
             <p>
               Some IT consultants take measures by accepting any job at any
               price, and then trying to sell a poor service for that price. We
-              break this pattern by accepting only some jobs and deserving a
-              high fare.
+              break this pattern by accepting only certain jobs and then
+              deserving the high fare we propose for them.
             </p>
           </Card>
         </Column>

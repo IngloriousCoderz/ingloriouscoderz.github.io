@@ -34,12 +34,19 @@ export default () => (
       </p>
 
       <p>
-        What really makes the GDPR angry is cookies. Well don't worry, we aren't
-        storing any cookies. We use{' '}
+        What really makes the GDPR so upset is cookies. Well don't worry, we
+        aren't storing any tracking cookies. We use{' '}
         <ExtLink to="https://en.wikipedia.org/wiki/Web_storage">
           web storage
         </ExtLink>{' '}
         so all your info stays on your browser.
+      </p>
+      <p>
+        If you're a webmaster and you want to know how to do it,{' '}
+        <ExtLink to="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#disabling_cookies">
+          there you go
+        </ExtLink>
+        . You're welcome.
       </p>
     </article>
   </Layout>
