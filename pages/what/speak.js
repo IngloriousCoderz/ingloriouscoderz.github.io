@@ -26,6 +26,11 @@ export default () => (
             title="Courses"
             image={require('~/static/images/what/speak/vulog.jpg')}>
             <p>
+              <ExtLink to="/static/documents/Inglorious_Coderz_featured_courses_2019.pdf">
+                Check the catalog right now!
+              </ExtLink>
+            </p>
+            <p>
               One does not simply explain a technology. An effective course
               should enable all students to write quality code while
               understanding thoroughly the mechanics behind it.
@@ -106,6 +111,11 @@ export default () => (
           <Card
             title="Conferences"
             image={require('~/static/images/what/speak/apia.jpg')}>
+            <p>
+              <ExtLink to="https://youtu.be/Ox4k-lSEnFw">
+                Check our latest conference!
+              </ExtLink>
+            </p>
             <p>
               It's hard to convey a message in 40 minutes or less. There's no
               time for introductions nor boring stuff. That's why every

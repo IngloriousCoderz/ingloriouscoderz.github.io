@@ -24,7 +24,7 @@ export default () => (
         <p>
           Currently Inglorious Coderz as a firm is a one-man army, which means
           there's only one person behind everything. It's-a me,{' '}
-          <ExtLink to="/static/resumes/CV-Europass-20170418-Mistretta-EN.pdf">
+          <ExtLink to="/static/documents/CV-Europass-20170418-Mistretta-EN.pdf">
             Matteo Antony
           </ExtLink>
           ! You can consider me as a freelance, but I'm planning to expand
