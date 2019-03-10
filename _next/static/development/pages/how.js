@@ -623,11 +623,11 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -654,14 +654,14 @@ function (_PureComponent) {
 
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(LogoContainer)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
+    _defineProperty(_assertThisInitialized(_this), "state", {
       x: 0,
       y: 0
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "logo", react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef());
+    _defineProperty(_assertThisInitialized(_this), "logo", react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef());
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onMove", function (event) {
+    _defineProperty(_assertThisInitialized(_this), "onMove", function (event) {
       var preventScroll = _this.props.preventScroll;
 
       var _ref = _this.moveEvent === 'touchmove' ? event.touches[0] : event,
@@ -3263,7 +3263,7 @@ var p = config.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFORMA
   mark: noop$1,
   measure: noop$1
 };
-var preamble = "FA \"5.7.1\"";
+var preamble = "FA \"5.7.2\"";
 
 var begin = function begin(name) {
   p.mark("".concat(preamble, " ").concat(name, " begins"));
@@ -8815,7 +8815,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.4' };
+var core = module.exports = { version: '2.6.5' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -15331,7 +15331,7 @@ function escape(data) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports,"__esModule",{value:!0}),Object.defineProperty(exports,"ArticleJsonLd",{enumerable:!0,get:function a(){return _article.default}}),Object.defineProperty(exports,"BreadcrumbJsonLd",{enumerable:!0,get:function a(){return _breadcrumb.default}}),Object.defineProperty(exports,"BlogJsonLd",{enumerable:!0,get:function a(){return _blog.default}}),Object.defineProperty(exports,"CourseJsonLd",{enumerable:!0,get:function a(){return _course.default}}),Object.defineProperty(exports,"LocalBusinessJsonLd",{enumerable:!0,get:function a(){return _localBusiness.default}}),Object.defineProperty(exports,"LogoJsonLd",{enumerable:!0,get:function a(){return _logo.default}}),Object.defineProperty(exports,"ProductJsonLd",{enumerable:!0,get:function a(){return _product.default}}),Object.defineProperty(exports,"SocialProfileJsonLd",{enumerable:!0,get:function a(){return _socialProfile.default}}),exports.default=void 0;var _defaultSEO=_interopRequireDefault(__webpack_require__(/*! ./meta/defaultSEO */ "./node_modules/next-seo/dist/meta/defaultSEO.js")),_article=_interopRequireDefault(__webpack_require__(/*! ./jsonld/article */ "./node_modules/next-seo/dist/jsonld/article.js")),_breadcrumb=_interopRequireDefault(__webpack_require__(/*! ./jsonld/breadcrumb */ "./node_modules/next-seo/dist/jsonld/breadcrumb.js")),_blog=_interopRequireDefault(__webpack_require__(/*! ./jsonld/blog */ "./node_modules/next-seo/dist/jsonld/blog.js")),_course=_interopRequireDefault(__webpack_require__(/*! ./jsonld/course */ "./node_modules/next-seo/dist/jsonld/course.js")),_localBusiness=_interopRequireDefault(__webpack_require__(/*! ./jsonld/localBusiness */ "./node_modules/next-seo/dist/jsonld/localBusiness.js")),_logo=_interopRequireDefault(__webpack_require__(/*! ./jsonld/logo */ "./node_modules/next-seo/dist/jsonld/logo.js")),_product=_interopRequireDefault(__webpack_require__(/*! ./jsonld/product */ "./node_modules/next-seo/dist/jsonld/product.js")),_socialProfile=_interopRequireDefault(__webpack_require__(/*! ./jsonld/socialProfile */ "./node_modules/next-seo/dist/jsonld/socialProfile.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var _default=_defaultSEO.default;exports.default=_default;
+Object.defineProperty(exports,"__esModule",{value:!0}),Object.defineProperty(exports,"ArticleJsonLd",{enumerable:!0,get:function a(){return _article.default}}),Object.defineProperty(exports,"BreadcrumbJsonLd",{enumerable:!0,get:function a(){return _breadcrumb.default}}),Object.defineProperty(exports,"BlogJsonLd",{enumerable:!0,get:function a(){return _blog.default}}),Object.defineProperty(exports,"CourseJsonLd",{enumerable:!0,get:function a(){return _course.default}}),Object.defineProperty(exports,"LocalBusinessJsonLd",{enumerable:!0,get:function a(){return _localBusiness.default}}),Object.defineProperty(exports,"LogoJsonLd",{enumerable:!0,get:function a(){return _logo.default}}),Object.defineProperty(exports,"ProductJsonLd",{enumerable:!0,get:function a(){return _product.default}}),Object.defineProperty(exports,"SocialProfileJsonLd",{enumerable:!0,get:function a(){return _socialProfile.default}}),Object.defineProperty(exports,"CorporateContactJsonLd",{enumerable:!0,get:function a(){return _corporateContact.default}}),exports.default=void 0;var _defaultSEO=_interopRequireDefault(__webpack_require__(/*! ./meta/defaultSEO */ "./node_modules/next-seo/dist/meta/defaultSEO.js")),_article=_interopRequireDefault(__webpack_require__(/*! ./jsonld/article */ "./node_modules/next-seo/dist/jsonld/article.js")),_breadcrumb=_interopRequireDefault(__webpack_require__(/*! ./jsonld/breadcrumb */ "./node_modules/next-seo/dist/jsonld/breadcrumb.js")),_blog=_interopRequireDefault(__webpack_require__(/*! ./jsonld/blog */ "./node_modules/next-seo/dist/jsonld/blog.js")),_course=_interopRequireDefault(__webpack_require__(/*! ./jsonld/course */ "./node_modules/next-seo/dist/jsonld/course.js")),_localBusiness=_interopRequireDefault(__webpack_require__(/*! ./jsonld/localBusiness */ "./node_modules/next-seo/dist/jsonld/localBusiness.js")),_logo=_interopRequireDefault(__webpack_require__(/*! ./jsonld/logo */ "./node_modules/next-seo/dist/jsonld/logo.js")),_product=_interopRequireDefault(__webpack_require__(/*! ./jsonld/product */ "./node_modules/next-seo/dist/jsonld/product.js")),_socialProfile=_interopRequireDefault(__webpack_require__(/*! ./jsonld/socialProfile */ "./node_modules/next-seo/dist/jsonld/socialProfile.js")),_corporateContact=_interopRequireDefault(__webpack_require__(/*! ./jsonld/corporateContact */ "./node_modules/next-seo/dist/jsonld/corporateContact.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var _default=_defaultSEO.default;exports.default=_default;
 
 /***/ }),
 
@@ -15368,6 +15368,18 @@ Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;va
 
 "use strict";
 Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/next/node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/dist/utils/markup.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var BreadCrumbJsonLd=function(a){var b=a.itemListElements,c=void 0===b?[]:b,d="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n      ".concat(c.map(function(a){return"{\n        \"@type\": \"ListItem\",\n        \"position\": ".concat(a.position,",\n        \"name\": \"").concat(a.name,"\",\n        \"item\": \"").concat(a.item,"\"\n      }")}),"\n     ]\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(d),key:"jsonld-breadcrumb"}))};BreadCrumbJsonLd.propTypes={itemListElements:_propTypes.default.arrayOf(_propTypes.default.shape({position:_propTypes.default.number.isRequired,name:_propTypes.default.string.isRequired,item:_propTypes.default.string.isRequired})).isRequired};var _default=BreadCrumbJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/dist/jsonld/corporateContact.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next-seo/dist/jsonld/corporateContact.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/next/node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/dist/utils/markup.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var formatIfArray=function(a){return Array.isArray(a)?"[".concat(a.map(function(a){return"\"".concat(a,"\"")}),"]"):"\"".concat(a,"\"")},buildContactPoint=function(a){return a.map(function(a){return"{\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"".concat(a.telephone,"\",\n    \"contactType\": \"").concat(a.contactType,"\"").concat(a.areaServed?",\n    \"areaServed\": ".concat(formatIfArray(a.areaServed)):"").concat(a.availableLanguage?",\n    \"availableLanguage\": ".concat(formatIfArray(a.availableLanguage)):"").concat(a.contactOption?",\n    \"contactOption\": \"".concat(a.contactOption,"\""):"","\n    }")})},CorporateContactJsonLd=function(a){var b=a.url,c=a.logo,d=a.contactPoint,e=void 0===d?[]:d,f="{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Organization\",\n    \"url\": \"".concat(b,"\",\n    ").concat(c?"\"logo\": \"".concat(c,"\","):"","\n    \"contactPoint\": [").concat(buildContactPoint(e),"]\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(f),key:"jsonld-corporate-contact"}))};CorporateContactJsonLd.defaultProps={logo:null},CorporateContactJsonLd.propTypes={logo:_propTypes.default.string,url:_propTypes.default.string.isRequired,contactPoint:_propTypes.default.arrayOf(_propTypes.default.shape({telephone:_propTypes.default.string.isRequired,contactType:_propTypes.default.string.isRequired,areaServed:_propTypes.default.oneOfType([_propTypes.default.string,_propTypes.default.array]),availableLanguage:_propTypes.default.oneOfType([_propTypes.default.string,_propTypes.default.array]),contactOption:_propTypes.default.string})).isRequired};var _default=CorporateContactJsonLd;exports.default=_default;
 
 /***/ }),
 
@@ -15439,7 +15451,7 @@ Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;va
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var defaults={templateTitle:null,noindex:!1,openGraph:{defaultImageHeight:null,defaultImageWidth:null}},buildTags=function(a){var b=[];if(a.titleTemplate&&(defaults.templateTitle=a.titleTemplate),a.title){var c=a.title;defaults.templateTitle&&(c=defaults.templateTitle.replace(/%s/g,function(){return c})),b.push(_react.default.createElement("title",{key:"title"},c))}if(!1===a.noindex?(b.push(_react.default.createElement("meta",{key:"robots",name:"robots",content:"index,follow"})),b.push(_react.default.createElement("meta",{key:"googlebot",name:"googlebot",content:"index,follow"}))):a.noindex||defaults.noindex||a.dangerouslySetAllPagesToNoIndex?(a.dangerouslySetAllPagesToNoIndex&&(defaults.noindex=!0),b.push(_react.default.createElement("meta",{key:"robots",name:"robots",content:"noindex,nofollow"})),b.push(_react.default.createElement("meta",{key:"googlebot",name:"googlebot",content:"noindex,nofollow"}))):(b.push(_react.default.createElement("meta",{key:"robots",name:"robots",content:"index,follow"})),b.push(_react.default.createElement("meta",{key:"googlebot",name:"googlebot",content:"index,follow"}))),a.description&&b.push(_react.default.createElement("meta",{key:"description",name:"description",content:a.description})),a.hasOwnProperty("twitter")&&(a.twitter.cardType&&b.push(_react.default.createElement("meta",{key:"twitter:card",name:"twitter:card",content:a.twitter.cardType})),a.twitter.site&&b.push(_react.default.createElement("meta",{key:"twitter:site",name:"twitter:site",content:a.twitter.site})),a.twitter.handle&&b.push(_react.default.createElement("meta",{key:"twitter:creator",name:"twitter:creator",content:a.twitter.handle}))),a.hasOwnProperty("facebook")&&a.facebook.appId&&b.push(_react.default.createElement("meta",{key:"fb:app_id",name:"fb:app_id",content:a.facebook.appId})),a.hasOwnProperty("openGraph")){if(a.openGraph.url&&b.push(_react.default.createElement("meta",{key:"og:url",property:"og:url",content:a.openGraph.url})),a.openGraph.type){var d=a.openGraph.type.toLowerCase();b.push(_react.default.createElement("meta",{key:"og:type",property:"og:type",content:d})),"profile"===d&&a.openGraph.profile?(a.openGraph.profile.firstName&&b.push(_react.default.createElement("meta",{key:"profile:first_name",property:"profile:first_name",content:a.openGraph.profile.firstName})),a.openGraph.profile.lastName&&b.push(_react.default.createElement("meta",{key:"profile:last_name",property:"profile:last_name",content:a.openGraph.profile.lastName})),a.openGraph.profile.username&&b.push(_react.default.createElement("meta",{key:"profile:username",property:"profile:username",content:a.openGraph.profile.username})),a.openGraph.profile.gender&&b.push(_react.default.createElement("meta",{key:"profile:gender",property:"profile:gender",content:a.openGraph.profile.gender}))):"book"===d&&a.openGraph.book?(a.openGraph.book.authors&&a.openGraph.book.authors.length&&a.openGraph.book.authors.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"book:author:0".concat(c),property:"book:author",content:a}))}),a.openGraph.book.isbn&&b.push(_react.default.createElement("meta",{key:"book:isbn",property:"book:isbn",content:a.openGraph.book.isbn})),a.openGraph.book.releaseDate&&b.push(_react.default.createElement("meta",{key:"book:release_date",property:"book:release_date",content:a.openGraph.book.releaseDate})),a.openGraph.book.tags&&a.openGraph.book.tags.length&&a.openGraph.book.tags.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"book:tag:0".concat(c),property:"book:tag",content:a}))})):"article"===d&&a.openGraph.article&&(a.openGraph.article.publishedTime&&b.push(_react.default.createElement("meta",{key:"article:published_time",property:"article:published_time",content:a.openGraph.article.publishedTime})),a.openGraph.article.modifiedTime&&b.push(_react.default.createElement("meta",{key:"article:modified_time",property:"article:modified_time",content:a.openGraph.article.modifiedTime})),a.openGraph.article.expirationTime&&b.push(_react.default.createElement("meta",{key:"article:expiration_time",property:"article:expiration_time",content:a.openGraph.article.expirationTime})),a.openGraph.article.authors&&a.openGraph.article.authors.length&&a.openGraph.article.authors.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"article:author:0".concat(c),property:"article:author",content:a}))}),a.openGraph.article.section&&b.push(_react.default.createElement("meta",{key:"article:section",property:"article:section",content:a.openGraph.article.section})),a.openGraph.article.tags&&a.openGraph.article.tags.length&&a.openGraph.article.tags.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"article:tag:0".concat(c),property:"article:tag",content:a}))}))}a.openGraph.title&&b.push(_react.default.createElement("meta",{key:"og:title",property:"og:title",content:a.openGraph.title})),a.openGraph.description&&b.push(_react.default.createElement("meta",{key:"og:description",property:"og:description",content:a.openGraph.description})),a.openGraph.images&&a.openGraph.images.length&&a.openGraph.images.forEach(function(c,d){b.push(_react.default.createElement("meta",{key:"og:image:0".concat(d),property:"og:image",content:c.url})),c.alt&&b.push(_react.default.createElement("meta",{key:"og:image:alt0".concat(d),property:"og:image:alt",content:c.alt})),c.width?b.push(_react.default.createElement("meta",{key:"og:image:width0".concat(d),property:"og:image:width",content:c.width})):(defaults.openGraph.defaultImageWidth||a.openGraph.defaultImageWidth)&&(a.openGraph.defaultImageWidth&&(defaults.openGraph.defaultImageWidth=a.openGraph.defaultImageWidth),b.push(_react.default.createElement("meta",{key:"og:image:width0".concat(d),property:"og:image:width",content:defaults.openGraph.defaultImageWidth}))),c.height?b.push(_react.default.createElement("meta",{key:"og:image:height".concat(d),property:"og:image:height",content:c.height})):(defaults.openGraph.defaultImageHeight||a.openGraph.defaultImageHeight)&&(a.openGraph.defaultImageHeight&&(defaults.openGraph.defaultImageHeight=a.openGraph.defaultImageHeight),b.push(_react.default.createElement("meta",{key:"og:image:height".concat(d),property:"og:image:height",content:defaults.openGraph.defaultImageHeight})))}),a.openGraph.locale&&b.push(_react.default.createElement("meta",{key:"og:locale",property:"og:locale",content:a.openGraph.locale})),a.openGraph.site_name&&b.push(_react.default.createElement("meta",{key:"og:site_name",property:"og:site_name",content:a.openGraph.site_name}))}return a.canonical&&b.push(_react.default.createElement("link",{rel:"canonical",href:a.canonical,key:"canonical"})),b},_default=buildTags;exports.default=_default;
+var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var defaults={templateTitle:null,noindex:!1,openGraph:{defaultImageHeight:null,defaultImageWidth:null}},buildTags=function(a){var b=[];if(a.titleTemplate&&(defaults.templateTitle=a.titleTemplate),a.title){var c=a.title;defaults.templateTitle&&(c=defaults.templateTitle.replace(/%s/g,function(){return c})),b.push(_react.default.createElement("title",{key:"title"},c))}if(!1===a.noindex?(b.push(_react.default.createElement("meta",{key:"robots",name:"robots",content:"index,follow"})),b.push(_react.default.createElement("meta",{key:"googlebot",name:"googlebot",content:"index,follow"}))):a.noindex||defaults.noindex||a.dangerouslySetAllPagesToNoIndex?(a.dangerouslySetAllPagesToNoIndex&&(defaults.noindex=!0),b.push(_react.default.createElement("meta",{key:"robots",name:"robots",content:"noindex,nofollow"})),b.push(_react.default.createElement("meta",{key:"googlebot",name:"googlebot",content:"noindex,nofollow"}))):(b.push(_react.default.createElement("meta",{key:"robots",name:"robots",content:"index,follow"})),b.push(_react.default.createElement("meta",{key:"googlebot",name:"googlebot",content:"index,follow"}))),a.description&&b.push(_react.default.createElement("meta",{key:"description",name:"description",content:a.description})),a.hasOwnProperty("twitter")&&(a.twitter.cardType&&b.push(_react.default.createElement("meta",{key:"twitter:card",name:"twitter:card",content:a.twitter.cardType})),a.twitter.site&&b.push(_react.default.createElement("meta",{key:"twitter:site",name:"twitter:site",content:a.twitter.site})),a.twitter.handle&&b.push(_react.default.createElement("meta",{key:"twitter:creator",name:"twitter:creator",content:a.twitter.handle}))),a.hasOwnProperty("facebook")&&a.facebook.appId&&b.push(_react.default.createElement("meta",{key:"fb:app_id",property:"fb:app_id",content:a.facebook.appId})),a.hasOwnProperty("openGraph")){if(a.openGraph.url&&b.push(_react.default.createElement("meta",{key:"og:url",property:"og:url",content:a.openGraph.url})),a.openGraph.type){var d=a.openGraph.type.toLowerCase();b.push(_react.default.createElement("meta",{key:"og:type",property:"og:type",content:d})),"profile"===d&&a.openGraph.profile?(a.openGraph.profile.firstName&&b.push(_react.default.createElement("meta",{key:"profile:first_name",property:"profile:first_name",content:a.openGraph.profile.firstName})),a.openGraph.profile.lastName&&b.push(_react.default.createElement("meta",{key:"profile:last_name",property:"profile:last_name",content:a.openGraph.profile.lastName})),a.openGraph.profile.username&&b.push(_react.default.createElement("meta",{key:"profile:username",property:"profile:username",content:a.openGraph.profile.username})),a.openGraph.profile.gender&&b.push(_react.default.createElement("meta",{key:"profile:gender",property:"profile:gender",content:a.openGraph.profile.gender}))):"book"===d&&a.openGraph.book?(a.openGraph.book.authors&&a.openGraph.book.authors.length&&a.openGraph.book.authors.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"book:author:0".concat(c),property:"book:author",content:a}))}),a.openGraph.book.isbn&&b.push(_react.default.createElement("meta",{key:"book:isbn",property:"book:isbn",content:a.openGraph.book.isbn})),a.openGraph.book.releaseDate&&b.push(_react.default.createElement("meta",{key:"book:release_date",property:"book:release_date",content:a.openGraph.book.releaseDate})),a.openGraph.book.tags&&a.openGraph.book.tags.length&&a.openGraph.book.tags.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"book:tag:0".concat(c),property:"book:tag",content:a}))})):"article"===d&&a.openGraph.article&&(a.openGraph.article.publishedTime&&b.push(_react.default.createElement("meta",{key:"article:published_time",property:"article:published_time",content:a.openGraph.article.publishedTime})),a.openGraph.article.modifiedTime&&b.push(_react.default.createElement("meta",{key:"article:modified_time",property:"article:modified_time",content:a.openGraph.article.modifiedTime})),a.openGraph.article.expirationTime&&b.push(_react.default.createElement("meta",{key:"article:expiration_time",property:"article:expiration_time",content:a.openGraph.article.expirationTime})),a.openGraph.article.authors&&a.openGraph.article.authors.length&&a.openGraph.article.authors.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"article:author:0".concat(c),property:"article:author",content:a}))}),a.openGraph.article.section&&b.push(_react.default.createElement("meta",{key:"article:section",property:"article:section",content:a.openGraph.article.section})),a.openGraph.article.tags&&a.openGraph.article.tags.length&&a.openGraph.article.tags.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"article:tag:0".concat(c),property:"article:tag",content:a}))}))}a.openGraph.title&&b.push(_react.default.createElement("meta",{key:"og:title",property:"og:title",content:a.openGraph.title})),a.openGraph.description&&b.push(_react.default.createElement("meta",{key:"og:description",property:"og:description",content:a.openGraph.description})),a.openGraph.images&&a.openGraph.images.length&&a.openGraph.images.forEach(function(c,d){b.push(_react.default.createElement("meta",{key:"og:image:0".concat(d),property:"og:image",content:c.url})),c.alt&&b.push(_react.default.createElement("meta",{key:"og:image:alt0".concat(d),property:"og:image:alt",content:c.alt})),c.width?b.push(_react.default.createElement("meta",{key:"og:image:width0".concat(d),property:"og:image:width",content:c.width})):(defaults.openGraph.defaultImageWidth||a.openGraph.defaultImageWidth)&&(a.openGraph.defaultImageWidth&&(defaults.openGraph.defaultImageWidth=a.openGraph.defaultImageWidth),b.push(_react.default.createElement("meta",{key:"og:image:width0".concat(d),property:"og:image:width",content:defaults.openGraph.defaultImageWidth}))),c.height?b.push(_react.default.createElement("meta",{key:"og:image:height".concat(d),property:"og:image:height",content:c.height})):(defaults.openGraph.defaultImageHeight||a.openGraph.defaultImageHeight)&&(a.openGraph.defaultImageHeight&&(defaults.openGraph.defaultImageHeight=a.openGraph.defaultImageHeight),b.push(_react.default.createElement("meta",{key:"og:image:height".concat(d),property:"og:image:height",content:defaults.openGraph.defaultImageHeight})))}),a.openGraph.locale&&b.push(_react.default.createElement("meta",{key:"og:locale",property:"og:locale",content:a.openGraph.locale})),a.openGraph.site_name&&b.push(_react.default.createElement("meta",{key:"og:site_name",property:"og:site_name",content:a.openGraph.site_name}))}return a.canonical&&b.push(_react.default.createElement("link",{rel:"canonical",href:a.canonical,key:"canonical"})),b},_default=buildTags;exports.default=_default;
 
 /***/ }),
 
@@ -17579,12 +17591,12 @@ module.exports = __webpack_require__(/*! ./dist/lib/link */ "./node_modules/next
 
 /***/ "./node_modules/next/node_modules/prop-types/checkPropTypes.js":
 /*!***************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_31a52253456ff2ce2646 ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_357ed521ea49f3b22381 ***!
   \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_31a52253456ff2ce2646 */ "dll-reference dll_31a52253456ff2ce2646"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_357ed521ea49f3b22381 */ "dll-reference dll_357ed521ea49f3b22381"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -18192,12 +18204,12 @@ if (true) {
 
 /***/ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*************************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_31a52253456ff2ce2646 ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_357ed521ea49f3b22381 ***!
   \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_31a52253456ff2ce2646 */ "dll-reference dll_31a52253456ff2ce2646"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_357ed521ea49f3b22381 */ "dll-reference dll_357ed521ea49f3b22381"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -18734,12 +18746,12 @@ module.exports = (__webpack_require__(/*! dll-reference dll_31a52253456ff2ce2646
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_31a52253456ff2ce2646 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_357ed521ea49f3b22381 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_31a52253456ff2ce2646 */ "dll-reference dll_31a52253456ff2ce2646"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_357ed521ea49f3b22381 */ "dll-reference dll_357ed521ea49f3b22381"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -21369,7 +21381,7 @@ module.exports = hoistNonReactStatics;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.8.1
+/** @license React v16.8.4
  * react-is.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -21619,12 +21631,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_31a52253456ff2ce2646 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_357ed521ea49f3b22381 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_31a52253456ff2ce2646 */ "dll-reference dll_31a52253456ff2ce2646"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_357ed521ea49f3b22381 */ "dll-reference dll_357ed521ea49f3b22381"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -24192,12 +24204,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_31a52253456ff2ce2646 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_357ed521ea49f3b22381 ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_31a52253456ff2ce2646 */ "dll-reference dll_31a52253456ff2ce2646"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_357ed521ea49f3b22381 */ "dll-reference dll_357ed521ea49f3b22381"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -24694,7 +24706,7 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"] // .use(detector)
 
 /***/ }),
 
-/***/ 11:
+/***/ 10:
 /*!**********************************!*\
   !*** multi ./pages/how/index.js ***!
   \**********************************/
@@ -24708,16 +24720,16 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_31a52253456ff2ce2646":
+/***/ "dll-reference dll_357ed521ea49f3b22381":
 /*!*******************************************!*\
-  !*** external "dll_31a52253456ff2ce2646" ***!
+  !*** external "dll_357ed521ea49f3b22381" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_31a52253456ff2ce2646;
+module.exports = dll_357ed521ea49f3b22381;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js"]]]));;
+},[[10,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=how.js.map
