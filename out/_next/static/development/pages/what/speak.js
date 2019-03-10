@@ -24769,7 +24769,7 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"] // .use(detector)
 
 /***/ }),
 
-/***/ 7:
+/***/ 10:
 /*!***********************************!*\
   !*** multi ./pages/what/speak.js ***!
   \***********************************/
@@ -24794,5 +24794,5 @@ module.exports = dll_31a52253456ff2ce2646;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]));;
+},[[10,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=speak.js.map
