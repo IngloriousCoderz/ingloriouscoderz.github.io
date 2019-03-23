@@ -1,6 +1,6 @@
 import Link from '~/components/link'
 
-import Logo from '~/components/logo'
+import Icy from '~/components/icy'
 import Button from '~/components/button'
 
 const links = [
@@ -11,7 +11,7 @@ const links = [
   { id: 'when', title: 'When' },
   { id: 'where', title: 'Where' },
   { id: 'how-much', title: 'How Much' },
-  { id: 'logo', title: 'Logo' },
+  { id: 'icy', title: 'Icy' },
   { id: 'blog', title: 'Blog' },
 ]
 
@@ -24,7 +24,7 @@ export default ({ wallpaper }) => (
             <span>Inglorious</span>
             <span className="shade">&nbsp;</span>
           </div>
-          <Logo />
+          <Icy />
           <div>
             <span>Coderz</span>
             <span className="shade">&nbsp;</span>

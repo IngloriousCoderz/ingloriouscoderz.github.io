@@ -11,16 +11,8 @@ export default () => (
           src={require('~/static/images/license.png')}
         />
       </ExtLink>{' '}
-      The{' '}
-      <ExtLink to="https://github.com/IngloriousCoderz">
-        Inglorious Coderz
-      </ExtLink>{' '}
-      website is distributed with{' '}
-      <ExtLink to="https://creativecommons.org/licenses/by-nc-nd/4.0/">
-        Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
-        International
-      </ExtLink>{' '}
-      Public License.
+      INGLORIOUS CODERZ DI MISTRETTA MATTEO ANTONY | 39 Via Val Della Torre,
+      10149 Torino (TO) | VAT Code IT11524720015 | Tax Code MSTMTN82R17H501A
     </Trans>
 
     <style jsx>{`

@@ -1,9 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import {
   faGithub,
   faInstagram,
   faLinkedin,
   faFacebook,
+  faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
 
 import i18n from '~/utils/i18n'
@@ -18,11 +20,11 @@ export default () => (
   <div className="toolbar">
     <div>
       <Button
-        href="https://github.com/IngloriousCoderz/"
-        ariaLabel="Github"
+        href="https://www.facebook.com/IngloriousCoderz/"
+        ariaLabel="Facebook"
         target="_blank"
         rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faGithub} />
+        <FontAwesomeIcon icon={faFacebook} />
       </Button>
       <Button
         href="https://www.instagram.com/ingloriouscoderz/"
@@ -32,11 +34,11 @@ export default () => (
         <FontAwesomeIcon icon={faInstagram} />
       </Button>
       <Button
-        href="https://www.facebook.com/IngloriousCoderz/"
-        ariaLabel="Facebook"
+        href="https://github.com/IngloriousCoderz/"
+        ariaLabel="Github"
         target="_blank"
         rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faFacebook} />
+        <FontAwesomeIcon icon={faGithub} />
       </Button>
       <Button
         href="https://www.linkedin.com/company/inglorious-coderz/"
@@ -44,6 +46,20 @@ export default () => (
         target="_blank"
         rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedin} />
+      </Button>
+      <Button
+        href="mailto:antony.mistretta@gmail.com"
+        ariaLabel="Email"
+        target="_blank"
+        rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faEnvelope} />
+      </Button>
+      <Button
+        href="tel:+393202357664"
+        ariaLabel="WhatsApp"
+        target="_blank"
+        rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faWhatsapp} />
       </Button>
     </div>
 

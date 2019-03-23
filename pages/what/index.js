@@ -1,10 +1,10 @@
-import Link from '~/components/link'
 import { Trans } from 'react-i18next'
 
 import Layout from '~/layouts/default'
 import Row from '~/components/row'
 import Column from '~/components/column'
 import Card from '~/components/card'
+import Link from '~/components/link'
 
 export default () => (
   <Layout
