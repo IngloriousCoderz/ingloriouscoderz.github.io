@@ -26,15 +26,44 @@ export default () => (
       <Row>
         <Column max={3}>
           <Card
+            title="React, The Inglorious Way"
+            image={require('~/static/images/what/speak/react_inglorious_way.jpg')}>
+            <p>
+              "React, The Inglorious Way" is a 40 minute talk performed at{' '}
+              <ExtLink to="https://events.codemotion.com/conferences/amsterdam/2019/">
+                Codemotion Amsterdam 2019
+              </ExtLink>
+              . It is a highly technical talk performed as a live coding session
+              that shows the perks and gotchas of common React patterns such as
+              Container/Presentational, Higher-Order Components, Render Props,
+              and Hooks.
+            </p>
+            <p>
+              The slides, made with{' '}
+              <ExtLink to="https://mdx-deck.jxnblk.com/">mdx-deck</ExtLink>, are
+              available <ExtLink to="/react-the-inglorious-way">here</ExtLink>,
+              while a PDF version can be downloaded{' '}
+              <ExtLink to="/react-the-inglorious-way/presentation.pdf">
+                here
+              </ExtLink>
+              .
+            </p>
+          </Card>
+        </Column>
+
+        <Column max={3}>
+          <Card
             title="Refactoring Into React Hooks"
-            image={require('~/static/images/what/speak/hooks.jpg')}>
+            image={require('~/static/images/what/speak/refactoring_react_hooks.jpg')}>
             <p>
               "Refactoring Into React Hooks" is a 40 minute talk performed at{' '}
               <ExtLink to="https://events.codemotion.com/conferences/rome/2019/">
                 Codemotion Rome 2019
               </ExtLink>
-              . It is a highly technical talk performed as a live coding
-              session.
+              . It is a highly technical talk performed as a live coding session
+              that shows how to turn your codebase into hooks starting from
+              Class Components, Higher-Order components, Render Props, Context
+              API, and much more.
             </p>
             <p>
               The slides, made with{' '}
