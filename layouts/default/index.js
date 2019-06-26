@@ -108,12 +108,24 @@ export default ({ path, title, description, children }) => (
         color: #bbb;
       }
 
-      body {
+      body,
+      .layout {
         background: black;
         background-image: url(${wallpaper});
         background-position-x: center;
         background-attachment: fixed;
       }
+
+      ${new Date().getMonth() === 5
+        ? `
+      body {
+        background: linear-gradient(red, red 16.666vh, orange 16.666vh, orange 33.333vh, yellow 33.333vh, yellow 50vh, green 50vh, green 66.666vh, blue 66.666vh, blue 83.333vh, purple 83.333vh, purple 100vh);
+      }
+      .layout {
+        box-shadow: 5px 0 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      }
+      `
+        : ''}
 
       a {
         color: #429aef;
