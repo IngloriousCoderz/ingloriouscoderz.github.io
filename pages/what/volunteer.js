@@ -23,7 +23,7 @@ export default () => (
       </article>
 
       <Row>
-        <Column max={2}>
+        <Column max={3}>
           <Card
             title="Lampedusa Turtle Group"
             image={require('~/static/images/what/volunteer/lampedusa_bath.jpg')}>
@@ -45,28 +45,60 @@ export default () => (
               </ExtLink>{' '}
               is a research center, a hospital, and a museum related to sea
               turtles guided by an amazing human being, Dr.{' '}
-              <ExtLink to="http://www.lampedusaturtlerescue.org/daniela-freggi">
+              <ExtLink to="https://www.linkedin.com/in/daniela-freggi-2bb324a7/">
                 Daniela Freggi
               </ExtLink>
-              . Inglorious Coderz spent two weeks, together with other
-              volunteers from all over the world, performing various activities
-              &mdash; manual work such as cleaning up the center, the turtles,
-              and their pools every two mornings, but also assisting
-              veterinarian surgeons and guiding visitors through the museum and
-              raising awareness.
+              . We spent two weeks, together with other volunteers from all over
+              the world, performing various activities &mdash; manual work such
+              as cleaning up the center, the turtles, and their pools every two
+              mornings, but also assisting veterinarian surgeons and guiding
+              visitors through the museum and raising awareness.
             </p>
           </Card>
         </Column>
 
-        {/* <Column max={3}>
+        <Column max={3}>
           <Card
-            title="Developers Italia"
-            image={require('~/static/images/what/volunteer/developers_italia.png')}>
-            <p></p>
+            title="Les Jeunes Leaders Du Burundi"
+            image={require('~/static/images/what/volunteer/jeunes_leaders_du_burundi.jpg')}>
+            <p>
+              <ExtLink to="https://www.linkedin.com/in/kaburugutu-fabrice-b28399157/">
+                Fabrice Kaburugutu
+              </ExtLink>
+              , a young Engineering student from Bujumbura, had a dream: to
+              promote the sustainable economic, social and cultural development
+              of Burundi in particular and the region in general by stimulating
+              youth employment and career opportunities through sustainable
+              development goals.
+            </p>
+            <p>
+              So he decided to create a non-profit organization, run entirely by
+              himself between his exams, and to give free conferences on the
+              topic. The first one was held in March 30th 2019.
+            </p>
+            <p>
+              Inglorious Coderz remotely assisted the development of the{' '}
+              <ExtLink to="https://leadersburundi.wordpress.com/">
+                Association's website
+              </ExtLink>{' '}
+              and its{' '}
+              <ExtLink to="https://www.facebook.com/Les-jeunes-leaders-du-Burundi-2043300449039820/">
+                Facebook page
+              </ExtLink>
+              , and involved both{' '}
+              <ExtLink to="https://www.linkedin.com/in/iboyadzhieva/">
+                Inna Boyadzhieva
+              </ExtLink>{' '}
+              for advice on crowdfunding and{' '}
+              <ExtLink to="https://www.linkedin.com/in/mariamatloub/">
+                Maria Matloub
+              </ExtLink>{' '}
+              for the conference's poster design.
+            </p>
           </Card>
-        </Column> */}
+        </Column>
 
-        <Column max={2}>
+        <Column max={3}>
           <Card
             title="More to come..."
             image={require('~/static/images/what/volunteer/lampedusa_dynamic_duo.jpg')}>
