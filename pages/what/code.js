@@ -26,6 +26,74 @@ export default () => (
       <Row>
         <Column max={3}>
           <Card
+            title="Leonardo"
+            image={require('~/static/images/what/code/leonardo.png')}>
+            <p>
+              This is the first time we see a client so satisfied that they
+              decided to pay us triple the agreed amount.
+            </p>
+            <p>
+              <ExtLink to="http://www.b-play.com/">B-Play</ExtLink> urgently
+              needed an app for the upcoming exhibition about Leonardo Da
+              Vinci's machines. As soon as we got the mockups, in just two days
+              we built a <ExtLink to="https://reactjs.org/">React</ExtLink>{' '}
+              <ExtLink to="https://developers.google.com/web/progressive-web-apps/">
+                PWA
+              </ExtLink>{' '}
+              and we added{' '}
+              <ExtLink to="https://cordova.apache.org/">Cordova</ExtLink> to be
+              able to upload Android and iOS apps on their respective stores.
+            </p>
+            <p>
+              During the following days we supported the client in many ways:
+              <ul>
+                <li>adapting the layout and graphics to the new mockups</li>
+                <li>
+                  adding new features on the fly such as{' '}
+                  <ExtLink to="https://en.wikipedia.org/wiki/Internationalization_and_localization">
+                    i18n
+                  </ExtLink>
+                </li>
+                <li>managing communication among the team</li>
+                <li>giving technical support</li>
+              </ul>
+            </p>
+            <p>
+              When the client had timing issues with the approval of the Android
+              app on the Play Store, they still had a solid PWA to show. The
+              presentation on the first day of the exhibition was a total
+              success.
+            </p>
+          </Card>
+        </Column>
+
+        <Column max={3}>
+          <Card
+            title="EpiCura"
+            image={require('~/static/images/what/code/epicura.png')}>
+            <p>
+              <ExtLink to="https://www.epicuramed.it/">EpiCura</ExtLink> uses
+              technology to make health and social assistance services more
+              accessible, with the mission of simplifying people's lives. Their
+              mission consists in improving a sector characterized by little
+              organization, long waits and great inconveniences and they are
+              doing this by building a service based on timeliness, flexibility
+              and proximity to our patients. But who will take care of such a
+              complex system?
+            </p>
+            <p>
+              We invested in a headless CMS such as{' '}
+              <ExtLink to="https://strapi.io/">Strapi</ExtLink> to quickly build
+              a back end server with support for security, file upload, emails,
+              even REST and GraphQL API. While the CMS was going from alpha to
+              beta we hacked it to our needs and contributed in the open source
+              community, yielding a stable and performant service.
+            </p>
+          </Card>
+        </Column>
+
+        <Column max={3}>
+          <Card
             title="Fattutto"
             image={require('~/static/images/what/code/fattutto.png')}>
             <p>
@@ -59,7 +127,9 @@ export default () => (
             </p>
           </Card>
         </Column>
+      </Row>
 
+      <Row>
         <Column max={3}>
           <Card
             title="Appointment Selector"
@@ -146,7 +216,9 @@ export default () => (
             </p> */}
           </Card>
         </Column>
+      </Row>
 
+      <Row>
         <Column max={3}>
           <Card
             title="GiadaJoeyCazzola.com"
@@ -165,6 +237,38 @@ export default () => (
               also be considered a feature, because it ensures content
               correctness), the UX is completely custom and the performance
               achieved is far better than any CMS-generated website.
+            </p>
+          </Card>
+        </Column>
+
+        <Column max={3}>
+          <Card
+            title="Developers Italia"
+            image={require('~/static/images/what/code/developers-italia.png')}>
+            <p>
+              In 2017 the{' '}
+              <ExtLink to="https://teamdigitale.governo.it/en/">
+                Digital Transformation Team
+              </ExtLink>{' '}
+              introduced itself at{' '}
+              <ExtLink to="https://www.codemotion.com/">Codemotion</ExtLink>{' '}
+              Rome. Their aim was to show the main projects that they are
+              building together with{' '}
+              <ExtLink to="https://www.agid.gov.it/en">AGID</ExtLink> and to
+              involve a community of developers and designers that would help in
+              the process.
+            </p>
+            <p>
+              The main endpoint for this community is the website{' '}
+              <ExtLink to="https://developers.italia.it">
+                developers.italia.it
+              </ExtLink>
+              . From remote and, during the last day, from the offices of{' '}
+              <ExtLink to="https://en.wikipedia.org/wiki/Palazzo_Chigi">
+                Palazzo Chigi
+              </ExtLink>
+              , we helped them build the first version of this website on time
+              for the presentation.
             </p>
           </Card>
         </Column>

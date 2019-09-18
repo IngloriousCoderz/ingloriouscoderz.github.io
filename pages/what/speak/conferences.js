@@ -26,6 +26,73 @@ export default () => (
       <Row>
         <Column max={3}>
           <Card
+            title="New Technologies"
+            image={require('~/static/images/what/speak/new_technologies.jpg')}>
+            <p>
+              The{' '}
+              <ExtLink to="https://www.inacademy.eu/italy-old/">
+                European Innovation Academy 2019 in Turin
+              </ExtLink>{' '}
+              involved me more than usual this time: apart from taking the role
+              of Head Of Mentors, I gave two speeches before the crowd of
+              students, teachers, and mentors.
+            </p>
+            <p>
+              The picture below refers to a slide from the keynote "New
+              Technologies" which, according to one of the Program Managers, was
+              "a mix of frontier technologies, memes, gifs and fundamental
+              thoughts about the future – it is captivating, fun and
+              thought-provoking".
+            </p>
+            <p>
+              Slides are available{' '}
+              <ExtLink to="https://docs.google.com/presentation/d/16i5LKo5tY6aoKUX7xy_9zTUPgw2CMSAnD6arEnTVxyM/">
+                here
+              </ExtLink>
+              .
+            </p>
+          </Card>
+        </Column>
+
+        <Column max={3}>
+          <Card
+            title="CTO Bootcamp"
+            image={require('~/static/images/what/speak/cto_bootcamp.jpg')}>
+            <p>
+              <ExtLink to="https://www.codemotion.com/">Codemotion</ExtLink> in
+              collaboration with{' '}
+              <ExtLink to="https://www.facebook.com/">Facebook</ExtLink>{' '}
+              organized a series of webinars Technology Officer.
+            </p>
+            <p>
+              The 3.5 hours speech on Tech Team Management covered different
+              topics, such as the role as the CTO as a technical lead, metrics,
+              software lifecycle, eXtreme Programming and Test-Driven
+              Development, being a project manager, and license management.{' '}
+            </p>
+            <p>
+              The outcome was an{' '}
+              <ExtLink to="https://www.ryadel.com/en/codemotion-from-developer-to-cto-tech-leadership-training-course-day-one/">
+                enthusiastic feedback
+              </ExtLink>
+              , which was then{' '}
+              <ExtLink to="https://www.codemotion.com/magazine/codemotion-tech-leadership-training-boot-camp-review-1-of-2-5150">
+                officially scaled down
+              </ExtLink>{' '}
+              for some reason. But you know it, we don't do it for the glory ;)
+            </p>
+            <p>
+              Slides are available{' '}
+              <ExtLink to="https://docs.google.com/presentation/d/1ThCBbvSC4Dp53eFf84cqUfytggI7pK_MpQlBFHMJDM8/">
+                here
+              </ExtLink>
+              .
+            </p>
+          </Card>
+        </Column>
+
+        <Column max={3}>
+          <Card
             title="React, The Inglorious Way"
             image={require('~/static/images/what/speak/react_inglorious_way.jpg')}>
             <p>
@@ -50,7 +117,9 @@ export default () => (
             </p>
           </Card>
         </Column>
+      </Row>
 
+      <Row>
         <Column max={3}>
           <Card
             title="Refactoring Into React Hooks"
