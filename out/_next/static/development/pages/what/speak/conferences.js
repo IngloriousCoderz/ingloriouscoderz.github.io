@@ -25768,50 +25768,50 @@ var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.git
       lineNumber: 64
     },
     __self: this
-  }, "Facebook"), ' ', "organized a series of webinars Technology Officer."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Facebook"), ' ', "organized a series of webinars on how to become the best Chief Technology Officer."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 68
     },
     __self: this
   }, "The 3.5 hours speech on Tech Team Management covered different topics, such as the role as the CTO as a technical lead, metrics, software lifecycle, eXtreme Programming and Test-Driven Development, being a project manager, and license management.", ' '), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 74
     },
     __self: this
   }, "The outcome was an", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://www.ryadel.com/en/codemotion-from-developer-to-cto-tech-leadership-training-course-day-one/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 76
     },
     __self: this
   }, "enthusiastic feedback"), ", which was then", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://www.codemotion.com/magazine/codemotion-tech-leadership-training-boot-camp-review-1-of-2-5150",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 80
     },
     __self: this
   }, "officially scaled down"), ' ', "for some reason. But you know it, we don't do it for the glory ;)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 85
     },
     __self: this
   }, "Slides are available", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://docs.google.com/presentation/d/1ThCBbvSC4Dp53eFf84cqUfytggI7pK_MpQlBFHMJDM8/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 87
     },
     __self: this
   }, "here"), "."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_column__WEBPACK_IMPORTED_MODULE_4__["default"], {
     max: 3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -25819,60 +25819,60 @@ var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.git
     image: __webpack_require__(/*! ../../../static/images/what/speak/react_inglorious_way.jpg */ "./static/images/what/speak/react_inglorious_way.jpg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 99
     },
     __self: this
   }, "\"React, The Inglorious Way\" is a 40 minute talk performed at", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://events.codemotion.com/conferences/amsterdam/2019/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 101
     },
     __self: this
   }, "Codemotion Amsterdam 2019"), ". It is a highly technical talk performed as a live coding session that shows the perks and gotchas of common React patterns such as Container/Presentational, Higher-Order Components, Render Props, and Hooks."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 109
     },
     __self: this
   }, "The slides, made with", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://mdx-deck.jxnblk.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 111
     },
     __self: this
   }, "mdx-deck"), ", are available ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "/react-the-inglorious-way",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 112
     },
     __self: this
   }, "here"), ", while a PDF version can be downloaded", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "/react-the-inglorious-way/presentation.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 114
     },
     __self: this
   }, "here"), ".")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_row__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 123
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_column__WEBPACK_IMPORTED_MODULE_4__["default"], {
     max: 3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 124
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -25880,54 +25880,54 @@ var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.git
     image: __webpack_require__(/*! ../../../static/images/what/speak/refactoring_react_hooks.jpg */ "./static/images/what/speak/refactoring_react_hooks.jpg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 125
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 128
     },
     __self: this
   }, "\"Refactoring Into React Hooks\" is a 40 minute talk performed at", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://events.codemotion.com/conferences/rome/2019/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 130
     },
     __self: this
   }, "Codemotion Rome 2019"), ". It is a highly technical talk performed as a live coding session that shows how to turn your codebase into hooks starting from Class Components, Higher-Order components, Render Props, Context API, and much more."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 138
     },
     __self: this
   }, "The slides, made with", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://mdx-deck.jxnblk.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 140
     },
     __self: this
   }, "mdx-deck"), ", are available", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "/refactoring-into-react-hooks",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 142
     },
     __self: this
   }, "here"), ", while a PDF version can be downloaded", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "/refactoring-into-react-hooks/presentation.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 144
     },
     __self: this
   }, "here"), "."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_column__WEBPACK_IMPORTED_MODULE_4__["default"], {
     max: 3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 152
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -25935,54 +25935,54 @@ var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.git
     image: __webpack_require__(/*! ../../../static/images/what/speak/apia.jpg */ "./static/images/what/speak/apia.jpg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 153
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 156
     },
     __self: this
   }, "\"Tech 101\" is a 40 minute keynote requested by", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://www.inacademy.eu/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157
+      lineNumber: 158
     },
     __self: this
   }, "European Innovation Academy"), ' ', "and performed in Turin, Shenzhen, and Doha. The slides, available on", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://www.slideshare.net/InnovationAcademy/apia2018-antony-mistretta-tech-101?qid=80340f9c-4dd9-4933-85ef-938fa0a0a84b",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 163
     },
     __self: this
   }, "Slideshare"), ", are funny hand-drawn doodles scanned and composed on Google Slides."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 169
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://youtu.be/Ox4k-lSEnFw",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169
+      lineNumber: 170
     },
     __self: this
   }, "Here"), " is a video of the latest edition, courtesy of", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://www.linkedin.com/in/iboyadzhieva/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 172
     },
     __self: this
   }, "Inna Boyadzhieva"), "."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_column__WEBPACK_IMPORTED_MODULE_4__["default"], {
     max: 3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 180
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -25990,20 +25990,20 @@ var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.git
     image: __webpack_require__(/*! ../../../static/images/what/speak/lampedusa_sexy_turtles.jpg */ "./static/images/what/speak/lampedusa_sexy_turtles.jpg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 181
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 184
     },
     __self: this
   }, "A 15-minute guided tour of the", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     to: "https://www.lampedusaturtlerescue.org/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 186
     },
     __self: this
   }, "Lampedusa Turtle Rescue Center"), ", with information about the different species of sea turtles, their lifecycle, their behavior, and the threats that they are facing because of humans."))))));
@@ -26210,7 +26210,7 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"] // .use(detector)
 
 /***/ }),
 
-/***/ 5:
+/***/ 8:
 /*!***********************************************!*\
   !*** multi ./pages/what/speak/conferences.js ***!
   \***********************************************/
@@ -26235,5 +26235,5 @@ module.exports = dll_5a69c71dbdf1d30ccbcd;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[8,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=conferences.js.map

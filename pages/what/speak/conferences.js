@@ -62,7 +62,8 @@ export default () => (
               <ExtLink to="https://www.codemotion.com/">Codemotion</ExtLink> in
               collaboration with{' '}
               <ExtLink to="https://www.facebook.com/">Facebook</ExtLink>{' '}
-              organized a series of webinars Technology Officer.
+              organized a series of webinars on how to become the best Chief
+              Technology Officer.
             </p>
             <p>
               The 3.5 hours speech on Tech Team Management covered different

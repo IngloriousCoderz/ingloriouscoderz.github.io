@@ -26004,7 +26004,7 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"] // .use(detector)
 
 /***/ }),
 
-/***/ 10:
+/***/ 6:
 /*!***********************************!*\
   !*** multi ./pages/what/index.js ***!
   \***********************************/
@@ -26029,5 +26029,5 @@ module.exports = dll_5a69c71dbdf1d30ccbcd;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js"]]]));;
+},[[6,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=what.js.map
