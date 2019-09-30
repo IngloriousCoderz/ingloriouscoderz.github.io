@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/when.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/what/speak.js"],{
 
 /***/ "./components/button.js":
 /*!******************************!*\
@@ -25620,10 +25620,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/when/index.js":
-/*!*****************************!*\
-  !*** ./pages/when/index.js ***!
-  \*****************************/
+/***/ "./pages/what/speak/index.js":
+/*!***********************************!*\
+  !*** ./pages/what/speak/index.js ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -25632,11 +25632,15 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_i18next__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-i18next */ "./node_modules/react-i18next/dist/es/index.js");
-/* harmony import */ var _layouts_default__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../layouts/default */ "./layouts/default/index.js");
-/* harmony import */ var _components_row__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/row */ "./components/row.js");
-/* harmony import */ var _components_column__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/column */ "./components/column.js");
-/* harmony import */ var _components_card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/card */ "./components/card.js");
-var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/when/index.js";
+/* harmony import */ var _layouts_default__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../layouts/default */ "./layouts/default/index.js");
+/* harmony import */ var _components_row__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/row */ "./components/row.js");
+/* harmony import */ var _components_column__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/column */ "./components/column.js");
+/* harmony import */ var _components_card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/card */ "./components/card.js");
+/* harmony import */ var _components_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/link */ "./components/link.js");
+/* harmony import */ var _components_ext_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/ext-link */ "./components/ext-link.js");
+var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.github.io/pages/what/speak/index.js";
+
+
 
 
 
@@ -25645,124 +25649,249 @@ var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.git
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_default__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    path: "when",
-    title: "When",
-    description: "No matter how big or small you are, we'll grow with you.",
+    path: "what/speak",
+    title: "Speak",
+    description: "Let's talk about code.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_i18next__WEBPACK_IMPORTED_MODULE_1__["Trans"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
     className: "card card-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
-  }, "When"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Speak"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
-  }, "In every phase of your business' lifecycle, Inglorious Coderz is there to be your perfect tech ally.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_row__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Inglorious Coderz are damn good at developing software but also at communicating software. That's why 50% of our activity consists in teaching, training, mentoring, coaching, and public speaking in general.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_row__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_column__WEBPACK_IMPORTED_MODULE_4__["default"], {
     max: 3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Startups",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    title: "Courses",
+    image: __webpack_require__(/*! ../../../static/images/what/speak/vulog.jpg */ "./static/images/what/speak/vulog.jpg"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }, "An awesome idea is the starting point for your business, but then you have to build the real thing. That's when you realize you're really putting your future in someone else's hands. Just make sure the person you're relying on is able to develop a robust foundation for your product."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "Inglorious Coderz can help in many ways, from assessing your CTO's skills to mentoring your devs, or even taking on the role of your first CTO."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_column__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    max: 3,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Small Businesses",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 29
     },
     __self: this
-  }, "As a small business you know you need an online presence. Also, do you find yourself wasting too much time doing small tasks by hand every day? That's a hint that you need some automation in your work life."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Check the catalog right now!", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 31
     },
     __self: this
-  }, "Inglorious Coderz can provide you solutions built from scratch so that they are tailored to your needs and yours only. Websites are blazingly fast because they do not rely on some Wordpress, and have a unique design because they are not built from templates. Management software, mobile apps and web applications do exactly what you needed, but better."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_column__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    max: 3,
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "/static/documents/Inglorious_Coderz_featured_courses_2019.pdf",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "English"), ' | ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "/static/documents/Inglorious_Coderz_catalogo_corsi_2019.pdf",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Italian")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "One does not simply explain a technology. An effective course should enable all students to write quality code while understanding thoroughly the mechanics behind it."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "Our courses start from the code: students learn how to build a real-life application from the ground up, but every step is backed by strong theoretical concepts of software engineering and little trivia. This way no one gets left behind and no one gets bored waiting for the others to catch up."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "The above image shows the second edition of an advanced", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "https://reactjs.org/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "React"), " course performed for the French firm", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "https://www.vulog.com/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, "Vulog"), "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Training companies such as", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "http://codemotiontraining.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Big Companies",
+  }, "Codemotion Training"), ", ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "http://www.forma-re-te.it/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 63
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "forma-re-te"), ", and ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "https://synesthesia.it/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 64
     },
     __self: this
-  }, "Being in the industry for a while, you already know how IT consulting works: you pay for a senior and you get a junior that lied on their CV. Wouldn't it be better to employ people and keep the know-how in-house? Definitely. But then, who is going to train them? Who is going to give them best practices and standards to follow? Who is going to address those hard problems that they cannot solve?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Synesthesia"), ",", ' ', "also rely on us to provide the best courses on frameworks, software engineering, and project management."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_column__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    max: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 71
     },
     __self: this
-  }, "The answer to all three is: Inglorious Coderz."))))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    title: "Mentorship",
+    image: __webpack_require__(/*! ../../../static/images/what/speak/mentor.jpg */ "./static/images/what/speak/mentor.jpg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, "There was an old commercial stating \"Power is nothing without control\". When people have a great potential but lack guidance, what they need is an authoritative figure to rely on. There's nothing worse than wasting potential because there is no one around giving the right support and motivation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, "Inglorious Coderz will be your technical lead and will", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "https://en.wikipedia.org/wiki/Mentorship",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, "mentor"), ' ', "you,", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "https://en.wikipedia.org/wiki/Coaching",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, "coach"), ' ', "you,", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "https://en.wikipedia.org/wiki/Pair_programming",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "pair program"), ' ', "with you, until you'll be able to fly on your own wings."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, "At present we mentor for the", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "https://www.inacademy.eu/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "European Innovation Academy"), ' ', "programs and for some hackathons organized by", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ext_link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    to: "https://magazine.codemotion.com/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "Codemotion"), "."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_column__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    max: 3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_card__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    title: "Conferences",
+    image: __webpack_require__(/*! ../../../static/images/what/speak/apia.jpg */ "./static/images/what/speak/apia.jpg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
+    },
+    __self: this
+  }, "It's hard to convey a message in 40 minutes or less. There's no time for introductions nor boring stuff. That's why every conference made by Inglorious Coderz is a thrilling rollercoaster, at the end of which the audience simply feels blown away."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_link__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    to: "/what/speak/conferences",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }, "see all conferences\u203A")))))));
 });
     (function (Component, route) {
       if(!Component) return
@@ -25780,9 +25909,9 @@ var _jsxFileName = "/home/antony/Progetti/Inglorious Coderz/ingloriouscoderz.git
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/when")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/what/speak")
   
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
@@ -25805,6 +25934,39 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAIAAAD8
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/metal-wallpaper-a0ee1e687bf7d1b4d8fcb52b1409793f.jpg";
+
+/***/ }),
+
+/***/ "./static/images/what/speak/apia.jpg":
+/*!*******************************************!*\
+  !*** ./static/images/what/speak/apia.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/apia-69ccd58f2cd5f07b4002f4c5eef13c4b.jpg";
+
+/***/ }),
+
+/***/ "./static/images/what/speak/mentor.jpg":
+/*!*********************************************!*\
+  !*** ./static/images/what/speak/mentor.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/mentor-e59edd9bed0039cf0c851e4f3804d50b.jpg";
+
+/***/ }),
+
+/***/ "./static/images/what/speak/vulog.jpg":
+/*!********************************************!*\
+  !*** ./static/images/what/speak/vulog.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/vulog-2d1a837212cf822a4670acacbcc6bd89.jpg";
 
 /***/ }),
 
@@ -25900,15 +26062,15 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"] // .use(detector)
 
 /***/ }),
 
-/***/ 13:
-/*!***********************************!*\
-  !*** multi ./pages/when/index.js ***!
-  \***********************************/
+/***/ 7:
+/*!*****************************************!*\
+  !*** multi ./pages/what/speak/index.js ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/when', function() {
-module.exports = __webpack_require__(/*! ./pages/when/index.js */"./pages/when/index.js");
+__NEXT_REGISTER_PAGE('/what/speak', function() {
+module.exports = __webpack_require__(/*! ./pages/what/speak/index.js */"./pages/what/speak/index.js");
 
 return { page: module.exports.default }});
 
@@ -25925,5 +26087,5 @@ module.exports = dll_5a69c71dbdf1d30ccbcd;
 
 /***/ })
 
-},[[13,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=when.js.map
+},[[7,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=speak.js.map
