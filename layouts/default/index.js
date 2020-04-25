@@ -161,10 +161,10 @@ export default ({ path, title, description, children }) => (
       }
 
       img {
-        display: inline-block;
+        display: block;
         vertical-align: middle;
         max-width: 100%;
-        margin: 0;
+        margin: 0 auto;
       }
 
       input[type='checkbox'] {

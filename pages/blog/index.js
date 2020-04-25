@@ -9,20 +9,19 @@ import Layout from '~/layouts/default'
 import ExtLink from '~/components/ext-link'
 import Pre from '~/components/pre'
 
-const enhance = compose(
-  withPostsFilterBy(inCategory('blog')),
-  withI18n(),
-)
+const enhance = compose(withPostsFilterBy(inCategory('blog')), withI18n())
 export default enhance(({ posts, t }) => (
   <Layout
     path="blog"
     title="Blog"
-    description="A place where we share our knowledge.">
+    description="A place where we share our knowledge."
+  >
     <article className="card card-1">
       <h1>Blog</h1>
       <p>
         This is where the community shares some of their experiences with
-        software and entrepreneurship in general. Italian only for now, sorry :)
+        computer science and entrepreneurship. Posts dated before 2020 are in
+        Italian only, sorry :).
       </p>
     </article>
 
