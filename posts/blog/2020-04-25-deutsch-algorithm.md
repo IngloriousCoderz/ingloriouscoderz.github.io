@@ -4,7 +4,7 @@ description: Using quantum superposition to guess the kind of a function in sub-
 author: IceOnFire
 ---
 
-In April 7, 2020 I was introduced to the fundamentals of Quantum Computing, and it was love at first sight. I started studying [Python](https://www.python.org/) and [Qiskit](https://qiskit.org/) and [Jupyter](https://jupyter.org/) notebooks, and after working hard on the basics for a dozen days, I as stuck with the most basic algorithm. But then I worked even harder, and I got it finally. Here is the result of my studies as an exported Jupyter notebook.
+In April 7, 2020 I was introduced to the fundamentals of Quantum Computing, and it was love at first sight. I started studying [Python](https://www.python.org/) and [Qiskit](https://qiskit.org/) and [Jupyter](https://jupyter.org/) notebooks and, after working hard on the basics for a dozen days, I was stuck with the most basic algorithm. But then I worked even harder, and I got it finally. Here is the result of my studies as an exported Jupyter notebook.
 
 NB: I haven't figured out yet how to use math formulas with [Nextein](https://nextein.now.sh/), sorry for the inconvenience.
 
@@ -379,6 +379,6 @@ test_deutsch('Negation', negation)
 
 We came up with the same results as the classical algorithm, but with just one call to the function $f$. QED
 
-```python
-
+```
+# IceOnFire
 ```

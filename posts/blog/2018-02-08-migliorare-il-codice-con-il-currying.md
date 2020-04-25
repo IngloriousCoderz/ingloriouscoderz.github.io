@@ -34,9 +34,9 @@ Questa è la prima versione a cui ho pensato:
 
 ```js
 let result = []
-nodesB.forEach(nb => {
+nodesB.forEach((nb) => {
   let supportArr = []
-  nodesA.forEach(na => {
+  nodesA.forEach((na) => {
     supportArr.push(na.a)
   })
   const notInNodesA = supportArr.indexOf(nb.a) === -1
@@ -53,10 +53,10 @@ La definizione più semplice e immediata l'ho trovata su [StackOverflow](https:/
 Ho definito la funzione `nodeCompare` in questo modo:
 
 ```js
-const nodeCompare = otherArray => {
-  return current => {
+const nodeCompare = (otherArray) => {
+  return (current) => {
     return (
-      otherArray.filter(other => {
+      otherArray.filter((other) => {
         return other.a === current.a
       }).length === 0
     )
@@ -76,4 +76,6 @@ Un salto di qualità notevole dopo la prima versione!
 
 Spero con questo piccolo post di aver aiutato qualcuno o anche semplicemente spronato al REFACTORING, cosa che noi Inglorious Coders diciamo di fare sempre!
 
-    # Giosk
+```
+# Giosk
+```
