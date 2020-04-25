@@ -1,6 +1,6 @@
 ---
 title: Deutsch Algorithm
-description: IBM ha rovinato un bellissimo prodotto, è ora di cercare altrove.
+description: Using quantum superposition to guess the kind of a function in sub-exponential time.
 author: IceOnFire
 ---
 
