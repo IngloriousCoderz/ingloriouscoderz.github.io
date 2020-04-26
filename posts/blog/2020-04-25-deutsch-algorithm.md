@@ -381,7 +381,7 @@ test_deutsch('Negation', negation)
     Identity is balanced
     Negation is balanced
 
-Intuitively, the difference between Zero and One or Identity and Negation is lost in the Z-basis but the difference between constant and balanced is amplified, because when the function is balanced superposition flips the input qubit.
+Intuitively, the difference between Zero and One or Identity and Negation is lost in the X-basis but the difference between constant and balanced is amplified, because when the function is balanced superposition flips the input qubit.
 
 We came up with the same results as the classical algorithm, but with just one call to the function $f$. QED
 
