@@ -60,7 +60,7 @@ def identity(bit):
     return bit
 
 def negation(bit):
-    return 1 if bit == 0 else 0
+    return 1 - bit
 
 def test_guess(name, type):
     print(name, 'is', 'constant' if guess(type) == 0 else 'balanced')
@@ -107,7 +107,28 @@ As any gate in a quantum circuit, the oracle must be reversible (i.e. applying i
 output    +--------+    output'
 ```
 
-_Spoiler alert:_ when plugging the oracle in the Deutsch algorithm, `output` will instead be initialized as $|1\rangle$ and as a side effect `input'` will turn out to be $|0\rangle$ if the oracle is constant, and $|1\rangle$ if the oracle is balanced.
+However the oracle must be reversible **always**, even when `output` is equal to $|1\rangle$. So how do we deal with this?
+
+If $|1\rangle$ is also mapped to $|f(x)\rangle$ we will lose information when applyng the gate twice: what was the initial value of `output`? Not reversible. That's why we need to map $|1\rangle$ to a different value, namely $|\neg f(x)\rangle$. So, to recap:
+
+$$
+y = 0, f(0) = 0 \Rightarrow f(0) = 0\\
+y = 0, f(0) = 1 \Rightarrow f(0) = 1\\
+y = 1, f(1) = 0 \Rightarrow \neg f(1) = 1\\
+y = 1, f(1) = 1 \Rightarrow \neg f(1) = 0
+$$
+
+The outcome we expect from `output'` now looks like a XOR between `output` (the $y$) and `output'` (the $f(x)$). That's why the generic form of an oracle maps `output'` with not just $|f(x)\rangle$ but with $|y \oplus f(x)\rangle$.
+
+```bash
+ input    +--------+    input'
+   |x⟩ ---|        |--- |x⟩
+          | oracle |
+   |y⟩ ---|        |--- |y ⊕ f(x)⟩
+output    +--------+    output'
+```
+
+_Spoiler alert:_ when plugging the oracle in the Deutsch algorithm, we will use it in a "non-conventional" way: in fact, `output` will be initialized as $|1\rangle$ and as a side effect `input'` will change!
 
 ```python
 qubits = 2
@@ -117,7 +138,7 @@ output = 1
 
 ### Defining The Four Operators
 
-But how do we implement the four different oracles? One way we could find the unitary matrices instead is by analyzing the expected output. Let's try with Zero:
+So how do we implement the four different oracles? One way we could find the unitary matrices is by analyzing the expected output. Let's try with Zero:
 
 $$
 Zero \cdot |00\rangle = |00\rangle\\
@@ -135,7 +156,25 @@ Zero = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-Note that we don't care about the third and fourth rows, so we could just complete the matrix as an Identity.
+What about the last two rows? Let's remember that the oracle must be reversible, even with an `output` of $|1\rangle$ (which will in fact be the case when using Deutsch's algorithm).
+
+Knowing that the Zero function must give us $\neg f(x)$ when `output` is $|1\rangle$, we can now complete our output mapping:
+
+$$
+Zero \cdot |10\rangle = |10\rangle\\
+Zero \cdot |11\rangle = |11\rangle
+$$
+
+So the vectors $\begin{bmatrix}0\\0\\1\\0\end{bmatrix}$ and $\begin{bmatrix}0\\0\\0\\1\end{bmatrix}$ are mapped to themselves, which leads to the Identity matrix (thank you [Gabriele Agliardi](https://www.linkedin.com/in/gabriele-agliardi-50471047/) for helping me on this!):
+
+$$
+Zero = \begin{bmatrix}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
 
 ```python
 zero = Operator([
@@ -146,7 +185,7 @@ zero = Operator([
 ])
 ```
 
-This operator corresponds to not doing anthing at all inside the oracle!
+This operator corresponds to not doing anything at all inside the oracle:
 
 ```bash
  input    +------+    input'
@@ -183,7 +222,7 @@ one = Operator([
 ])
 ```
 
-This operator corresponds to just putting an X gate on the output!
+This operator looks like a $X \otimes I$, which corresponds to just putting an X gate on the output:
 
 ```bash
  input    +---------+    input'
@@ -220,7 +259,7 @@ identity = Operator([
 ])
 ```
 
-This operator looks a lot like a CNOT on the output:
+This operator looks like a CNOT on the output:
 
 ```bash
  input    +---------+    input'
@@ -283,7 +322,7 @@ We can see it as a CNOT from `input` to `output`, but:
 
 It's easy to prove that $(I \otimes X) \cdot CX \cdot (I \otimes X)$ gives that same exact matrix.
 
-Or, as the YouTube video shows, we can even see it as a CNOT with a subsequent negation on `output`, which makes even more sense!
+Or, as the aforementioned [YouTube video](https://youtu.be/F_Riqjdh2oM) shows, we can even see it as a CNOT with a subsequent negation on `output`, which makes even more sense in this simple case.
 
 ```bash
  input    +-------------+    input'
