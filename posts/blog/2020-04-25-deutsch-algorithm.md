@@ -82,7 +82,7 @@ The Deutsch algorithm instead guesses if the oracle is constant or balanced with
 
 We could think that the oracle is a single-qubit gate, with just an input and an output:
 
-```
+```bash
 input    +--------+    output
   |x⟩ ---| oracle |--- |f(x)⟩
          +--------+
@@ -99,7 +99,7 @@ However these turn out to be useless, especially the first two since they are no
 
 As any gate in a quantum circuit, the oracle must be reversible (i.e. applying it twice will produce the Identity matrix). That's why we need to convert it into a two-qubits gate: the first qubit is the input value of the function, which isn't supposed to change, and the second qubit usually starts with $|0\rangle$ and will change into the result of the oracle:
 
-```
+```bash
  input    +--------+    input'
    |x⟩ ---|        |--- |x⟩
           | oracle |
@@ -148,7 +148,7 @@ zero = Operator([
 
 This operator corresponds to not doing anthing at all inside the oracle!
 
-```
+```bash
  input    +------+    input'
    |x⟩ ---| ---- |--- |x⟩
           |      |
@@ -185,7 +185,7 @@ one = Operator([
 
 This operator corresponds to just putting an X gate on the output!
 
-```
+```bash
  input    +---------+    input'
    |x⟩ ---| ------- |--- |x⟩
           |         |
@@ -222,7 +222,7 @@ identity = Operator([
 
 This operator looks a lot like a CNOT on the output:
 
-```
+```bash
  input    +---------+    input'
    |x⟩ ---| ---*--- |--- |x⟩
           |    |    |
@@ -259,7 +259,7 @@ negation = Operator([
 
 This operator could be interpreted as a CNOT on the output, sandwiched by two negations on the input:
 
-```
+```bash
  input    +---------------+    input'
    |x⟩ ---| --|X|-*-|X|-- |--- |x⟩
           |       |       |
@@ -285,7 +285,7 @@ It's easy to prove that $(I \otimes X) \cdot CX \cdot (I \otimes X)$ gives that 
 
 Or, as the YouTube video shows, we can even see it as a CNOT with a subsequent negation on `output`, which makes even more sense!
 
-```
+```bash
  input    +-------------+    input'
    |x⟩ ---| ---*------- |--- |x⟩
           |    |        |
