@@ -1,14 +1,12 @@
-import { Component } from 'react'
+import { useEffect } from 'react'
 import hljs from 'highlight.js'
 import 'highlight.js/styles/atom-one-dark.css'
 
-export default class extends Component {
-  componentDidMount() {
+export default ({ children }) => {
+  useEffect(() => {
     const code = document.querySelectorAll('pre > code')
     code.forEach(hljs.highlightBlock)
-  }
+  }, [])
 
-  render() {
-    return <pre>{this.props.children}</pre>
-  }
+  return <pre>{children}</pre>
 }

@@ -1,29 +1,17 @@
-import { Component } from 'react'
+import { useEffect } from 'react'
 
 const IS_BROWSER = typeof window !== 'undefined'
 const GA_LOCAL_STORAGE_KEY = 'ga:clientId'
 
-export const withGA = (code, Router) => Enhanced =>
-  class extends Component {
-    pageview = () => {
-      const { pathname, search } = location
-      ga('send', 'pageview', pathname + search)
-    }
-
-    static async getInitialProps(...args) {
-      const getEnhancedInitialProps = Enhanced.getInitialProps
-      return getEnhancedInitialProps
-        ? await getEnhancedInitialProps(...args)
-        : {}
-    }
-
-    componentDidMount() {
+export const withGA = (code, Router) => (Enhanced) => {
+  function WithGA(props) {
+    useEffect(() => {
       if (!IS_BROWSER || window._ga_initialized) return
-      ;(function(i, s, o, g, r, a, m) {
+      ;(function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r
         ;(i[r] =
           i[r] ||
-          function() {
+          function () {
             ;(i[r].q = i[r].q || []).push(arguments)
           }),
           (i[r].l = 1 * new Date())
@@ -36,7 +24,7 @@ export const withGA = (code, Router) => Enhanced =>
         document,
         'script',
         'https://www.google-analytics.com/analytics.js',
-        'ga',
+        'ga'
       )
 
       ga('create', code, {
@@ -44,23 +32,34 @@ export const withGA = (code, Router) => Enhanced =>
         clientId: localStorage.getItem(GA_LOCAL_STORAGE_KEY),
       })
 
-      ga(tracker => {
+      ga((tracker) => {
         localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'))
       })
 
       window._ga_initialized = true
-      this.pageview()
+      pageview()
 
       const previousCallback = Router.onRouteChangeComplete
       Router.onRouteChangeComplete = () => {
         if (typeof previousCallback === 'function') {
           previousCallback()
         }
-        this.pageview()
+        pageview()
       }
+    }, [])
+
+    const pageview = () => {
+      const { pathname, search } = location
+      ga('send', 'pageview', pathname + search)
     }
 
-    render() {
-      return <Enhanced {...this.props} />
-    }
+    return <Enhanced {...props} />
   }
+
+  WithGA.getInitialProps = async (...args) => {
+    const getEnhancedInitialProps = Enhanced.getInitialProps
+    return getEnhancedInitialProps ? await getEnhancedInitialProps(...args) : {}
+  }
+
+  return WithGA
+}

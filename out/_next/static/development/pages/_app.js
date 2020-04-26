@@ -12952,166 +12952,106 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/home/antony/Projects/Inglorious Coderz/ingloriouscoderz.github.io/pages/hoc/withGA.js";
 
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 var IS_BROWSER = typeof window !== 'undefined';
 var GA_LOCAL_STORAGE_KEY = 'ga:clientId';
 var withGA = function withGA(code, Router) {
   return function (Enhanced) {
-    return (
-      /*#__PURE__*/
-      function (_Component) {
-        _inherits(_class2, _Component);
+    function WithGA(props) {
+      Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+        if (!IS_BROWSER || window._ga_initialized) return;
 
-        function _class2() {
-          var _getPrototypeOf2;
+        (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+            ;
+            (i[r].q = i[r].q || []).push(arguments);
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-          var _this;
+        ga('create', code, {
+          storage: 'none',
+          clientId: localStorage.getItem(GA_LOCAL_STORAGE_KEY)
+        });
+        ga(function (tracker) {
+          localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'));
+        });
+        window._ga_initialized = true;
+        pageview();
+        var previousCallback = Router.onRouteChangeComplete;
 
-          _classCallCheck(this, _class2);
-
-          for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-            args[_key] = arguments[_key];
+        Router.onRouteChangeComplete = function () {
+          if (typeof previousCallback === 'function') {
+            previousCallback();
           }
 
-          _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(_class2)).call.apply(_getPrototypeOf2, [this].concat(args)));
+          pageview();
+        };
+      }, []);
 
-          _defineProperty(_assertThisInitialized(_this), "pageview", function () {
-            var _location = location,
-                pathname = _location.pathname,
-                search = _location.search;
-            ga('send', 'pageview', pathname + search);
-          });
+      var pageview = function pageview() {
+        var _location = location,
+            pathname = _location.pathname,
+            search = _location.search;
+        ga('send', 'pageview', pathname + search);
+      };
 
-          return _this;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Enhanced, _extends({}, props, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 12
         }
+      }));
+    }
 
-        _createClass(_class2, [{
-          key: "componentDidMount",
-          value: function componentDidMount() {
-            var _this2 = this;
+    WithGA.getInitialProps = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      var getEnhancedInitialProps,
+          _args = arguments;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              getEnhancedInitialProps = Enhanced.getInitialProps;
 
-            if (!IS_BROWSER || window._ga_initialized) return;
-
-            (function (i, s, o, g, r, a, m) {
-              i['GoogleAnalyticsObject'] = r;
-              i[r] = i[r] || function () {
-                ;
-                (i[r].q = i[r].q || []).push(arguments);
-              }, i[r].l = 1 * new Date();
-              a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-              a.async = 1;
-              a.src = g;
-              m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', code, {
-              storage: 'none',
-              clientId: localStorage.getItem(GA_LOCAL_STORAGE_KEY)
-            });
-            ga(function (tracker) {
-              localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'));
-            });
-            window._ga_initialized = true;
-            this.pageview();
-            var previousCallback = Router.onRouteChangeComplete;
-
-            Router.onRouteChangeComplete = function () {
-              if (typeof previousCallback === 'function') {
-                previousCallback();
+              if (!getEnhancedInitialProps) {
+                _context.next = 7;
+                break;
               }
 
-              _this2.pageview();
-            };
+              _context.next = 4;
+              return getEnhancedInitialProps.apply(void 0, _args);
+
+            case 4:
+              _context.t0 = _context.sent;
+              _context.next = 8;
+              break;
+
+            case 7:
+              _context.t0 = {};
+
+            case 8:
+              return _context.abrupt("return", _context.t0);
+
+            case 9:
+            case "end":
+              return _context.stop();
           }
-        }, {
-          key: "render",
-          value: function render() {
-            return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Enhanced, _extends({}, this.props, {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 64
-              },
-              __self: this
-            }));
-          }
-        }], [{
-          key: "getInitialProps",
-          value: function () {
-            var _getInitialProps = _asyncToGenerator(
-            /*#__PURE__*/
-            _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-              var getEnhancedInitialProps,
-                  _args = arguments;
-              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
-                while (1) {
-                  switch (_context.prev = _context.next) {
-                    case 0:
-                      getEnhancedInitialProps = Enhanced.getInitialProps;
-
-                      if (!getEnhancedInitialProps) {
-                        _context.next = 7;
-                        break;
-                      }
-
-                      _context.next = 4;
-                      return getEnhancedInitialProps.apply(void 0, _args);
-
-                    case 4:
-                      _context.t0 = _context.sent;
-                      _context.next = 8;
-                      break;
-
-                    case 7:
-                      _context.t0 = {};
-
-                    case 8:
-                      return _context.abrupt("return", _context.t0);
-
-                    case 9:
-                    case "end":
-                      return _context.stop();
-                  }
-                }
-              }, _callee);
-            }));
-
-            function getInitialProps() {
-              return _getInitialProps.apply(this, arguments);
-            }
-
-            return getInitialProps;
-          }()
-        }]);
-
-        return _class2;
-      }(react__WEBPACK_IMPORTED_MODULE_1__["Component"])
-    );
+        }
+      }, _callee);
+    }));
+    return WithGA;
   };
 };
     (function (Component, route) {
@@ -13154,153 +13094,106 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/home/antony/Projects/Inglorious Coderz/ingloriouscoderz.github.io/pages/hoc/withSW.js";
 
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 var withSW = function withSW(Enhanced) {
-  return (
-    /*#__PURE__*/
-    function (_Component) {
-      _inherits(_class, _Component);
-
-      function _class() {
-        _classCallCheck(this, _class);
-
-        return _possibleConstructorReturn(this, _getPrototypeOf(_class).apply(this, arguments));
+  function WithSW(props) {
+    Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+      registerSW();
+    }, []);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Enhanced, _extends({}, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 12
       }
+    }));
+  }
 
-      _createClass(_class, [{
-        key: "componentDidMount",
-        value: function () {
-          var _componentDidMount = _asyncToGenerator(
-          /*#__PURE__*/
-          _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
-              while (1) {
-                switch (_context.prev = _context.next) {
-                  case 0:
-                    if (!(!'serviceWorker' in navigator)) {
-                      _context.next = 2;
-                      break;
-                    }
+  WithSW.getInitialProps = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+    var getEnhancedInitialProps,
+        _args = arguments;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            getEnhancedInitialProps = Enhanced.getInitialProps;
 
-                    return _context.abrupt("return");
+            if (!getEnhancedInitialProps) {
+              _context.next = 7;
+              break;
+            }
 
-                  case 2:
-                    _context.prev = 2;
-                    _context.next = 5;
-                    return navigator.serviceWorker.register('/service-worker.js');
+            _context.next = 4;
+            return getEnhancedInitialProps.apply(void 0, _args);
 
-                  case 5:
-                    console.log('service worker registered.');
-                    _context.next = 11;
-                    break;
+          case 4:
+            _context.t0 = _context.sent;
+            _context.next = 8;
+            break;
 
-                  case 8:
-                    _context.prev = 8;
-                    _context.t0 = _context["catch"](2);
-                    console.warn('service worker registration failed.', _context.t0.message);
+          case 7:
+            _context.t0 = {};
 
-                  case 11:
-                  case "end":
-                    return _context.stop();
-                }
-              }
-            }, _callee, null, [[2, 8]]);
-          }));
+          case 8:
+            return _context.abrupt("return", _context.t0);
 
-          function componentDidMount() {
-            return _componentDidMount.apply(this, arguments);
-          }
-
-          return componentDidMount;
-        }()
-      }, {
-        key: "render",
-        value: function render() {
-          return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Enhanced, _extends({}, this.props, {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 24
-            },
-            __self: this
-          }));
+          case 9:
+          case "end":
+            return _context.stop();
         }
-      }], [{
-        key: "getInitialProps",
-        value: function () {
-          var _getInitialProps = _asyncToGenerator(
-          /*#__PURE__*/
-          _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
-            var getEnhancedInitialProps,
-                _args2 = arguments;
-            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
-              while (1) {
-                switch (_context2.prev = _context2.next) {
-                  case 0:
-                    getEnhancedInitialProps = Enhanced.getInitialProps;
-
-                    if (!getEnhancedInitialProps) {
-                      _context2.next = 7;
-                      break;
-                    }
-
-                    _context2.next = 4;
-                    return getEnhancedInitialProps.apply(void 0, _args2);
-
-                  case 4:
-                    _context2.t0 = _context2.sent;
-                    _context2.next = 8;
-                    break;
-
-                  case 7:
-                    _context2.t0 = {};
-
-                  case 8:
-                    return _context2.abrupt("return", _context2.t0);
-
-                  case 9:
-                  case "end":
-                    return _context2.stop();
-                }
-              }
-            }, _callee2);
-          }));
-
-          function getInitialProps() {
-            return _getInitialProps.apply(this, arguments);
-          }
-
-          return getInitialProps;
-        }()
-      }]);
-
-      return _class;
-    }(react__WEBPACK_IMPORTED_MODULE_1__["Component"])
-  );
+      }
+    }, _callee);
+  }));
+  return WithSW;
 };
+
+var registerSW = /*#__PURE__*/function () {
+  var _ref2 = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            if (!(!'serviceWorker' in navigator)) {
+              _context2.next = 2;
+              break;
+            }
+
+            return _context2.abrupt("return");
+
+          case 2:
+            _context2.prev = 2;
+            _context2.next = 5;
+            return navigator.serviceWorker.register('/service-worker.js');
+
+          case 5:
+            console.log('service worker registered.');
+            _context2.next = 11;
+            break;
+
+          case 8:
+            _context2.prev = 8;
+            _context2.t0 = _context2["catch"](2);
+            console.warn('service worker registration failed.', _context2.t0.message);
+
+          case 11:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    }, _callee2, null, [[2, 8]]);
+  }));
+
+  return function registerSW() {
+    return _ref2.apply(this, arguments);
+  };
+}();
     (function (Component, route) {
       if(!Component) return
       if (false) {}

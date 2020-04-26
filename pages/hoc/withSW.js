@@ -1,26 +1,29 @@
-import { Component } from 'react'
+import { useEffect } from 'react'
 
-export const withSW = Enhanced =>
-  class extends Component {
-    static async getInitialProps(...args) {
-      const getEnhancedInitialProps = Enhanced.getInitialProps
-      return getEnhancedInitialProps
-        ? await getEnhancedInitialProps(...args)
-        : {}
-    }
+export const withSW = (Enhanced) => {
+  function WithSW(props) {
+    useEffect(() => {
+      registerSW()
+    }, [])
 
-    async componentDidMount() {
-      if (!'serviceWorker' in navigator) return
-
-      try {
-        await navigator.serviceWorker.register('/service-worker.js')
-        console.log('service worker registered.')
-      } catch (error) {
-        console.warn('service worker registration failed.', error.message)
-      }
-    }
-
-    render() {
-      return <Enhanced {...this.props} />
-    }
+    return <Enhanced {...props} />
   }
+
+  WithSW.getInitialProps = async (...args) => {
+    const getEnhancedInitialProps = Enhanced.getInitialProps
+    return getEnhancedInitialProps ? await getEnhancedInitialProps(...args) : {}
+  }
+
+  return WithSW
+}
+
+const registerSW = async () => {
+  if (!'serviceWorker' in navigator) return
+
+  try {
+    await navigator.serviceWorker.register('/service-worker.js')
+    console.log('service worker registered.')
+  } catch (error) {
+    console.warn('service worker registration failed.', error.message)
+  }
+}

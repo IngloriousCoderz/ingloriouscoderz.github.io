@@ -1,72 +1,61 @@
-import { PureComponent } from 'react'
+import { memo, useRef, useState, useEffect } from 'react'
 
 import Icy from './icy'
 
 const MAX_HEAD_TILT_X = 400
 const MAX_HEAD_TILT_Y = 400
 
-class LogoContainer extends PureComponent {
-  state = { x: 0, y: 0 }
+export default memo(
+  ({
+    size = 64,
+    faces = [
+      { image: 'I', reverse: false, eye: true },
+      { image: 'C', reverse: false, eye: false },
+    ],
+    preventScroll = false,
+  }) => {
+    const [coords, setCoords] = useState({ x: 0, y: 0 })
 
-  logo = React.createRef()
+    const logo = useRef()
 
-  onMove = event => {
-    const { preventScroll } = this.props
-    const { target, pageX, pageY } =
-      this.moveEvent === 'touchmove' ? event.touches[0] : event
+    let center = null
+    let moveEvent = null
 
-    if (preventScroll && closestAncestor(target, 'logo')) {
-      event.preventDefault()
+    const onMove = (event) => {
+      const { target, pageX, pageY } =
+        moveEvent === 'touchmove' ? event.touches[0] : event
+
+      if (preventScroll && closestAncestor(target, 'logo')) {
+        event.preventDefault()
+      }
+
+      setCoords({
+        x: saturate(pageX - center.x, MAX_HEAD_TILT_X),
+        y: saturate(pageY - center.y, MAX_HEAD_TILT_Y),
+      })
     }
 
-    const x = saturate(pageX - this.center.x, MAX_HEAD_TILT_X)
-    const y = saturate(pageY - this.center.y, MAX_HEAD_TILT_Y)
+    useEffect(() => {
+      const { left, top, width, height } = logo.current.getBoundingClientRect()
 
-    this.setState({ x, y })
+      center = {
+        x: window.pageXOffset + left + width / 2,
+        y: window.pageYOffset + top + height / 2,
+      }
+
+      moveEvent = isTouchDevice() ? 'touchmove' : 'mousemove'
+      document.addEventListener(moveEvent, onMove, {
+        passive: !preventScroll,
+      })
+
+      return () => {
+        document.removeEventListener(moveEvent, onMove)
+      }
+    }, [])
+
+    return <Icy size={size} faces={faces} {...coords} ref={logo} />
   }
-
-  componentDidMount() {
-    const { preventScroll } = this.props
-
-    const {
-      left,
-      top,
-      width,
-      height,
-    } = this.logo.current.getBoundingClientRect()
-
-    this.center = {
-      x: window.pageXOffset + left + width / 2,
-      y: window.pageYOffset + top + height / 2,
-    }
-
-    this.moveEvent = isTouchDevice() ? 'touchmove' : 'mousemove'
-    document.addEventListener(this.moveEvent, this.onMove, {
-      passive: !preventScroll,
-    })
-  }
-
-  componentWillUnmount() {
-    document.removeEventListener(this.moveEvent, this.onMove)
-  }
-
-  render() {
-    const { size, faces } = this.props
-
-    return <Icy size={size} faces={faces} {...this.state} ref={this.logo} />
-  }
-}
-
-LogoContainer.defaultProps = {
-  size: 64,
-  faces: [
-    { image: 'I', reverse: false, eye: true },
-    { image: 'C', reverse: false, eye: false },
-  ],
-  preventScroll: false,
-}
-
-export default LogoContainer
+)
 
 function isTouchDevice() {
   if (
