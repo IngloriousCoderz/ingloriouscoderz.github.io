@@ -9229,7 +9229,7 @@ var convertCurry = convert.bind(null, react__WEBPACK_IMPORTED_MODULE_2___default
 "use strict";
 
 
-var visit = __webpack_require__(/*! unist-util-visit */ "./node_modules/unist-util-visit/index.js");
+var visit = __webpack_require__(/*! unist-util-visit */ "./node_modules/@mapbox/hast-util-table-cell-style/node_modules/unist-util-visit/index.js");
 
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 var hastCssPropertyMap = {
@@ -9274,6 +9274,236 @@ function appendStyle(node, property, value) {
   }
   var nextStyle = prevStyle + property + ': ' + value + ';';
   node.properties.style = nextStyle;
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/@mapbox/hast-util-table-cell-style/node_modules/unist-util-is/convert.js":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@mapbox/hast-util-table-cell-style/node_modules/unist-util-is/convert.js ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = convert
+
+function convert(test) {
+  if (typeof test === 'string') {
+    return typeFactory(test)
+  }
+
+  if (test === null || test === undefined) {
+    return ok
+  }
+
+  if (typeof test === 'object') {
+    return ('length' in test ? anyFactory : matchesFactory)(test)
+  }
+
+  if (typeof test === 'function') {
+    return test
+  }
+
+  throw new Error('Expected function, string, or object as test')
+}
+
+function convertAll(tests) {
+  var results = []
+  var length = tests.length
+  var index = -1
+
+  while (++index < length) {
+    results[index] = convert(tests[index])
+  }
+
+  return results
+}
+
+// Utility assert each property in `test` is represented in `node`, and each
+// values are strictly equal.
+function matchesFactory(test) {
+  return matches
+
+  function matches(node) {
+    var key
+
+    for (key in test) {
+      if (node[key] !== test[key]) {
+        return false
+      }
+    }
+
+    return true
+  }
+}
+
+function anyFactory(tests) {
+  var checks = convertAll(tests)
+  var length = checks.length
+
+  return matches
+
+  function matches() {
+    var index = -1
+
+    while (++index < length) {
+      if (checks[index].apply(this, arguments)) {
+        return true
+      }
+    }
+
+    return false
+  }
+}
+
+// Utility to convert a string into a function which checks a given node’s type
+// for said string.
+function typeFactory(test) {
+  return type
+
+  function type(node) {
+    return Boolean(node && node.type === test)
+  }
+}
+
+// Utility to return true.
+function ok() {
+  return true
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/@mapbox/hast-util-table-cell-style/node_modules/unist-util-visit-parents/index.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/@mapbox/hast-util-table-cell-style/node_modules/unist-util-visit-parents/index.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = visitParents
+
+var convert = __webpack_require__(/*! unist-util-is/convert */ "./node_modules/@mapbox/hast-util-table-cell-style/node_modules/unist-util-is/convert.js")
+
+var CONTINUE = true
+var SKIP = 'skip'
+var EXIT = false
+
+visitParents.CONTINUE = CONTINUE
+visitParents.SKIP = SKIP
+visitParents.EXIT = EXIT
+
+function visitParents(tree, test, visitor, reverse) {
+  var is
+
+  if (typeof test === 'function' && typeof visitor !== 'function') {
+    reverse = visitor
+    visitor = test
+    test = null
+  }
+
+  is = convert(test)
+
+  one(tree, null, [])
+
+  // Visit a single node.
+  function one(node, index, parents) {
+    var result = []
+    var subresult
+
+    if (!test || is(node, index, parents[parents.length - 1] || null)) {
+      result = toResult(visitor(node, parents))
+
+      if (result[0] === EXIT) {
+        return result
+      }
+    }
+
+    if (node.children && result[0] !== SKIP) {
+      subresult = toResult(all(node.children, parents.concat(node)))
+      return subresult[0] === EXIT ? subresult : result
+    }
+
+    return result
+  }
+
+  // Visit children in `parent`.
+  function all(children, parents) {
+    var min = -1
+    var step = reverse ? -1 : 1
+    var index = (reverse ? children.length : min) + step
+    var result
+
+    while (index > min && index < children.length) {
+      result = one(children[index], index, parents)
+
+      if (result[0] === EXIT) {
+        return result
+      }
+
+      index = typeof result[1] === 'number' ? result[1] : index + step
+    }
+  }
+}
+
+function toResult(value) {
+  if (value !== null && typeof value === 'object' && 'length' in value) {
+    return value
+  }
+
+  if (typeof value === 'number') {
+    return [CONTINUE, value]
+  }
+
+  return [value]
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/@mapbox/hast-util-table-cell-style/node_modules/unist-util-visit/index.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@mapbox/hast-util-table-cell-style/node_modules/unist-util-visit/index.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = visit
+
+var visitParents = __webpack_require__(/*! unist-util-visit-parents */ "./node_modules/@mapbox/hast-util-table-cell-style/node_modules/unist-util-visit-parents/index.js")
+
+var CONTINUE = visitParents.CONTINUE
+var SKIP = visitParents.SKIP
+var EXIT = visitParents.EXIT
+
+visit.CONTINUE = CONTINUE
+visit.SKIP = SKIP
+visit.EXIT = EXIT
+
+function visit(tree, test, visitor, reverse) {
+  if (typeof test === 'function' && typeof visitor !== 'function') {
+    reverse = visitor
+    visitor = test
+    test = null
+  }
+
+  visitParents(tree, test, overload, reverse)
+
+  function overload(node, parents) {
+    var parent = parents[parents.length - 1]
+    var index = parent ? parent.children.indexOf(node) : null
+    return visitor(node, index, parent)
+  }
 }
 
 
@@ -49626,36 +49856,6 @@ module.exports = value => {
 
 /***/ }),
 
-/***/ "./node_modules/nextein/node_modules/replace-ext/index.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/nextein/node_modules/replace-ext/index.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var path = __webpack_require__(/*! path */ "./node_modules/path-browserify/index.js");
-
-function replaceExt(npath, ext) {
-  if (typeof npath !== 'string') {
-    return npath;
-  }
-
-  if (npath.length === 0) {
-    return npath;
-  }
-
-  var nFileName = path.basename(npath, path.extname(npath)) + ext;
-  return path.join(path.dirname(npath), nFileName);
-}
-
-module.exports = replaceExt;
-
-
-/***/ }),
-
 /***/ "./node_modules/nextein/node_modules/unified/index.js":
 /*!************************************************************!*\
   !*** ./node_modules/nextein/node_modules/unified/index.js ***!
@@ -49671,7 +49871,7 @@ var buffer = __webpack_require__(/*! is-buffer */ "./node_modules/nextein/node_m
 var extend = __webpack_require__(/*! extend */ "./node_modules/extend/index.js")
 var plain = __webpack_require__(/*! is-plain-obj */ "./node_modules/nextein/node_modules/is-plain-obj/index.js")
 var trough = __webpack_require__(/*! trough */ "./node_modules/trough/index.js")
-var vfile = __webpack_require__(/*! vfile */ "./node_modules/nextein/node_modules/vfile/index.js")
+var vfile = __webpack_require__(/*! vfile */ "./node_modules/vfile/index.js")
 
 // Expose a frozen processor.
 module.exports = unified().freeze()
@@ -50136,418 +50336,6 @@ function assertDone(name, asyncName, complete) {
       '`' + name + '` finished async. Use `' + asyncName + '` instead'
     )
   }
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/nextein/node_modules/unist-util-stringify-position/index.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/nextein/node_modules/unist-util-stringify-position/index.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var own = {}.hasOwnProperty
-
-module.exports = stringify
-
-function stringify(value) {
-  // Nothing.
-  if (!value || typeof value !== 'object') {
-    return ''
-  }
-
-  // Node.
-  if (own.call(value, 'position') || own.call(value, 'type')) {
-    return position(value.position)
-  }
-
-  // Position.
-  if (own.call(value, 'start') || own.call(value, 'end')) {
-    return position(value)
-  }
-
-  // Point.
-  if (own.call(value, 'line') || own.call(value, 'column')) {
-    return point(value)
-  }
-
-  // ?
-  return ''
-}
-
-function point(point) {
-  if (!point || typeof point !== 'object') {
-    point = {}
-  }
-
-  return index(point.line) + ':' + index(point.column)
-}
-
-function position(pos) {
-  if (!pos || typeof pos !== 'object') {
-    pos = {}
-  }
-
-  return point(pos.start) + '-' + point(pos.end)
-}
-
-function index(value) {
-  return value && typeof value === 'number' ? value : 1
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/nextein/node_modules/vfile-message/index.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/nextein/node_modules/vfile-message/index.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var stringify = __webpack_require__(/*! unist-util-stringify-position */ "./node_modules/nextein/node_modules/unist-util-stringify-position/index.js")
-
-module.exports = VMessage
-
-// Inherit from `Error#`.
-function VMessagePrototype() {}
-VMessagePrototype.prototype = Error.prototype
-VMessage.prototype = new VMessagePrototype()
-
-// Message properties.
-var proto = VMessage.prototype
-
-proto.file = ''
-proto.name = ''
-proto.reason = ''
-proto.message = ''
-proto.stack = ''
-proto.fatal = null
-proto.column = null
-proto.line = null
-
-// Construct a new VMessage.
-//
-// Note: We cannot invoke `Error` on the created context, as that adds readonly
-// `line` and `column` attributes on Safari 9, thus throwing and failing the
-// data.
-function VMessage(reason, position, origin) {
-  var parts
-  var range
-  var location
-
-  if (typeof position === 'string') {
-    origin = position
-    position = null
-  }
-
-  parts = parseOrigin(origin)
-  range = stringify(position) || '1:1'
-
-  location = {
-    start: {line: null, column: null},
-    end: {line: null, column: null}
-  }
-
-  // Node.
-  if (position && position.position) {
-    position = position.position
-  }
-
-  if (position) {
-    // Position.
-    if (position.start) {
-      location = position
-      position = position.start
-    } else {
-      // Point.
-      location.start = position
-    }
-  }
-
-  if (reason.stack) {
-    this.stack = reason.stack
-    reason = reason.message
-  }
-
-  this.message = reason
-  this.name = range
-  this.reason = reason
-  this.line = position ? position.line : null
-  this.column = position ? position.column : null
-  this.location = location
-  this.source = parts[0]
-  this.ruleId = parts[1]
-}
-
-function parseOrigin(origin) {
-  var result = [null, null]
-  var index
-
-  if (typeof origin === 'string') {
-    index = origin.indexOf(':')
-
-    if (index === -1) {
-      result[1] = origin
-    } else {
-      result[0] = origin.slice(0, index)
-      result[1] = origin.slice(index + 1)
-    }
-  }
-
-  return result
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/nextein/node_modules/vfile/core.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/nextein/node_modules/vfile/core.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-var path = __webpack_require__(/*! path */ "./node_modules/path-browserify/index.js")
-var replace = __webpack_require__(/*! replace-ext */ "./node_modules/nextein/node_modules/replace-ext/index.js")
-var buffer = __webpack_require__(/*! is-buffer */ "./node_modules/nextein/node_modules/is-buffer/index.js")
-
-module.exports = VFile
-
-var own = {}.hasOwnProperty
-var proto = VFile.prototype
-
-// Order of setting (least specific to most), we need this because otherwise
-// `{stem: 'a', path: '~/b.js'}` would throw, as a path is needed before a
-// stem can be set.
-var order = ['history', 'path', 'basename', 'stem', 'extname', 'dirname']
-
-proto.toString = toString
-
-// Access full path (`~/index.min.js`).
-Object.defineProperty(proto, 'path', {get: getPath, set: setPath})
-
-// Access parent path (`~`).
-Object.defineProperty(proto, 'dirname', {get: getDirname, set: setDirname})
-
-// Access basename (`index.min.js`).
-Object.defineProperty(proto, 'basename', {get: getBasename, set: setBasename})
-
-// Access extname (`.js`).
-Object.defineProperty(proto, 'extname', {get: getExtname, set: setExtname})
-
-// Access stem (`index.min`).
-Object.defineProperty(proto, 'stem', {get: getStem, set: setStem})
-
-// Construct a new file.
-function VFile(options) {
-  var prop
-  var index
-  var length
-
-  if (!options) {
-    options = {}
-  } else if (typeof options === 'string' || buffer(options)) {
-    options = {contents: options}
-  } else if ('message' in options && 'messages' in options) {
-    return options
-  }
-
-  if (!(this instanceof VFile)) {
-    return new VFile(options)
-  }
-
-  this.data = {}
-  this.messages = []
-  this.history = []
-  this.cwd = process.cwd()
-
-  // Set path related properties in the correct order.
-  index = -1
-  length = order.length
-
-  while (++index < length) {
-    prop = order[index]
-
-    if (own.call(options, prop)) {
-      this[prop] = options[prop]
-    }
-  }
-
-  // Set non-path related properties.
-  for (prop in options) {
-    if (order.indexOf(prop) === -1) {
-      this[prop] = options[prop]
-    }
-  }
-}
-
-function getPath() {
-  return this.history[this.history.length - 1]
-}
-
-function setPath(path) {
-  assertNonEmpty(path, 'path')
-
-  if (path !== this.path) {
-    this.history.push(path)
-  }
-}
-
-function getDirname() {
-  return typeof this.path === 'string' ? path.dirname(this.path) : undefined
-}
-
-function setDirname(dirname) {
-  assertPath(this.path, 'dirname')
-  this.path = path.join(dirname || '', this.basename)
-}
-
-function getBasename() {
-  return typeof this.path === 'string' ? path.basename(this.path) : undefined
-}
-
-function setBasename(basename) {
-  assertNonEmpty(basename, 'basename')
-  assertPart(basename, 'basename')
-  this.path = path.join(this.dirname || '', basename)
-}
-
-function getExtname() {
-  return typeof this.path === 'string' ? path.extname(this.path) : undefined
-}
-
-function setExtname(extname) {
-  var ext = extname || ''
-
-  assertPart(ext, 'extname')
-  assertPath(this.path, 'extname')
-
-  if (ext) {
-    if (ext.charAt(0) !== '.') {
-      throw new Error('`extname` must start with `.`')
-    }
-
-    if (ext.indexOf('.', 1) !== -1) {
-      throw new Error('`extname` cannot contain multiple dots')
-    }
-  }
-
-  this.path = replace(this.path, ext)
-}
-
-function getStem() {
-  return typeof this.path === 'string'
-    ? path.basename(this.path, this.extname)
-    : undefined
-}
-
-function setStem(stem) {
-  assertNonEmpty(stem, 'stem')
-  assertPart(stem, 'stem')
-  this.path = path.join(this.dirname || '', stem + (this.extname || ''))
-}
-
-// Get the value of the file.
-function toString(encoding) {
-  var value = this.contents || ''
-  return buffer(value) ? value.toString(encoding) : String(value)
-}
-
-// Assert that `part` is not a path (i.e., does not contain `path.sep`).
-function assertPart(part, name) {
-  if (part.indexOf(path.sep) !== -1) {
-    throw new Error(
-      '`' + name + '` cannot be a path: did not expect `' + path.sep + '`'
-    )
-  }
-}
-
-// Assert that `part` is not empty.
-function assertNonEmpty(part, name) {
-  if (!part) {
-    throw new Error('`' + name + '` cannot be empty')
-  }
-}
-
-// Assert `path` exists.
-function assertPath(path, name) {
-  if (!path) {
-    throw new Error('Setting `' + name + '` requires `path` to be set too')
-  }
-}
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
-
-/***/ }),
-
-/***/ "./node_modules/nextein/node_modules/vfile/index.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/nextein/node_modules/vfile/index.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var VMessage = __webpack_require__(/*! vfile-message */ "./node_modules/nextein/node_modules/vfile-message/index.js")
-var VFile = __webpack_require__(/*! ./core.js */ "./node_modules/nextein/node_modules/vfile/core.js")
-
-module.exports = VFile
-
-var proto = VFile.prototype
-
-proto.message = message
-proto.info = info
-proto.fail = fail
-
-// Create a message with `reason` at `position`.
-// When an error is passed in as `reason`, copies the stack.
-function message(reason, position, origin) {
-  var filePath = this.path
-  var message = new VMessage(reason, position, origin)
-
-  if (filePath) {
-    message.name = filePath + ':' + message.name
-    message.file = filePath
-  }
-
-  message.fatal = false
-
-  this.messages.push(message)
-
-  return message
-}
-
-// Fail: creates a vmessage, associates it with the file, and throws it.
-function fail() {
-  var message = this.message.apply(this, arguments)
-
-  message.fatal = true
-
-  throw message
-}
-
-// Info: creates a vmessage, associates it with the file, and marks the fatality
-// as null.
-function info() {
-  var message = this.message.apply(this, arguments)
-
-  message.fatal = null
-
-  return message
 }
 
 
@@ -66873,236 +66661,6 @@ function test(query, node, index, parent, state) {
 
 /***/ }),
 
-/***/ "./node_modules/unist-util-visit-parents/index.js":
-/*!********************************************************!*\
-  !*** ./node_modules/unist-util-visit-parents/index.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = visitParents
-
-var convert = __webpack_require__(/*! unist-util-is/convert */ "./node_modules/unist-util-visit-parents/node_modules/unist-util-is/convert.js")
-
-var CONTINUE = true
-var SKIP = 'skip'
-var EXIT = false
-
-visitParents.CONTINUE = CONTINUE
-visitParents.SKIP = SKIP
-visitParents.EXIT = EXIT
-
-function visitParents(tree, test, visitor, reverse) {
-  var is
-
-  if (typeof test === 'function' && typeof visitor !== 'function') {
-    reverse = visitor
-    visitor = test
-    test = null
-  }
-
-  is = convert(test)
-
-  one(tree, null, [])
-
-  // Visit a single node.
-  function one(node, index, parents) {
-    var result = []
-    var subresult
-
-    if (!test || is(node, index, parents[parents.length - 1] || null)) {
-      result = toResult(visitor(node, parents))
-
-      if (result[0] === EXIT) {
-        return result
-      }
-    }
-
-    if (node.children && result[0] !== SKIP) {
-      subresult = toResult(all(node.children, parents.concat(node)))
-      return subresult[0] === EXIT ? subresult : result
-    }
-
-    return result
-  }
-
-  // Visit children in `parent`.
-  function all(children, parents) {
-    var min = -1
-    var step = reverse ? -1 : 1
-    var index = (reverse ? children.length : min) + step
-    var result
-
-    while (index > min && index < children.length) {
-      result = one(children[index], index, parents)
-
-      if (result[0] === EXIT) {
-        return result
-      }
-
-      index = typeof result[1] === 'number' ? result[1] : index + step
-    }
-  }
-}
-
-function toResult(value) {
-  if (value !== null && typeof value === 'object' && 'length' in value) {
-    return value
-  }
-
-  if (typeof value === 'number') {
-    return [CONTINUE, value]
-  }
-
-  return [value]
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/unist-util-visit-parents/node_modules/unist-util-is/convert.js":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/unist-util-visit-parents/node_modules/unist-util-is/convert.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = convert
-
-function convert(test) {
-  if (typeof test === 'string') {
-    return typeFactory(test)
-  }
-
-  if (test === null || test === undefined) {
-    return ok
-  }
-
-  if (typeof test === 'object') {
-    return ('length' in test ? anyFactory : matchesFactory)(test)
-  }
-
-  if (typeof test === 'function') {
-    return test
-  }
-
-  throw new Error('Expected function, string, or object as test')
-}
-
-function convertAll(tests) {
-  var results = []
-  var length = tests.length
-  var index = -1
-
-  while (++index < length) {
-    results[index] = convert(tests[index])
-  }
-
-  return results
-}
-
-// Utility assert each property in `test` is represented in `node`, and each
-// values are strictly equal.
-function matchesFactory(test) {
-  return matches
-
-  function matches(node) {
-    var key
-
-    for (key in test) {
-      if (node[key] !== test[key]) {
-        return false
-      }
-    }
-
-    return true
-  }
-}
-
-function anyFactory(tests) {
-  var checks = convertAll(tests)
-  var length = checks.length
-
-  return matches
-
-  function matches() {
-    var index = -1
-
-    while (++index < length) {
-      if (checks[index].apply(this, arguments)) {
-        return true
-      }
-    }
-
-    return false
-  }
-}
-
-// Utility to convert a string into a function which checks a given node’s type
-// for said string.
-function typeFactory(test) {
-  return type
-
-  function type(node) {
-    return Boolean(node && node.type === test)
-  }
-}
-
-// Utility to return true.
-function ok() {
-  return true
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/unist-util-visit/index.js":
-/*!************************************************!*\
-  !*** ./node_modules/unist-util-visit/index.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = visit
-
-var visitParents = __webpack_require__(/*! unist-util-visit-parents */ "./node_modules/unist-util-visit-parents/index.js")
-
-var CONTINUE = visitParents.CONTINUE
-var SKIP = visitParents.SKIP
-var EXIT = visitParents.EXIT
-
-visit.CONTINUE = CONTINUE
-visit.SKIP = SKIP
-visit.EXIT = EXIT
-
-function visit(tree, test, visitor, reverse) {
-  if (typeof test === 'function' && typeof visitor !== 'function') {
-    reverse = visitor
-    visitor = test
-    test = null
-  }
-
-  visitParents(tree, test, overload, reverse)
-
-  function overload(node, parents) {
-    var parent = parents[parents.length - 1]
-    var index = parent ? parent.children.indexOf(node) : null
-    return visitor(node, index, parent)
-  }
-}
-
-
-/***/ }),
-
 /***/ "./node_modules/url/url.js":
 /*!*********************************!*\
   !*** ./node_modules/url/url.js ***!
@@ -67871,6 +67429,470 @@ module.exports = {
     return arg == null;
   }
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/vfile-message/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/vfile-message/index.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var stringify = __webpack_require__(/*! unist-util-stringify-position */ "./node_modules/vfile-message/node_modules/unist-util-stringify-position/index.js")
+
+module.exports = VMessage
+
+// Inherit from `Error#`.
+function VMessagePrototype() {}
+VMessagePrototype.prototype = Error.prototype
+VMessage.prototype = new VMessagePrototype()
+
+// Message properties.
+var proto = VMessage.prototype
+
+proto.file = ''
+proto.name = ''
+proto.reason = ''
+proto.message = ''
+proto.stack = ''
+proto.fatal = null
+proto.column = null
+proto.line = null
+
+// Construct a new VMessage.
+//
+// Note: We cannot invoke `Error` on the created context, as that adds readonly
+// `line` and `column` attributes on Safari 9, thus throwing and failing the
+// data.
+function VMessage(reason, position, origin) {
+  var parts
+  var range
+  var location
+
+  if (typeof position === 'string') {
+    origin = position
+    position = null
+  }
+
+  parts = parseOrigin(origin)
+  range = stringify(position) || '1:1'
+
+  location = {
+    start: {line: null, column: null},
+    end: {line: null, column: null}
+  }
+
+  // Node.
+  if (position && position.position) {
+    position = position.position
+  }
+
+  if (position) {
+    // Position.
+    if (position.start) {
+      location = position
+      position = position.start
+    } else {
+      // Point.
+      location.start = position
+    }
+  }
+
+  if (reason.stack) {
+    this.stack = reason.stack
+    reason = reason.message
+  }
+
+  this.message = reason
+  this.name = range
+  this.reason = reason
+  this.line = position ? position.line : null
+  this.column = position ? position.column : null
+  this.location = location
+  this.source = parts[0]
+  this.ruleId = parts[1]
+}
+
+function parseOrigin(origin) {
+  var result = [null, null]
+  var index
+
+  if (typeof origin === 'string') {
+    index = origin.indexOf(':')
+
+    if (index === -1) {
+      result[1] = origin
+    } else {
+      result[0] = origin.slice(0, index)
+      result[1] = origin.slice(index + 1)
+    }
+  }
+
+  return result
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/vfile-message/node_modules/unist-util-stringify-position/index.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/vfile-message/node_modules/unist-util-stringify-position/index.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var own = {}.hasOwnProperty
+
+module.exports = stringify
+
+function stringify(value) {
+  // Nothing.
+  if (!value || typeof value !== 'object') {
+    return ''
+  }
+
+  // Node.
+  if (own.call(value, 'position') || own.call(value, 'type')) {
+    return position(value.position)
+  }
+
+  // Position.
+  if (own.call(value, 'start') || own.call(value, 'end')) {
+    return position(value)
+  }
+
+  // Point.
+  if (own.call(value, 'line') || own.call(value, 'column')) {
+    return point(value)
+  }
+
+  // ?
+  return ''
+}
+
+function point(point) {
+  if (!point || typeof point !== 'object') {
+    point = {}
+  }
+
+  return index(point.line) + ':' + index(point.column)
+}
+
+function position(pos) {
+  if (!pos || typeof pos !== 'object') {
+    pos = {}
+  }
+
+  return point(pos.start) + '-' + point(pos.end)
+}
+
+function index(value) {
+  return value && typeof value === 'number' ? value : 1
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/vfile/core.js":
+/*!************************************!*\
+  !*** ./node_modules/vfile/core.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+var path = __webpack_require__(/*! path */ "./node_modules/path-browserify/index.js")
+var replace = __webpack_require__(/*! replace-ext */ "./node_modules/vfile/node_modules/replace-ext/index.js")
+var buffer = __webpack_require__(/*! is-buffer */ "./node_modules/vfile/node_modules/is-buffer/index.js")
+
+module.exports = VFile
+
+var own = {}.hasOwnProperty
+var proto = VFile.prototype
+
+// Order of setting (least specific to most), we need this because otherwise
+// `{stem: 'a', path: '~/b.js'}` would throw, as a path is needed before a
+// stem can be set.
+var order = ['history', 'path', 'basename', 'stem', 'extname', 'dirname']
+
+proto.toString = toString
+
+// Access full path (`~/index.min.js`).
+Object.defineProperty(proto, 'path', {get: getPath, set: setPath})
+
+// Access parent path (`~`).
+Object.defineProperty(proto, 'dirname', {get: getDirname, set: setDirname})
+
+// Access basename (`index.min.js`).
+Object.defineProperty(proto, 'basename', {get: getBasename, set: setBasename})
+
+// Access extname (`.js`).
+Object.defineProperty(proto, 'extname', {get: getExtname, set: setExtname})
+
+// Access stem (`index.min`).
+Object.defineProperty(proto, 'stem', {get: getStem, set: setStem})
+
+// Construct a new file.
+function VFile(options) {
+  var prop
+  var index
+  var length
+
+  if (!options) {
+    options = {}
+  } else if (typeof options === 'string' || buffer(options)) {
+    options = {contents: options}
+  } else if ('message' in options && 'messages' in options) {
+    return options
+  }
+
+  if (!(this instanceof VFile)) {
+    return new VFile(options)
+  }
+
+  this.data = {}
+  this.messages = []
+  this.history = []
+  this.cwd = process.cwd()
+
+  // Set path related properties in the correct order.
+  index = -1
+  length = order.length
+
+  while (++index < length) {
+    prop = order[index]
+
+    if (own.call(options, prop)) {
+      this[prop] = options[prop]
+    }
+  }
+
+  // Set non-path related properties.
+  for (prop in options) {
+    if (order.indexOf(prop) === -1) {
+      this[prop] = options[prop]
+    }
+  }
+}
+
+function getPath() {
+  return this.history[this.history.length - 1]
+}
+
+function setPath(path) {
+  assertNonEmpty(path, 'path')
+
+  if (path !== this.path) {
+    this.history.push(path)
+  }
+}
+
+function getDirname() {
+  return typeof this.path === 'string' ? path.dirname(this.path) : undefined
+}
+
+function setDirname(dirname) {
+  assertPath(this.path, 'dirname')
+  this.path = path.join(dirname || '', this.basename)
+}
+
+function getBasename() {
+  return typeof this.path === 'string' ? path.basename(this.path) : undefined
+}
+
+function setBasename(basename) {
+  assertNonEmpty(basename, 'basename')
+  assertPart(basename, 'basename')
+  this.path = path.join(this.dirname || '', basename)
+}
+
+function getExtname() {
+  return typeof this.path === 'string' ? path.extname(this.path) : undefined
+}
+
+function setExtname(extname) {
+  var ext = extname || ''
+
+  assertPart(ext, 'extname')
+  assertPath(this.path, 'extname')
+
+  if (ext) {
+    if (ext.charAt(0) !== '.') {
+      throw new Error('`extname` must start with `.`')
+    }
+
+    if (ext.indexOf('.', 1) !== -1) {
+      throw new Error('`extname` cannot contain multiple dots')
+    }
+  }
+
+  this.path = replace(this.path, ext)
+}
+
+function getStem() {
+  return typeof this.path === 'string'
+    ? path.basename(this.path, this.extname)
+    : undefined
+}
+
+function setStem(stem) {
+  assertNonEmpty(stem, 'stem')
+  assertPart(stem, 'stem')
+  this.path = path.join(this.dirname || '', stem + (this.extname || ''))
+}
+
+// Get the value of the file.
+function toString(encoding) {
+  var value = this.contents || ''
+  return buffer(value) ? value.toString(encoding) : String(value)
+}
+
+// Assert that `part` is not a path (i.e., does not contain `path.sep`).
+function assertPart(part, name) {
+  if (part.indexOf(path.sep) !== -1) {
+    throw new Error(
+      '`' + name + '` cannot be a path: did not expect `' + path.sep + '`'
+    )
+  }
+}
+
+// Assert that `part` is not empty.
+function assertNonEmpty(part, name) {
+  if (!part) {
+    throw new Error('`' + name + '` cannot be empty')
+  }
+}
+
+// Assert `path` exists.
+function assertPath(path, name) {
+  if (!path) {
+    throw new Error('Setting `' + name + '` requires `path` to be set too')
+  }
+}
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "./node_modules/vfile/index.js":
+/*!*************************************!*\
+  !*** ./node_modules/vfile/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var VMessage = __webpack_require__(/*! vfile-message */ "./node_modules/vfile-message/index.js")
+var VFile = __webpack_require__(/*! ./core.js */ "./node_modules/vfile/core.js")
+
+module.exports = VFile
+
+var proto = VFile.prototype
+
+proto.message = message
+proto.info = info
+proto.fail = fail
+
+// Create a message with `reason` at `position`.
+// When an error is passed in as `reason`, copies the stack.
+function message(reason, position, origin) {
+  var filePath = this.path
+  var message = new VMessage(reason, position, origin)
+
+  if (filePath) {
+    message.name = filePath + ':' + message.name
+    message.file = filePath
+  }
+
+  message.fatal = false
+
+  this.messages.push(message)
+
+  return message
+}
+
+// Fail: creates a vmessage, associates it with the file, and throws it.
+function fail() {
+  var message = this.message.apply(this, arguments)
+
+  message.fatal = true
+
+  throw message
+}
+
+// Info: creates a vmessage, associates it with the file, and marks the fatality
+// as null.
+function info() {
+  var message = this.message.apply(this, arguments)
+
+  message.fatal = null
+
+  return message
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/vfile/node_modules/is-buffer/index.js":
+/*!************************************************************!*\
+  !*** ./node_modules/vfile/node_modules/is-buffer/index.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+module.exports = function isBuffer (obj) {
+  return obj != null && obj.constructor != null &&
+    typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/vfile/node_modules/replace-ext/index.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/vfile/node_modules/replace-ext/index.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var path = __webpack_require__(/*! path */ "./node_modules/path-browserify/index.js");
+
+function replaceExt(npath, ext) {
+  if (typeof npath !== 'string') {
+    return npath;
+  }
+
+  if (npath.length === 0) {
+    return npath;
+  }
+
+  var nFileName = path.basename(npath, path.extname(npath)) + ext;
+  return path.join(path.dirname(npath), nFileName);
+}
+
+module.exports = replaceExt;
 
 
 /***/ }),
