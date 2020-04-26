@@ -64,10 +64,13 @@ def identity(bit):
 def negation(bit):
     return 1 if bit == 0 else 0
 
-print('Zero is', 'constant' if guess(zero) == 0 else 'balanced')
-print('One is', 'constant' if guess(one) == 0 else 'balanced')
-print('Identity is', 'constant' if guess(identity) == 0 else 'balanced')
-print('Negation is', 'constant' if guess(negation) == 0 else 'balanced')
+def test_guess(name, type):
+    print(name, 'is', 'constant' if guess(type) == 0 else 'balanced')
+
+test_guess('Zero', zero)
+test_guess('One', one)
+test_guess('Identity', identity)
+test_guess('Negation', negation)
 ```
 
     Zero is constant
@@ -376,6 +379,8 @@ test_deutsch('Negation', negation)
     One is constant
     Identity is balanced
     Negation is balanced
+
+Intuitively, the difference between Zero and One or Identity and Negation is lost in the Z-basis but the difference between constant and balanced is amplified, because when the function is balanced superposition flips the input qubit.
 
 We came up with the same results as the classical algorithm, but with just one call to the function $f$. QED
 
