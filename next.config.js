@@ -24,6 +24,7 @@ module.exports = compose(
         {
           name: 'nextein-plugin-markdown',
           options: {
+            rehype: ['rehype-katex'],
             remark: ['remark-math'],
           },
         },

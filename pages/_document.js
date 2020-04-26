@@ -49,10 +49,12 @@ export default class extends Document {
           <meta property="fb:app_id" content="1677017469210661" />
 
           <script src="/static/scripts/gh-spa-redirect.js" />
-          <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
-            async
-          ></script>
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css"
+            integrity="sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG"
+            crossOrigin="anonymous"
+          />
         </Head>
         <body>
           <Main />

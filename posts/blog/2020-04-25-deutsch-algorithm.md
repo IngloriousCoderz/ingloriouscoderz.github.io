@@ -97,7 +97,7 @@ As [this YouTube video](https://youtu.be/F_Riqjdh2oM) shows, the matrices associ
 
 However these turn out to be useless, especially the first two since they are not even unitary.
 
-As any gate in a quantum circuit, the oracle must be reversible (i.e. applying it twice will produce the Identity matrix). That's why we need to convert it into a two-qubits gate: the first qubit is the input value of the function, which isn't supposed to change, and the second qubit usually starts with |0⟩ and will change into the result of the oracle:
+As any gate in a quantum circuit, the oracle must be reversible (i.e. applying it twice will produce the Identity matrix). That's why we need to convert it into a two-qubits gate: the first qubit is the input value of the function, which isn't supposed to change, and the second qubit usually starts with $|0\rangle$ and will change into the result of the oracle:
 
 ```
  input    +--------+    input'
