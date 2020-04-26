@@ -307,7 +307,7 @@ def oracle(type):
 We can verify that the operators are well defined by invoking the following test function using all possible combinations.
 
 ```python
-def test_oracle(type, q1=0, q0=0):
+def test_oracle_with(type, q1=0, q0=0):
     circuit = QuantumCircuit(2, 1)
     if (q0 == 1):
         circuit.x(input)
@@ -318,10 +318,13 @@ def test_oracle(type, q1=0, q0=0):
     backend = Aer.get_backend('qasm_simulator')
     return execute(circuit, backend, shots=1, memory=True).result().get_memory()[0]
 
-print('Zero(0):', test_oracle(zero, q0=0), '\tZero(1):', test_oracle(zero, q0=1))
-print('One(0):', test_oracle(one, q0=0), '\tOne(1):', test_oracle(one, q0=1))
-print('Identity(0):', test_oracle(identity, q0=0), '\tIdentity(1):', test_oracle(identity, q0=1))
-print('Negation(0):', test_oracle(negation, q0=0), '\tNegation(1):', test_oracle(negation, q0=1))
+def test_oracle(name, type):
+    print('{}(0):'.format(name), test_oracle_with(type, q0=0), '\t', '{}(1):'.format(name), test_oracle_with(type, q0=1))
+
+test_oracle('Zero', zero)
+test_oracle('One', one)
+test_oracle('Identity', identity)
+test_oracle('Negation', negation)
 ```
 
     Zero(0): 0 	Zero(1): 0
