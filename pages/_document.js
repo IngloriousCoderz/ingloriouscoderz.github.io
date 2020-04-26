@@ -49,6 +49,10 @@ export default class extends Document {
           <meta property="fb:app_id" content="1677017469210661" />
 
           <script src="/static/scripts/gh-spa-redirect.js" />
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+            async
+          ></script>
         </Head>
         <body>
           <Main />

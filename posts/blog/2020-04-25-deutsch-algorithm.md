@@ -6,8 +6,6 @@ author: IceOnFire
 
 In April 7, 2020 I was introduced to the fundamentals of Quantum Computing, and it was love at first sight. I started studying [Python](https://www.python.org/) and [Qiskit](https://qiskit.org/) and [Jupyter](https://jupyter.org/) notebooks and, after working hard on the basics for a dozen days, I was stuck with the most basic algorithm. But then I worked even harder, and I got it finally. Here is the result of my studies as an exported Jupyter notebook.
 
-NB: I haven't figured out yet how to use math formulas with [Nextein](https://nextein.now.sh/), sorry for the inconvenience.
-
 ```python
 from qiskit import QuantumCircuit, Aer, execute
 from qiskit.visualization import plot_histogram, plot_bloch_multivector

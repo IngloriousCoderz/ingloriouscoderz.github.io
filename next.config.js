@@ -19,7 +19,18 @@ module.exports = compose(
     withNextein,
   ],
   {
-    exportPathMap: defaultPathMap => ({
+    nextein: {
+      plugins: [
+        {
+          name: 'nextein-plugin-markdown',
+          options: {
+            remark: ['remark-math'],
+          },
+        },
+      ],
+    },
+
+    exportPathMap: (defaultPathMap) => ({
       // ...defaultPathMap,
       '/why': { page: '/why' },
       '/who': { page: '/who' },
@@ -90,7 +101,7 @@ module.exports = compose(
           //     urlPattern: /^https?.*/,
           //   },
           // ],
-        }),
+        })
       )
 
       return config
@@ -103,5 +114,5 @@ module.exports = compose(
 
       return config
     },
-  },
+  }
 )
