@@ -167,6 +167,20 @@ export default ({ path, title, description, children }) => (
         margin: 0 auto;
       }
 
+      table {
+        margin: 1em auto;
+      }
+
+      th {
+        background-color: rgba(150, 150, 150, 0.33);
+        padding: 0.5em;
+      }
+
+      td {
+        background-color: rgba(200, 200, 200, 0.33);
+        padding: 0.5em;
+      }
+
       input[type='checkbox'] {
         vertical-align: middle;
       }
