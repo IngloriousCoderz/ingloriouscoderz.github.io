@@ -12,9 +12,15 @@ from qiskit.visualization import plot_histogram, plot_bloch_multivector
 from qiskit.quantum_info import Operator
 ```
 
-Say we have a function $f$ which takes some zeroes and ones as input and returns 0 or 1 according to some logic. We cannot inspect the function, but we can invoke it as a black box and, based on the output of our experiments, we are able to understand the underlying logic. We call such a function an "oracle".
+Say we have a function $f$ which takes some zeroes and ones as input and returns 0 or 1 according to some logic:
 
-A one-bit oracle will only be able to produce the following results:
+$$
+f: (x_0, x_1, x_2, ...) \rightarrow y \in [0, 1], \text{where } x_n \in [0, 1]
+$$
+
+We cannot inspect the function, but we can invoke it as a black box and, based on the output of our experiments, we are able to understand the underlying logic. We call such a function an "oracle".
+
+An oracle with just one input will only be able to produce the following results:
 
 1. $f(0) = 0, f(1) = 0$
 2. $f(0) = 1, f(1) = 1$
@@ -76,7 +82,7 @@ test_guess('Negation', negation)
     Identity is balanced
     Negation is balanced
 
-The Deutsch algorithm instead guesses if the oracle is constant or balanced with just one call to `f`, using the magic of quantum superposition. We will see how, but first we have to redefine the oracle in the quantum world.
+Deutsch's algorithm instead guesses if the oracle is constant or balanced with just one call to $f$, using the magic of quantum superposition. We will see how, but first we need to redefine the oracle in the quantum world.
 
 ## The Oracle
 
@@ -93,7 +99,7 @@ As [this YouTube video](https://youtu.be/F_Riqjdh2oM) shows, the matrices associ
 1. Zero (constant): $\begin{bmatrix}1 & 1\\0 & 0\end{bmatrix}$
 2. One (constant): $\begin{bmatrix}0 & 0\\1 & 1\end{bmatrix}$
 3. Identity (balanced): $\begin{bmatrix}1 & 0\\0 & 1\end{bmatrix}$
-4. Negation (balanced): $\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}$ (equal to the Pauli gate X)
+4. Negation (balanced): $\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}$ (equal to the Pauli gate $X$)
 
 However these turn out to be useless, especially the first two since they are not even unitary.
 
@@ -112,10 +118,10 @@ However the oracle must be reversible **always**, even when `output` is equal to
 If $|1\rangle$ is also mapped to $|f(x)\rangle$ we will lose information when applyng the gate twice: what was the initial value of `output`? Not reversible. That's why we need to map $|1\rangle$ to a different value, namely $|\neg f(x)\rangle$. So, to recap:
 
 $$
-y = 0, f(0) = 0 \Rightarrow f(0) = 0\\
-y = 0, f(0) = 1 \Rightarrow f(0) = 1\\
-y = 1, f(1) = 0 \Rightarrow \neg f(1) = 1\\
-y = 1, f(1) = 1 \Rightarrow \neg f(1) = 0
+y = 0, f(x) = 0 \Rightarrow y' = f(x) = 0\\
+y = 0, f(x) = 1 \Rightarrow y' = f(x) = 1\\
+y = 1, f(x) = 0 \Rightarrow y' = \neg f(x) = 1\\
+y = 1, f(x) = 1 \Rightarrow y' = \neg f(x) = 0
 $$
 
 The outcome we expect from `output'` now looks like a XOR between `output` (the $y$) and `output'` (the $f(x)$). That's why the generic form of an oracle maps `output'` with not just $|f(x)\rangle$ but with $|y \oplus f(x)\rangle$.
