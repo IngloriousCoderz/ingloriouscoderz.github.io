@@ -1,5 +1,5 @@
 ---
-title: Deutsch Algorithm
+title: Deutsch's Algorithm
 description: Using quantum superposition to guess the kind of a function in sub-exponential time.
 author: IceOnFire
 ---
@@ -27,7 +27,7 @@ An oracle with just one input will only be able to produce the following results
 3. $f(0) = 0, f(1) = 1$
 4. $f(0) = 1, f(1) = 0$
 
-If the oracle behaves like 1. or 2. it means that whatever input I use I will always obtain the same result: the function is then considered "constant" (always zero or always one). If instead it behaves like 3. or 4. it means that sometimes I get 0 and sometimes 1: the function could then be considered "variable", although in the more generic algorithm of Deutsch-Josza we use the term "balanced" so we are going to use it here too (a balanced function gives 0 for half of the inputs and 1 for the other half, which by the way applies here too).
+If the oracle behaves like 1. or 2. it means that whatever input I use I will always obtain the same result: the function is then considered "constant" (always zero or always one). If instead it behaves like 3. or 4. it means that sometimes I get 0 and sometimes 1: the function could then be considered "variable", although in the more generic algorithm of Deutsch-Josza - with functions of $n$ inputs - we use the term "balanced" so we are going to use it here too (a balanced function gives 0 for half of the inputs and 1 for the other half, which by the way applies here too).
 
 Although possibly confusing, we can call these functions for future reference like so:
 
@@ -117,12 +117,12 @@ However the oracle must be reversible **always**, even when `output` is equal to
 
 If $|1\rangle$ is also mapped to $|f(x)\rangle$ we will lose information when applyng the gate twice: what was the initial value of `output`? Not reversible. That's why we need to map $|1\rangle$ to a different value, namely $|\neg f(x)\rangle$. So, to recap:
 
-$$
-y = 0, f(x) = 0 \Rightarrow y' = f(x) = 0\\
-y = 0, f(x) = 1 \Rightarrow y' = f(x) = 1\\
-y = 1, f(x) = 0 \Rightarrow y' = \neg f(x) = 1\\
-y = 1, f(x) = 1 \Rightarrow y' = \neg f(x) = 0
-$$
+| $y$ | $f(x)$ | $y'$            |
+| --- | ------ | --------------- |
+| $0$ | $0$    | $f(x) = 0$      |
+| $0$ | $1$    | $f(x) = 1$      |
+| $1$ | $0$    | $\neg f(x) = 1$ |
+| $1$ | $1$    | $\neg f(x) = 0$ |
 
 The outcome we expect from `output'` now looks like a XOR between `output` (the $y$) and `output'` (the $f(x)$). That's why the generic form of an oracle maps `output'` with not just $|f(x)\rangle$ but with $|y \oplus f(x)\rangle$.
 
@@ -314,17 +314,17 @@ output    +---------------+    output'
 
 Why is that? Well, if we look at the truth table:
 
-| output | input | output' | input' |
-| ------ | ----- | ------- | ------ |
-| 0      | 0     | 1       | 0      |
-| 0      | 1     | 0       | 1      |
-| 1      | 0     | 0       | 0      |
-| 1      | 1     | 1       | 1      |
+| $y$ | $x$ | $y'$ | $x'$ |
+| --- | --- | ---- | ---- |
+| $0$ | $0$ | $1$  | $0$  |
+| $0$ | $1$ | $0$  | $1$  |
+| $1$ | $0$ | $0$  | $0$  |
+| $1$ | $1$ | $1$  | $1$  |
 
-We can see it as a CNOT from `input` to `output`, but:
+We can see it as a CNOT with `input` as control and `output` as target, but:
 
-- `output'` is flipped when input is 0 instead of 1 so we need to negate `input` before applying the CNOT; and
-- `input` must be negated again afterwards to turn back to its original state.
+- `output'` is flipped when `input` is 0 instead of 1 so we need to negate `input` before applying the CNOT; and
+- `input` must be negated again afterwards to turn back to its original state as `input'`.
 
 It's easy to prove that $(I \otimes X) \cdot CX \cdot (I \otimes X)$ gives that same exact matrix.
 
@@ -340,7 +340,7 @@ output    +-------------+    output'
 
 ### Implementing The Oracle
 
-We can finally define our oracle as a circuit that can make use of one of these four operators.
+The oracle can be implemented as one of the above circuits, or as a generic circuit that makes use of one of the four operators.
 
 ```python
 def oracle(type):
@@ -379,12 +379,13 @@ test_oracle('Negation', negation)
 
 ## The Algorithm
 
-The Deutsch algorithm is pretty straightforward. It just does the following:
+Now that we know how to build oracles, we can finally have a look at Deutsch's algorithm. It is pretty straightforward, it just does the following:
 
 1. Negates the `output` qubit so it starts with $|1\rangle$
-2. Applies Hadamard gates to both input and output to turn them into a superposition
+2. Applies Hadamard gates to both `input` and `output` to turn them into a superposition
 3. Applies the oracle, whichever it is
-4. Converts back the input with a Hadamard gate and measures it, since it now holds the answer to the question: "is the function balanced?"
+4. Converts back the input with a Hadamard gate and measures it
+5. The `input'` qubit now holds the answer to the question: "is the function balanced?"
 
 Note that we don't measure the output, since it's irrelevant and yields the wrong result anyway.
 
@@ -426,7 +427,7 @@ test_deutsch('Negation', negation)
     Identity is balanced
     Negation is balanced
 
-Intuitively, the difference between Zero and One or Identity and Negation is lost in the X-basis but the difference between constant and balanced is amplified, because when the function is balanced superposition flips the input qubit.
+But why does it work? As we already saw, Identity and Negation use a CNOT internally. That's why, when we set `output` to $|1\rangle$ **phase kickback** occurs, thus flipping the value of `input`. Zero and One are not subject to phase pickback instead. We could say that when using the algorithm the difference between Zero and One or Identity and Negation is lost in the X-basis, but the difference between constant and balanced is amplified.
 
 We came up with the same results as the classical algorithm, but with just one call to the function $f$. QED
 
