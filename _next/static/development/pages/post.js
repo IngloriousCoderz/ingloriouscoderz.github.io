@@ -68252,7 +68252,7 @@ i18next__WEBPACK_IMPORTED_MODULE_0__["default"] // .use(detector)
 
 /***/ }),
 
-/***/ 8:
+/***/ 5:
 /*!***********************************!*\
   !*** multi ./pages/post/index.js ***!
   \***********************************/
@@ -68277,5 +68277,5 @@ module.exports = dll_7ab033043bc5918bfbad;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]));;
+},[[5,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=post.js.map
