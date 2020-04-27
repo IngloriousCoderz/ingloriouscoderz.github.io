@@ -10,7 +10,8 @@ export default () => (
   <Layout
     path="what/volunteer"
     title="Volunteer"
-    description="The world is not going to get better with just code.">
+    description="The world is not going to get better with just code."
+  >
     <Trans>
       <article className="card card-1">
         <h1>Volunteer</h1>
@@ -25,34 +26,52 @@ export default () => (
       <Row>
         <Column max={3}>
           <Card
-            title="Lampedusa Turtle Group"
-            image={require('~/static/images/what/volunteer/lampedusa_bath.jpg')}>
+            title="Powercoders"
+            image={require('~/static/images/what/volunteer/powercoders.jpg')}
+          >
             <p>
-              Sea ​​turtles are not only beautiful animals, but they are
-              essential for the marine ecosystem because they are greedy for
-              jellyfish, which threatens our oceans due to their exponentially
-              increasing number.
+              <ExtLink to="https://powercoders.org/">Powercoders</ExtLink> is a
+              Swiss NGO aimed at giving a second chance to refugees all over the
+              world by offering them a free 3-months course on web development
+              and a paid internship as junior developers in affiliated
+              companies.
             </p>
             <p>
-              Although a sea turtle's lifespan could reach 150 years or more,
-              many of them die way earlier due to human interference: fishing
-              nets, hooks, trash, global warming, ... We must start to behave
-              responsibly towards our environment, and we have to do it quick.
-            </p>
-            <p>
-              <ExtLink to="http://www.lampedusaturtlerescue.org/">
-                Lampedusa Turtle Group
+              The year 2019 marked the beginning of the pilot program in Italy,
+              sponsored by{' '}
+              <ExtLink to="https://realefoundation.org/">
+                Reale Foundation
               </ExtLink>{' '}
-              is a research center, a hospital, and a museum related to sea
-              turtles guided by an amazing human being, Dr.{' '}
-              <ExtLink to="https://www.linkedin.com/in/daniela-freggi-2bb324a7/">
-                Daniela Freggi
-              </ExtLink>
-              . We spent two weeks, together with other volunteers from all over
-              the world, performing various activities &mdash; manual work such
-              as cleaning up the center, the turtles, and their pools every two
-              mornings, but also assisting veterinarian surgeons and guiding
-              visitors through the museum and raising awareness.
+              and{' '}
+              <ExtLink to="https://fondazioneaccenture.it/">
+                Fondazione Italiana Accenture
+              </ExtLink>{' '}
+              and powered by{' '}
+              <ExtLink to="https://www.lewagon.com/">Le Wagon</ExtLink>: twenty
+              students coming from different countries of Africa and the Middle
+              East gathered in{' '}
+              <ExtLink to="https://www.toolboxoffice.it/en/">
+                Toolbox Coworking
+              </ExtLink>{' '}
+              for an intensive bootcamp on web technologies, using laptops
+              provided for free by{' '}
+              <ExtLink to="https://www.lenovo.com/us/en/">Lenovo</ExtLink>.
+            </p>
+            <p>
+              Inglorious Coderz was involved for the role of Teaching Lead,
+              which means giving classes, assigning tasks, and managing a team
+              of volunteer IT trainers and technical speakers, most of them
+              freelancers or coming from big companies such as{' '}
+              <ExtLink to="https://www.ibm.com/">IBM</ExtLink> and{' '}
+              <ExtLink to="https://www.accenture.com/">Accenture</ExtLink>.
+            </p>
+            <p>
+              Even the{' '}
+              <ExtLink to="https://en.wikipedia.org/wiki/Coronavirus_disease_2019">
+                COVID-19
+              </ExtLink>{' '}
+              spread could not stop the bootcamp, which was moved online during
+              the last weeks. Overall the program was an unparalleled success.
             </p>
           </Card>
         </Column>
@@ -60,7 +79,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="Les Jeunes Leaders Du Burundi"
-            image={require('~/static/images/what/volunteer/jeunes_leaders_du_burundi.jpg')}>
+            image={require('~/static/images/what/volunteer/jeunes_leaders_du_burundi.jpg')}
+          >
             <p>
               <ExtLink to="https://www.linkedin.com/in/kaburugutu-fabrice-b28399157/">
                 Fabrice Kaburugutu
@@ -100,14 +120,50 @@ export default () => (
 
         <Column max={3}>
           <Card
+            title="Lampedusa Turtle Group"
+            image={require('~/static/images/what/volunteer/lampedusa_bath.jpg')}
+          >
+            <p>
+              Sea ​​turtles are not only beautiful animals, but they are
+              essential for the marine ecosystem because they are greedy for
+              jellyfish, which threatens our oceans due to their exponentially
+              increasing number.
+            </p>
+            <p>
+              Although a sea turtle's lifespan could reach 150 years or more,
+              many of them die way earlier due to human interference: fishing
+              nets, hooks, trash, global warming, ... We must start to behave
+              responsibly towards our environment, and we have to do it quick.
+            </p>
+            <p>
+              <ExtLink to="http://www.lampedusaturtlerescue.org/">
+                Lampedusa Turtle Group
+              </ExtLink>{' '}
+              is a research center, a hospital, and a museum related to sea
+              turtles guided by an amazing human being, Dr.{' '}
+              <ExtLink to="https://www.linkedin.com/in/daniela-freggi-2bb324a7/">
+                Daniela Freggi
+              </ExtLink>
+              . We spent two weeks, together with other volunteers from all over
+              the world, performing various activities &mdash; manual work such
+              as cleaning up the center, the turtles, and their pools every two
+              mornings, but also assisting veterinarian surgeons and guiding
+              visitors through the museum and raising awareness.
+            </p>
+          </Card>
+        </Column>
+
+        {/* <Column max={3}>
+          <Card
             title="More to come..."
-            image={require('~/static/images/what/volunteer/lampedusa_dynamic_duo.jpg')}>
+            image={require('~/static/images/what/volunteer/lampedusa_dynamic_duo.jpg')}
+          >
             <p>
               We are just started yet. We hope to fill this page with many more
               volunteering activities as soon as possible.
             </p>
           </Card>
-        </Column>
+        </Column> */}
       </Row>
     </Trans>
   </Layout>
