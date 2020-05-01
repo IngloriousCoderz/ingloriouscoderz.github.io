@@ -126,7 +126,7 @@ Infine un'altra cosa che non viene citata nell'articolo è il caso in cui la par
 
 Se si usa [`redux-devtools-extension`](https://github.com/zalmoxisus/redux-devtools-extension) bisogna tenere presente che ora gli store sono due, e si possono selezionare dal menù a tendina in alto a destra con la dicitura "Autoselect instances", che purtroppo al momento mostra due istanze con lo stesso nome anziché usare il nome custom che abbiamo definito:
 
-![store multipli in redux-devtools-extension](/static/images/blog/store-instances.png)
+![store multipli in redux-devtools-extension](/static/images/blog/componenti-react-redux-come-librerie/store-instances.png)
 
 Speriamo che un giorno Facebook cerchi di rendere la vita più semplice non solo agli sviluppatori di app ma anche ai produttori di librerie. Nel frattempo non possiamo far altro che apprezzare l'enorme sforzo che già stanno facendo e magari contribuire, documentando best practice o creare noi stessi una `create-react-lib`!
 

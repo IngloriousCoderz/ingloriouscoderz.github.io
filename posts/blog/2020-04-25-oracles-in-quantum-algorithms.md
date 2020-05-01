@@ -449,7 +449,7 @@ circuit = deutsch(oracle(zero))
 circuit.draw(output='mpl')
 ```
 
-![png](/static/images/blog/deutsch.png)
+![png](/static/images/blog/oracles-in-quantum-computing/deutsch.png)
 
 Let's give it a test.
 
