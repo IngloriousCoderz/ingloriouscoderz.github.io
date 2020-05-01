@@ -58,7 +58,11 @@ def guess(f):
             return balanced # negation
         elif f(1) == 1:
             return constant # one
+```
 
+Let's test the four different functions:
+
+```python
 def zero(bit):
     return 0
 
@@ -174,10 +178,11 @@ $$
 \text{Zero} \cdot |01\rangle = |01\rangle
 $$
 
-So the vectors $\begin{bmatrix}1\\0\\0\\0\end{bmatrix}$ and $\begin{bmatrix}0\\1\\0\\0\end{bmatrix}$ are mapped to themselves. This suggests the following matrix:
+So the vectors $\begin{bmatrix}1 & 0 & 0 & 0\end{bmatrix}^T$ and $\begin{bmatrix}0 & 1 & 0 & 0\end{bmatrix}^T$ are mapped to themselves. This suggests the following matrix:
 
 $$
-\text{Zero} = \begin{bmatrix}
+\text{Zero} =
+\begin{bmatrix}
 1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
 ? & ? & ? & ?\\
@@ -194,10 +199,11 @@ $$
 \text{Zero} \cdot |11\rangle = |11\rangle
 $$
 
-So also the vectors $\begin{bmatrix}0\\0\\1\\0\end{bmatrix}$ and $\begin{bmatrix}0\\0\\0\\1\end{bmatrix}$ are mapped to themselves, which completes the matrix as an Identity (thank you [Gabriele Agliardi](https://www.linkedin.com/in/gabriele-agliardi-50471047/) for helping me on this!):
+So also the vectors $\begin{bmatrix}0 & 0 & 1 & 0\end{bmatrix}^T$ and $\begin{bmatrix}0 & 0 & 0 & 1\end{bmatrix}^T$ are mapped to themselves, which completes the matrix as an Identity (thank you [Gabriele Agliardi](https://www.linkedin.com/in/gabriele-agliardi-50471047/) for helping me on this!):
 
 $$
-\text{Zero} = \begin{bmatrix}
+\text{Zero} =
+\begin{bmatrix}
 1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
 0 & 0 & 1 & 0\\
@@ -233,10 +239,11 @@ $$
 \text{One} \cdot |01\rangle = |11\rangle
 $$
 
-So now the vector $\begin{bmatrix}1\\0\\0\\0\end{bmatrix}$ is mapped to $\begin{bmatrix}0\\0\\1\\0\end{bmatrix}$ and $\begin{bmatrix}0\\1\\0\\0\end{bmatrix}$ is mapped to $\begin{bmatrix}0\\0\\0\\1\end{bmatrix}$, which we can also describe as: "the first position becomes the third, and the second position becomes the fourth". This leads us immediately to the following matrix, without even the need to verify what happens when `output` is $|1\rangle$:
+So now the vector $\begin{bmatrix}1 & 0 & 0 & 0\end{bmatrix}^T$ is mapped to $\begin{bmatrix}0 & 0 & 1 & 0\end{bmatrix}^T$ and $\begin{bmatrix}0 & 1 & 0 & 0\end{bmatrix}^T$ is mapped to $\begin{bmatrix}0 & 0 & 0 & 1\end{bmatrix}^T$, which we can also describe as: "the first position becomes the third, and the second position becomes the fourth". This leads us immediately to the following matrix, without even the need to verify what happens when `output` is $|1\rangle$:
 
 $$
-\text{One} = \begin{bmatrix}
+\text{One} =
+\begin{bmatrix}
 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 1\\
 1 & 0 & 0 & 0\\
@@ -272,10 +279,11 @@ $$
 \text{Identity} \cdot |01\rangle = |11\rangle
 $$
 
-So $\begin{bmatrix}1\\0\\0\\0\end{bmatrix} \rightarrow \begin{bmatrix}1\\0\\0\\0\end{bmatrix}$ and $\begin{bmatrix}0\\1\\0\\0\end{bmatrix} \rightarrow \begin{bmatrix}0\\0\\0\\1\end{bmatrix}$ (first position mapped to itself, second position mapped to fourth). This suggests the following matrix:
+So $\begin{bmatrix}1 & 0 & 0 & 0\end{bmatrix}^T \rightarrow \begin{bmatrix}1 & 0 & 0 & 0\end{bmatrix}^T$ and $\begin{bmatrix}0 & 1 & 0 & 0\end{bmatrix}^T \rightarrow \begin{bmatrix}0 & 0 & 0 & 1\end{bmatrix}^T$ (first position mapped to itself, second position mapped to fourth). This suggests the following matrix:
 
 $$
-\text{Identity} = \begin{bmatrix}
+\text{Identity} =
+\begin{bmatrix}
 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 1\\
 0 & 0 & 1 & 0\\
@@ -311,10 +319,11 @@ $$
 \text{Negation} \cdot |01\rangle = |01\rangle
 $$
 
-So $\begin{bmatrix}1\\0\\0\\0\end{bmatrix} \rightarrow \begin{bmatrix}0\\0\\1\\0\end{bmatrix}$ and $\begin{bmatrix}0\\1\\0\\0\end{bmatrix} \rightarrow \begin{bmatrix}0\\0\\0\\1\end{bmatrix}$ (first position mapped to third, second position mapped to itself). This suggests the following matrix:
+So $\begin{bmatrix}1 & 0 & 0 & 0\end{bmatrix}^T \rightarrow \begin{bmatrix}0 & 0 & 1 & 0\end{bmatrix}^T$ and $\begin{bmatrix}0 & 1 & 0 & 0\end{bmatrix}^T \rightarrow \begin{bmatrix}0 & 0 & 0 & 1\end{bmatrix}^T$ (first position mapped to third, second position mapped to itself). This suggests the following matrix:
 
 $$
-\text{Negation} = \begin{bmatrix}
+\text{Negation} =
+\begin{bmatrix}
 0 & 0 & 1 & 0\\
 0 & 1 & 0 & 0\\
 1 & 0 & 0 & 0\\
