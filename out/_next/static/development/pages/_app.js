@@ -7907,12 +7907,12 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ "./node_modules/next/node_modules/prop-types/checkPropTypes.js":
 /*!***************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_7ab033043bc5918bfbad ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/checkPropTypes.js from dll-reference dll_9600c7f2fd90f30a9096 ***!
   \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7ab033043bc5918bfbad */ "dll-reference dll_7ab033043bc5918bfbad"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9600c7f2fd90f30a9096 */ "dll-reference dll_9600c7f2fd90f30a9096"))("./node_modules/next/node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -8520,12 +8520,12 @@ if (true) {
 
 /***/ "./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*************************************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_7ab033043bc5918bfbad ***!
+  !*** delegated ./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_9600c7f2fd90f30a9096 ***!
   \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7ab033043bc5918bfbad */ "dll-reference dll_7ab033043bc5918bfbad"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9600c7f2fd90f30a9096 */ "dll-reference dll_9600c7f2fd90f30a9096"))("./node_modules/next/node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -9074,12 +9074,12 @@ module.exports = __webpack_require__(/*! ./dist/lib/router */ "./node_modules/ne
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_7ab033043bc5918bfbad ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_9600c7f2fd90f30a9096 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7ab033043bc5918bfbad */ "dll-reference dll_7ab033043bc5918bfbad"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9600c7f2fd90f30a9096 */ "dll-reference dll_9600c7f2fd90f30a9096"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -11065,12 +11065,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_7ab033043bc5918bfbad ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_9600c7f2fd90f30a9096 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7ab033043bc5918bfbad */ "dll-reference dll_7ab033043bc5918bfbad"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_9600c7f2fd90f30a9096 */ "dll-reference dll_9600c7f2fd90f30a9096"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -12791,7 +12791,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/home/antony/Projects/Inglorious Coderz/ingloriouscoderz.github.io/pages/_app.js";
 
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -12805,15 +12805,19 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 
 
@@ -12826,15 +12830,15 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 var enhance = Object(_utils_compose__WEBPACK_IMPORTED_MODULE_6__["compose"])(_hoc_withSW__WEBPACK_IMPORTED_MODULE_11__["withSW"], Object(_hoc_withGA__WEBPACK_IMPORTED_MODULE_10__["withGA"])("UA-61816704-1", next_router__WEBPACK_IMPORTED_MODULE_3___default.a), Object(react_i18next__WEBPACK_IMPORTED_MODULE_5__["withNamespaces"])());
-/* harmony default export */ __webpack_exports__["default"] = (enhance(
-/*#__PURE__*/
-function (_App) {
+/* harmony default export */ __webpack_exports__["default"] = (enhance( /*#__PURE__*/function (_App) {
   _inherits(_class, _App);
+
+  var _super = _createSuper(_class);
 
   function _class() {
     _classCallCheck(this, _class);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(_class).apply(this, arguments));
+    return _super.apply(this, arguments);
   }
 
   _createClass(_class, [{
@@ -12843,33 +12847,34 @@ function (_App) {
       var _this$props = this.props,
           Component = _this$props.Component,
           pageProps = _this$props.pageProps;
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
+          lineNumber: 35,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
         config: _next_seo_config__WEBPACK_IMPORTED_MODULE_9__["default"],
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, _extends({}, pageProps, {
+          lineNumber: 36,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, _extends({}, pageProps, {
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
+          lineNumber: 37,
+          columnNumber: 11
+        }
       })));
     }
   }], [{
     key: "getInitialProps",
     value: function () {
-      var _getInitialProps = _asyncToGenerator(
-      /*#__PURE__*/
-      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
+      var _getInitialProps = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
         var Component, router, ctx, pageProps;
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
@@ -13254,14 +13259,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_7ab033043bc5918bfbad":
+/***/ "dll-reference dll_9600c7f2fd90f30a9096":
 /*!*******************************************!*\
-  !*** external "dll_7ab033043bc5918bfbad" ***!
+  !*** external "dll_9600c7f2fd90f30a9096" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_7ab033043bc5918bfbad;
+module.exports = dll_9600c7f2fd90f30a9096;
 
 /***/ })
 

@@ -80,7 +80,7 @@ export default () => (
 
     <style jsx>{`
       .map-container {
-        height: 300px;
+        height: 400px;
         margin-bottom: 1rem;
       }
     `}</style>

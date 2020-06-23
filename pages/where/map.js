@@ -8,7 +8,7 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 
 const Map = ReactMapboxGl({ accessToken: process.env.NEXT_STATIC_MAPBOX_TOKEN })
 
-const INGLORIOUS_HQ_COORDS = [7.658785500000022, 45.0932463]
+const OFFICES = { torino: [7.605567, 45.0735886], roma: [12.3959151, 41.9102415], rossano: [16.6301855, 39.5773908], pittulongu: [9.5608871, 40.9460781], panama: [-81.2266042, 8.3788373], sydney: [150.6517959, -33.8473567,], newyork: [-74.1197639, 40.6976637] }
 
 const mapStyle = { width: '100%', height: '100%' }
 
@@ -17,19 +17,20 @@ export default () => (
     style="mapbox://styles/mapbox/streets-v8"
     injectCSS={false}
     containerStyle={mapStyle}
-    center={INGLORIOUS_HQ_COORDS}
-    zoom={[14]}>
-    <Marker coordinates={INGLORIOUS_HQ_COORDS} anchor="bottom">
+    center={[14.2399618, 15.4114625]}
+    zoom={[1]}
+    >
+      {Object.keys(OFFICES).map(key => <Marker key={key} coordinates={OFFICES[key]} anchor="bottom">
       <div className="marker">
         <div className="icon" />
       </div>
-    </Marker>
+    </Marker>)}
     <ScaleControl />
     <RotationControl style={{ top: 80 }} />
     <ZoomControl />
 
     <style jsx>{`
-      // NOTE: see https://codepen.io/EskoCruz/pen/OVgZqX
+      /* @NOTE: see https://codepen.io/EskoCruz/pen/OVgZqX */
       .marker {
         width: 2rem;
         height: 2rem;

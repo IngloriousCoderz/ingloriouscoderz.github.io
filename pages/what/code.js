@@ -46,6 +46,7 @@ export default () => (
             </p>
             <p>
               During the following days we supported the client in many ways:
+            </p>
               <ul>
                 <li>adapting the layout and graphics to the new mockups</li>
                 <li>
@@ -57,7 +58,6 @@ export default () => (
                 <li>managing communication among the team</li>
                 <li>giving technical support</li>
               </ul>
-            </p>
             <p>
               When the client had timing issues with the approval of the Android
               app on the Play Store, they still had a solid PWA to show. The
