@@ -10,16 +10,17 @@ export default () => (
   <Layout
     path="what/code"
     title="Code"
-    description="We build code like craftsmen.">
+    description="We build code like craftsmen."
+  >
     <Trans>
       <article className="card card-1">
         <h1>Code</h1>
 
         <p>
           Coding is a mean through which we express ourselves. It is an
-          artisanal activity that mixes creativity and logic. That's why every
-          project is treated like a creature we raise and nurture until it is
-          able to go on its own.
+          artisanal activity that mixes creativity and logic. That&apos;s why
+          every project is treated like a creature we raise and nurture until it
+          is able to go on its own.
         </p>
       </article>
 
@@ -27,16 +28,13 @@ export default () => (
         <Column max={3}>
           <Card
             title="Leonardo"
-            image={require('~/static/images/what/code/leonardo.png')}>
-            <p>
-              This is the first time we see a client so satisfied that they
-              decided to pay us triple the agreed amount.
-            </p>
+            image={require('~/static/images/what/code/leonardo.png')}
+          >
             <p>
               <ExtLink to="http://www.b-play.com/">B-Play</ExtLink> urgently
               needed an app for the upcoming exhibition about Leonardo Da
-              Vinci's machines. As soon as we got the mockups, in just two days
-              we built a <ExtLink to="https://reactjs.org/">React</ExtLink>{' '}
+              Vinci&apos;s machines. As soon as we got the mockups, in just two
+              days we built a <ExtLink to="https://reactjs.org/">React</ExtLink>{' '}
               <ExtLink to="https://developers.google.com/web/progressive-web-apps/">
                 PWA
               </ExtLink>{' '}
@@ -47,17 +45,17 @@ export default () => (
             <p>
               During the following days we supported the client in many ways:
             </p>
-              <ul>
-                <li>adapting the layout and graphics to the new mockups</li>
-                <li>
-                  adding new features on the fly such as{' '}
-                  <ExtLink to="https://en.wikipedia.org/wiki/Internationalization_and_localization">
-                    i18n
-                  </ExtLink>
-                </li>
-                <li>managing communication among the team</li>
-                <li>giving technical support</li>
-              </ul>
+            <ul>
+              <li>adapting the layout and graphics to the new mockups</li>
+              <li>
+                adding new features on the fly such as{' '}
+                <ExtLink to="https://en.wikipedia.org/wiki/Internationalization_and_localization">
+                  i18n
+                </ExtLink>
+              </li>
+              <li>managing communication among the team</li>
+              <li>giving technical support</li>
+            </ul>
             <p>
               When the client had timing issues with the approval of the Android
               app on the Play Store, they still had a solid PWA to show. The
@@ -70,16 +68,17 @@ export default () => (
         <Column max={3}>
           <Card
             title="EpiCura"
-            image={require('~/static/images/what/code/epicura.png')}>
+            image={require('~/static/images/what/code/epicura.png')}
+          >
             <p>
               <ExtLink to="https://www.epicuramed.it/">EpiCura</ExtLink> uses
               technology to make health and social assistance services more
-              accessible, with the mission of simplifying people's lives. Their
-              mission consists in improving a sector characterized by little
-              organization, long waits and great inconveniences and they are
-              doing this by building a service based on timeliness, flexibility
-              and proximity to our patients. But who will take care of such a
-              complex system?
+              accessible, with the mission of simplifying people&apos;s lives.
+              Their mission consists in improving a sector characterized by
+              little organization, long waits and great inconveniences and they
+              are doing this by building a service based on timeliness,
+              flexibility and proximity to our patients. But who will take care
+              of such a complex system?
             </p>
             <p>
               We invested in a headless CMS such as{' '}
@@ -95,7 +94,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="Fattutto"
-            image={require('~/static/images/what/code/fattutto.png')}>
+            image={require('~/static/images/what/code/fattutto.png')}
+          >
             <p>
               <ExtLink to="https://www.sistemict.it/">Sistemi ICT</ExtLink>{' '}
               wanted to create the best invoice management system. They wanted
@@ -133,7 +133,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="Appointment Selector"
-            image={require('~/static/images/what/code/appointment-selector.png')}>
+            image={require('~/static/images/what/code/appointment-selector.png')}
+          >
             <p>
               <ExtLink to="https://www.milkman.it/">Milkman</ExtLink> is the
               perfect solution for your home deliveries. The key concepts are:
@@ -148,10 +149,10 @@ export default () => (
             <p>
               This is why they asked us to implement this responsive,
               performant, highly customizable, multi-touch{' '}
-              <ExtLink to="https://reactjs.org/">React</ExtLink> component. It's
-              very difficult to build simple things, so they chose to leave the
-              task to us. After 9 days of constant feedback the component was
-              delivered fully tested and bug-free, along with a{' '}
+              <ExtLink to="https://reactjs.org/">React</ExtLink> component.
+              It&apos;s very difficult to build simple things, so they chose to
+              leave the task to us. After 9 days of constant feedback the
+              component was delivered fully tested and bug-free, along with a{' '}
               <ExtLink to="https://storybook.js.org/">Storybook</ExtLink>{' '}
               playground.
             </p>
@@ -161,7 +162,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="Saving Private Griffe"
-            image={require('~/static/images/what/code/privategriffe.png')}>
+            image={require('~/static/images/what/code/privategriffe.png')}
+          >
             <p>
               This is actually a failure case. But, as you may know, failures
               are as important, if not more, than success cases.
@@ -192,7 +194,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="Lanieri BO Platform"
-            image={require('~/static/images/what/code/bo-platform.png')}>
+            image={require('~/static/images/what/code/bo-platform.png')}
+          >
             <p>
               <ExtLink to="https://protocube.it/">Protocube</ExtLink> wanted to
               hire us for a project that had to last six months. We told that
@@ -206,8 +209,8 @@ export default () => (
               <ExtLink to="https://expressjs.com/">Express</ExtLink>/
               <ExtLink to="https://www.mongodb.com/">MongoDB</ExtLink> server
               with authentication, file upload, and communication both REST and
-              realtime. The project was then passed to the client's devs who
-              easily continued working on it.
+              realtime. The project was then passed to the client&apos;s devs
+              who easily continued working on it.
             </p>
             {/* <p>
               The client is so satisfied with the outcome that we are being
@@ -222,7 +225,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="GiadaJoeyCazzola.com"
-            image={require('~/static/images/what/code/giadajoeycazzola.png')}>
+            image={require('~/static/images/what/code/giadajoeycazzola.png')}
+          >
             <p>
               Inglorious Coderz do not always make websites. But when they do,
               they build them from scratch.
@@ -233,8 +237,8 @@ export default () => (
               </ExtLink>{' '}
               is a responsive and SEO-friendly progressive webapp generated with{' '}
               <ExtLink to="https://nuxtjs.org/">Nuxt</ExtLink>. Although it
-              doesn't allow the user to publish their own content (which could
-              also be considered a feature, because it ensures content
+              doesn&apos;t allow the user to publish their own content (which
+              could also be considered a feature, because it ensures content
               correctness), the UX is completely custom and the performance
               achieved is far better than any CMS-generated website.
             </p>
@@ -244,7 +248,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="Developers Italia"
-            image={require('~/static/images/what/code/developers-italia.png')}>
+            image={require('~/static/images/what/code/developers-italia.png')}
+          >
             <p>
               In 2017 the{' '}
               <ExtLink to="https://teamdigitale.governo.it/en/">
@@ -276,7 +281,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="Tazebao"
-            image={require('~/static/images/what/code/tazebao.png')}>
+            image={require('~/static/images/what/code/tazebao.png')}
+          >
             <p>
               To create the best school management system,{' '}
               <ExtLink to="http://www.cnosfap.net/">CNOS-FAP</ExtLink> needed

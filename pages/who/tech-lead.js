@@ -7,7 +7,8 @@ export default () => (
   <Layout
     path="who/tech-lead"
     title="Tech Lead"
-    description="Reviews about how we lead tech teams.">
+    description="Reviews about how we lead tech teams."
+  >
     <Card>
       <blockquote>
         <p>
@@ -38,8 +39,8 @@ export default () => (
           Working with him I often found myself facing non-trivial problems with
           technologies never seen before that I could face brilliantly and
           smoothly, because one of his characteristics is to always help the
-          elements of his group by pausing whatever he's doing and giving them
-          his time.
+          elements of his group by pausing whatever he&apos;s doing and giving
+          them his time.
         </p>
         <p>
           He is a very creative mind and like all minds of that kind it is

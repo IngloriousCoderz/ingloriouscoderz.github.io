@@ -275,6 +275,7 @@ export default ({ path, title, description, children }) => (
       /* needed to position correctly markers on map */
       .mapboxgl-map {
         position: relative;
+        overflow: hidden;
       }
 
       .mapboxgl-marker {

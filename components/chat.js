@@ -44,7 +44,7 @@ export default withI18n()(({ t }) => (
         {
           id: 'it-s-me',
           message: t(
-            "Hey it's me, ICBot. You followed the white rabbit and found us. Good for you.",
+            "Hey it's me, ICBot. You followed the white rabbit and found us. Good for you."
           ),
           trigger: 'ask-me',
         },
@@ -66,7 +66,7 @@ export default withI18n()(({ t }) => (
         {
           id: 'jokes-aside',
           message: t(
-            'Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!',
+            'Jokes aside, one day I will be able to tell you something meaningful, but right now I have no AI attached. So meanwhile, have a look around!'
           ),
           end: true,
           // trigger: 'want-to-know-else',

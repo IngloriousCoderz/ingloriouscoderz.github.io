@@ -6,13 +6,24 @@ import Column from '~/components/column'
 import Card from '~/components/card'
 import ExtLink from '~/components/ext-link'
 
-const Map = dynamic(() => import('./map'), { ssr: false })
+const Map = dynamic(() => import('~/components/map'), { ssr: false })
+
+const offices = {
+  torino: [7.6824892, 45.0677551],
+  roma: [12.4829321, 41.8933203],
+  rossano: [16.6329574, 39.599538],
+  pittulongu: [9.5736584, 40.9489027],
+  panama: [-79.5341802, 8.9714493],
+  sydney: [151.2070115, -33.872978],
+  newyork: [-74.0060152, 40.7127281],
+}
 
 export default () => (
   <Layout
     path="where"
     title="Where"
-    description="Places where you can find us, online or IRL.">
+    description="Places where you can find us, online or IRL."
+  >
     <article className="card card-1">
       <h1>Where</h1>
 
@@ -22,7 +33,7 @@ export default () => (
       </p>
 
       <div className="map-container">
-        <Map />
+        <Map offices={offices} />
       </div>
 
       <p>
@@ -82,6 +93,7 @@ export default () => (
       .map-container {
         height: 400px;
         margin-bottom: 1rem;
+        display: flex;
       }
     `}</style>
   </Layout>

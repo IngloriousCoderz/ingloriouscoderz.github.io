@@ -15,8 +15,8 @@ export default () => (
 
         <p>
           Inglorious Coderz are damn good at developing software but also at
-          communicating software. That's why 50% of our activity consists in
-          teaching, training, mentoring, coaching, and public speaking in
+          communicating software. That&apos;s why 50% of our activity consists
+          in teaching, training, mentoring, coaching, and public speaking in
           general.
         </p>
       </article>
@@ -25,7 +25,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="Courses"
-            image={require('~/static/images/what/speak/vulog.jpg')}>
+            image={require('~/static/images/what/speak/vulog.jpg')}
+          >
             <p>
               Check the catalog right now!
               <br />
@@ -71,13 +72,14 @@ export default () => (
         <Column max={3}>
           <Card
             title="Mentorship"
-            image={require('~/static/images/what/speak/mentor.jpg')}>
+            image={require('~/static/images/what/speak/mentor.jpg')}
+          >
             <p>
-              There was an old commercial stating "Power is nothing without
-              control". When people have a great potential but lack guidance,
-              what they need is an authoritative figure to rely on. There's
-              nothing worse than wasting potential because there is no one
-              around giving the right support and motivation.
+              There was an old commercial stating &ldquo;Power is nothing
+              without control&rdquo;. When people have a great potential but
+              lack guidance, what they need is an authoritative figure to rely
+              on. There&apos;s nothing worse than wasting potential because
+              there is no one around giving the right support and motivation.
             </p>
             <p>
               Inglorious Coderz will be your technical lead and will{' '}
@@ -92,7 +94,7 @@ export default () => (
               <ExtLink to="https://en.wikipedia.org/wiki/Pair_programming">
                 pair program
               </ExtLink>{' '}
-              with you, until you'll be able to fly on your own wings.
+              with you, until you&apos;ll be able to fly on your own wings.
             </p>
             <p>
               At present we mentor for the{' '}
@@ -111,12 +113,14 @@ export default () => (
         <Column max={3}>
           <Card
             title="Conferences"
-            image={require('~/static/images/what/speak/apia.jpg')}>
+            image={require('~/static/images/what/speak/apia.jpg')}
+          >
             <p>
-              It's hard to convey a message in 40 minutes or less. There's no
-              time for introductions nor boring stuff. That's why every
-              conference made by Inglorious Coderz is a thrilling rollercoaster,
-              at the end of which the audience simply feels blown away.
+              It&apos;s hard to convey a message in 40 minutes or less.
+              There&qpos;s no time for introductions nor boring stuff.
+              That&apos;s why every conference made by Inglorious Coderz is a
+              thrilling rollercoaster, at the end of which the audience simply
+              feels blown away.
             </p>
             <p className="text-right">
               <Link to="/what/speak/conferences">see all conferences›</Link>

@@ -7,14 +7,15 @@ export default () => (
   <Layout
     path="who/mentor"
     title="Mentor"
-    description="Reviews about our mentorship skills.">
+    description="Reviews about our mentorship skills."
+  >
     <Card>
       <blockquote>
         <p>
           Antony is a great human being to start with. He is an apt person to be
           titled as a mentor for he has the perfect sense of understanding of
           both the person as well as the idea that is being communicated to him
-          and this understanding is evident in his evaluation of the idea's
+          and this understanding is evident in his evaluation of the idea&apos;s
           which is absolutely exceptional. In particular to my case, he was also
           kind enough to promote my idea to the concerned CEO who was present
           there at that time so that I could get more exposure for my idea. He

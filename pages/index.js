@@ -6,7 +6,7 @@ export default withI18n()(({ t }) => (
     <article className="card card-1">
       <h1>
         {t(
-          'A fistful of heroes striving to create a better world through better software.',
+          'A fistful of heroes striving to create a better world through better software.'
         )}
       </h1>
     </article>

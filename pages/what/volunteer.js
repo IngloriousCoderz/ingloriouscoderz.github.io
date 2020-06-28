@@ -16,10 +16,11 @@ export default () => (
       <article className="card card-1">
         <h1>Volunteer</h1>
         <p>
-          The purpose of Inglorious Coderz is to build a better world. But let's
-          face it, code by itself will not suffice. That's why we are also first
-          in line when dealing with volunteering. Part of the money we earn is
-          not just spent on charity, it allows us to take action directly.
+          The purpose of Inglorious Coderz is to build a better world. But
+          let&apos;s face it, code by itself will not suffice. That&apos;s why
+          we are also first in line when dealing with volunteering. Part of the
+          money we earn is not just spent on charity, it allows us to take
+          action directly.
         </p>
       </article>
 
@@ -99,7 +100,7 @@ export default () => (
             <p>
               Inglorious Coderz remotely assisted the development of the{' '}
               <ExtLink to="https://leadersburundi.wordpress.com/">
-                Association's website
+                Association&apos;s website
               </ExtLink>{' '}
               and its{' '}
               <ExtLink to="https://www.facebook.com/Les-jeunes-leaders-du-Burundi-2043300449039820/">
@@ -113,7 +114,7 @@ export default () => (
               <ExtLink to="https://www.linkedin.com/in/mariamatloub/">
                 Maria Matloub
               </ExtLink>{' '}
-              for the conference's poster design.
+              for the conference&apos;s poster design.
             </p>
           </Card>
         </Column>
@@ -124,16 +125,17 @@ export default () => (
             image={require('~/static/images/what/volunteer/lampedusa_bath.jpg')}
           >
             <p>
-              Sea ​​turtles are not only beautiful animals, but they are
-              essential for the marine ecosystem because they are greedy for
-              jellyfish, which threatens our oceans due to their exponentially
-              increasing number.
+              Sea turtles are not only beautiful animals, but they are essential
+              for the marine ecosystem because they are greedy for jellyfish,
+              which threatens our oceans due to their exponentially increasing
+              number.
             </p>
             <p>
-              Although a sea turtle's lifespan could reach 150 years or more,
-              many of them die way earlier due to human interference: fishing
-              nets, hooks, trash, global warming, ... We must start to behave
-              responsibly towards our environment, and we have to do it quick.
+              Although a sea turtle&apos;s lifespan could reach 150 years or
+              more, many of them die way earlier due to human interference:
+              fishing nets, hooks, trash, global warming, ... We must start to
+              behave responsibly towards our environment, and we have to do it
+              quick.
             </p>
             <p>
               <ExtLink to="http://www.lampedusaturtlerescue.org/">

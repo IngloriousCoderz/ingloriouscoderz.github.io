@@ -7,7 +7,8 @@ export default () => (
   <Layout
     path="who/teacher"
     title="Teacher"
-    description="Reviews about the way we teach.">
+    description="Reviews about the way we teach."
+  >
     <Card>
       <blockquote>
         <p>
@@ -90,7 +91,8 @@ export default () => (
           methodologies, and best practices that are all but simple and
           straightforward. Always friendly and helpful, he also makes sure that
           each of his students understands and can therefore put into practice
-          what has been explained. I can only wish to "work" with him again.
+          what has been explained. I can only wish to &ldquo;work&rdquo; with
+          him again.
         </p>
         <footer>
           &mdash;{' '}
@@ -152,18 +154,18 @@ export default () => (
     <Card>
       <blockquote>
         <p>
-          Antony's teaching methods are so well done, so fast paced, so rich of
-          details! Having him as my teacher was an honor. He doesn't let anyone
-          stay behind. He explains certain concepts so well that you cannot help
-          not seeing them everywhere on well made Web Applications. He's highly
-          energic, he has a rich package of knowledge about a lot of frameworks
-          and technologies for web development. He knows a lot about mostly
-          everything web related : frameworks, Design Patterns, MVC, unit
-          testing, Integration Testing, Test Driven Development.. I was
-          sometimes amazed about how someone can know so much. Thanks to Antony
-          and the very well done course of Angular, Spring, Hibernate and the
-          rich informations he has given me i was able to get a job in the web
-          developing field. Thank you Antony!
+          Antony&apos;s teaching methods are so well done, so fast paced, so
+          rich of details! Having him as my teacher was an honor. He
+          doesn&apos;t let anyone stay behind. He explains certain concepts so
+          well that you cannot help not seeing them everywhere on well made Web
+          Applications. He&apos;s highly energic, he has a rich package of
+          knowledge about a lot of frameworks and technologies for web
+          development. He knows a lot about mostly everything web related :
+          frameworks, Design Patterns, MVC, unit testing, Integration Testing,
+          Test Driven Development.. I was sometimes amazed about how someone can
+          know so much. Thanks to Antony and the very well done course of
+          Angular, Spring, Hibernate and the rich informations he has given me i
+          was able to get a job in the web developing field. Thank you Antony!
         </p>
         <footer>
           &mdash;{' '}
@@ -182,15 +184,16 @@ export default () => (
         <p>
           Antony is an energetic, active, highly skilled developer, with a
           desire to teach and learn, search for new technologies and share them.
-          These are the qualities that he was trying to "grow" on us during the
-          "Programming course with java and javascript frameworks for the web".
-          Italian is not my mother tongue, but Antony was able to teach so that
-          the language difference was not a problem.
+          These are the qualities that he was trying to &ldquo;grow&rdquo; on us
+          during the &ldquo;Programming course with java and javascript
+          frameworks for the web&rdquo;. Italian is not my mother tongue, but
+          Antony was able to teach so that the language difference was not a
+          problem.
         </p>
         <p>
           Your enthusiasm is contagious. Thank you for all the knowledge you
-          "threw" at us - it was hard but useful! I wish you only interesting
-          projects that bring money and satisfaction :).
+          &ldquo;threw&rdquo; at us - it was hard but useful! I wish you only
+          interesting projects that bring money and satisfaction :).
         </p>
         <footer>
           &mdash;{' '}
@@ -278,8 +281,8 @@ export default () => (
         <p>
           Antony was the teacher of the advanced Java course organized by my
           company. Very prepared and available. The passion for programming and
-          the "search for perfect software architecture" is sincere and
-          contagious.
+          the &ldquo;search for perfect software architecture&rdquo; is sincere
+          and contagious.
         </p>
         <footer>
           &mdash;{' '}

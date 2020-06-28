@@ -7,17 +7,18 @@ import { compose } from '~/utils/compose'
 import 'flexboxgrid'
 import '~/static/styles/style.css'
 import SEO from '~/next-seo.config'
-import { withGA } from './hoc/withGA'
-import { withSW } from './hoc/withSW'
+import { withGA } from '~/hoc/withGA'
+import { withSW } from '~/hoc/withSW'
 
 const enhance = compose(
   withSW,
   withGA(process.env.NEXT_STATIC_GA_TRACKING_ID, Router),
-  withNamespaces(),
+  withNamespaces()
 )
 
 export default enhance(
   class extends App {
+    // eslint-disable-next-line no-unused-vars
     static async getInitialProps({ Component, router, ctx }) {
       let pageProps = {}
 
@@ -38,5 +39,5 @@ export default enhance(
         </Container>
       )
     }
-  },
+  }
 )

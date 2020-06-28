@@ -10,7 +10,8 @@ export default () => (
   <Layout
     path="what/speak/conferences"
     title="Conferences"
-    description="Talks and keynotes performed worldwide.">
+    description="Talks and keynotes performed worldwide."
+  >
     <Trans>
       <article className="card card-1">
         <h1>Conferences</h1>
@@ -27,7 +28,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="New Technologies"
-            image={require('~/static/images/what/speak/new_technologies.jpg')}>
+            image={require('~/static/images/what/speak/new_technologies.jpg')}
+          >
             <p>
               The{' '}
               <ExtLink to="https://www.inacademy.eu/italy-old/">
@@ -38,11 +40,11 @@ export default () => (
               students, teachers, and mentors.
             </p>
             <p>
-              The picture below refers to a slide from the keynote "New
-              Technologies" which, according to one of the Program Managers, was
-              "a mix of frontier technologies, memes, gifs and fundamental
-              thoughts about the future – it is captivating, fun and
-              thought-provoking".
+              The picture below refers to a slide from the keynote &ldquo;New
+              Technologies&rdquo; which, according to one of the Program
+              Managers, was &ldquo;a mix of frontier technologies, memes, gifs
+              and fundamental thoughts about the future – it is captivating, fun
+              and thought-provoking&rdquo;.
             </p>
             <p>
               Slides are available{' '}
@@ -57,7 +59,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="CTO Bootcamp"
-            image={require('~/static/images/what/speak/cto_bootcamp.jpg')}>
+            image={require('~/static/images/what/speak/cto_bootcamp.jpg')}
+          >
             <p>
               <ExtLink to="https://www.codemotion.com/">Codemotion</ExtLink> in
               collaboration with{' '}
@@ -80,7 +83,8 @@ export default () => (
               <ExtLink to="https://www.codemotion.com/magazine/codemotion-tech-leadership-training-boot-camp-review-1-of-2-5150">
                 officially scaled down
               </ExtLink>{' '}
-              for some reason. But you know it, we don't do it for the glory ;)
+              for some reason. But you know it, we don&apos;t do it for the
+              glory ;)
             </p>
             <p>
               Slides are available{' '}
@@ -95,9 +99,11 @@ export default () => (
         <Column max={3}>
           <Card
             title="React, The Inglorious Way"
-            image={require('~/static/images/what/speak/react_inglorious_way.jpg')}>
+            image={require('~/static/images/what/speak/react_inglorious_way.jpg')}
+          >
             <p>
-              "React, The Inglorious Way" is a 40 minute talk performed at{' '}
+              &ldquo;React, The Inglorious Way&rdquo; is a 40 minute talk
+              performed at{' '}
               <ExtLink to="https://events.codemotion.com/conferences/amsterdam/2019/">
                 Codemotion Amsterdam 2019
               </ExtLink>
@@ -124,9 +130,11 @@ export default () => (
         <Column max={3}>
           <Card
             title="Refactoring Into React Hooks"
-            image={require('~/static/images/what/speak/refactoring_react_hooks.jpg')}>
+            image={require('~/static/images/what/speak/refactoring_react_hooks.jpg')}
+          >
             <p>
-              "Refactoring Into React Hooks" is a 40 minute talk performed at{' '}
+              &ldquo;Refactoring Into React Hooks&rdquo; is a 40 minute talk
+              performed at{' '}
               <ExtLink to="https://events.codemotion.com/conferences/rome/2019/">
                 Codemotion Rome 2019
               </ExtLink>
@@ -152,9 +160,10 @@ export default () => (
         <Column max={3}>
           <Card
             title="Technology 101 For Startupperz"
-            image={require('~/static/images/what/speak/apia.jpg')}>
+            image={require('~/static/images/what/speak/apia.jpg')}
+          >
             <p>
-              "Tech 101" is a 40 minute keynote requested by{' '}
+              &ldquo;Tech 101&rdquo; is a 40 minute keynote requested by{' '}
               <ExtLink to="https://www.inacademy.eu/">
                 European Innovation Academy
               </ExtLink>{' '}
@@ -180,7 +189,8 @@ export default () => (
         <Column max={3}>
           <Card
             title="Sea Turtles"
-            image={require('~/static/images/what/speak/lampedusa_sexy_turtles.jpg')}>
+            image={require('~/static/images/what/speak/lampedusa_sexy_turtles.jpg')}
+          >
             <p>
               A 15-minute guided tour of the{' '}
               <ExtLink to="https://www.lampedusaturtlerescue.org/">

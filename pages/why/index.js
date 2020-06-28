@@ -34,9 +34,9 @@ export default () => {
         </p>
         <p>
           On the other hand machines are evolving rapidly, gaining a role in
-          society that's more and more relevant. They are replacing us in every
-          aspect of life, sometimes performing much better than humans even on
-          tasks that we thought required human interaction.
+          society that&apos;s more and more relevant. They are replacing us in
+          every aspect of life, sometimes performing much better than humans
+          even on tasks that we thought required human interaction.
         </p>
         <p>
           No one knows if machines will take us over completely, when will it

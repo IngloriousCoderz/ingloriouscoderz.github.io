@@ -9,14 +9,15 @@ export default () => (
   <Layout
     path="when"
     title="When"
-    description="No matter how big or small you are, we'll grow with you.">
+    description="No matter how big or small you are, we'll grow with you."
+  >
     <Trans>
       <article className="card card-1">
         <h1>When</h1>
 
         <p>
-          In every phase of your business' lifecycle, Inglorious Coderz is there
-          to be your perfect tech ally.
+          In every phase of your business&apos; lifecycle, Inglorious Coderz is
+          there to be your perfect tech ally.
         </p>
       </article>
 
@@ -25,15 +26,15 @@ export default () => (
           <Card title="Startups">
             <p>
               An awesome idea is the starting point for your business, but then
-              you have to build the real thing. That's when you realize you're
-              really putting your future in someone else's hands. Just make sure
-              the person you're relying on is able to develop a robust
-              foundation for your product.
+              you have to build the real thing. That&apos;s when you realize
+              you&apos;re really putting your future in someone else&apos;s
+              hands. Just make sure the person you&apos;re relying on is able to
+              develop a robust foundation for your product.
             </p>
             <p>
-              Inglorious Coderz can help in many ways, from assessing your CTO's
-              skills to mentoring your devs, or even taking on the role of your
-              first CTO.
+              Inglorious Coderz can help in many ways, from assessing your
+              CTO&apos;s skills to mentoring your devs, or even taking on the
+              role of your first CTO.
             </p>
           </Card>
         </Column>
@@ -43,8 +44,8 @@ export default () => (
             <p>
               As a small business you know you need an online presence. Also, do
               you find yourself wasting too much time doing small tasks by hand
-              every day? That's a hint that you need some automation in your
-              work life.
+              every day? That&apos;s a hint that you need some automation in
+              your work life.
             </p>
             <p>
               Inglorious Coderz can provide you solutions built from scratch so
@@ -62,10 +63,10 @@ export default () => (
             <p>
               Being in the industry for a while, you already know how IT
               consulting works: you pay for a senior and you get a junior that
-              lied on their CV. Wouldn't it be better to employ people and keep
-              the know-how in-house? Definitely. But then, who is going to train
-              them? Who is going to give them best practices and standards to
-              follow? Who is going to address those hard problems that they
+              lied on their CV. Wouldn&apos;t it be better to employ people and
+              keep the know-how in-house? Definitely. But then, who is going to
+              train them? Who is going to give them best practices and standards
+              to follow? Who is going to address those hard problems that they
               cannot solve?
             </p>
             <p>The answer to all three is: Inglorious Coderz.</p>

@@ -10,7 +10,8 @@ export default () => (
   <Layout
     path="what"
     title="What"
-    description="Which activities we are involved in.">
+    description="Which activities we are involved in."
+  >
     <Trans>
       <article className="card card-1">
         <h1>What</h1>
@@ -25,8 +26,9 @@ export default () => (
         <Column>
           <Card
             title="Code"
-            image={require('~/static/images/what/code/fattutto.png')}>
-            <p>Code is what we love, and it's what we do best.</p>
+            image={require('~/static/images/what/code/fattutto.png')}
+          >
+            <p>Code is what we love, and it&apos;s what we do best.</p>
             <p className="text-right">
               <Link to="/what/code">see all projects›</Link>
             </p>
@@ -36,7 +38,8 @@ export default () => (
         <Column>
           <Card
             title="Speak"
-            image={require('~/static/images/what/speak/apia.jpg')}>
+            image={require('~/static/images/what/speak/apia.jpg')}
+          >
             <p>
               We love developing software as much as we love developing people.
             </p>
@@ -49,7 +52,8 @@ export default () => (
         <Column>
           <Card
             title="Volunteer"
-            image={require('~/static/images/what/volunteer/lampedusa_blood_sample.jpg')}>
+            image={require('~/static/images/what/volunteer/lampedusa_blood_sample.jpg')}
+          >
             <p>Our main goal is to change the world for the better.</p>
             <p className="text-right">
               <Link to="/what/volunteer">see all volunteering activities›</Link>
@@ -60,7 +64,8 @@ export default () => (
         <Column>
           <Card
             title="Community"
-            image={require('~/static/images/what/community/king.jpg')}>
+            image={require('~/static/images/what/community/king.jpg')}
+          >
             <p>We can make it if we are in this together.</p>
             <p className="text-right">
               <Link to="/what/community">see details about the community›</Link>

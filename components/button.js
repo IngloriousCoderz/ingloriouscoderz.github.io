@@ -11,7 +11,8 @@ export default withI18n()(
         rel={rel}
         onClick={onClick}
         aria-label={ariaLabel}
-        className="button">
+        className="button"
+      >
         {children && typeof children !== 'string'
           ? children
           : t(title || children)}
@@ -35,5 +36,5 @@ export default withI18n()(
         `}</style>
       </Component>
     )
-  },
+  }
 )

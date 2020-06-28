@@ -11,7 +11,8 @@ export default () => (
   <Layout
     path="who"
     title="Who"
-    description="The people behind this company and the roles they cover.">
+    description="The people behind this company and the roles they cover."
+  >
     <Trans>
       <article className="card card-1">
         <h1>Who</h1>
@@ -23,19 +24,19 @@ export default () => (
 
         <p>
           Currently Inglorious Coderz as a firm is a one-man army, which means
-          there's only one person behind everything. It's-a me,{' '}
+          there&apos;s only one person behind everything. It&apos;s-a me,{' '}
           <ExtLink to="/static/documents/CV-Europass-20170418-Mistretta-EN.pdf">
             Matteo Antony
           </ExtLink>
-          ! You can consider me as a freelance, but I'm planning to expand
+          ! You can consider me as a freelance, but I&apos;m planning to expand
           myself soon.
         </p>
 
         <p>
-          So, instead of the people, let's focus on the roles for now. You can
-          hire me for different kinds of activities with different degrees of
-          involvement. Of course I can wear multiple hats at the same time, but
-          you will pay for just one guy! How cool is that?
+          So, instead of the people, let&apos;s focus on the roles for now. You
+          can hire me for different kinds of activities with different degrees
+          of involvement. Of course I can wear multiple hats at the same time,
+          but you will pay for just one guy! How cool is that?
         </p>
       </article>
 
@@ -47,10 +48,10 @@ export default () => (
               You will have constant updates and be asked for constant feedback.
             </p>
             <p>
-              I'll be putting the gun on your hand: the source code and every
-              credential needed to access the service I'm building for you will
-              be yours from day 1. This way you can get rid of me as soon as you
-              like.
+              I&apos;ll be putting the gun on your hand: the source code and
+              every credential needed to access the service I&apos;m building
+              for you will be yours from day 1. This way you can get rid of me
+              as soon as you like.
             </p>
           </Card>
         </Column>
@@ -58,15 +59,15 @@ export default () => (
         <Column max={3}>
           <Card title="IT Consultant">
             <p>
-              As an IT consultant I'll be working phisically alongside with your
-              team. This is the best solution if you want to monitor my work
-              closely or simply prefer to keep the know-how in-house.
+              As an IT consultant I&apos;ll be working phisically alongside with
+              your team. This is the best solution if you want to monitor my
+              work closely or simply prefer to keep the know-how in-house.
             </p>
             <p>
-              There's a limit to this: I'm less likely to accept projects that
-              last months, or will ask for a higher fee. It prevents me to do
-              anything else. But experience taught me that you never need me for
-              more than one or two months.
+              There&apos;s a limit to this: I&apos;m less likely to accept
+              projects that last months, or will ask for a higher fee. It
+              prevents me to do anything else. But experience taught me that you
+              never need me for more than one or two months.
             </p>
             <p className="text-right">
               <Link to="/who/consultant">see what people say›</Link>
@@ -133,8 +134,8 @@ export default () => (
         <Column max={3}>
           <Card title="Project Manager">
             <p>
-              As a project manager I will keep track of the project's progress,
-              enforce an{' '}
+              As a project manager I will keep track of the project&apos;s
+              progress, enforce an{' '}
               <ExtLink to="https://en.wikipedia.org/wiki/Agile_software_development">
                 Agile
               </ExtLink>{' '}
@@ -142,8 +143,8 @@ export default () => (
             </p>
             <p>
               I will keep the pace fast but without haste, ease communication
-              among the team, give constant feedback to the client. It's not
-              just about updating Gantt diagrams, you know?
+              among the team, give constant feedback to the client. It&apos;s
+              not just about updating Gantt diagrams, you know?
             </p>
           </Card>
         </Column>

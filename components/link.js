@@ -17,7 +17,8 @@ export default ({
       target={target}
       rel={rel}
       onClick={onClick}
-      aria-label={ariaLabel}>
+      aria-label={ariaLabel}
+    >
       {children}
     </a>
   </Link>

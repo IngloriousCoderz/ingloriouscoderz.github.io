@@ -27,13 +27,14 @@ export default () => (
         <p>
           An Inglorious Coder to be defined as such must conform to a series of
           parameters. Fortunately, these criteria are quite relatable to most
-          people, but those who want to call themselves IC's have to demonstrate
-          that they not only agree with them, but apply them in everyday life.
+          people, but those who want to call themselves IC&apos;s have to
+          demonstrate that they not only agree with them, but apply them in
+          everyday life.
         </p>
 
         <p>
-          If you agree with all these points, apply them daily, or you're just
-          curious on how we work then feel free to{' '}
+          If you agree with all these points, apply them daily, or you&apos;re
+          just curious on how we work then feel free to{' '}
           <a href="mailto:antony.mistretta@gmail.com">contact us</a>. We would
           love you to join the Movement!
         </p>
@@ -68,8 +69,8 @@ export default () => (
         <Column>
           <Card title="Crazy Dog">
             Dear old Steve Jobs quoted it many times: if you are not hungry and
-            foolish you won't make a difference. An IC is passionate about their
-            work, they make it an art and put all their creativity in it.
+            foolish you won&apos;t make a difference. An IC is passionate about
+            their work, they make it an art and put all their creativity in it.
           </Card>
         </Column>
 
@@ -135,12 +136,12 @@ export default () => (
 
         <Column>
           <Card title="Ruthless">
-            The impossible triangle "Fast, Good, Cheap" has a solution, and it
-            is "Simplicity". An IC reduces any complex problem to a simple
-            solution and then refactors it continuously to make it even simpler,
-            because they know that a simple code is of higher quality than
-            complex code, is faster to implement and cheaper to maintain on the
-            long run.
+            The impossible triangle $ldquo;Fast, Good, Cheap&rdquo; has a
+            solution, and it is &ldquo;Simplicity&rdquo;. An IC reduces any
+            complex problem to a simple solution and then refactors it
+            continuously to make it even simpler, because they know that a
+            simple code is of higher quality than complex code, is faster to
+            implement and cheaper to maintain on the long run.
           </Card>
         </Column>
 
@@ -157,10 +158,10 @@ export default () => (
           <Card title="Liquid">
             Inflexible in some cases, but completely flexible on others, an IC
             knows that in any kind of selection those who adapt better will
-            survive. That's why they are able to fully understand and take care
-            of a problem as if it were theirs; they accept insuperable limits
-            and get the most profit possible from the situation; they embrace
-            change and use it as a weapon in their favour.
+            survive. That&apos;s why they are able to fully understand and take
+            care of a problem as if it were theirs; they accept insuperable
+            limits and get the most profit possible from the situation; they
+            embrace change and use it as a weapon in their favour.
           </Card>
         </Column>
       </Row>

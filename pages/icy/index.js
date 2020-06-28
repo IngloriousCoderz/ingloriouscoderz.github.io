@@ -70,14 +70,14 @@ export default () => {
           <h1>Icy</h1>
 
           <p>
-            Meet Icy, our Inglorious Logo! It's a CSS3 cube with SVG faces that
-            captures mouse movement (or finger swipe on mobile). Its name is Icy
-            because its faces are an 'I' and a 'C'. Also, its catchphrase is "I
-            see...".
+            Meet Icy, our Inglorious Logo! It&apos;s a CSS3 cube with SVG faces
+            that captures mouse movement (or finger swipe on mobile). Its name
+            is Icy because its faces are an &ldquo;I&rdquo; and a
+            &ldquo;C&rdquo;. Also, its catchphrase is &ldquo;I see...&rdquo;
           </p>
           <p>
-            Why don't you try and make your own Inglorious logo? You can give
-            life to Amy, or Guy, or even Qzy!
+            Why don&apos;t you try and make your own Inglorious logo? You can
+            give life to Amy, or Guy, or even Qzy!
           </p>
         </article>
 

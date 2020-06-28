@@ -34,7 +34,7 @@ export default ({ wallpaper }) => (
     </h1>
 
     <nav>
-      {links.map(link => (
+      {links.map((link) => (
         <Button key={link.id} {...link} />
       ))}
     </nav>

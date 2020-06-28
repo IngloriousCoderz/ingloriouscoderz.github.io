@@ -1,9 +1,6 @@
 import { compose } from '~/utils/compose'
 
-const enhance = compose(
-  React.memo,
-  React.forwardRef,
-)
+const enhance = compose(React.memo, React.forwardRef)
 
 const MINUS_FORTY_DEGREES = degreesToRadians(-40)
 const MINUS_FORTY_FIVE_DEGREES = degreesToRadians(-45)

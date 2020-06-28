@@ -7,7 +7,8 @@ export default () => (
   <Layout
     path="who/consultant"
     title="Consultant"
-    description="Reviews about our in-house consulting activity.">
+    description="Reviews about our in-house consulting activity."
+  >
     <Card>
       <blockquote>
         <p>
@@ -31,8 +32,8 @@ export default () => (
       <blockquote>
         <p>
           Antony is a very clever guy. He has a solid basis and a good problem
-          solving attitude. Always seroius and professional at work. It's been a
-          pleasure working with him.
+          solving attitude. Always seroius and professional at work. It&apos;s
+          been a pleasure working with him.
         </p>
         <footer>
           &mdash;{' '}
@@ -55,8 +56,8 @@ export default () => (
           (OpenGL).
         </p>
         <p>
-          It's fun to work with him, he's always pushing the project to a higher
-          level!
+          It&apos;s fun to work with him, he&apos;s always pushing the project
+          to a higher level!
         </p>
         <footer>
           &mdash;{' '}
