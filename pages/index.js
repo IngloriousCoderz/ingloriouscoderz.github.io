@@ -1,13 +1,15 @@
 import Layout from '~/layouts/default'
-import { withI18n } from 'react-i18next'
+import { Trans } from 'react-i18next'
 
-export default withI18n()(({ t }) => (
+export default () => (
   <Layout path="" title="Home" description="">
     <article className="card card-1">
       <h1>
-        {t(
-          'A fistful of heroes striving to create a better world through better software.'
-        )}
+        <Trans>
+          Develop better software and better people,
+          <br />
+          for a better world.
+        </Trans>
       </h1>
     </article>
 
@@ -30,4 +32,4 @@ export default withI18n()(({ t }) => (
       }
     `}</style>
   </Layout>
-))
+)
