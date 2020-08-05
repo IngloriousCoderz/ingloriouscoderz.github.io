@@ -6,9 +6,9 @@ export default () => (
     <article className="card card-1">
       <h1>
         <Trans>
-          Develop better software and better people,
+          Quality software,
           <br />
-          for a better world.
+          Quality people.
         </Trans>
       </h1>
     </article>
