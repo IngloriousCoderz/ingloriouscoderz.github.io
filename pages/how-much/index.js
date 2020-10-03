@@ -79,7 +79,6 @@ export default () => (
               better teachers, we practice to be better coders, we volunteer to
               be better humans.
             </p>
-            <p>And this will mainly benefit you, the client.</p>
           </Card>
         </Column>
 
