@@ -6,6 +6,8 @@ import {
   faLinkedin,
   faFacebook,
   faWhatsapp,
+  faTwitch,
+  faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
 
 // eslint-disable-next-line no-unused-vars
@@ -28,6 +30,7 @@ export default () => (
       >
         <FontAwesomeIcon icon={faFacebook} />
       </Button>
+
       <Button
         href="https://www.instagram.com/ingloriouscoderz/"
         ariaLabel="Instagram"
@@ -36,6 +39,7 @@ export default () => (
       >
         <FontAwesomeIcon icon={faInstagram} />
       </Button>
+
       <Button
         href="https://github.com/IngloriousCoderz/"
         ariaLabel="Github"
@@ -44,6 +48,7 @@ export default () => (
       >
         <FontAwesomeIcon icon={faGithub} />
       </Button>
+
       <Button
         href="https://www.linkedin.com/company/inglorious-coderz/"
         ariaLabel="LinkedIn"
@@ -52,6 +57,25 @@ export default () => (
       >
         <FontAwesomeIcon icon={faLinkedin} />
       </Button>
+
+      <Button
+        href="https://twitch.tv/ingloriouscoderz"
+        ariaLabel="Twitch"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={faTwitch} />
+      </Button>
+
+      <Button
+        href="https://www.youtube.com/channel/UCBwo1pwwUtGi_BqsDYE03CA"
+        ariaLabel="YouTube"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={faYoutube} />
+      </Button>
+
       <Button
         href="mailto:antony.mistretta@gmail.com"
         ariaLabel="Email"
@@ -60,6 +84,7 @@ export default () => (
       >
         <FontAwesomeIcon icon={faEnvelope} />
       </Button>
+
       <Button
         href="tel:+393202357664"
         ariaLabel="WhatsApp"

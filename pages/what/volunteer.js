@@ -25,7 +25,58 @@ export default () => (
       </article>
 
       <Row>
-        <Column max={3}>
+        <Column max={2}>
+          <Card
+            title="Inglorious Academy"
+            image={require('~/static/images/what/volunteer/ic-academy.jpg')}
+          >
+            <p>
+              If we want to find something good in the 2020 pandemic, it&apos;s
+              that it finally gave Inglorious Coderz a push to finally deliver
+              what we had in mind for so long: a free live coding academy for
+              human beings all over the world.
+            </p>
+            <p>
+              Unlike services like Udemy, the{' '}
+              <ExtLink to="https://twitch.tv/ingloriouscoderz">
+                Inglorious Academy
+              </ExtLink>{' '}
+              is completely free and, unlike YouTube videos, it is live, which
+              allows for interaction with the students and for immediate
+              feedback, in order to tailor each lesson to the audience&apos;s
+              needs.
+            </p>
+            <p>
+              The course teaches the basics of web technologies (
+              <ExtLink to="https://en.wikipedia.org/wiki/HTML">HTML</ExtLink>,{' '}
+              <ExtLink to="https://en.wikipedia.org/wiki/CSS">CSS</ExtLink>, and{' '}
+              <ExtLink to="https://en.wikipedia.org/wiki/JavaScript">
+                JavaScript
+              </ExtLink>
+              ), but it also provides the proper mindset needed to find a
+              successful career in the IT field. Students learn to learn, are
+              encouraged to always question everything (including themselves),
+              and acquire an experimental and playful attitude.
+            </p>
+            <p>
+              During this six-month coding bootcamp the topics are explained
+              with a &ldquo;learn by doing&rdquo; approach, and the exercises
+              encourage creativity. Even though we remind at all times that
+              anyone can self-learn with the free online material we suggest,
+              the number of followers is constantly growing and watchers stay
+              for both the guidance provided and the entertainment.
+            </p>
+            <p>
+              For those who need to catch up with the lessons we even put up a{' '}
+              <ExtLink to="https://www.youtube.com/channel/UCBwo1pwwUtGi_BqsDYE03CA">
+                YouTube channel
+              </ExtLink>{' '}
+              with all the recordings.
+            </p>
+          </Card>
+        </Column>
+
+        <Column max={2}>
           <Card
             title="Powercoders"
             image={require('~/static/images/what/volunteer/powercoders.jpg')}
@@ -77,7 +128,7 @@ export default () => (
           </Card>
         </Column>
 
-        <Column max={3}>
+        <Column max={2}>
           <Card
             title="Les Jeunes Leaders Du Burundi"
             image={require('~/static/images/what/volunteer/jeunes_leaders_du_burundi.jpg')}
@@ -119,7 +170,7 @@ export default () => (
           </Card>
         </Column>
 
-        <Column max={3}>
+        <Column max={2}>
           <Card
             title="Lampedusa Turtle Group"
             image={require('~/static/images/what/volunteer/lampedusa_bath.jpg')}
@@ -155,7 +206,7 @@ export default () => (
           </Card>
         </Column>
 
-        {/* <Column max={3}>
+        {/* <Column max={2}>
           <Card
             title="More to come..."
             image={require('~/static/images/what/volunteer/lampedusa_dynamic_duo.jpg')}
