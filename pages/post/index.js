@@ -21,6 +21,16 @@ export default withPost(({ post }) => (
       <Content {...post} renderers={{ a: ExtLink, pre: Pre }} />
     </article>
 
+    <style jsx global>{`
+      article img {
+        background: white;
+      }
+
+      article .instagram-media {
+        margin: 0 auto 12px !important;
+      }
+    `}</style>
+
     <style jsx>{`
       article > time {
         display: block;
