@@ -27,6 +27,38 @@ export default () => (
       <Row>
         <Column max={3}>
           <Card
+            title="React Quiz Game"
+            image={require('~/static/images/what/code/react-quiz-game.png')}
+          >
+            <p>
+              <ExtLink to="https://www.alittleb.it/">Alittleb.it</ExtLink> is
+              simply the best gamification company: they created a learning
+              management system called{' '}
+              <ExtLink to="https://www.alittleb.it/skillato/">Skillato</ExtLink>{' '}
+              which allows anyone to learn anything, while having fun in the
+              process. Only one thing was missing: a tournament-based quiz game.
+              A few constraints:
+            </p>
+            <ul>
+              <li>It must be blazingly fast</li>
+              <li>It must have shiny animations and happy sounds</li>
+              <li>It must be responsive</li>
+              <li>It must be well-tested</li>
+              <li>It must be highly customizable</li>
+              <li>It must be completed in a dozen of days</li>
+            </ul>
+            <p>
+              ...And of course we delivered. The client was amazed by the
+              quality of the result, by the online documentation provided in{' '}
+              <ExtLink to="https://storybook.js.org/">Storybook</ExtLink>, by
+              the speed of execution plus all the extra miles done, and by the
+              overall human interaction.
+            </p>
+          </Card>
+        </Column>
+
+        <Column max={3}>
+          <Card
             title="Leonardo"
             image={require('~/static/images/what/code/leonardo.png')}
           >
@@ -38,7 +70,7 @@ export default () => (
               <ExtLink to="https://developers.google.com/web/progressive-web-apps/">
                 PWA
               </ExtLink>{' '}
-              and we added{' '}
+              and added{' '}
               <ExtLink to="https://cordova.apache.org/">Cordova</ExtLink> to be
               able to upload Android and iOS apps on their respective stores.
             </p>
@@ -58,9 +90,9 @@ export default () => (
             </ul>
             <p>
               When the client had timing issues with the approval of the Android
-              app on the Play Store, they still had a solid PWA to show. The
-              presentation on the first day of the exhibition was a total
-              success.
+              app on the Play Store, they still had a solid PWA to show. Despite
+              the odds, the presentation on the first day of the exhibition was
+              a total success.
             </p>
           </Card>
         </Column>
@@ -90,7 +122,9 @@ export default () => (
             </p>
           </Card>
         </Column>
+      </Row>
 
+      <Row>
         <Column max={3}>
           <Card
             title="Fattutto"
@@ -127,9 +161,7 @@ export default () => (
             </p>
           </Card>
         </Column>
-      </Row>
 
-      <Row>
         <Column max={3}>
           <Card
             title="Appointment Selector"
@@ -190,7 +222,9 @@ export default () => (
             </p>
           </Card>
         </Column>
+      </Row>
 
+      <Row>
         <Column max={3}>
           <Card
             title="Lanieri BO Platform"
@@ -212,16 +246,9 @@ export default () => (
               realtime. The project was then passed to the client&apos;s devs
               who easily continued working on it.
             </p>
-            {/* <p>
-              The client is so satisfied with the outcome that we are being
-              asked to build a more generic framework based on the features of
-              this project and others.
-            </p> */}
           </Card>
         </Column>
-      </Row>
 
-      <Row>
         <Column max={3}>
           <Card
             title="GiadaJoeyCazzola.com"
@@ -277,7 +304,9 @@ export default () => (
             </p>
           </Card>
         </Column>
+      </Row>
 
+      <Row>
         <Column max={3}>
           <Card
             title="Tazebao"
