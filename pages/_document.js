@@ -48,7 +48,10 @@ export default class extends Document {
           />
           <meta property="fb:app_id" content="1677017469210661" />
 
-          <script src="/static/scripts/gh-spa-redirect.js" />
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-1VTZM56KYZ"
+          ></script>
           <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css"
