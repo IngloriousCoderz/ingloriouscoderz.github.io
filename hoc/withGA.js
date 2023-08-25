@@ -5,11 +5,11 @@ export const withGA = (code, Router) => (Enhanced) => {
     useEffect(() => {
       window.dataLayer = window.dataLayer || []
       function gtag() {
-        dataLayer.push(arguments)
+        window.dataLayer.push(arguments)
       }
       gtag('js', new Date())
 
-      gtag('config', 'G-1VTZM56KYZ')
+      gtag('config', code)
     }, [])
 
     return <Enhanced {...props} />

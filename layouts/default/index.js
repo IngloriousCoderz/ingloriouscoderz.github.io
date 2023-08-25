@@ -251,10 +251,6 @@ export default ({ path, title, description, children }) => (
         padding-right: 1rem;
       }
 
-      .row > * {
-        height: 100%;
-      }
-
       /* copied from FontAwesome's style to prevent FOUC */
       .svg-inline--fa.fa-w-16 {
         width: 1em;
