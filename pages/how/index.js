@@ -136,7 +136,7 @@ export default () => (
 
         <Column>
           <Card title="Ruthless">
-            The impossible triangle $ldquo;Fast, Good, Cheap&rdquo; has a
+            The impossible triangle &ldquo;Fast, Good, Cheap&rdquo; has a
             solution, and it is &ldquo;Simplicity&rdquo;. An IC reduces any
             complex problem to a simple solution and then refactors it
             continuously to make it even simpler, because they know that a
