@@ -8,7 +8,7 @@
     "build": "ssx build",
     "postbuild": "npm run copy:root",
     "copy:root": "cp .nojekyll 404.html CNAME googled04949cc690781d6.html dist",
-    "deploy": "git subtree push --prefix out origin master"
+    "deploy": "git subtree push --prefix dist origin main"
   },
   "keywords": [],
   "author": "IceOnFire <antony.mistretta@gmail.com> (https://ingloriouscoderz.it/)",
@@ -18,6 +18,6 @@
     "@inglorious/web": "^4.0.6"
   },
   "devDependencies": {
-    "@inglorious/ssx": "^1.4.4"
+    "@inglorious/ssx": "^1.5.0"
   }
 }

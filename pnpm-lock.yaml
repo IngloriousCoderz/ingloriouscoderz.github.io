@@ -16,8 +16,8 @@ importers:
         version: 4.0.6
     devDependencies:
       '@inglorious/ssx':
-        specifier: ^1.4.4
-        version: 1.4.4(rollup@4.56.0)(terser@5.46.0)
+        specifier: ^1.5.0
+        version: 1.5.0(rollup@4.56.0)(terser@5.46.0)
 
 packages:
 
@@ -348,8 +348,8 @@ packages:
     resolution: {integrity: sha512-jK2tH7sLginAZD/my/+XQLXxVWYrevxpGpYKC4vNyb3idjteoyEctVVsZ9LyE3S/tm7U8oOvq2YL7PDsYxESpA==}
     engines: {node: '>= 22'}
 
-  '@inglorious/ssx@1.4.4':
-    resolution: {integrity: sha512-p9FETZBtpzIiHrBXDrVp2K/TAKEkFMBGcfnFwG4Pd3FTkjAScGLG+uA2cju4S32fPLQ3e+bbbnIvmR4DWtl7Tg==}
+  '@inglorious/ssx@1.5.0':
+    resolution: {integrity: sha512-bdGLq22NaSpsCDDoQcrT779UINgRsgpexnSgbok0C3CbMRBbOSgl13Xhz27lggsTjfCOhP38dYEWdzUZQpJM4Q==}
     engines: {node: '>= 22'}
     hasBin: true
 
@@ -1638,7 +1638,7 @@ snapshots:
     dependencies:
       '@inglorious/web': 4.0.6
 
-  '@inglorious/ssx@1.4.4(rollup@4.56.0)(terser@5.46.0)':
+  '@inglorious/ssx@1.5.0(rollup@4.56.0)(terser@5.46.0)':
     dependencies:
       '@inglorious/web': 4.0.6
       '@lit-labs/ssr': 4.0.0

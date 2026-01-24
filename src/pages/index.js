@@ -11,7 +11,7 @@ export const metadata = {
 export const landing = {
   render(api) {
     return html`
-      <div class="main">
+      <main>
         <section class="logo">${logo.render(entities.logo, api)}</section>
 
         <section class="hero">
@@ -25,7 +25,7 @@ export const landing = {
             craftsmanship.
           </p>
         </section>
-      </div>
+      </main>
 
       <section class="container">
         <h2>The Inglorious Way</h2>
@@ -130,7 +130,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Tetra Pak" src="/logos/tetrapak.png" />
+            <img
+              alt="Tetra Pak"
+              src="/logos/tetrapak.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client featured"
@@ -138,7 +143,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Heineken" src="/logos/heineken.png" />
+            <img
+              alt="Heineken"
+              src="/logos/heineken.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client featured"
@@ -146,7 +156,7 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="BAT" src="/logos/bat.svg" />
+            <img alt="BAT" src="/logos/bat.svg" width="128" height="128" />
           </a>
           <a
             class="client featured"
@@ -154,7 +164,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Vatican City State" src="/logos/vaticano.png" />
+            <img
+              alt="Vatican City State"
+              src="/logos/vaticano.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client featured"
@@ -165,6 +180,8 @@ export const landing = {
             <img
               alt="Italian Digital Transformation Team"
               src="/logos/governo.svg"
+              width="128"
+              height="128"
             />
           </a>
         </div>
@@ -176,7 +193,7 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Reply" src="/logos/reply.svg" />
+            <img alt="Reply" src="/logos/reply.svg" width="128" height="128" />
           </a>
           <a
             class="client"
@@ -184,7 +201,7 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="SENEC" src="/logos/senec.svg" />
+            <img alt="SENEC" src="/logos/senec.svg" width="128" height="128" />
           </a>
           <a
             class="client"
@@ -192,7 +209,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="European Innovation Academy" src="/logos/eia.svg" />
+            <img
+              alt="European Innovation Academy"
+              src="/logos/eia.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -200,7 +222,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Codemotion" src="/logos/codemotion.svg" />
+            <img
+              alt="Codemotion"
+              src="/logos/codemotion.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -208,7 +235,7 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Irion" src="/logos/irion.webp" />
+            <img alt="Irion" src="/logos/irion.webp" width="128" height="128" />
           </a>
           <a
             class="client"
@@ -216,7 +243,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Nexus LCM" src="/logos/nexus.svg" />
+            <img
+              alt="Nexus LCM"
+              src="/logos/nexus.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -224,7 +256,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="CNOSFAP - Salesiani" src="/logos/cnosfap.png" />
+            <img
+              alt="CNOSFAP - Salesiani"
+              src="/logos/cnosfap.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -232,7 +269,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Powercoders" src="/logos/powercoders.svg" />
+            <img
+              alt="Powercoders"
+              src="/logos/powercoders.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -240,7 +282,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Lanieri" src="/logos/lanieri.svg" />
+            <img
+              alt="Lanieri"
+              src="/logos/lanieri.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -248,7 +295,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="AltForm" src="/logos/altform.svg" />
+            <img
+              alt="AltForm"
+              src="/logos/altform.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -256,7 +308,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Vedrai" src="/logos/vedrai.svg" />
+            <img
+              alt="Vedrai"
+              src="/logos/vedrai.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -264,7 +321,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Fattutto" src="/logos/fattutto.png" />
+            <img
+              alt="Fattutto"
+              src="/logos/fattutto.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -272,7 +334,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Kinetikon" src="/logos/kinetikon.png" />
+            <img
+              alt="Kinetikon"
+              src="/logos/kinetikon.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -280,7 +347,12 @@ export const landing = {
             target="_blank"
             rel="noopener"
           >
-            <img alt="Alittleb.it" src="/logos/alittlebit.png" />
+            <img
+              alt="Alittleb.it"
+              src="/logos/alittlebit.png"
+              width="128"
+              height="128"
+            />
           </a>
         </div>
       </section>
