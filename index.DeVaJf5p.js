@@ -1,6 +1,6 @@
-import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256,isInteractive:!0,faces:[{image:"I",reverse:!1,eye:!0},{image:"C",reverse:!1,eye:!1}]}},i={title:"Inglorious Coderz | Quality Software, Quality People"},n={render(e){return t`
+var t=Object.freeze,s=Object.defineProperty;var a=(e,o)=>t(s(e,"raw",{value:t(o||e.slice())}));import{l as n,h as r}from"./lib.DqVPSwPI.js";const l={logo:{type:"logo",size:256,isInteractive:!0,faces:[{image:"I",reverse:!1,eye:!0},{image:"C",reverse:!1,eye:!1}]}},d={title:"Inglorious Coderz | Quality Software, Quality People"};var i;const p={render(e){return r(i||(i=a([`
       <main>
-        <section class="logo">${a.render(o.logo,e)}</section>
+        <section class="logo">`,`</section>
 
         <section class="hero">
           <h1><span>INGLORIOUS</span> <span>CODERZ</span></h1>
@@ -118,7 +118,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Tetra Pak" src="/logos/tetrapak.png" />
+            <img
+              alt="Tetra Pak"
+              src="/logos/tetrapak.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client featured"
@@ -126,7 +131,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Heineken" src="/logos/heineken.png" />
+            <img
+              alt="Heineken"
+              src="/logos/heineken.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client featured"
@@ -134,7 +144,7 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="BAT" src="/logos/bat.svg" />
+            <img alt="BAT" src="/logos/bat.svg" width="128" height="128" />
           </a>
           <a
             class="client featured"
@@ -142,7 +152,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Vatican City State" src="/logos/vaticano.png" />
+            <img
+              alt="Vatican City State"
+              src="/logos/vaticano.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client featured"
@@ -153,6 +168,8 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             <img
               alt="Italian Digital Transformation Team"
               src="/logos/governo.svg"
+              width="128"
+              height="128"
             />
           </a>
         </div>
@@ -164,7 +181,7 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Reply" src="/logos/reply.svg" />
+            <img alt="Reply" src="/logos/reply.svg" width="128" height="128" />
           </a>
           <a
             class="client"
@@ -172,7 +189,7 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="SENEC" src="/logos/senec.svg" />
+            <img alt="SENEC" src="/logos/senec.svg" width="128" height="128" />
           </a>
           <a
             class="client"
@@ -180,7 +197,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="European Innovation Academy" src="/logos/eia.svg" />
+            <img
+              alt="European Innovation Academy"
+              src="/logos/eia.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -188,7 +210,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Codemotion" src="/logos/codemotion.svg" />
+            <img
+              alt="Codemotion"
+              src="/logos/codemotion.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -196,7 +223,7 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Irion" src="/logos/irion.webp" />
+            <img alt="Irion" src="/logos/irion.webp" width="128" height="128" />
           </a>
           <a
             class="client"
@@ -204,7 +231,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Nexus LCM" src="/logos/nexus.svg" />
+            <img
+              alt="Nexus LCM"
+              src="/logos/nexus.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -212,7 +244,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="CNOSFAP - Salesiani" src="/logos/cnosfap.png" />
+            <img
+              alt="CNOSFAP - Salesiani"
+              src="/logos/cnosfap.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -220,7 +257,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Powercoders" src="/logos/powercoders.svg" />
+            <img
+              alt="Powercoders"
+              src="/logos/powercoders.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -228,7 +270,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Lanieri" src="/logos/lanieri.svg" />
+            <img
+              alt="Lanieri"
+              src="/logos/lanieri.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -236,7 +283,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="AltForm" src="/logos/altform.svg" />
+            <img
+              alt="AltForm"
+              src="/logos/altform.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -244,7 +296,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Vedrai" src="/logos/vedrai.svg" />
+            <img
+              alt="Vedrai"
+              src="/logos/vedrai.svg"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -252,7 +309,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Fattutto" src="/logos/fattutto.png" />
+            <img
+              alt="Fattutto"
+              src="/logos/fattutto.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -260,7 +322,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Kinetikon" src="/logos/kinetikon.png" />
+            <img
+              alt="Kinetikon"
+              src="/logos/kinetikon.png"
+              width="128"
+              height="128"
+            />
           </a>
           <a
             class="client"
@@ -268,7 +335,12 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
             target="_blank"
             rel="noopener"
           >
-            <img alt="Alittleb.it" src="/logos/alittlebit.png" />
+            <img
+              alt="Alittleb.it"
+              src="/logos/alittlebit.png"
+              width="128"
+              height="128"
+            />
           </a>
         </div>
       </section>
@@ -324,7 +396,7 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
           >
 
           <div class="contact-info">
-            <p>Based in Turin, Italy • Available worldwide</p>
+            <p>Based in Turin and Rome • Available worldwide</p>
             <p>
               <a href="mailto:info@ingloriouscoderz.it"
                 >info@ingloriouscoderz.it</a
@@ -346,4 +418,51 @@ import{l as a,h as t}from"./lib.DqVPSwPI.js";const o={logo:{type:"logo",size:256
           >
         </p>
       </footer>
-    `}};export{n as landing,i as metadata};
+
+      <a
+        href="https://www.iubenda.com/privacy-policy/10628376"
+        class="iubenda-white iubenda-noiframe iubenda-embed"
+        title="Privacy Policy "
+        >Privacy Policy</a
+      >
+      <script type="text/javascript">
+        (function (w, d) {
+          var loader = function () {
+            var s = d.createElement("script"),
+              tag = d.getElementsByTagName("script")[0];
+            s.src = "https://cdn.iubenda.com/iubenda.js";
+            tag.parentNode.insertBefore(s, tag);
+          };
+          if (w.addEventListener) {
+            w.addEventListener("load", loader, false);
+          } else if (w.attachEvent) {
+            w.attachEvent("onload", loader);
+          } else {
+            w.onload = loader;
+          }
+        })(window, document);
+      <\/script>
+      <a
+        href="https://www.iubenda.com/privacy-policy/10628376/cookie-policy"
+        class="iubenda-white iubenda-noiframe iubenda-embed"
+        title="Cookie Policy "
+        >Cookie Policy</a
+      >
+      <script type="text/javascript">
+        (function (w, d) {
+          var loader = function () {
+            var s = d.createElement("script"),
+              tag = d.getElementsByTagName("script")[0];
+            s.src = "https://cdn.iubenda.com/iubenda.js";
+            tag.parentNode.insertBefore(s, tag);
+          };
+          if (w.addEventListener) {
+            w.addEventListener("load", loader, false);
+          } else if (w.attachEvent) {
+            w.attachEvent("onload", loader);
+          } else {
+            w.onload = loader;
+          }
+        })(window, document);
+      <\/script>
+    `])),n.render(l.logo,e))}};export{p as landing,d as metadata};

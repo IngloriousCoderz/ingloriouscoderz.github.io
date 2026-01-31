@@ -1,10 +1,10 @@
 {
   "pages": {
     "/": {
-      "hash": "063a41a99f09dafe980987bf3b14ca5e",
+      "hash": "c527cb39b26a49a2408aa74a611b0b8f",
       "filePath": "/Users/iceonfire/Projects/ic/ingloriouscoderz.github.io/src/pages/index.js"
     }
   },
-  "entities": "13572e48c3bd069689414a8b790ed5b8",
-  "buildTime": "2026-01-24T12:53:16.920Z"
+  "entities": null,
+  "buildTime": "2026-01-31T22:07:52.237Z"
 }

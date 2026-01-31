@@ -396,7 +396,7 @@ import{l as t,h as a}from"./lib.DqVPSwPI.js";const i={logo:{type:"logo",size:256
           >
 
           <div class="contact-info">
-            <p>Based in Turin, Italy • Available worldwide</p>
+            <p>Based in Turin and Rome • Available worldwide</p>
             <p>
               <a href="mailto:info@ingloriouscoderz.it"
                 >info@ingloriouscoderz.it</a
