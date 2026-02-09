@@ -387,11 +387,13 @@ export const landing = {
         <div class="tech-badge">
           <p>
             This site is built with
-            <a href="https://npmjs.com/package/@inglorious/web" target="_blank"
+            <a href="https://inglorious.dev/web/" target="_blank"
               >Inglorious Web</a
             >
             framework and
-            <a href="https://npmjs.com/package/@inglorious/ssx" target="_blank"
+            <a
+              href="https://inglorious.dev/web/advanced/ssx.html"
+              target="_blank"
               >Inglorious SSX</a
             >
             static site generator. We eat our own dog food.
