@@ -1,39 +1,6 @@
-<!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <script type="text/javascript" src="https://embeds.iubenda.com/widgets/f3325768-794c-46d3-ab63-cd01c579deb4.js"></script>
-        <meta charset="UTF-8" />
-        <title>Inglorious Coderz | Quality Software, Quality People</title>
-        <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Quality software, quality people. Turin-based software house crafting beautiful solutions with the Inglorious Way. Trusted by Tetra Pak, Heineken, BAT, and the Vatican.">
-        <link rel="stylesheet" href="/styles/fonts.css">
-<link rel="stylesheet" href="/styles/style.css">
-        
-      </head>
-      <body>
-        <div id="root"><!--lit-part IKzrOdcQrSM=-->
+import{l as t,h as a}from"./lib.DqVPSwPI.js";const i={logo:{type:"logo",size:256,isInteractive:!0,faces:[{image:"I",reverse:!1,eye:!0},{image:"C",reverse:!1,eye:!1}]}},s={title:"Inglorious Coderz | Quality Software, Quality People"},n={render(e){return a`
       <main>
-        <section class="logo"><!--lit-part TNwZKEEIZXo=--><!--lit-node 0--><div
-    class="iw-logo"
-    style="--size:256px;--transform:scaleY(1.2) translateZ(-256px) rotateX(-0.6981rad)
-          rotateY(-0.7854rad);--z-translation:128px;--left-face-flip:none;--right-face-flip:none;"
-  >
-    <div class="iw-logo-cube">
-      <div class="iw-logo-cube-face left">
-        <!--lit-node 3--><img src="data:image/svg+xml,%3c?xml%20version=&#39;1.0&#39;%20encoding=&#39;UTF-8&#39;%20standalone=&#39;no&#39;?%3e%3csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20version=&#39;1.1&#39;%20viewBox=&#39;0%200%206%206&#39;%3e%3cstyle%3e%20%23letter%20{%20fill:%20rgb(127,%20127,%20255);%20fill-opacity:%200.5;%20stroke:%20rgb(127,%20127,%20192);%20stroke-width:%200.25;%20stroke-opacity:%200.5;%20}%20%3c/style%3e%3cpath%20id=&#39;letter&#39;%20d=&#39;%20M%200%200%20L%206%200%20L%204%201%20L%204%205%20L%206%206%20L%200%206%20L%202%205%20L%202%201%20Z%20&#39;%20/%3e%3c/svg%3e" alt="I" />
-        <!--lit-part EKcgSSiN7sE=--><!--lit-node 0--><img
-              class="iw-logo-cube-face-eye"
-              src="data:image/svg+xml,%3c?xml%20version=&#39;1.0&#39;%20encoding=&#39;UTF-8&#39;%20standalone=&#39;no&#39;?%3e%3csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20version=&#39;1.1&#39;%20viewBox=&#39;0%200%206%206&#39;%3e%3cstyle%3e%20%23eyelid%20{%20fill:%20rgb(0,%20192,%20192);%20fill-opacity:%200.5;%20stroke:%20rgb(127,%20127,%20127);%20stroke-width:%200;%20}%20%23eye%20{%20fill:%20rgb(0,%20255,%20255);%20fill-opacity:%200.5;%20stroke:%20rgb(0,%20192,%20192);%20stroke-width:%200;%20}%20%3c/style%3e%3cpath%20id=&#39;eyelid&#39;%20d=&#39;%20M%200%200%20L%201%200%20L%202.5%200.75%20L%204.5%200.75%20L%204%201%20L%202%201%20Z%20&#39;%20/%3e%3cpath%20id=&#39;eye&#39;%20d=&#39;%20M%201%200%20L%206%200%20L%204.5%200.75%20L%202.5%200.75%20Z%20&#39;%20/%3e%3c/svg%3e"
-              alt="left eye"
-            /><!--/lit-part-->
-      </div>
-      <div class="iw-logo-cube-face right">
-        <!--lit-node 6--><img src="data:image/svg+xml,%3c?xml%20version=&#39;1.0&#39;%20encoding=&#39;UTF-8&#39;%20standalone=&#39;no&#39;?%3e%3csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20version=&#39;1.1&#39;%20viewBox=&#39;0%200%206%206&#39;%3e%3cstyle%3e%20%23letter%20{%20fill:%20rgb(127,%20127,%20255);%20fill-opacity:%200.5;%20stroke:%20rgb(127,%20127,%20192);%20stroke-width:%200.25;%20stroke-opacity:%200.5;%20}%20%3c/style%3e%3cpath%20id=&#39;letter&#39;%20d=&#39;%20M%200%200%20L%206%200%20L%206%202%20L%204%201%20L%202%201%20L%202%205%20L%204%205%20L%206%204%20L%206%206%20L%200%206%20Z%20&#39;%20/%3e%3c/svg%3e" alt="C" />
-        <!--lit-part--><!--/lit-part-->
-      </div>
-    </div>
-  </div><!--/lit-part--></section>
+        <section class="logo">${t.render(i.logo,e)}</section>
 
         <section class="hero">
           <h1><span>INGLORIOUS</span> <span>CODERZ</span></h1>
@@ -453,13 +420,4 @@
           >
         </p>
       </footer>
-    <!--/lit-part--></div>
-        
-        <script type="module" src="/main.js"></script>
-        <script type="module" src="https://www.googletagmanager.com/gtag/js?id=G-1VTZM56KYZ"></script>
-<script type="module" src="/scripts/ga.js"></script>
-
-        <a href="https://www.iubenda.com/privacy-policy/10628376" class="iubenda-white iubenda-noiframe iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-        <a href="https://www.iubenda.com/privacy-policy/10628376/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      </body>
-    </html>
+    `}};export{n as landing,s as metadata};
