@@ -7,8 +7,7 @@
     "dev": "ssx dev",
     "build": "ssx build",
     "postbuild": "npm run copy:root",
-    "copy:root": "cp .nojekyll 404.html CNAME googled04949cc690781d6.html dist",
-    "deploy": "git subtree push --prefix dist origin main"
+    "copy:root": "cp .nojekyll 404.html CNAME googled04949cc690781d6.html dist"
   },
   "keywords": [],
   "author": "IceOnFire <antony.mistretta@gmail.com> (https://ingloriouscoderz.it/)",
