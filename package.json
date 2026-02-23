@@ -2,21 +2,20 @@
   "name": "ingloriouscoderz.github.io",
   "version": "3.0.0",
   "private": true,
+  "author": "IceOnFire <antony.mistretta@gmail.com> (https://ingloriouscoderz.it/)",
+  "license": "MIT",
   "type": "module",
+  "keywords": [],
   "scripts": {
     "dev": "ssx dev",
     "build": "ssx build",
+    "preview": "ssx serve",
     "postbuild": "npm run copy:root",
     "copy:root": "cp .nojekyll 404.html CNAME googled04949cc690781d6.html dist"
   },
-  "keywords": [],
-  "author": "IceOnFire <antony.mistretta@gmail.com> (https://ingloriouscoderz.it/)",
-  "license": "MIT",
   "dependencies": {
-    "@inglorious/logo": "^2.0.16",
-    "@inglorious/web": "^4.0.6"
-  },
-  "devDependencies": {
-    "@inglorious/ssx": "^1.5.1"
+    "@inglorious/logo": "^2.1.0",
+    "@inglorious/ssx": "^1.10.0",
+    "@inglorious/web": "^4.4.0"
   }
 }

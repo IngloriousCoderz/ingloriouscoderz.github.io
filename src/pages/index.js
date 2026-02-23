@@ -1,18 +1,15 @@
 import { html } from "@inglorious/web";
-import { logo } from "@inglorious/logo";
 import "@inglorious/logo/style.css";
-
-import { entities } from "../store/entities";
 
 export const metadata = {
   title: "Inglorious Coderz | Quality Software, Quality People",
 };
 
 export const landing = {
-  render(api) {
+  render(_, api) {
     return html`
       <main>
-        <section class="logo">${logo.render(entities.logo, api)}</section>
+        <section class="logo">${api.render("logo")}</section>
 
         <section class="hero">
           <h1><span>INGLORIOUS</span> <span>CODERZ</span></h1>
