@@ -1,5 +1,9 @@
 {
   "pages": {
+    "/og": {
+      "hash": "36720da271a2aad50a7b2a510704a336",
+      "filePath": "/Users/iceonfire/Projects/ic/ingloriouscoderz.github.io/src/pages/og.js"
+    },
     "/": {
       "hash": "a95ad9a70e0eacc3f15e394f8e6b27c5",
       "filePath": "/Users/iceonfire/Projects/ic/ingloriouscoderz.github.io/src/pages/index.js"
@@ -7,5 +11,5 @@
   },
   "entities": null,
   "runtime": "ebc890e287c8f26e15a0cfdb782edbfb",
-  "buildTime": "2026-03-01T15:37:51.829Z"
+  "buildTime": "2026-03-01T16:32:42.530Z"
 }

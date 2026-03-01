@@ -21,7 +21,7 @@
 body {
   font-family: "Oxanium", "Courier New", monospace;
   background: var(--dark-bg);
-  background: url(/metal-wallpaper.jpg);
+  background: url(/images/metal-wallpaper.jpg);
   background-position-x: center;
   background-attachment: fixed;
   color: var(--text-color);
