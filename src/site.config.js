@@ -1,3 +1,5 @@
+import { VitePWA } from "vite-plugin-pwa";
+
 export default {
   title: "Inglorious Coderz | Quality Software, Quality People",
   favicon: "/images/logo.png",
@@ -33,5 +35,17 @@ export default {
     ssr: {
       noExternal: ["@inglorious/logo"], // Force Vite to process this package
     },
+
+    plugins: [
+      VitePWA({
+        manifest: {
+          name: "Inglorious Coderz",
+          short_name: "IC",
+          theme_color: "#0a0a0a",
+          background_color: "#0a0a0a",
+          icons: [{ src: "/images/logo.png", sizes: "any" }],
+        },
+      }),
+    ],
   },
 };
