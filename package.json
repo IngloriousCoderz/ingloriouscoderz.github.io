@@ -10,8 +10,7 @@
     "dev": "ssx dev",
     "build": "ssx build",
     "preview": "ssx serve",
-    "postbuild": "npm run copy:root",
-    "copy:root": "cp .nojekyll 404.html CNAME googled04949cc690781d6.html dist"
+    "postbuild": "cp .nojekyll 404.html CNAME googled04949cc690781d6.html dist"
   },
   "dependencies": {
     "@inglorious/logo": "^2.1.0",

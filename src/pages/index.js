@@ -16,106 +16,15 @@ export const landing = {
 
           <p class="tagline">Quality software, Quality people.</p>
           <p class="subtitle">
-            We craft beautiful software with love and care. We train the next
-            generation of developers to be better humans. In a world where
-            machines are taking over, we still believe in the power of good
-            craftsmanship.
+            The industry is drowning in AI-generated code that nobody fully
+            understands, frameworks that age badly, and teams that ship fast but
+            can't maintain what they built. We do the opposite: we craft
+            software with intention, cut what doesn't need to exist, and take
+            responsibility for what we deliver — ensuring your tech stack
+            remains an asset, not a cost center.
           </p>
         </section>
       </main>
-
-      <section class="container">
-        <h2>The Inglorious Way</h2>
-
-        <p class="quote">
-          "He who works with his hands is a laborer.<br />He who works with his
-          hands and his head is a craftsman.<br />He who works with his hands
-          and his head and his heart is an artist."<br />— Saint Francis of
-          Assisi
-        </p>
-
-        <div class="principles">
-          <div class="principle">
-            <h3>Lone Wolf & Pack Animal</h3>
-            <p>
-              Autonomous and reliable, we work without waiting for orders. Yet
-              we're highly communicative, knowing how to transmit knowledge and
-              assert our opinions clearly.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>Aggressive & Cold</h3>
-            <p>
-              We stay ahead of market demands, planning solutions that attack
-              the future. Fast but without haste, we make the right decisions at
-              the right time.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>Crazy Dog</h3>
-            <p>
-              Hungry and foolish like Steve Jobs taught us. We're passionate
-              about our work, making it an art and putting all our creativity
-              into it.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>Humble & Ambitious</h3>
-            <p>
-              We know our strengths and use them, but we also know our
-              weaknesses and overcome them with help from more skilled people.
-              We don't complain, we perform.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>Sniper & Ruthless</h3>
-            <p>
-              Speed never compromises accuracy. We write clean, tested code and
-              reduce complex problems to simple solutions through continuous
-              refactoring.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>Pirate & Solid</h3>
-            <p>
-              Result-oriented, we bypass unnecessary bureaucracy. But freedom
-              has limits: we're absolutely transparent, law-abiding, and honest
-              to the bone.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>Extreme & Liquid</h3>
-            <p>
-              We don't compromise on quality or passion. Yet we're flexible,
-              adapting to survive and using change as a weapon in our favor.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>Lightning Fast</h3>
-            <p>
-              As good hackers, we learn and act fast. We quickly find the most
-              relevant information and apply it to the context without
-              hesitation.
-            </p>
-          </div>
-
-          <div class="principle">
-            <h3>One-Man Army</h3>
-            <p>
-              When you hire us, you get an entire team of professionals in one.
-              Architect, developer, tester, and problem solver all rolled into
-              one.
-            </p>
-          </div>
-        </div>
-      </section>
 
       <section class="container">
         <h2>Trusted By</h2>
@@ -355,45 +264,153 @@ export const landing = {
       </section>
 
       <section class="container">
+        <h2>The Inglorious Way</h2>
+
+        <p class="quote">
+          "He who works with his hands is a laborer.<br />He who works with his
+          hands and his head is a craftsman.<br />He who works with his hands
+          and his head and his heart is an artist."<br />— Saint Francis of
+          Assisi
+        </p>
+
+        <div class="principles">
+          <div class="principle">
+            <h3>Lone Wolf & Pack Animal</h3>
+            <p>
+              Autonomous and reliable, we work without waiting for orders. Yet
+              we're highly communicative, knowing how to transmit knowledge and
+              assert our opinions clearly.
+            </p>
+          </div>
+
+          <div class="principle">
+            <h3>Aggressive & Cold</h3>
+            <p>
+              We stay ahead of market demands, planning solutions that attack
+              the future. Fast but without haste, we make the right decisions at
+              the right time.
+            </p>
+          </div>
+
+          <div class="principle">
+            <h3>Crazy Dog</h3>
+            <p>
+              Hungry and foolish like Steve Jobs taught us. We're passionate
+              about our work, making it an art and putting all our creativity
+              into it.
+            </p>
+          </div>
+
+          <div class="principle">
+            <h3>Humble & Ambitious</h3>
+            <p>
+              We know our strengths and use them, but we also know our
+              weaknesses and overcome them with help from more skilled people.
+              We don't complain, we perform.
+            </p>
+          </div>
+
+          <div class="principle">
+            <h3>Sniper & Ruthless</h3>
+            <p>
+              Speed never compromises accuracy. We write clean, tested code and
+              reduce complex problems to simple solutions through continuous
+              refactoring.
+            </p>
+          </div>
+
+          <div class="principle">
+            <h3>Pirate & Solid</h3>
+            <p>
+              Result-oriented, we bypass unnecessary bureaucracy. But freedom
+              has limits: we're absolutely transparent, law-abiding, and honest
+              to the bone.
+            </p>
+          </div>
+
+          <div class="principle">
+            <h3>Extreme & Liquid</h3>
+            <p>
+              We don't compromise on quality or passion. Yet we're flexible,
+              adapting to survive and using change as a weapon in our favor.
+            </p>
+          </div>
+
+          <div class="principle">
+            <h3>Lightning Fast</h3>
+            <p>
+              As good hackers, we learn and act fast. We quickly find the most
+              relevant information and apply it to the context without
+              hesitation.
+            </p>
+          </div>
+
+          <div class="principle">
+            <h3>One-Man Army</h3>
+            <p>
+              When you hire us, you get an architect who knows what
+              <em>not</em> to build, a developer who writes less code on
+              purpose, a tester who breaks things before production does, and an
+              engineer who will still understand this codebase in three years.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
         <h2>What We Do</h2>
 
         <div class="services">
           <div class="service">
             <h3>Software House</h3>
-            <p>Custom software development with craftsmanship and care</p>
+            <p>
+              Your codebase is slowing you down. We build software that stays
+              maintainable, performant, and follows industry standards so you're
+              never locked in — yours to own, yours to hand off, yours to scale.
+            </p>
           </div>
 
           <div class="service">
             <h3>IT Consulting</h3>
-            <p>Expert guidance on technology choices and architecture</p>
+            <p>
+              Wrong tech choices compound. We help you pick the stack you won't
+              regret, define the architecture patterns your team can actually
+              follow, and flag the traps before you fall into them — so the next
+              team inherits a blueprint, not a mess.
+            </p>
           </div>
 
           <div class="service">
             <h3>Tech Leadership</h3>
-            <p>Technical direction and team leadership for your projects</p>
+            <p>
+              Your team ships features but nobody owns quality. We bring
+              technical direction, standards, and accountability — including
+              helping teams integrate AI without losing control of their
+              architecture.
+            </p>
           </div>
 
           <div class="service">
             <h3>Mentoring & Teaching</h3>
             <p>
-              Training the next generation of developers to be better humans
+              We train developers to think before they code. Because the
+              industry already has enough people who can generate output.
             </p>
           </div>
         </div>
 
         <div class="tech-badge">
           <p>
-            This site is built with
+            <strong>Built on our own tools.</strong> This site runs on
             <a href="https://inglorious.dev/web/" target="_blank"
               >Inglorious Web</a
-            >
-            framework and
+            >, a framework we wrote from scratch, and
             <a
               href="https://inglorious.dev/web/advanced/ssx.html"
               target="_blank"
               >Inglorious SSX</a
-            >
-            static site generator. We eat our own dog food.
+            >, our static site generator. We don't recommend tools we haven't
+            used in production ourselves.
           </p>
         </div>
       </section>
