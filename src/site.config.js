@@ -20,52 +20,13 @@ export default {
     "twitter:image": "https://ingloriouscoderz.it/images/og.png",
   },
   styles: ["/styles/fonts.css", "/styles/style.css"],
+  prescripts: [
+    "https://embeds.iubenda.com/widgets/f3325768-794c-46d3-ab63-cd01c579deb4.js",
+  ],
   scripts: [
     "https://www.googletagmanager.com/gtag/js?id=G-1VTZM56KYZ",
     "/scripts/ga.js",
   ],
-
-  layout(body, options) {
-    const {
-      lang = "en",
-      charset = "UTF-8",
-      title = "",
-      favicon = "",
-      meta = {},
-      styles = [],
-      head = "",
-      scripts = [],
-      isDev,
-    } = options;
-
-    return `<!DOCTYPE html>
-    <html lang="${lang}">
-      <head>
-        <script type="text/javascript" src="https://embeds.iubenda.com/widgets/f3325768-794c-46d3-ab63-cd01c579deb4.js"></script>
-        <meta charset="${charset}" />
-        <title>${title}</title>
-        <link rel="icon" type="image/x-icon" href="${favicon}">
-        ${Object.entries(meta)
-          .map(
-            ([key, content]) =>
-              `<meta ${key.includes(":") ? "property" : "name"}="${key}" content="${content}">`,
-          )
-          .join("\n")}
-        ${styles
-          .map((href) => `<link rel="stylesheet" href="${href}">`)
-          .join("\n")}
-        ${head}
-      </head>
-      <body>
-        <div id="root">${body}</div>
-        ${isDev ? `<script type="module" src="/@vite/client"></script>` : ``}
-        <script type="module" src="/main.js"></script>
-        ${scripts
-          .map((src) => `<script type="module" src="${src}"></script>`)
-          .join("\n")}
-      </body>
-    </html>`;
-  },
 
   vite: {
     // assetsInclude: ["**/*.svg", "**/*.png", "**/*.jpg", "**/*.jpeg"],

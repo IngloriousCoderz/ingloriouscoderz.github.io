@@ -10,11 +10,15 @@
     "dev": "ssx dev",
     "build": "ssx build",
     "preview": "ssx serve",
-    "postbuild": "cp .nojekyll 404.html CNAME googled04949cc690781d6.html dist"
+    "postbuild": "cp .nojekyll 404.html CNAME googled04949cc690781d6.html dist",
+    "deploy": "node deploy.js"
   },
   "dependencies": {
     "@inglorious/logo": "^2.1.0",
-    "@inglorious/ssx": "^1.10.0",
+    "@inglorious/ssx": "^1.11.0",
     "@inglorious/web": "^4.4.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
