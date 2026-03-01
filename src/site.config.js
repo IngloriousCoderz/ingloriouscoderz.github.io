@@ -1,10 +1,23 @@
 export default {
   title: "Inglorious Coderz | Quality Software, Quality People",
-  favicon: "/icons/logo.png",
+  favicon: "/images/logo.png",
   meta: {
     viewport: "width=device-width, initial-scale=1.0",
     description:
       "Quality software, quality people. Turin-based software house crafting beautiful solutions with the Inglorious Way. Trusted by Tetra Pak, Heineken, BAT, and the Vatican.",
+    "og:type": "website",
+    "og:url": "https://ingloriouscoderz.it",
+    "og:title": "Inglorious Coderz | Quality Software, Quality People",
+    "og:description":
+      "Quality software, quality people. Turin-based software house crafting beautiful solutions with the Inglorious Way. Trusted by Tetra Pak, Heineken, BAT, and the Vatican.",
+    "og:image": "https://ingloriouscoderz.it/images/og.png",
+    "og:image:width": "1200",
+    "og:image:height": "628",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Inglorious Coderz | Quality Software, Quality People",
+    "twitter:description":
+      "Quality software, quality people. Turin-based software house crafting beautiful solutions with the Inglorious Way. Trusted by Tetra Pak, Heineken, BAT, and the Vatican.",
+    "twitter:image": "https://ingloriouscoderz.it/images/og.png",
   },
   styles: ["/styles/fonts.css", "/styles/style.css"],
   scripts: [
@@ -34,7 +47,8 @@ export default {
         <link rel="icon" type="image/x-icon" href="${favicon}">
         ${Object.entries(meta)
           .map(
-            ([name, content]) => `<meta name="${name}" content="${content}">`,
+            ([key, content]) =>
+              `<meta ${key.includes(":") ? "property" : "name"}="${key}" content="${content}">`,
           )
           .join("\n")}
         ${styles
