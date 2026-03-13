@@ -18,9 +18,13 @@
   --neon-yellow: #ffff00;
 }
 
+html,
+body {
+  background: var(--dark-bg);
+}
+
 body {
   font-family: "Oxanium", "Courier New", monospace;
-  background: var(--dark-bg);
   background: url(/images/metal-wallpaper.jpg);
   background-position-x: center;
   background-attachment: fixed;
