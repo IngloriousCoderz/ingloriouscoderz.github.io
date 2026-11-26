@@ -1,5 +1,12 @@
 const ORIGIN = "https://ingloriouscoderz.it"
 const OG_IMAGE = `${ORIGIN}/images/og.png`
+// Fonts on screen at first paint: preloaded so the text doesn't swap fonts
+// right after it appears.
+const FIRST_PAINT_FONTS = [
+  "/fonts/oxanium.woff2",
+  "/fonts/orbitron.woff2",
+  "/fonts/firacode.woff2",
+]
 
 export const SITE_URL = ORIGIN
 export const DEFAULT_LOCALE = "en"
@@ -43,7 +50,8 @@ export function formatDate(date, locale) {
 
 /**
  * The SSX metadata of a page: localized title and description, Open Graph and
- * Twitter tags, canonical URL and hreflang alternates.
+ * Twitter tags, canonical URL, hreflang alternates, and font preloads (the
+ * first-paint fonts, plus the page's own `fonts`).
  */
 export function pageMeta({
   path,
@@ -51,9 +59,14 @@ export function pageMeta({
   title,
   description,
   type = "website",
+  fonts = [],
   extra = {},
 }) {
   const url = SITE_URL + localize(path, locale)
+  const preloads = [...FIRST_PAINT_FONTS, ...fonts].map(
+    (font) =>
+      `<link rel="preload" href="${font}" as="font" type="font/woff2" crossorigin>`,
+  )
 
   const links = LOCALES.map(
     (l) =>
@@ -68,7 +81,7 @@ export function pageMeta({
   return {
     lang: locale,
     title: title,
-    head: links.join("\n"),
+    head: [...preloads, ...links].join("\n"),
     meta: {
       description: description,
       "og:type": type,

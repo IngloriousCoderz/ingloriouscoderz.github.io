@@ -160,6 +160,7 @@ export const metadata = (entity) => {
     title: meta.title ?? fallback.title,
     description: meta.description ?? fallback.description,
     type: "article",
+    fonts: ["/fonts/roboto.woff2"],
     extra: {
       pubDate: meta.date,
       updatedAt: meta.date,

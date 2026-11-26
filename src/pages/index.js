@@ -562,5 +562,6 @@ export const metadata = (entity) => {
     locale: entity.locale,
     title: c.title,
     description: c.description,
+    fonts: ["/fonts/ethnocentric_rg.woff2"],
   })
 }

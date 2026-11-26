@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@inglorious/logo": "^3.0.28",
-    "@inglorious/ssx": "^2.4.0",
+    "@inglorious/ssx": "^2.5.1",
     "@inglorious/store": "^12.9.1",
     "@inglorious/web": "^6.31.1",
     "gray-matter": "^4.0.3",

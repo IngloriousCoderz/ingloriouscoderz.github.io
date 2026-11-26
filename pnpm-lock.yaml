@@ -12,8 +12,8 @@ importers:
         specifier: ^3.0.28
         version: 3.0.28(@inglorious/store@12.9.1(@inglorious/utils@5.4.1))
       '@inglorious/ssx':
-        specifier: ^2.4.0
-        version: 2.4.0(esbuild@0.27.3)(supports-color@7.2.0)(terser@5.51.4)
+        specifier: ^2.5.1
+        version: 2.5.1(esbuild@0.27.3)(supports-color@7.2.0)(terser@5.51.4)
       '@inglorious/store':
         specifier: ^12.9.1
         version: 12.9.1(@inglorious/utils@5.4.1)
@@ -1001,8 +1001,8 @@ packages:
     resolution: {integrity: sha512-kR1l4UB/o2tgNV5zGcXT63HAWb3BLVeTEzQlbIoPfHc5vtq5ovAiGEzHuxLpmW8iJKYnV0GXRmxigV5AGuOQVw==}
     engines: {node: '>= 26'}
 
-  '@inglorious/ssx@2.4.0':
-    resolution: {integrity: sha512-r0qRyfT45GElcpzLllTmTAAqpS0FwIs5z3fPXtyhaVV4IXU1AHSZaUwgVyuvDkCMjyjUb312u6jOPIXkqzy+qg==}
+  '@inglorious/ssx@2.5.1':
+    resolution: {integrity: sha512-tavij9RUuPh4AGK2VDxDJXc8Xr44e4FFj3YMrn5pro7Y+zt8zC97/HpNxRgUDcgMGASZ/iFTobllVW58ggy2qQ==}
     engines: {node: '>= 26'}
     hasBin: true
 
@@ -4481,7 +4481,7 @@ snapshots:
     transitivePeerDependencies:
       - '@inglorious/store'
 
-  '@inglorious/ssx@2.4.0(esbuild@0.27.3)(supports-color@7.2.0)(terser@5.51.4)':
+  '@inglorious/ssx@2.5.1(esbuild@0.27.3)(supports-color@7.2.0)(terser@5.51.4)':
     dependencies:
       '@inglorious/store': 12.9.1(@inglorious/utils@5.4.1)
       '@inglorious/utils': 5.4.1
