@@ -14,11 +14,13 @@
     "preview": "serve dist"
   },
   "dependencies": {
-    "@inglorious/logo": "^3.0.27",
-    "@inglorious/ssx": "^2.3.2",
-    "@inglorious/store": "^12.9.0",
-    "@inglorious/web": "^6.31.0",
-    "gray-matter": "^4.0.3"
+    "@inglorious/logo": "^3.0.28",
+    "@inglorious/ssx": "^2.4.0",
+    "@inglorious/store": "^12.9.1",
+    "@inglorious/web": "^6.31.1",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.12.0",
+    "katex": "^0.19.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

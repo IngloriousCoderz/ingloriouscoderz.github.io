@@ -1,0 +1,98 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  min-height: var(--header-height);
+  padding: 0.75rem 20px;
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Orbitron";
+  color: var(--title-color);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-left: auto;
+  font-family: "Orbitron";
+  font-size: 0.9rem;
+  text-transform: uppercase;
+
+  a {
+    color: var(--text-color);
+
+    &:hover,
+    &.active {
+      color: var(--neon-cyan);
+      text-shadow: 0 0 5px var(--neon-cyan);
+    }
+  }
+}
+
+.lang-switch {
+  font-family: "Fira Code", monospace;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--active-color);
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+
+  &:focus {
+    left: 20px;
+    top: 0.75rem;
+    background: var(--dark-bg);
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid rgba(0, 255, 255, 0.2);
+  color: var(--title-color);
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: static;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+  }
+
+  .brand span {
+    display: none;
+  }
+
+  .nav {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    gap: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .lang-switch {
+    margin-left: auto;
+  }
+}

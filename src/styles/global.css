@@ -1,0 +1,48 @@
+@import "./fonts.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --title-color: #999;
+  --shade-color: #666;
+  --text-color: #bbb;
+  --heading-color: #98c379;
+  --active-color: #429aef;
+  --dark-bg: #0a0a0a;
+  --dark-panel: rgba(40, 44, 52, 0.5);
+  --neon-cyan: #00ffff;
+  --neon-magenta: #ff00ff;
+  --neon-green: #00ff00;
+  --neon-yellow: #ffff00;
+  --header-height: 3.5rem;
+}
+
+html,
+body {
+  background: var(--dark-bg);
+}
+
+body {
+  font-family: "Oxanium", "Courier New", monospace;
+  background: url(/images/metal-wallpaper.jpg);
+  background-position-x: center;
+  background-attachment: fixed;
+  color: var(--text-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--active-color);
+  text-shadow: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    text-shadow: 0 0 5px var(--active-color);
+  }
+}

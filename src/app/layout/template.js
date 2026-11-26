@@ -1,6 +1,8 @@
 import { html, nothing } from "@inglorious/web"
 
 import { forLocale, localize, otherLocale } from "../../common/i18n.js"
+import page from "../../styles/page.module.css"
+import styles from "./style.module.css"
 
 const LOGO_SIZE = 32
 
@@ -58,9 +60,11 @@ export const template = {
     const alt = otherLocale(locale)
 
     return html`
-      <header class="site-header">
-        <a class="skip-link" href="#content" data-external>${labels.skip}</a>
-        <a class="brand" href=${localize("/", locale)}>
+      <header class=${styles.header}>
+        <a class=${styles.skipLink} href="#content" data-external
+          >${labels.skip}</a
+        >
+        <a class=${styles.brand} href=${localize("/", locale)}>
           <img
             src="/images/logo.png"
             alt=""
@@ -70,7 +74,7 @@ export const template = {
           <span>Inglorious Coderz</span>
         </a>
 
-        <nav aria-label="Main">
+        <nav class=${styles.nav} aria-label="Main">
           ${NAV.map((item) =>
             this.renderNavItem({
               ...item,
@@ -82,7 +86,7 @@ export const template = {
         </nav>
 
         <a
-          class="lang-switch"
+          class=${styles.langSwitch}
           href=${localize(path, alt)}
           hreflang=${alt}
           lang=${alt}
@@ -96,7 +100,7 @@ export const template = {
   renderNavItem({ path, label, locale, isActive }) {
     return html`<a
       href=${localize(path, locale)}
-      class=${isActive ? "active" : nothing}
+      class=${isActive ? styles.active : nothing}
       aria-current=${isActive ? "page" : "false"}
       >${forLocale(label, locale)}</a
     >`
@@ -106,8 +110,8 @@ export const template = {
     const labels = forLocale(LABELS, locale)
 
     return html`
-      <footer>
-        <p class="footer-links">
+      <footer class=${styles.footer}>
+        <p class=${styles.footerLinks}>
           <a
             href="https://github.com/IngloriousCoderz"
             target="_blank"
@@ -123,10 +127,14 @@ export const template = {
           ·
           <a href=${localize("/icy", locale)}>${labels.icy}</a>
         </p>
-        <p class="footer-links">
+        <p class=${styles.footerLinks}>
           <a href=${localize("/privacy", locale)}>${labels.privacy}</a>
           ·
-          <button type="button" class="link-button" @click=${onConsentOpen}>
+          <button
+            type="button"
+            class=${page.linkButton}
+            @click=${onConsentOpen}
+          >
             ${labels.cookies}
           </button>
         </p>

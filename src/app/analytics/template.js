@@ -2,6 +2,7 @@ import { html } from "@inglorious/web"
 import { when } from "@inglorious/web/directives/when"
 
 import { forLocale } from "../../common/i18n.js"
+import styles from "./style.module.css"
 
 const MESSAGES = {
   en: {
@@ -38,29 +39,29 @@ export const template = {
     // Reject and accept look the same, and closing rejects: no nudging.
     return html`
       <section
-        class="consent"
+        class=${styles.consent}
         role="dialog"
         aria-labelledby="consent-title"
         aria-describedby="consent-text"
       >
         <button
-          class="consent-close"
+          class=${styles.close}
           type="button"
           aria-label=${m.close}
           @click=${onReject}
         >
           ×
         </button>
-        <h2 id="consent-title" class="consent-title">${m.title}</h2>
-        <p id="consent-text" class="consent-text">
+        <h2 id="consent-title" class=${styles.title}>${m.title}</h2>
+        <p id="consent-text" class=${styles.text}>
           ${m.text} <a href=${policyUrl}>${m.policy}</a>
           ${when(consent, () => html`<em>${m.current[consent]}</em>`)}
         </p>
-        <div class="consent-actions">
-          <button type="button" class="consent-button" @click=${onReject}>
+        <div class=${styles.actions}>
+          <button type="button" class=${styles.button} @click=${onReject}>
             ${m.reject}
           </button>
-          <button type="button" class="consent-button" @click=${onAccept}>
+          <button type="button" class=${styles.button} @click=${onAccept}>
             ${m.accept}
           </button>
         </div>

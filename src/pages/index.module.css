@@ -1,0 +1,226 @@
+.hero-section {
+  min-height: calc(100vh - var(--header-height));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+  h1 {
+    font-family: "Ethnocentric";
+    text-shadow: 0 0 2rem var(--dark-bg);
+    font-size: 3rem;
+
+    span {
+      background: linear-gradient(
+        to bottom,
+        var(--title-color) 50%,
+        var(--shade-color) 50%
+      );
+      background-clip: text;
+      color: transparent;
+    }
+  }
+}
+
+.tagline {
+  font-family: "Orbitron";
+  font-size: 2rem;
+  color: var(--heading-color);
+  text-shadow: 0 0 2rem var(--dark-bg);
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  line-height: 1.8;
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.2rem;
+}
+
+.principles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.principle {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: var(--dark-panel);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(0, 255, 255, 0.5);
+  }
+
+  h3 {
+    color: var(--neon-magenta);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+}
+
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid var(--neon-green);
+  padding: 1rem;
+  background: rgba(0, 255, 0, 0.25);
+  transition: all 0.3s ease;
+
+  img {
+    width: 6rem;
+    object-fit: contain;
+    max-height: 6rem;
+  }
+
+  &:hover {
+    background: rgba(0, 255, 0, 0.5);
+    box-shadow: 0 0 25px var(--neon-green);
+  }
+}
+
+.featured {
+  width: 10rem;
+  height: 10rem;
+
+  img {
+    width: 8rem;
+    max-height: 8rem;
+  }
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--dark-panel);
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.4);
+  }
+
+  h3 {
+    font-family: "Orbitron";
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+.founder {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  background: var(--dark-panel);
+  border: 1px solid var(--neon-magenta);
+}
+
+.founder-text p + p {
+  margin-top: 1rem;
+}
+
+.founder-links {
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem;
+}
+
+.testimonial {
+  padding: 1.5rem;
+  background: var(--dark-panel);
+  border-left: 3px solid var(--neon-cyan);
+  font-style: italic;
+
+  footer {
+    padding-top: 1rem;
+    text-align: right;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: var(--title-color);
+  }
+}
+
+.latest {
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+
+  time {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--title-color);
+  }
+}
+
+.contact-info {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 1.5rem;
+  }
+
+  .founder {
+    grid-template-columns: 1fr;
+  }
+}

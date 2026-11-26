@@ -9,20 +9,26 @@ importers:
   .:
     dependencies:
       '@inglorious/logo':
-        specifier: ^3.0.27
-        version: 3.0.27(@inglorious/store@12.9.0(@inglorious/utils@5.4.0))
+        specifier: ^3.0.28
+        version: 3.0.28(@inglorious/store@12.9.1(@inglorious/utils@5.4.1))
       '@inglorious/ssx':
-        specifier: ^2.3.2
-        version: 2.3.2(esbuild@0.27.3)(supports-color@7.2.0)(terser@5.51.4)
+        specifier: ^2.4.0
+        version: 2.4.0(esbuild@0.27.3)(supports-color@7.2.0)(terser@5.51.4)
       '@inglorious/store':
-        specifier: ^12.9.0
-        version: 12.9.0(@inglorious/utils@5.4.0)
+        specifier: ^12.9.1
+        version: 12.9.1(@inglorious/utils@5.4.1)
       '@inglorious/web':
-        specifier: ^6.31.0
-        version: 6.31.0(@inglorious/store@12.9.0(@inglorious/utils@5.4.0))
+        specifier: ^6.31.1
+        version: 6.31.1(@inglorious/store@12.9.1(@inglorious/utils@5.4.1))
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
+      highlight.js:
+        specifier: ^11.12.0
+        version: 11.12.0
+      katex:
+        specifier: ^0.19.1
+        version: 0.19.1
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
@@ -991,30 +997,30 @@ packages:
       eslint-plugin-tailwindcss:
         optional: true
 
-  '@inglorious/logo@3.0.27':
-    resolution: {integrity: sha512-p8McdWTPGDjD0t2QQFQCaPMfurNYEGS4jMZOA4wldyr/weqV6zwjTcKuYWRxZR34RA67YQIsZBBRE0EiA8Q3YA==}
-    engines: {node: '>= 22'}
+  '@inglorious/logo@3.0.28':
+    resolution: {integrity: sha512-kR1l4UB/o2tgNV5zGcXT63HAWb3BLVeTEzQlbIoPfHc5vtq5ovAiGEzHuxLpmW8iJKYnV0GXRmxigV5AGuOQVw==}
+    engines: {node: '>= 26'}
 
-  '@inglorious/ssx@2.3.2':
-    resolution: {integrity: sha512-hqpwqJNXJdsDE4IVe3kszaeEuOIv1t4kmjF2cqjO127+Blc8HL9jXn+n6MEqqlimRkgmBawK/5HArywZUaAuZw==}
-    engines: {node: '>= 22'}
+  '@inglorious/ssx@2.4.0':
+    resolution: {integrity: sha512-r0qRyfT45GElcpzLllTmTAAqpS0FwIs5z3fPXtyhaVV4IXU1AHSZaUwgVyuvDkCMjyjUb312u6jOPIXkqzy+qg==}
+    engines: {node: '>= 26'}
     hasBin: true
 
-  '@inglorious/store@12.9.0':
-    resolution: {integrity: sha512-yy75HnXqv9VlAhWgr2RjRUOvhlbYA1ADgQ+DQjmyPrx1muNaIYrm9d3rSEpHsZJqwNbygygoOctpDotNFHxbbQ==}
+  '@inglorious/store@12.9.1':
+    resolution: {integrity: sha512-a7x30e/C5J+aYjIeYC5j++ogARUAnxp9KNguUP0o4CZJ2stjbcWEPnBHN2vxQNvj304iDrg92dPIfHWGpgjZcQ==}
     engines: {node: '>= 26'}
     peerDependencies:
-      '@inglorious/utils': ^5.4.0
+      '@inglorious/utils': ^5.4.1
 
-  '@inglorious/utils@5.4.0':
-    resolution: {integrity: sha512-F9KrKDJ5bofo1S0hm29bQ9RDFrm1nT358c/8Th9hU9c+EZageXRFSMQObkzIZwtoadfBStJYA4jsf4ZzfHV1xw==}
+  '@inglorious/utils@5.4.1':
+    resolution: {integrity: sha512-TIasxiayWcTgZCd/eqWFtcq68gVQVcOckoAN8P/J6oFASksMhctyS572mL6rGIJhpUzPvRjSxiLnQzcIDz4sUA==}
     engines: {node: '>= 26'}
 
-  '@inglorious/web@6.31.0':
-    resolution: {integrity: sha512-IRQ2vF1t4XLg1emPFevr0FjsPTD/aB0APgTPhY+JL1y0dI2BJZp3pDXlRvWIKn8PResEL09eJwK+fsXRv0I9lA==}
+  '@inglorious/web@6.31.1':
+    resolution: {integrity: sha512-hCj1wZR+P4Fr8dbIHBhhw9TkbGYjzdlMAEcLlGfkz+wb6oBBnXm9eIPZsbRQvFuaPjll8ErpDE5bStFoXMD0DA==}
     engines: {node: '>= 26'}
     peerDependencies:
-      '@inglorious/store': ^12.9.0
+      '@inglorious/store': ^12.9.1
 
   '@isaacs/cliui@9.0.0':
     resolution: {integrity: sha512-AokJm4tuBHillT+FpMtxQ60n8ObyXBatq7jD2/JA9dxbDDokKQm8KMht5ibGzLVU9IJDIKK4TPKgMHEYMn3lMg==}
@@ -1617,10 +1623,6 @@ packages:
 
   brace-expansion@2.0.2:
     resolution: {integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==}
-
-  brace-expansion@5.0.4:
-    resolution: {integrity: sha512-h+DEnpVvxmfVefa4jFbCf5HdH5YMDXRsmKflpf1pILZWRFlTbJpxeU55nJl4Smt5HQaGzg1o6RHFPJaOqnmBDg==}
-    engines: {node: 18 || 20 || >=22}
 
   brace-expansion@5.1.0:
     resolution: {integrity: sha512-aa11Dv491GKnYqxaul3aRJ0szew7yMJMfZPnqD44NjGrZXoj62l41OEDDpdpC4eE2P88vBFfLuSyRhpG91NUvg==}
@@ -2287,8 +2289,8 @@ packages:
     deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
-  glob@13.0.6:
-    resolution: {integrity: sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw==}
+  glob@14.0.6:
+    resolution: {integrity: sha512-OwXjVP2svY5EyLY75Vek96C8qK43gqrt4xsZ+qSILdnaEiJPXkd62mcfUSNx/TQErQRdu5uM5kF67sfONragKw==}
     engines: {node: 18 || 20 || >=22}
 
   globals@17.14.0:
@@ -2672,9 +2674,6 @@ packages:
   lit-element@4.2.2:
     resolution: {integrity: sha512-aFKhNToWxoyhkNDmWZwEva2SlQia+jfG0fjIWV//YeTaWrVnOxD89dPKfigCUspXFmjzOEUQpOkejH5Ly6sG0w==}
 
-  lit-html@3.3.2:
-    resolution: {integrity: sha512-Qy9hU88zcmaxBXcc10ZpdK7cOLXvXpRoBxERdtqV9QOrfpMZZ6pSYP91LhpPtap3sFMUiL7Tw2RImbe0Al2/kw==}
-
   lit-html@3.3.3:
     resolution: {integrity: sha512-el8M6jK2o3RXBnrSHX3ZKrsN8zEV63pSExTO1wYJz7QndGYZ8353e2a5PPX+qHe2aGayfnchQmkAojaWAREOIA==}
 
@@ -2879,6 +2878,10 @@ packages:
 
   path-scurry@2.0.2:
     resolution: {integrity: sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==}
+    engines: {node: 18 || 20 || >=22}
+
+  path-scurry@3.0.0:
+    resolution: {integrity: sha512-1pTbQqH1wIwMi/eleQ5leFTTCkzFsPcgXNjwOA8YGGW/W4/kHT3dssE7Z6NH+zuqNLOzOB0uaD61yl7cAcVhgg==}
     engines: {node: 18 || 20 || >=22}
 
   path-to-regexp@3.3.0:
@@ -3108,10 +3111,6 @@ packages:
   smob@1.6.1:
     resolution: {integrity: sha512-KAkBqZl3c2GvNgNhcoyJae1aKldDW0LO279wF9bk1PnluRTETKBq0WyzRXxEhoQLk56yHaOY4JCBEKDuJIET5g==}
     engines: {node: '>=20.0.0'}
-
-  source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
-    engines: {node: '>=0.10.0'}
 
   source-map-js@1.2.4:
     resolution: {integrity: sha512-J7ZjMvHd9O1fcT/5V09QWaaSl2BbWx3F6O08spde82Namf9UB0GxRVIPiNbVsdKkoizHiSpTodo3vp2bAy91MA==}
@@ -4476,22 +4475,22 @@ snapshots:
       eslint-plugin-simple-import-sort: 14.0.0(eslint@10.15.0(supports-color@7.2.0))
       globals: 17.14.0
 
-  '@inglorious/logo@3.0.27(@inglorious/store@12.9.0(@inglorious/utils@5.4.0))':
+  '@inglorious/logo@3.0.28(@inglorious/store@12.9.1(@inglorious/utils@5.4.1))':
     dependencies:
-      '@inglorious/web': 6.31.0(@inglorious/store@12.9.0(@inglorious/utils@5.4.0))
+      '@inglorious/web': 6.31.1(@inglorious/store@12.9.1(@inglorious/utils@5.4.1))
     transitivePeerDependencies:
       - '@inglorious/store'
 
-  '@inglorious/ssx@2.3.2(esbuild@0.27.3)(supports-color@7.2.0)(terser@5.51.4)':
+  '@inglorious/ssx@2.4.0(esbuild@0.27.3)(supports-color@7.2.0)(terser@5.51.4)':
     dependencies:
-      '@inglorious/store': 12.9.0(@inglorious/utils@5.4.0)
-      '@inglorious/utils': 5.4.0
-      '@inglorious/web': 6.31.0(@inglorious/store@12.9.0(@inglorious/utils@5.4.0))
+      '@inglorious/store': 12.9.1(@inglorious/utils@5.4.1)
+      '@inglorious/utils': 5.4.1
+      '@inglorious/web': 6.31.1(@inglorious/store@12.9.1(@inglorious/utils@5.4.1))
       '@lit-labs/ssr': 4.1.0
       commander: 15.1.0
       connect: 3.7.0(supports-color@7.2.0)
       fast-xml-parser: 5.12.1
-      glob: 13.0.6
+      glob: 14.0.6
       gray-matter: 4.0.3
       highlight.js: 11.12.0
       katex: 0.19.1
@@ -4517,17 +4516,17 @@ snapshots:
       - tsx
       - yaml
 
-  '@inglorious/store@12.9.0(@inglorious/utils@5.4.0)':
+  '@inglorious/store@12.9.1(@inglorious/utils@5.4.1)':
     dependencies:
-      '@inglorious/utils': 5.4.0
+      '@inglorious/utils': 5.4.1
       mutative: 2.0.2
 
-  '@inglorious/utils@5.4.0': {}
+  '@inglorious/utils@5.4.1': {}
 
-  '@inglorious/web@6.31.0(@inglorious/store@12.9.0(@inglorious/utils@5.4.0))':
+  '@inglorious/web@6.31.1(@inglorious/store@12.9.1(@inglorious/utils@5.4.1))':
     dependencies:
-      '@inglorious/store': 12.9.0(@inglorious/utils@5.4.0)
-      '@inglorious/utils': 5.4.0
+      '@inglorious/store': 12.9.1(@inglorious/utils@5.4.1)
+      '@inglorious/utils': 5.4.1
       '@lit-labs/ssr-client': 1.1.8
       lit-html: 3.3.3
 
@@ -4584,7 +4583,7 @@ snapshots:
       enhanced-resolve: 5.20.0
       lit: 3.3.2
       lit-element: 4.2.2
-      lit-html: 3.3.2
+      lit-html: 3.3.3
       node-fetch: 3.3.2
       parse5: 7.3.0
 
@@ -5054,10 +5053,6 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
-  brace-expansion@5.0.4:
-    dependencies:
-      balanced-match: 4.0.4
-
   brace-expansion@5.1.0:
     dependencies:
       balanced-match: 4.0.4
@@ -5207,12 +5202,12 @@ snapshots:
   css-tree@2.2.1:
     dependencies:
       mdn-data: 2.0.28
-      source-map-js: 1.2.1
+      source-map-js: 1.2.4
 
   css-tree@3.1.0:
     dependencies:
       mdn-data: 2.12.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.4
 
   css-what@7.0.0: {}
 
@@ -5864,11 +5859,11 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 2.0.2
 
-  glob@13.0.6:
+  glob@14.0.6:
     dependencies:
-      minimatch: 10.2.4
+      minimatch: 11.0.9
       minipass: 7.1.3
-      path-scurry: 2.0.2
+      path-scurry: 3.0.0
 
   globals@17.14.0: {}
 
@@ -6191,11 +6186,7 @@ snapshots:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.6.0
       '@lit/reactive-element': 2.1.2
-      lit-html: 3.3.2
-
-  lit-html@3.3.2:
-    dependencies:
-      '@types/trusted-types': 2.0.7
+      lit-html: 3.3.3
 
   lit-html@3.3.3:
     dependencies:
@@ -6205,7 +6196,7 @@ snapshots:
     dependencies:
       '@lit/reactive-element': 2.1.2
       lit-element: 4.2.2
-      lit-html: 3.3.2
+      lit-html: 3.3.3
 
   locate-path@6.0.0:
     dependencies:
@@ -6283,7 +6274,7 @@ snapshots:
 
   minimatch@10.2.4:
     dependencies:
-      brace-expansion: 5.0.4
+      brace-expansion: 5.1.0
 
   minimatch@11.0.9:
     dependencies:
@@ -6400,6 +6391,11 @@ snapshots:
   path-parse@1.0.7: {}
 
   path-scurry@2.0.2:
+    dependencies:
+      lru-cache: 11.2.6
+      minipass: 7.1.3
+
+  path-scurry@3.0.0:
     dependencies:
       lru-cache: 11.2.6
       minipass: 7.1.3
@@ -6733,8 +6729,6 @@ snapshots:
   signal-exit@4.1.0: {}
 
   smob@1.6.1: {}
-
-  source-map-js@1.2.1: {}
 
   source-map-js@1.2.4: {}
 

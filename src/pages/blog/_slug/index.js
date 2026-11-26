@@ -1,17 +1,22 @@
+import "highlight.js/styles/atom-one-dark.min.css"
+import "katex/dist/katex.min.css"
+
 import { handleRequest } from "@inglorious/store/async"
 import { html } from "@inglorious/web"
 import { unsafeHTML } from "@inglorious/web/directives/unsafe-html"
 import { when } from "@inglorious/web/directives/when"
 
-import { Layout } from "../../app/layout/index.js"
+import { Layout } from "../../../app/layout/index.js"
 import {
   forLocale,
   formatDate,
   getLocaleFromPath,
   localize,
   pageMeta,
-} from "../../common/i18n.js"
-import { findMeta, loadPost, slugs, TOPICS } from "../../common/posts.js"
+} from "../../../common/i18n.js"
+import { findMeta, loadPost, slugs, TOPICS } from "../../../common/posts.js"
+import page from "../../../styles/page.module.css"
+import styles from "./style.module.css"
 
 const COPY = {
   en: {
@@ -71,7 +76,7 @@ export const Post = {
           post,
           () => this.renderPost({ post, locale, c }),
           () =>
-            html`<section class="container page">
+            html`<section class="${page.container} ${page.page}">
               <p>${entity.status === "error" ? c.error : c.loading}</p>
             </section>`,
         ),
@@ -85,31 +90,31 @@ export const Post = {
     const isTranslation = post.original && post.original !== locale
 
     return html`
-      <article class="container page post">
-        <p class="breadcrumb">
+      <article class="${page.container} ${page.page} ${styles.post}">
+        <p class=${styles.breadcrumb}>
           <a href=${localize("/blog", locale)}>← ${c.back}</a>
         </p>
 
-        <header class="post-header">
+        <header class=${styles.header}>
           ${when(
             post.topic,
             () =>
-              html`<p class="card-meta">
-                <span class="badge"
+              html`<p class=${page.cardMeta}>
+                <span class=${page.badge}
                   >${forLocale(TOPICS[post.topic], locale)}</span
                 >
               </p>`,
           )}
-          <h1 class="page-title">${post.title}</h1>
-          <p class="page-intro">${post.description}</p>
-          <p class="card-meta">
+          <h1 class=${page.pageTitle}>${post.title}</h1>
+          <p class=${page.pageIntro}>${post.description}</p>
+          <p class=${page.cardMeta}>
             <time datetime=${post.date}>${formatDate(post.date, locale)}</time>
             · ${c.by} ${post.author}
           </p>
           ${when(
             isTranslation,
             () =>
-              html`<p class="translation-note">
+              html`<p class=${styles.translationNote}>
                 ${c.translated}
                 <a
                   href=${localize(path, post.original)}
@@ -120,9 +125,9 @@ export const Post = {
           )}
         </header>
 
-        <div class="markdown-body">${unsafeHTML(post.html)}</div>
+        <div class=${styles.body}>${unsafeHTML(post.html)}</div>
 
-        <footer class="post-footer">
+        <footer class=${styles.footer}>
           <p>
             ${c.contact}
             <a href="mailto:info@ingloriouscoderz.it">${c.contactLink}</a> ·

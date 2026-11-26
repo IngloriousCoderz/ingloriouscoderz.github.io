@@ -2,8 +2,10 @@ import { html } from "@inglorious/web"
 import { classMap } from "@inglorious/web/directives/class-map"
 import { when } from "@inglorious/web/directives/when"
 
-import { Layout } from "../app/layout/index.js"
-import { forLocale, pageMeta } from "../common/i18n.js"
+import { Layout } from "../../app/layout/index.js"
+import { forLocale, pageMeta } from "../../common/i18n.js"
+import page from "../../styles/page.module.css"
+import styles from "./style.module.css"
 
 const PATH = "/work"
 
@@ -189,31 +191,36 @@ export const Work = {
         locale,
         path: PATH,
         content: html`
-          <section class="container page">
-            <h1 class="page-title">${c.heading}</h1>
-            <p class="page-intro">${c.intro}</p>
+          <section class="${page.container} ${page.page}">
+            <h1 class=${page.pageTitle}>${c.heading}</h1>
+            <p class=${page.pageIntro}>${c.intro}</p>
 
-            <div class="cards">
+            <div class=${page.cards}>
               ${CASES.map(
                 (item) => html`
                   <article
-                    class=${classMap({ card: true, failure: item.isFailure })}
+                    class=${classMap({
+                      [page.card]: true,
+                      [styles.failure]: item.isFailure,
+                    })}
                   >
                     <h3>${item.title}</h3>
-                    <p class="card-meta">
+                    <p class=${page.cardMeta}>
                       ${item.client}${when(
                         item.isFailure,
-                        () => html` · <span class="badge">${c.failure}</span>`,
+                        () =>
+                          html` ·
+                            <span class=${page.badge}>${c.failure}</span>`,
                       )}
                     </p>
                     ${forLocale(item.text, locale).map((p) => html`<p>${p}</p>`)}
-                    <p class="tags">
-                      ${item.stack.map((s) => html`<span class="tag">${s}</span>`)}
+                    <p class=${page.tags}>
+                      ${item.stack.map((s) => html`<span class=${page.tag}>${s}</span>`)}
                     </p>
                     ${when(
                       item.href,
                       () =>
-                        html`<p class="card-cta">
+                        html`<p class=${page.cardCta}>
                           <a href=${item.href} target="_blank" rel="noopener"
                             >${c.visit} →</a
                           >
@@ -225,10 +232,10 @@ export const Work = {
             </div>
           </section>
 
-          <section class="cta">
-            <div class="container">
-              <p class="cta-text">${c.ctaText}</p>
-              <a href="mailto:info@ingloriouscoderz.it" class="cta-button"
+          <section class=${page.cta}>
+            <div class=${page.container}>
+              <p class=${page.ctaText}>${c.ctaText}</p>
+              <a href="mailto:info@ingloriouscoderz.it" class=${page.ctaButton}
                 >${c.ctaButton}</a
               >
             </div>

@@ -1,0 +1,179 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  padding: 0 20px;
+
+  h2 {
+    font-family: "Orbitron";
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--heading-color);
+    text-shadow: 0 0 2rem var(--dark-bg);
+    text-transform: uppercase;
+  }
+}
+
+.page {
+  padding-top: 4rem;
+
+  h2 {
+    margin-top: 3rem;
+  }
+}
+
+.page-title {
+  font-family: "Orbitron";
+  font-size: 3rem;
+  text-align: center;
+  color: var(--heading-color);
+  text-shadow: 0 0 2rem var(--dark-bg);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.page-intro {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.section-cta {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  padding: 1.5rem;
+  background-color: var(--dark-panel);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 5px 25px rgba(0, 255, 255, 0.3);
+  }
+
+  h3 {
+    font-family: "Orbitron";
+    color: var(--neon-magenta);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p + p {
+    margin-top: 0.75rem;
+  }
+}
+
+.highlight {
+  border: 1px solid var(--neon-cyan);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.25);
+}
+
+.card-meta {
+  font-size: 0.9rem;
+  color: var(--title-color);
+}
+
+.card-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0 0.5rem;
+  margin-right: 0.25rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--dark-bg);
+  background: var(--heading-color);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  font-family: "Fira Code", monospace;
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+  border: 1px solid var(--shade-color);
+}
+
+.tech-badge {
+  text-align: center;
+  padding: 3rem;
+  background: var(--dark-panel);
+  border: 1px solid var(--active-color);
+
+  h3 {
+    font-family: "Orbitron";
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+  }
+}
+
+.cta {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  color: var(--dark-bg);
+  background: var(--neon-cyan);
+  border: none;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 0 30px var(--neon-cyan);
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--neon-magenta);
+    box-shadow: 0 0 40px var(--neon-magenta);
+    transform: scale(1.05);
+  }
+}
+
+.cta-text {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.link-button {
+  font: inherit;
+  color: var(--active-color);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+
+  &:hover {
+    text-shadow: 0 0 5px var(--active-color);
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+}

@@ -1,12 +1,19 @@
 import "@inglorious/logo/style.css"
 
+import { Logo } from "@inglorious/logo"
 import { html } from "@inglorious/web"
 
-import { Layout } from "../app/layout/index.js"
-import { forLocale, pageMeta } from "../common/i18n.js"
+import { Layout } from "../../app/layout/index.js"
+import { forLocale, pageMeta } from "../../common/i18n.js"
+import page from "../../styles/page.module.css"
+import styles from "./style.module.css"
 
 const PATH = "/icy"
-const LOGO_ID = "icyLogo"
+const LOGO_SIZE = 256
+const DEFAULT_FACES = [
+  { image: "I", reverse: false, eye: true },
+  { image: "C", reverse: false, eye: false },
+]
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
 
 const COPY = {
@@ -48,35 +55,45 @@ const COPY = {
   },
 }
 
+/**
+ * The page is the logo it customizes: it wraps Logo with the faces' state and
+ * the form that changes them.
+ */
 export const Icy = {
+  create(entity) {
+    entity.size ??= LOGO_SIZE
+    entity.faces ??= DEFAULT_FACES.map((face) => ({ ...face }))
+    entity.isScrollPrevented = true
+  },
+
+  coordsChange: Logo.coordsChange,
+
+  faceChange(entity, { index, field, value }) {
+    entity.faces[index][field] = value
+  },
+
   render(entity, api) {
-    const { locale } = entity
+    const { locale, faces } = entity
     const c = forLocale(COPY, locale)
-    const { faces } = api.getEntity(LOGO_ID)
     const [left, right] = faces
     const name = `${left.image}${right.image.toLowerCase()}y`
-
-    const change = (index, field) => (event) => {
-      const { type, checked, value } = event.target
-      api.notify(`#${LOGO_ID}:faceChange`, {
-        index,
-        field,
-        value: type === "checkbox" ? checked : value,
-      })
-    }
+    const change = handleChange(entity.id, api)
 
     return Layout.render(
       {
         locale,
         path: PATH,
         content: html`
-          <section class="container page">
-            <h1 class="page-title">${c.heading}</h1>
-            ${c.intro.map((p) => html`<p class="page-intro">${p}</p>`)}
+          <section class="${page.container} ${page.page}">
+            <h1 class=${page.pageTitle}>${c.heading}</h1>
+            ${c.intro.map((p) => html`<p class=${page.pageIntro}>${p}</p>`)}
 
-            <div class="icy">
-              <form class="card" @submit=${(event) => event.preventDefault()}>
-                <p class="icy-name">${c.yourOwn} ${name}</p>
+            <div class=${styles.icy}>
+              <form
+                class=${page.card}
+                @submit=${(event) => event.preventDefault()}
+              >
+                <p class=${styles.name}>${c.yourOwn} ${name}</p>
                 <p>${c.hint}</p>
                 <br />
 
@@ -121,7 +138,7 @@ export const Icy = {
                   `,
                 )}
 
-                <p class="card-meta">
+                <p class=${page.cardMeta}>
                   ${c.builtWith}
                   <a
                     href="https://www.npmjs.com/package/@inglorious/logo"
@@ -132,7 +149,7 @@ export const Icy = {
                 </p>
               </form>
 
-              <div class="icy-stage logo">${api.render(LOGO_ID)}</div>
+              <div class=${styles.stage}>${Logo.render(entity)}</div>
             </div>
           </section>
         `,
@@ -150,4 +167,15 @@ export const metadata = (entity) => {
     title: c.title,
     description: c.description,
   })
+}
+
+function handleChange(entityId, api) {
+  return (index, field) => (event) => {
+    const { type, checked, value } = event.target
+    api.notify(`#${entityId}:faceChange`, {
+      index,
+      field,
+      value: type === "checkbox" ? checked : value,
+    })
+  }
 }

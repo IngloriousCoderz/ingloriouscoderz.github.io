@@ -27,15 +27,6 @@ export default {
     "twitter:description": DESCRIPTION,
     "twitter:image": OG_IMAGE,
   },
-  // Linked from every page, not imported by page modules: posts reached
-  // through client-side navigation need KaTeX and highlight.js styles too.
-  styles: [
-    "/styles/fonts.css",
-    "/styles/style.css",
-    "/styles/katex/katex.min.css",
-    "/styles/highlight.css",
-  ],
-
   i18n: I18N,
 
   sitemap: {
@@ -56,6 +47,10 @@ export default {
   },
 
   vite: {
+    css: {
+      modules: { localsConvention: "camelCaseOnly" },
+    },
+
     ssr: {
       noExternal: ["@inglorious/logo"],
     },
@@ -69,7 +64,7 @@ export default {
           navigateFallback: null,
           // Only the app shell: post chunks and pages are fetched on demand.
           globPatterns: ["**/*.{js,css,woff2}", "index.html", "it/index.html"],
-          globIgnores: ["**/{en,it}.*.js", "styles/katex/**"],
+          globIgnores: ["**/{en,it}.*.js", "KaTeX_*"],
         },
         manifest: {
           name: "Inglorious Coderz",

@@ -15,13 +15,6 @@
       "computedHash": "2d371e1f16adb142944db4f758e2b8a871978d1c5e3ebc7c65ceaaa53d6a9ae8",
       "wellKnownDigest": "sha256:23aa891e8c9dc2bc921159f4f958efa29fe516a2db10483e02454d19f16b4e65"
     },
-    "i18n": {
-      "source": "inglorious.dev",
-      "sourceUrl": "https://inglorious.dev",
-      "sourceType": "well-known",
-      "computedHash": "ef0a6f653bce2f812d0b5701b33b8a9a2ff8a27101ea9444318cc50ef86a345a",
-      "wellKnownDigest": "sha256:7ced80fda82fa2098f43f8667c08efab2e1e307a8051eee27667e7923189ecfe"
-    },
     "ssx": {
       "source": "inglorious.dev",
       "sourceUrl": "https://inglorious.dev",

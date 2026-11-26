@@ -28,9 +28,5 @@ export const Analytics = [
       })
     },
   },
-  withStorage(["consent", "consentDate"], {
-    key: STORAGE_KEY,
-    // Node 26 warns when globalThis.localStorage is read during the build.
-    storage: () => (typeof window === "undefined" ? undefined : localStorage),
-  }),
+  withStorage(["consent", "consentDate"], { key: STORAGE_KEY }),
 ]

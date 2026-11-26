@@ -7,6 +7,8 @@ import { when } from "@inglorious/web/directives/when"
 import { Layout } from "../app/layout/index.js"
 import { forLocale, formatDate, localize, pageMeta } from "../common/i18n.js"
 import { listPosts } from "../common/posts.js"
+import page from "../styles/page.module.css"
+import styles from "./index.module.css"
 
 const PATH = "/"
 const LATEST_POSTS_COUNT = 3
@@ -348,40 +350,40 @@ export const Landing = {
         locale,
         path: PATH,
         content: html`
-          <main>
-            <section class="logo">${api.render("logo")}</section>
+          <main class=${styles.heroSection}>
+            <section class=${styles.logo}>${api.render("logo")}</section>
 
-            <section class="hero">
+            <section class=${styles.hero}>
               <h1><span>INGLORIOUS</span> <span>CODERZ</span></h1>
-              <p class="tagline">${c.tagline}</p>
-              <p class="subtitle">${c.subtitle}</p>
+              <p class=${styles.tagline}>${c.tagline}</p>
+              <p class=${styles.subtitle}>${c.subtitle}</p>
             </section>
           </main>
 
-          <section class="container">
+          <section class=${page.container}>
             <h2>${c.trustedBy}</h2>
-            <div class="clients">
+            <div class=${styles.clients}>
               ${FEATURED_CLIENTS.map((client) => this.renderClient(client, true))}
             </div>
-            <div class="clients">
+            <div class=${styles.clients}>
               ${CLIENTS.map((client) => this.renderClient(client))}
             </div>
-            <p class="section-cta">
+            <p class=${page.sectionCta}>
               <a href=${localize("/work", locale)}>${c.caseStudies} →</a>
             </p>
           </section>
 
-          <section class="container">
+          <section class=${page.container}>
             <h2>${c.way}</h2>
-            <p class="quote">
+            <p class=${styles.quote}>
               ${c.quote.map(
                 (line, i) => html`${when(i, () => html`<br />`)}${line}`,
               )}
             </p>
-            <div class="principles">
+            <div class=${styles.principles}>
               ${c.principles.map(
                 ([title, text]) => html`
-                  <div class="principle">
+                  <div class=${styles.principle}>
                     <h3>${title}</h3>
                     <p>${text}</p>
                   </div>
@@ -390,19 +392,19 @@ export const Landing = {
             </div>
           </section>
 
-          <section class="container">
+          <section class=${page.container}>
             <h2>${c.whatWeDo}</h2>
-            <div class="services">
+            <div class=${styles.services}>
               ${c.services.map(
                 ([title, text]) => html`
-                  <div class="service">
+                  <div class=${styles.service}>
                     <h3>${title}</h3>
                     <p>${text}</p>
                   </div>
                 `,
               )}
             </div>
-            <div class="tech-badge">
+            <div class=${page.techBadge}>
               <p>
                 ${c.badge(
                   html`<a
@@ -422,13 +424,13 @@ export const Landing = {
             </div>
           </section>
 
-          <section class="container" id="founder">
+          <section class=${page.container} id="founder">
             <h2>${c.founder}</h2>
-            <div class="founder">
-              <div class="founder-text">
+            <div class=${styles.founder}>
+              <div class=${styles.founderText}>
                 ${c.founderText.map((p) => html`<p>${p}</p>`)}
               </div>
-              <ul class="founder-links">
+              <ul class=${styles.founderLinks}>
                 ${c.founderLinks.map(
                   ([path, label]) =>
                     html`<li>
@@ -439,12 +441,12 @@ export const Landing = {
             </div>
           </section>
 
-          <section class="container">
+          <section class=${page.container}>
             <h2>${c.saying}</h2>
-            <div class="testimonials">
+            <div class=${styles.testimonials}>
               ${TESTIMONIALS.map(
                 ({ author, role, href, quote }) => html`
-                  <blockquote class="testimonial">
+                  <blockquote class=${styles.testimonial}>
                     <p>${forLocale(quote, locale)}</p>
                     <footer>
                       —
@@ -464,12 +466,12 @@ export const Landing = {
             </div>
           </section>
 
-          <section class="container">
+          <section class=${page.container}>
             <h2>${c.beyond}</h2>
-            <div class="cards">
-              <article class="card">
+            <div class=${page.cards}>
+              <article class=${page.card}>
                 <h3>${c.latest}</h3>
-                <ul class="post-list compact">
+                <ul class=${styles.latest}>
                   ${posts.map(
                     (post) => html`
                       <li>
@@ -483,23 +485,23 @@ export const Landing = {
                     `,
                   )}
                 </ul>
-                <p class="card-cta">
+                <p class=${page.cardCta}>
                   <a href=${localize("/blog", locale)}>${c.allPosts} →</a>
                 </p>
               </article>
 
-              <article class="card">
+              <article class=${page.card}>
                 <h3>${c.talksTitle}</h3>
                 <p>${c.talksText}</p>
-                <p class="card-cta">
+                <p class=${page.cardCta}>
                   <a href=${localize("/talks", locale)}>${c.talksCta} →</a>
                 </p>
               </article>
 
-              <article class="card highlight">
+              <article class="${page.card} ${page.highlight}">
                 <h3>${c.communityTitle}</h3>
                 <p>${c.communityText}</p>
-                <p class="card-cta">
+                <p class=${page.cardCta}>
                   <a href=${localize("/community", locale)}
                     >${c.communityCta} →</a
                   >
@@ -508,13 +510,13 @@ export const Landing = {
             </div>
           </section>
 
-          <section class="cta">
-            <div class="container">
+          <section class=${page.cta}>
+            <div class=${page.container}>
               <h2>${c.ctaTitle}</h2>
-              <a href="mailto:info@ingloriouscoderz.it" class="cta-button"
+              <a href="mailto:info@ingloriouscoderz.it" class=${page.ctaButton}
                 >${c.ctaButton}</a
               >
-              <div class="contact-info">
+              <div class=${styles.contactInfo}>
                 <p>${c.based}</p>
                 <p>
                   <a href="mailto:info@ingloriouscoderz.it"
@@ -533,7 +535,10 @@ export const Landing = {
   renderClient({ name, href, logo }, isFeatured = false) {
     return html`
       <a
-        class=${classMap({ client: true, featured: isFeatured })}
+        class=${classMap({
+          [styles.client]: true,
+          [styles.featured]: isFeatured,
+        })}
         href=${href}
         target="_blank"
         rel="noopener"

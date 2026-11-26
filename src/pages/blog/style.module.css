@@ -1,0 +1,15 @@
+/* h2 to outweigh the centered section headings of the container */
+h2.topic-title {
+  text-align: left;
+  font-size: 1.8rem;
+}
+
+.post-list {
+  list-style: none;
+  display: grid;
+  gap: 1.5rem;
+
+  h3 a {
+    color: var(--neon-magenta);
+  }
+}

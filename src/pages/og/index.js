@@ -1,4 +1,5 @@
 import "@inglorious/logo/style.css"
+import "../../styles/global.css"
 
 import { html } from "@inglorious/web"
 

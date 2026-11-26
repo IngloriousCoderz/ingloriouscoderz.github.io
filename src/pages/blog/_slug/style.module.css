@@ -1,0 +1,123 @@
+.post {
+  max-width: 860px;
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 2.4rem;
+    text-transform: none;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.translation-note {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+.footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0, 255, 255, 0.2);
+  text-align: center;
+}
+
+/* Rendered markdown: its elements carry no classes of their own. */
+.body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Orbitron";
+    color: var(--heading-color);
+    text-align: left;
+    text-transform: none;
+    text-shadow: none;
+    font-size: 1.5rem;
+    margin: 2.5rem 0 1rem;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  p,
+  ul,
+  ol,
+  pre,
+  blockquote,
+  table,
+  :global(.katex-display) {
+    margin-bottom: 1.25rem;
+  }
+
+  ul,
+  ol {
+    padding-left: 1.5rem;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    background: white;
+  }
+
+  code {
+    font-family: "Fira Code", monospace;
+    font-size: 0.9em;
+    background: rgba(40, 44, 52, 0.9);
+    padding: 0.1rem 0.3rem;
+  }
+
+  pre {
+    overflow-x: auto;
+    padding: 1rem;
+    background: #282c34;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    code {
+      background: none;
+      padding: 0;
+      font-size: 0.85rem;
+      line-height: 1.5;
+    }
+  }
+
+  blockquote {
+    padding-left: 1rem;
+    border-left: 3px solid var(--neon-magenta);
+    font-style: italic;
+  }
+
+  :global(.katex-display) {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  table {
+    border-collapse: collapse;
+
+    th,
+    td {
+      border: 1px solid var(--shade-color);
+      padding: 0.25rem 0.75rem;
+    }
+  }
+}

@@ -12,13 +12,6 @@ export const entities = {
     isInteractive: false,
     faces: DEFAULT_FACES.map((face) => ({ ...face })),
   },
-  icyLogo: {
-    type: "EditableLogo",
-    size: LOGO_SIZE,
-    isInteractive: false,
-    isScrollPrevented: true,
-    faces: DEFAULT_FACES.map((face) => ({ ...face })),
-  },
   navigation: { type: "Navigation" },
   analytics: { type: "Analytics" },
 }

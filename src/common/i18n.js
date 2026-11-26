@@ -54,8 +54,6 @@ export function pageMeta({
   extra = {},
 }) {
   const url = SITE_URL + localize(path, locale)
-  const safeTitle = escapeAttribute(title)
-  const safeDescription = escapeAttribute(description)
 
   const links = LOCALES.map(
     (l) =>
@@ -69,29 +67,20 @@ export function pageMeta({
 
   return {
     lang: locale,
-    title: safeTitle,
+    title: title,
     head: links.join("\n"),
     meta: {
-      description: safeDescription,
+      description: description,
       "og:type": type,
       "og:url": url,
-      "og:title": safeTitle,
-      "og:description": safeDescription,
+      "og:title": title,
+      "og:description": description,
       "og:image": OG_IMAGE,
       "og:locale": locale === "it" ? "it_IT" : "en_US",
-      "twitter:title": safeTitle,
-      "twitter:description": safeDescription,
+      "twitter:title": title,
+      "twitter:description": description,
       "twitter:image": OG_IMAGE,
     },
     ...extra,
   }
-}
-
-// SSX writes titles and meta contents into the HTML without escaping them.
-function escapeAttribute(str = "") {
-  return String(str)
-    .replace(/&/g, "&amp;")
-    .replace(/"/g, "&quot;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
 }

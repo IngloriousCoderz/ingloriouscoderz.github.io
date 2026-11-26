@@ -1,0 +1,15 @@
+.hackathon {
+  margin-bottom: 2rem;
+}
+
+.winner {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px dashed var(--neon-yellow);
+
+  h4 {
+    font-family: "Orbitron";
+    color: var(--neon-yellow);
+    margin-bottom: 0.5rem;
+  }
+}

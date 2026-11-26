@@ -3,6 +3,8 @@ import { html } from "@inglorious/web"
 import { Layout } from "../../app/layout/index.js"
 import { forLocale, formatDate, localize, pageMeta } from "../../common/i18n.js"
 import { listPosts, TOPICS } from "../../common/posts.js"
+import page from "../../styles/page.module.css"
+import styles from "./style.module.css"
 
 const PATH = "/blog"
 
@@ -41,26 +43,28 @@ export const Blog = {
         locale,
         path: PATH,
         content: html`
-          <section class="container page">
-            <h1 class="page-title">${c.heading}</h1>
-            <p class="page-intro">${c.intro}</p>
+          <section class="${page.container} ${page.page}">
+            <h1 class=${page.pageTitle}>${c.heading}</h1>
+            <p class=${page.pageIntro}>${c.intro}</p>
 
             ${topics.map(
               (topic) => html`
-                <h2 class="topic-title">${forLocale(TOPICS[topic], locale)}</h2>
-                <ul class="post-list">
+                <h2 class=${styles.topicTitle}>
+                  ${forLocale(TOPICS[topic], locale)}
+                </h2>
+                <ul class=${styles.postList}>
                   ${posts
                     .filter((post) => post.topic === topic)
                     .map(
                       (post) => html`
-                        <li class="card">
+                        <li class=${page.card}>
                           <h3>
                             <a href=${localize(`/blog/${post.slug}`, locale)}
                               >${post.title}</a
                             >
                           </h3>
                           <p>${post.description}</p>
-                          <p class="card-meta">
+                          <p class=${page.cardMeta}>
                             <time datetime=${post.date}
                               >${formatDate(post.date, locale)}</time
                             >

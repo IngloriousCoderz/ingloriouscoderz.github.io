@@ -1,7 +1,9 @@
 import { html, nothing } from "@inglorious/web"
 
-import { Layout } from "../app/layout/index.js"
-import { forLocale, localize, pageMeta } from "../common/i18n.js"
+import { Layout } from "../../app/layout/index.js"
+import { forLocale, localize, pageMeta } from "../../common/i18n.js"
+import page from "../../styles/page.module.css"
+import styles from "./style.module.css"
 
 const PATH = "/talks"
 
@@ -152,21 +154,23 @@ export const Talks = {
         locale,
         path: PATH,
         content: html`
-          <section class="container page">
-            <h1 class="page-title">${c.heading}</h1>
-            <p class="page-intro">${c.intro}</p>
+          <section class="${page.container} ${page.page}">
+            <h1 class=${page.pageTitle}>${c.heading}</h1>
+            <p class=${page.pageIntro}>${c.intro}</p>
 
-            <ol class="timeline">
+            <ol class=${styles.timeline}>
               ${TALKS.map(
                 (talk) => html`
-                  <li class="card">
-                    <p class="card-meta">
-                      <span class="badge">${forLocale(talk.kind, locale)}</span>
+                  <li class=${page.card}>
+                    <p class=${page.cardMeta}>
+                      <span class=${page.badge}
+                        >${forLocale(talk.kind, locale)}</span
+                      >
                       ${talk.event} · ${talk.year}
                     </p>
                     <h3>${talk.title}</h3>
                     <p>${forLocale(talk.text, locale)}</p>
-                    <p class="card-cta">
+                    <p class=${page.cardCta}>
                       ${talk.links.map(
                         (link) => html`
                           <a
@@ -183,16 +187,16 @@ export const Talks = {
               )}
             </ol>
 
-            <div class="tech-badge">
+            <div class=${page.techBadge}>
               <h3>${c.trainingTitle}</h3>
               <p>${c.training}</p>
             </div>
           </section>
 
-          <section class="cta">
-            <div class="container">
-              <p class="cta-text">${c.ctaText}</p>
-              <a href="mailto:info@ingloriouscoderz.it" class="cta-button"
+          <section class=${page.cta}>
+            <div class=${page.container}>
+              <p class=${page.ctaText}>${c.ctaText}</p>
+              <a href="mailto:info@ingloriouscoderz.it" class=${page.ctaButton}
                 >${c.ctaButton}</a
               >
             </div>

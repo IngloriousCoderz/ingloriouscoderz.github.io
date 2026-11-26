@@ -1,10 +1,10 @@
 import { startInteraction, stopInteraction } from "@inglorious/logo"
 
 const PAGE_TOP = 0
-const LOGO_BY_ROUTE = { landing: "logo", icy: "icyLogo" }
+const LOGO_BY_ROUTE = { landing: "logo", icy: "icy" }
 const LOGO_BY_PATH = [
   [/^\/(it\/?)?$/, "logo"],
-  [/^\/(it\/)?icy\/?$/, "icyLogo"],
+  [/^\/(it\/)?icy\/?$/, "icy"],
 ]
 
 /**

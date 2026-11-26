@@ -1,7 +1,9 @@
 import { html } from "@inglorious/web"
 
-import { Layout } from "../app/layout/index.js"
-import { forLocale, formatDate, pageMeta } from "../common/i18n.js"
+import { Layout } from "../../app/layout/index.js"
+import { forLocale, formatDate, pageMeta } from "../../common/i18n.js"
+import page from "../../styles/page.module.css"
+import styles from "./style.module.css"
 
 const PATH = "/privacy"
 const UPDATED = "2026-11-25"
@@ -137,7 +139,7 @@ const COPY = {
       </table>
       <p>
         You can change your choice at any time with the
-        <button type="button" class="link-button" @click=${open}>
+        <button type="button" class=${page.linkButton} @click=${open}>
           cookie preferences
         </button>
         (also linked in the footer of every page). Withdrawing consent deletes
@@ -279,7 +281,7 @@ const COPY = {
       </table>
       <p>
         Puoi cambiare la tua scelta in qualsiasi momento dalle
-        <button type="button" class="link-button" @click=${open}>
+        <button type="button" class=${page.linkButton} @click=${open}>
           preferenze cookie
         </button>
         (presenti anche nel footer di ogni pagina). Revocando il consenso, i
@@ -331,15 +333,15 @@ export const Privacy = {
         locale,
         path: PATH,
         content: html`
-          <article class="container page legal">
-            <h1 class="page-title">${c.heading}</h1>
-            <p class="page-intro">
+          <article class="${page.container} ${page.page} ${styles.legal}">
+            <h1 class=${page.pageTitle}>${c.heading}</h1>
+            <p class=${page.pageIntro}>
               ${c.updated}:
               <time datetime=${UPDATED}>${formatDate(UPDATED, locale)}</time>
             </p>
             ${c.body(open)}
-            <div class="cta">
-              <button type="button" class="cta-button" @click=${open}>
+            <div class=${page.cta}>
+              <button type="button" class=${page.ctaButton} @click=${open}>
                 ${c.preferences}
               </button>
             </div>

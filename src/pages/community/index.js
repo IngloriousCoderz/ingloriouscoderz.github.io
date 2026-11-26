@@ -1,9 +1,11 @@
 import { html } from "@inglorious/web"
 import { when } from "@inglorious/web/directives/when"
 
-import { Layout } from "../app/layout/index.js"
-import { forLocale, formatDate, pageMeta } from "../common/i18n.js"
-import { hackathons } from "../content/hackathons.js"
+import { Layout } from "../../app/layout/index.js"
+import { forLocale, formatDate, pageMeta } from "../../common/i18n.js"
+import { hackathons } from "../../content/hackathons.js"
+import page from "../../styles/page.module.css"
+import styles from "./style.module.css"
 
 const PATH = "/community"
 
@@ -115,15 +117,17 @@ export const Community = {
         locale,
         path: PATH,
         content: html`
-          <section class="container page">
-            <h1 class="page-title">${c.heading}</h1>
-            <p class="page-intro">${c.intro}</p>
+          <section class="${page.container} ${page.page}">
+            <h1 class=${page.pageTitle}>${c.heading}</h1>
+            <p class=${page.pageIntro}>${c.intro}</p>
 
             <h2>${c.hackathons}</h2>
             ${hackathons.map(
               (event) => html`
-                <article class="card highlight hackathon">
-                  <p class="card-meta">
+                <article
+                  class="${page.card} ${page.highlight} ${styles.hackathon}"
+                >
+                  <p class=${page.cardMeta}>
                     <time datetime=${event.date}
                       >${formatDate(event.date, locale)}</time
                     >
@@ -131,14 +135,14 @@ export const Community = {
                   </p>
                   <h3>${event.name}</h3>
                   <p>${c.hackathonText}</p>
-                  <p class="card-meta">
+                  <p class=${page.cardMeta}>
                     ${c.poweredBy} ${event.organizer} ·
                     <a href=${event.announcement} target="_blank" rel="noopener"
                       >${c.announcement} →</a
                     >
                   </p>
 
-                  <div class="winner">
+                  <div class=${styles.winner}>
                     <h4>🏆 ${c.founderChoice}</h4>
                     ${when(
                       event.winner,
@@ -151,12 +155,14 @@ export const Community = {
             )}
 
             <h2>${c.initiatives}</h2>
-            <div class="cards">
+            <div class=${page.cards}>
               ${INITIATIVES.map(
                 (item) => html`
-                  <article class="card">
+                  <article class=${page.card}>
                     <h3>${item.title}</h3>
-                    <p class="card-meta">${forLocale(item.meta, locale)}</p>
+                    <p class=${page.cardMeta}>
+                      ${forLocale(item.meta, locale)}
+                    </p>
                     <p>${forLocale(item.text, locale)}</p>
                     ${when(item.links.length, () => this.renderLinks(item.links))}
                   </article>
@@ -184,7 +190,7 @@ export const Community = {
   },
 
   renderLinks(links) {
-    return html`<p class="card-cta">
+    return html`<p class=${page.cardCta}>
       ${links.map(
         (link) =>
           html`<a href=${link.href} target="_blank" rel="noopener"
