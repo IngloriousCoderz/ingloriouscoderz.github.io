@@ -7,19 +7,29 @@
   "type": "module",
   "keywords": [],
   "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint .",
     "dev": "ssx dev",
     "build": "ssx build",
-    "preview": "ssx serve",
-    "postbuild": "cp .nojekyll 404.html CNAME googled04949cc690781d6.html dist",
-    "deploy": "node deploy.js"
+    "preview": "serve dist"
   },
   "dependencies": {
-    "@inglorious/logo": "^2.1.0",
-    "@inglorious/ssx": "^1.11.0",
-    "@inglorious/web": "^4.4.0"
+    "@inglorious/logo": "^3.0.27",
+    "@inglorious/ssx": "^2.3.2",
+    "@inglorious/store": "^12.9.0",
+    "@inglorious/web": "^6.31.0",
+    "gray-matter": "^4.0.3"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "vite-plugin-pwa": "^1.2.0"
+    "@eslint/js": "^10.0.1",
+    "@inglorious/eslint-config": "^1.2.0",
+    "eslint": "^10.15.0",
+    "eslint-plugin-simple-import-sort": "^14.0.0",
+    "prettier": "^3.10.1",
+    "serve": "^14.2.8",
+    "vite-plugin-pwa": "^2.0.0"
+  },
+  "engines": {
+    "node": ">= 26"
   }
 }

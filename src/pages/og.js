@@ -1,11 +1,12 @@
-import { html } from "@inglorious/web";
-import "@inglorious/logo/style.css";
+import "@inglorious/logo/style.css"
+
+import { html } from "@inglorious/web"
 
 export const metadata = {
   title: "Inglorious Coderz | OG Image",
-};
+}
 
-export const og = {
+export const Og = {
   render(_, api) {
     return html`
       <div class="og-root">
@@ -141,6 +142,6 @@ export const og = {
           z-index: 1;
         }
       </style>
-    `;
+    `
   },
-};
+}

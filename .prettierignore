@@ -1,0 +1,9 @@
+dist
+pnpm-lock.yaml
+.agents
+skills-lock.json
+# Vendored stylesheets
+public/styles/katex
+public/styles/highlight.css
+# Prettier would rewrite LaTeX in the posts
+src/content/**/*.md

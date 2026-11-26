@@ -1,43 +1,76 @@
-import { VitePWA } from "vite-plugin-pwa";
+import { VitePWA } from "vite-plugin-pwa"
 
+import { postsPlugin } from "../plugins/vite-plugin-posts.js"
+import { I18N, SITE_URL } from "./common/i18n.js"
+
+const TITLE = "Inglorious Coderz | Quality Software, Quality People"
+const DESCRIPTION =
+  "Quality software, quality people. Turin-based software house crafting beautiful solutions with the Inglorious Way. Trusted by Tetra Pak, Heineken, BAT, and the Vatican."
+const OG_IMAGE = `${SITE_URL}/images/og.png`
+
+/** @type {import('@inglorious/ssx').SiteConfig} */
 export default {
-  title: "Inglorious Coderz | Quality Software, Quality People",
+  title: TITLE,
   favicon: "/images/logo.png",
   meta: {
-    viewport: "width=device-width, initial-scale=1.0",
-    description:
-      "Quality software, quality people. Turin-based software house crafting beautiful solutions with the Inglorious Way. Trusted by Tetra Pak, Heineken, BAT, and the Vatican.",
+    viewport: "width=device-width, initial-scale=1.0, viewport-fit=cover",
+    description: DESCRIPTION,
     "og:type": "website",
-    "og:url": "https://ingloriouscoderz.it",
-    "og:title": "Inglorious Coderz | Quality Software, Quality People",
-    "og:description":
-      "Quality software, quality people. Turin-based software house crafting beautiful solutions with the Inglorious Way. Trusted by Tetra Pak, Heineken, BAT, and the Vatican.",
-    "og:image": "https://ingloriouscoderz.it/images/og.png",
+    "og:url": SITE_URL,
+    "og:title": TITLE,
+    "og:description": DESCRIPTION,
+    "og:image": OG_IMAGE,
     "og:image:width": "1200",
-    "og:image:height": "628",
+    "og:image:height": "630",
     "twitter:card": "summary_large_image",
-    "twitter:title": "Inglorious Coderz | Quality Software, Quality People",
-    "twitter:description":
-      "Quality software, quality people. Turin-based software house crafting beautiful solutions with the Inglorious Way. Trusted by Tetra Pak, Heineken, BAT, and the Vatican.",
-    "twitter:image": "https://ingloriouscoderz.it/images/og.png",
+    "twitter:title": TITLE,
+    "twitter:description": DESCRIPTION,
+    "twitter:image": OG_IMAGE,
   },
-  styles: ["/styles/fonts.css", "/styles/style.css"],
-  prescripts: [
-    "https://embeds.iubenda.com/widgets/f3325768-794c-46d3-ab63-cd01c579deb4.js",
-  ],
-  scripts: [
-    "https://www.googletagmanager.com/gtag/js?id=G-1VTZM56KYZ",
-    "/scripts/ga.js",
+  // Linked from every page, not imported by page modules: posts reached
+  // through client-side navigation need KaTeX and highlight.js styles too.
+  styles: [
+    "/styles/fonts.css",
+    "/styles/style.css",
+    "/styles/katex/katex.min.css",
+    "/styles/highlight.css",
   ],
 
+  i18n: I18N,
+
+  sitemap: {
+    hostname: SITE_URL,
+    filter: (page) => !isUtilityPage(page),
+  },
+
+  rss: {
+    title: "Inglorious Coderz Blog",
+    description:
+      "Quantum computing, software architecture and the craft of maintainable code.",
+    link: SITE_URL,
+    feedPath: "/feed.xml",
+    language: "en",
+    copyright: `© ${new Date().getFullYear()} Inglorious Coderz`,
+    // Italian translations live under /it/blog/: the feed is English only.
+    filter: (page) => page.path.startsWith("/blog/"),
+  },
+
   vite: {
-    // assetsInclude: ["**/*.svg", "**/*.png", "**/*.jpg", "**/*.jpeg"],
     ssr: {
-      noExternal: ["@inglorious/logo"], // Force Vite to process this package
+      noExternal: ["@inglorious/logo"],
     },
 
     plugins: [
+      postsPlugin(),
       VitePWA({
+        workbox: {
+          // A multi-page site: never answer a navigation with the homepage's
+          // cached HTML, the plugin's single-page-app default.
+          navigateFallback: null,
+          // Only the app shell: post chunks and pages are fetched on demand.
+          globPatterns: ["**/*.{js,css,woff2}", "index.html", "it/index.html"],
+          globIgnores: ["**/{en,it}.*.js", "styles/katex/**"],
+        },
         manifest: {
           name: "Inglorious Coderz",
           short_name: "IC",
@@ -48,4 +81,8 @@ export default {
       }),
     ],
   },
-};
+}
+
+function isUtilityPage(page) {
+  return /^(\/it)?\/og$/.test(page.path)
+}

@@ -1,11 +1,24 @@
+const LOGO_SIZE = 256
+const DEFAULT_FACES = [
+  { image: "I", reverse: false, eye: true },
+  { image: "C", reverse: false, eye: false },
+]
+
 export const entities = {
+  // Pointer tracking is switched on per page by the navigation entity.
   logo: {
-    type: "logo",
-    size: 256,
-    isInteractive: true,
-    faces: [
-      { image: "I", reverse: false, eye: true },
-      { image: "C", reverse: false, eye: false },
-    ],
+    type: "Logo",
+    size: LOGO_SIZE,
+    isInteractive: false,
+    faces: DEFAULT_FACES.map((face) => ({ ...face })),
   },
-};
+  icyLogo: {
+    type: "EditableLogo",
+    size: LOGO_SIZE,
+    isInteractive: false,
+    isScrollPrevented: true,
+    faces: DEFAULT_FACES.map((face) => ({ ...face })),
+  },
+  navigation: { type: "Navigation" },
+  analytics: { type: "Analytics" },
+}

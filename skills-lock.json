@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "skills": {
+    "forge": {
+      "source": "inglorious.dev",
+      "sourceUrl": "https://inglorious.dev",
+      "sourceType": "well-known",
+      "computedHash": "b69e3fd2dbcd2e7faaab572426c1d61c38c201dfe0f725eb085672fef54f1a9e",
+      "wellKnownDigest": "sha256:20dbced8522ad06f97718f362093cd342456828f491b65ea6ba404c1554a1212"
+    },
+    "forge-best-practices": {
+      "source": "inglorious.dev",
+      "sourceUrl": "https://inglorious.dev",
+      "sourceType": "well-known",
+      "computedHash": "2d371e1f16adb142944db4f758e2b8a871978d1c5e3ebc7c65ceaaa53d6a9ae8",
+      "wellKnownDigest": "sha256:23aa891e8c9dc2bc921159f4f958efa29fe516a2db10483e02454d19f16b4e65"
+    },
+    "i18n": {
+      "source": "inglorious.dev",
+      "sourceUrl": "https://inglorious.dev",
+      "sourceType": "well-known",
+      "computedHash": "ef0a6f653bce2f812d0b5701b33b8a9a2ff8a27101ea9444318cc50ef86a345a",
+      "wellKnownDigest": "sha256:7ced80fda82fa2098f43f8667c08efab2e1e307a8051eee27667e7923189ecfe"
+    },
+    "ssx": {
+      "source": "inglorious.dev",
+      "sourceUrl": "https://inglorious.dev",
+      "sourceType": "well-known",
+      "computedHash": "2bde1ca57d13bbffcc2f2d840dc9bfc0b2dd22de69923bbce0d16bec7461c01c",
+      "wellKnownDigest": "sha256:be85e80ab2b2c56668fdce162338b4a0ca2d807f83ad9844c19f463fa5fe878c"
+    },
+    "store": {
+      "source": "inglorious.dev",
+      "sourceUrl": "https://inglorious.dev",
+      "sourceType": "well-known",
+      "computedHash": "dad1de3cc063c8de9126f67994f3f843102ddc325fcbd542941c36a38c66b6d1",
+      "wellKnownDigest": "sha256:63cb5711d4d177cb226c8b107742e0514f9872edbacfc966ff5ae72d8946c898"
+    },
+    "web": {
+      "source": "inglorious.dev",
+      "sourceUrl": "https://inglorious.dev",
+      "sourceType": "well-known",
+      "computedHash": "6140e15ca2ad2f076244c519f7b71a6c5f7fae05397c42a50f34f43bc7dd2953",
+      "wellKnownDigest": "sha256:06772d42df9b9eb339679a0e45f09c82aabfca31edc058eca540ae7eec29fbb4"
+    },
+    "web-best-practices": {
+      "source": "inglorious.dev",
+      "sourceUrl": "https://inglorious.dev",
+      "sourceType": "well-known",
+      "computedHash": "4e9a79cc259f95463c35824d2318d5dc004dd429aea64c19a4e788e4817c2c53",
+      "wellKnownDigest": "sha256:6a96b54b4bfa48d42323537703ae788c92fb10c39e0ce4d4469cbbcac824f815"
+    }
+  }
+}

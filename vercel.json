@@ -1,0 +1,46 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:page(why|who|how|how-much|when|where)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/who/:role(consultant|tech-lead)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/who/:role(mentor|teacher)",
+      "destination": "/talks",
+      "permanent": true
+    },
+    { "source": "/what", "destination": "/work", "permanent": true },
+    { "source": "/what/code", "destination": "/work", "permanent": true },
+    { "source": "/what/speak", "destination": "/talks", "permanent": true },
+    {
+      "source": "/what/speak/conferences",
+      "destination": "/talks",
+      "permanent": true
+    },
+    {
+      "source": "/what/:page(community|volunteer)",
+      "destination": "/community",
+      "permanent": true
+    },
+    { "source": "/hackathon", "destination": "/community", "permanent": true },
+    {
+      "source": "/:page(privacy-policy|cookie-policy)",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    { "source": "/post", "destination": "/blog", "permanent": true },
+    {
+      "source": "/blog/:slug(hello-world|il-vaso-di-piva|pokemon-go-e-la-teoria-degli-effetti-collaterali|migliorare-il-codice-con-il-currying)",
+      "destination": "/blog",
+      "permanent": true
+    }
+  ]
+}
